@@ -1,0 +1,212 @@
+[
+    {
+        "name": "Bindings",
+        "type": "Bindings",
+        "set": "Legendary: Villains",
+        "qtd": 30,
+        "cost": 0,
+        "attack": 0,
+        "recruit": 0,
+        "healing": "Betrayal: If you don't recruit any Allies or defeat any Adversaries or Commanders on your turn, you may KO a Bindings from your hand. If you do, the player to your right gains all the other Bindings from your hand."
+    },
+    {
+        "name": "Blazing Vengeance",
+        "type": "Enraging Wound",
+        "set": "Fear Itself",
+        "qtd": 2,
+        "cost": 0,
+        "attack": 2,
+        "recruit": 0,
+        "healing": "When you defeat a Mastermind Tactic this turn, you may KO this Wound."
+    },
+    {
+        "name": "Blinding Flash",
+        "type": "Grievous Wound",
+        "set": "Civil War",
+        "qtd": 2,
+        "cost": 0,
+        "attack": 0,
+        "recruit": 0,
+        "healing": "You may discard a card and have each other player discard a card. If you do, KO this Wound."
+    },
+    {
+        "name": "Blunt Force Trauma",
+        "type": "Grievous Wound",
+        "set": "Civil War",
+        "qtd": 2,
+        "cost": 0,
+        "attack": 0,
+        "recruit": 0,
+        "healing": "You may spend 5 Attack. If you do, KO this Wound."
+    },
+    {
+        "name": "Broken Bones",
+        "type": "Enraging Wound",
+        "set": "Fear Itself",
+        "qtd": 3,
+        "cost": 0,
+        "attack": 3,
+        "recruit": 0,
+        "healing": "When you draw a card this turn, you may KO this Wound."
+    },
+    {
+        "name": "Concussion",
+        "type": "Enraging Wound",
+        "set": "Fear Itself",
+        "qtd": 2,
+        "cost": 0,
+        "attack": 2,
+        "recruit": 0,
+        "healing": "When you play two cards of the same Hero Class this turn, you may KO this Wound."
+    },
+    {
+        "name": "Corrosive Webbing",
+        "type": "Grievous Wound",
+        "set": "Civil War",
+        "qtd": 2,
+        "cost": 0,
+        "attack": 0,
+        "recruit": 0,
+        "healing": "You may KO this Wound. If you do, gain another Wound."
+    },
+    {
+        "name": "Erratic Powers",
+        "type": "Enraging Wound",
+        "set": "Fear Itself",
+        "qtd": 3,
+        "cost": 0,
+        "attack": 3,
+        "recruit": 0,
+        "healing": "When you use a Superpower Ability this turn, you may KO this Wound."
+    },
+    {
+        "name": "Fatal Blow",
+        "type": "Grievous Wound",
+        "set": "Civil War",
+        "qtd": 2,
+        "cost": 0,
+        "attack": 0,
+        "recruit": 0,
+        "healing": "You may KO a Hero that costs 1 or more from your hand or discard pile. If you do, KO this Wound."
+    },
+    {
+        "name": "Insults and Injuries",
+        "type": "Enraging Wound",
+        "set": "Fear Itself",
+        "qtd": 2,
+        "cost": 0,
+        "attack": 2,
+        "recruit": 0,
+        "healing": "When you defeat a Villain worth at least 2 Victory Points this turn, you may KO this Wound."
+    },
+    {
+        "name": "Last Breath",
+        "type": "Enraging Wound",
+        "set": "Fear Itself",
+        "qtd": 4,
+        "cost": 0,
+        "attack": 4,
+        "recruit": 0,
+        "healing": "When you KO another Wound this turn, you may KO this Wound."
+    },
+    {
+        "name": "Massive Blood Loss",
+        "type": "Enraging Wound",
+        "set": "Fear Itself",
+        "qtd": 3,
+        "cost": 0,
+        "attack": 3,
+        "recruit": 0,
+        "healing": "When you discard a card this turn, you may KO this Wound."
+    },
+    {
+        "name": "Psychic Trauma",
+        "type": "Grievous Wound",
+        "set": "Civil War",
+        "qtd": 2,
+        "cost": 0,
+        "attack": 0,
+        "recruit": 0,
+        "healing": "You may spend 5 Recruit. If you do, KO this Wound."
+    },
+    {
+        "name": "Shell Shock",
+        "type": "Enraging Wound",
+        "set": "Fear Itself",
+        "qtd": 1,
+        "cost": 0,
+        "attack": 1,
+        "recruit": 1,
+        "healing": "When you recruit two Heroes this turn, you may KO this Wound."
+    },
+    {
+        "name": "Spreading Nanovirus",
+        "type": "Grievous Wound",
+        "set": "Civil War",
+        "qtd": 3,
+        "cost": 0,
+        "attack": 0,
+        "recruit": 0,
+        "healing": "You may have the player on your left gain this Wound."
+    },
+    {
+        "name": "Subdermal Tracker",
+        "type": "Grievous Wound",
+        "set": "Civil War",
+        "qtd": 2,
+        "cost": 0,
+        "attack": 0,
+        "recruit": 0,
+        "healing": "You may play a card from the Villain Deck. If you do, KO this Wound."
+    },
+    {
+        "name": "Sudden Terror",
+        "type": "Enraging Wound",
+        "set": "Fear Itself",
+        "qtd": 2,
+        "cost": 0,
+        "attack": 2,
+        "recruit": 0,
+        "healing": "When you recruit a Hero that costs 7 or more this turn, you may KO this Wound."
+    },
+    {
+        "name": "Wild Rage",
+        "type": "Enraging Wound",
+        "set": "Fear Itself",
+        "qtd": 2,
+        "cost": 0,
+        "attack": 2,
+        "recruit": 0,
+        "healing": "When you defeat a Henchman this turn, you may KO this Wound."
+    },
+    {
+        "name": "Wound",
+        "type": "Wound",
+        "set": "Core Set",
+        "qtd": 30,
+        "cost": 0,
+        "attack": 0,
+        "recruit": 0,
+        "healing": "If you don't recruit any Heroes or defeat any Villains on your turn, you may KO all the Wounds from your hand."
+    },
+    {
+        "name": "Wound",
+        "type": "Wound",
+        "set": "Core Set",
+        "qtd": 30,
+        "cost": 0,
+        "attack": 0,
+        "recruit": 0,
+        "healing": "If you don't recruit any Heroes or defeat any Villains or Masterminds on your turn, you may KO all the Wounds from your hand."
+    },
+    {
+        "name": "Wound",
+        "type": "Wound",
+        "set": "Core Set",
+        "qtd": 30,
+        "cost": 0,
+        "attack": 0,
+        "recruit": 0,
+        "healing": "If you don't recruit or fight anything on your turn, you may KO all the Wounds from your hand."
+    }
+]

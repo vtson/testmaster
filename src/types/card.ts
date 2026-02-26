@@ -1,7 +1,1 @@
-export interface Card {
-    id: string;
-    name: string;
-    type: string;
-    text: string;
-    cost?: number;
-  }
+export type { CardSearchResult as Card } from '@master-strike/data'
