@@ -108,6 +108,25 @@ export function getGroups(filterTypes?: string[]): string[] {
     return [...result].sort()
 }
 
+/**
+ * Extract plain text from a card's Description for search purposes.
+ * Handles strings, bold, italic, keyword text, and rule text pieces.
+ */
+function getDescriptionText(description: any): string {
+    if (!description) return ''
+    if (typeof description === 'string') return description
+    if (Array.isArray(description)) {
+        return description.map(getDescriptionText).join(' ')
+    }
+    if (typeof description === 'object') {
+        if ('bold' in description) return description.bold
+        if ('italic' in description) return description.italic
+        if ('text' in description) return description.text
+        if ('points' in description) return getDescriptionText(description.points)
+    }
+    return ''
+}
+
 export function filterCards(options: {
     search?: string
     types?: string[]
@@ -133,7 +152,8 @@ export function filterCards(options: {
             (c) =>
                 c.name.toLowerCase().includes(q) ||
                 c.subtitle.toLowerCase().includes(q) ||
-                c.group.toLowerCase().includes(q)
+                c.group.toLowerCase().includes(q) ||
+                getDescriptionText(c.details?.description).toLowerCase().includes(q)
         )
     }
 
