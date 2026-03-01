@@ -1,0 +1,1 @@
+{"version":3,"file":"smash.js","sourceRoot":"","sources":["../../../src/definitions/keywords/smash.ts"],"names":[],"mappings":"AAEA,MAAM,CAAC,MAAM,KAAK,GAAsB;IACtC;QACE,iIAAiI;KAClI;IACD;QACE,MAAM,EAAE;YACN;gBACE,oDAAoD;gBACpD,EAAE,IAAI,EAAE,qEAAqE,EAAE;gBAC/E,EAAE,IAAI,EAAE,CAAC,EAAE;gBACX,EAAE,IAAI,EAAE,IAAI,EAAE;aACf;SACF;KACF;CACF,CAAC"}

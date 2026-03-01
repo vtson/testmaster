@@ -1,0 +1,1 @@
+{"version":3,"file":"command.js","sourceRoot":"","sources":["../../../src/definitions/keywords/command.ts"],"names":[],"mappings":"AAEA,MAAM,CAAC,MAAM,OAAO,GAAsB;IACxC;QACE,gDAAgD;QAChD,EAAE,IAAI,EAAE,IAAI,EAAE;QACd,EAAE,IAAI,EAAE,CAAC,EAAE;QACX,mCAAmC;KACpC;IACD;QACE,MAAM,EAAE;YACN,CAAC,EAAE,IAAI,EAAE,mIAAmI,EAAC,CAAC;YAC9I,CAAC,mGAAmG,CAAC;SACtG;KACF;CACF,CAAC"}

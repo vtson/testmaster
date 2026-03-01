@@ -1,0 +1,1 @@
+{"version":3,"file":"dodge.js","sourceRoot":"","sources":["../../../src/definitions/keywords/dodge.ts"],"names":[],"mappings":"AAEA,MAAM,CAAC,MAAM,KAAK,GAAsB;IACtC;QACE,MAAM,EAAE;YACN;gBACE,cAAc;gBACd,EAAE,IAAI,EAAE,oFAAoF,EAAE;aAC/F;YACD;gBACE,gFAAgF;gBAChF,EAAE,MAAM,EAAE,2CAA2C,EAAE;gBACvD,8IAA8I;aAC/I;YACD;gBACE,8GAA8G;aAC/G;YACD;gBACE,4QAA4Q;aAC7Q;SACF;KACF;CACF,CAAC"}

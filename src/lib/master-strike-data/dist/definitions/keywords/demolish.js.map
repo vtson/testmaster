@@ -1,0 +1,1 @@
+{"version":3,"file":"demolish.js","sourceRoot":"","sources":["../../../src/definitions/keywords/demolish.ts"],"names":[],"mappings":"AAEA,MAAM,CAAC,MAAM,QAAQ,GAAsB;IACzC;QACE,oIAAoI;KACrI;IACD;QACE,MAAM,EAAE;YACN;gBACE,EAAE,IAAI,EAAE,wBAAwB,EAAE;gBAClC,SAAS;gBACT,EAAE,IAAI,EAAE,gLAAgL,EAAE;aAC3L;YACD;gBACE,kHAAkH;aACnH;SACF;KACF;CACF,CAAC"}

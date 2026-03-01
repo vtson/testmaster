@@ -1,0 +1,1 @@
+{"version":3,"file":"multiplemasterminds.js","sourceRoot":"","sources":["../../../src/definitions/rules/multiplemasterminds.ts"],"names":[],"mappings":"AAEA,MAAM,CAAC,MAAM,mBAAmB,GAAmB;IACjD;QACE,oJAAoJ;KACrJ;IACD;QACE,MAAM,EAAE;YACN;gBACE,iDAAiD;aAClD;YACD;gBACE,2HAA2H;aAC5H;YACD;gBACE,gGAAgG;aACjG;YACD;gBACE,gPAAgP;aACjP;YACD;gBACE,mGAAmG;aACpG;SACF;KACF;CACF,CAAC"}

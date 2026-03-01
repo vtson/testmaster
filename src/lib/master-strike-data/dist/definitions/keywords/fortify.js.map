@@ -1,0 +1,1 @@
+{"version":3,"file":"fortify.js","sourceRoot":"","sources":["../../../src/definitions/keywords/fortify.ts"],"names":[],"mappings":"AAEA,MAAM,CAAC,MAAM,OAAO,GAAsB;IACxC;QACE,0EAA0E;KAC3E;IACD;QACE,MAAM,EAAE;YACN;gBACE,iCAAiC;gBACjC,EAAE,IAAI,EAAE,iBAAiB,EAAE;gBAC3B,yEAAyE;aAC1E;YACD;gBACE,mNAAmN;aACpN;YACD;gBACE,wGAAwG;aACzG;SACF;KACF;CACF,CAAC"}

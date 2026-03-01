@@ -1,0 +1,1 @@
+{"version":3,"file":"wakingnightmare.js","sourceRoot":"","sources":["../../../src/definitions/keywords/wakingnightmare.ts"],"names":[],"mappings":"AAEA,MAAM,CAAC,MAAM,eAAe,GAAsB;IAChD;QACE,0QAA0Q;KAC3Q;IACD;QACE,MAAM,EAAE;YACN;gBACE,+DAA+D;gBAC/D,EAAE,IAAI,EAAE,wFAAwF,EAAE;aACnG;YACD;gBACE,wSAAwS;aACzS;YACD;gBACE,oGAAoG;aACrG;SACF;KACF;CACF,CAAC"}

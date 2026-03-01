@@ -1,0 +1,1 @@
+{"version":3,"file":"tacticalformation.js","sourceRoot":"","sources":["../../../src/definitions/keywords/tacticalformation.ts"],"names":[],"mappings":"AAEA,MAAM,CAAC,MAAM,iBAAiB,GAAsB;IAClD;QACE,qNAAqN;QACrN,EAAE,IAAI,EAAE,IAAI,EAAE;QACd,EAAE,IAAI,EAAE,CAAC,EAAE;QACX,KAAK;KACN;IACD;QACE,MAAM,EAAE;YACN,EAAE,IAAI,EAAE,6FAA6F,EAAE;YACvG,qDAAqD;YACrD,sLAAsL;SACvL;KACF;CACF,CAAC"}

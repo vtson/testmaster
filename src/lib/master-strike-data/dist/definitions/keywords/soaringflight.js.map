@@ -1,0 +1,1 @@
+{"version":3,"file":"soaringflight.js","sourceRoot":"","sources":["../../../src/definitions/keywords/soaringflight.ts"],"names":[],"mappings":"AAEA,MAAM,CAAC,MAAM,aAAa,GAAsB;IAC9C;QACE,2EAA2E;KAC5E;IACD;QACE,MAAM,EAAE;YACN;gBACE,0BAA0B;gBAC1B,EAAE,IAAI,EAAE,8GAA8G,EAAE;gBACxH,GAAG;aACJ;SACF;KACF;CACF,CAAC"}

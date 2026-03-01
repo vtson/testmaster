@@ -1,0 +1,1 @@
+{"version":3,"file":"unleash.js","sourceRoot":"","sources":["../../../src/definitions/keywords/unleash.ts"],"names":[],"mappings":"AAEA,MAAM,CAAC,MAAM,OAAO,GAAsB;IACxC;QACE,wJAAwJ;KACzJ;IACD;QACE,MAAM,EAAE;YACN;gBACE,wDAAwD;gBACxD,EAAE,IAAI,EAAE,uDAAuD,EAAE;aAClE;YACD;gBACE,sMAAsM;aACvM;YACD;gBACE,kQAAkQ;aACnQ;YACD;gBACE,sJAAsJ;aACvJ;SACF;KACF;CACF,CAAC"}
