@@ -122,18 +122,18 @@ onUnmounted(() => document.removeEventListener('click', onClickOutside))
 
       <!-- Search -->
       <div class="mb-5!">
-        <div class="relative mt-4">
+        <div class="relative">
           <input
             type="text"
             :value="searchQuery"
             @input="emit('update:searchQuery', ($event.target as HTMLInputElement).value)"
             placeholder=" "
-            class="peer w-full px-1 pt-3 pb-2 text-sm text-slate-800 bg-transparent border-0 border-b-2 border-gray-300 rounded-none outline-0 focus:border-blue-500 transition-all duration-200"
+            class="peer w-full px-1 pt-6 pb-2 text-sm text-slate-800 bg-transparent border-0 border-b-2 border-gray-300 rounded-none outline-0 focus:border-blue-500 transition-all duration-200"
             id="search-card-input"
           />
           <label
             for="search-card-input"
-            class="absolute left-1 top-1/2 -translate-y-1/2 text-sm text-gray-400 pointer-events-none transition-all duration-200 peer-focus:-top-2 peer-focus:translate-y-0 peer-focus:text-[11px] peer-focus:text-blue-500 peer-[:not(:placeholder-shown)]:-top-2 peer-[:not(:placeholder-shown)]:translate-y-0 peer-[:not(:placeholder-shown)]:text-[11px] peer-[:not(:placeholder-shown)]:text-gray-500"
+            class="absolute left-1 top-1/2 -translate-y-1/2 text-base text-gray-400 pointer-events-none transition-all duration-200 peer-focus:top-[-11px] peer-focus:translate-y-0 peer-focus:text-[11px] peer-focus:text-blue-500 peer-[:not(:placeholder-shown)]:top-[-11px] peer-[:not(:placeholder-shown)]:translate-y-0 peer-[:not(:placeholder-shown)]:text-[11px] peer-[:not(:placeholder-shown)]:text-gray-500"
           >
             Search card
           </label>

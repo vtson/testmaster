@@ -1,56 +1,20 @@
-import { CardSearchEngine } from '@master-strike/data'
 import type { CardSearchResult } from '@master-strike/data'
-import woundData from '../wound.json'
+import * as MSData from "@master-strike/data"
 
+const { CardSearchEngine, Metadata } = MSData
 export type { CardSearchResult as Card }
-
-// Wound card interface from custom JSON
-interface WoundEntry {
-    name: string
-    type: string
-    set: string
-    qtd: number
-    cost: number
-    attack: number
-    recruit: number
-    healing: string
-}
-
-// Convert wound entries to CardSearchResult-compatible objects
-function woundsToCards(wounds: WoundEntry[]): CardSearchResult[] {
-    return wounds.map((w) => ({
-        name: w.name,
-        subtitle: w.type,
-        type: 'Wound' as any,
-        set: w.set,
-        group: w.type, // use wound sub-type (Enraging Wound, Grievous Wound, etc.) as group
-        imageUrl: '',
-        details: {
-            detailsType: 'BystanderCardDetail',
-            description: [w.healing],
-            qtd: w.qtd,
-            vp: '0',
-            cost: w.cost > 0 ? String(w.cost) : undefined,
-            attack: w.attack > 0 ? String(w.attack) : undefined,
-            recruit: w.recruit > 0 ? String(w.recruit) : undefined,
-        } as any,
-    }))
-}
 
 const searchEngine = new CardSearchEngine()
 const browser = searchEngine.getBrowser()
-const packageCards = searchEngine.getAllCards()
-const woundCards = woundsToCards(woundData as WoundEntry[])
-const allCards: readonly CardSearchResult[] = [...packageCards, ...woundCards]
+console.log(Metadata)
+const allCards: readonly CardSearchResult[] = searchEngine.getAllCards()
 
 export function getAllCards(): readonly CardSearchResult[] {
     return allCards
 }
 
 export function getCategories(): string[] {
-    const cats = new Set(Object.keys(browser))
-    cats.add('Wound')
-    return [...cats].sort()
+    return Object.keys(browser).sort()
 }
 
 /**
@@ -64,13 +28,6 @@ export function getGroups(filterTypes?: string[]): string[] {
     const result: Set<string> = new Set()
 
     for (const type of filterTypes) {
-        // Handle Wound category from custom data
-        if (type === 'Wound') {
-            for (const w of woundCards) {
-                result.add(w.name) // show individual wound names
-            }
-            continue
-        }
 
         const bySet = browser[type as keyof typeof browser]
         if (!bySet) continue
