@@ -1,12 +1,11 @@
-import type { CardSearchResult } from '@master-strike/data'
-import * as MSData from "@master-strike/data"
+import type { CardSearchResult } from '@/lib/master-strike-data/dist'
+import * as MSData from "@/lib/master-strike-data/dist"
 
-const { CardSearchEngine, Metadata } = MSData
+const { CardSearchEngine } = MSData
 export type { CardSearchResult as Card }
 
 const searchEngine = new CardSearchEngine()
 const browser = searchEngine.getBrowser()
-console.log(Metadata)
 const allCards: readonly CardSearchResult[] = searchEngine.getAllCards()
 
 export function getAllCards(): readonly CardSearchResult[] {

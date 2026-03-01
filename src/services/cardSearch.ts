@@ -1,5 +1,5 @@
 // src/services/cardSearch.ts
-import { CardSearchEngine } from '@master-strike/data'
+import { } from '@/lib/master-strike-data/dist'
 
 const searchEngine = new CardSearchEngine()
 

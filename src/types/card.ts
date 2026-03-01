@@ -1,1 +1,1 @@
-export type { CardSearchResult as Card } from '@master-strike/data'
+export type { CardSearchResult as Card } from '@/lib/master-strike-data/dist'
