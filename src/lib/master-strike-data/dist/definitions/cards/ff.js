@@ -8,7 +8,7 @@ export const FantasticFour = {
             cards: [
                 {
                     name: "Call for Backup",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/human-torch-03.png",
+                    imageUrl: "/CardImages/Heroes/human-torch-03.webp",
                     hc: 2,
                     rarity: 1,
                     cost: 3,
@@ -24,7 +24,7 @@ export const FantasticFour = {
                 },
                 {
                     name: "Hothead",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/human-torch-04.png",
+                    imageUrl: "/CardImages/Heroes/human-torch-04.webp",
                     hc: 3,
                     rarity: 1,
                     cost: 4,
@@ -37,7 +37,7 @@ export const FantasticFour = {
                 },
                 {
                     name: "Flame On!",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/human-torch-02.png",
+                    imageUrl: "/CardImages/Heroes/human-torch-02.webp",
                     hc: 3,
                     rarity: 2,
                     cost: 6,
@@ -57,7 +57,7 @@ export const FantasticFour = {
                 },
                 {
                     name: "Nova Flame",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/human-torch-01.png",
+                    imageUrl: "/CardImages/Heroes/human-torch-01.webp",
                     hc: 3,
                     rarity: 3,
                     cost: 8,
@@ -81,7 +81,7 @@ export const FantasticFour = {
             cards: [
                 {
                     name: "Disappearing Act",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/invisible-woman-03.png",
+                    imageUrl: "/CardImages/Heroes/invisible-woman-03.webp",
                     hc: 1,
                     rarity: 1,
                     cost: 4,
@@ -98,7 +98,7 @@ export const FantasticFour = {
                 },
                 {
                     name: "Four of a Kind",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/invisible-woman-04.png",
+                    imageUrl: "/CardImages/Heroes/invisible-woman-04.webp",
                     hc: 3,
                     rarity: 1,
                     cost: 4,
@@ -116,7 +116,7 @@ export const FantasticFour = {
                 },
                 {
                     name: "Unseen Rescue",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/invisible-woman-02.png",
+                    imageUrl: "/CardImages/Heroes/invisible-woman-02.webp",
                     hc: 1,
                     rarity: 2,
                     cost: 4,
@@ -133,7 +133,7 @@ export const FantasticFour = {
                 },
                 {
                     name: "Invisible Barrier",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/invisible-woman-01.png",
+                    imageUrl: "/CardImages/Heroes/invisible-woman-01.webp",
                     hc: 1,
                     rarity: 3,
                     cost: 7,
@@ -153,7 +153,7 @@ export const FantasticFour = {
             cards: [
                 {
                     name: "Twisting Equations",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/mr-fantastic-04.png",
+                    imageUrl: "/CardImages/Heroes/mr-fantastic-04.webp",
                     hc: 5,
                     rarity: 1,
                     cost: 3,
@@ -170,7 +170,7 @@ export const FantasticFour = {
                 },
                 {
                     name: "Unstable Molecules",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/mr-fantastic-03.png",
+                    imageUrl: "/CardImages/Heroes/mr-fantastic-03.webp",
                     hc: 5,
                     rarity: 1,
                     cost: 5,
@@ -180,7 +180,7 @@ export const FantasticFour = {
                 },
                 {
                     name: "One Gigantic Hand",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/mr-fantastic-02.png",
+                    imageUrl: "/CardImages/Heroes/mr-fantastic-02.webp",
                     hc: 2,
                     rarity: 2,
                     cost: 5,
@@ -197,7 +197,7 @@ export const FantasticFour = {
                 },
                 {
                     name: "Ultimate Nullifier",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/mr-fantastic-01.png",
+                    imageUrl: "/CardImages/Heroes/mr-fantastic-01.webp",
                     hc: 5,
                     rarity: 3,
                     cost: 7,
@@ -227,7 +227,7 @@ export const FantasticFour = {
             cards: [
                 {
                     name: "Warp Speed",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/silver-surfer-03.png",
+                    imageUrl: "/CardImages/Heroes/silver-surfer-03.webp",
                     hc: 1,
                     rarity: 1,
                     cost: 3,
@@ -244,7 +244,7 @@ export const FantasticFour = {
                 },
                 {
                     name: "Epic Destiny",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/silver-surfer-04.png",
+                    imageUrl: "/CardImages/Heroes/silver-surfer-04.webp",
                     hc: 4,
                     rarity: 1,
                     cost: 4,
@@ -267,7 +267,7 @@ export const FantasticFour = {
                 },
                 {
                     name: "The Power Cosmic",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/silver-surfer-02.png",
+                    imageUrl: "/CardImages/Heroes/silver-surfer-02.webp",
                     hc: 3,
                     rarity: 2,
                     cost: 6,
@@ -288,7 +288,7 @@ export const FantasticFour = {
                 },
                 {
                     name: "Energy Surge",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/silver-surfer-01.png",
+                    imageUrl: "/CardImages/Heroes/silver-surfer-01.webp",
                     hc: 3,
                     rarity: 3,
                     cost: 7,
@@ -309,7 +309,7 @@ export const FantasticFour = {
             cards: [
                 {
                     name: "It Started on Yancy Street",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/thing-04.png",
+                    imageUrl: "/CardImages/Heroes/thing-04.webp",
                     hc: 2,
                     rarity: 1,
                     cost: 3,
@@ -326,7 +326,7 @@ export const FantasticFour = {
                 },
                 {
                     name: "Knuckle Sandwich",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/thing-03.png",
+                    imageUrl: "/CardImages/Heroes/thing-03.webp",
                     hc: 4,
                     rarity: 1,
                     cost: 5,
@@ -347,7 +347,7 @@ export const FantasticFour = {
                 },
                 {
                     name: "Crime Stopper",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/thing-02.png",
+                    imageUrl: "/CardImages/Heroes/thing-02.webp",
                     hc: 4,
                     rarity: 2,
                     cost: 6,
@@ -365,7 +365,7 @@ export const FantasticFour = {
                 },
                 {
                     name: "It's Clobberin' Time!",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/thing-01.png",
+                    imageUrl: "/CardImages/Heroes/thing-01.webp",
                     hc: 4,
                     rarity: 3,
                     cost: 8,
@@ -394,7 +394,7 @@ export const FantasticFour = {
             cards: [
                 {
                     name: "Galactus",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/galactus-01.png",
+                    imageUrl: "/CardImages/Masterminds/galactus-01.webp",
                     vAttackAsterisk: true,
                     abilities: [
                         [
@@ -422,7 +422,7 @@ export const FantasticFour = {
                 },
                 {
                     name: "Cosmic Entity",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/galactus-02.png",
+                    imageUrl: "/CardImages/Masterminds/galactus-02.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -443,7 +443,7 @@ export const FantasticFour = {
                 },
                 {
                     name: "Force of Eternity",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/galactus-03.png",
+                    imageUrl: "/CardImages/Masterminds/galactus-03.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -454,7 +454,7 @@ export const FantasticFour = {
                 },
                 {
                     name: "Panicked Mobs",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/galactus-05.png",
+                    imageUrl: "/CardImages/Masterminds/galactus-05.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -475,7 +475,7 @@ export const FantasticFour = {
                 },
                 {
                     name: "Sunder the Earth",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/galactus-04.png",
+                    imageUrl: "/CardImages/Masterminds/galactus-04.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -494,7 +494,7 @@ export const FantasticFour = {
             cards: [
                 {
                     name: "Mole Man",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/mole-man-01.png",
+                    imageUrl: "/CardImages/Masterminds/mole-man-01.webp",
                     vAttack: "7+",
                     abilities: [
                         [
@@ -515,7 +515,7 @@ export const FantasticFour = {
                 },
                 {
                     name: "Dig to Freedom",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/mole-man-04.png",
+                    imageUrl: "/CardImages/Masterminds/mole-man-04.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -526,7 +526,7 @@ export const FantasticFour = {
                 },
                 {
                     name: "Master of Monsters",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/mole-man-05.png",
+                    imageUrl: "/CardImages/Masterminds/mole-man-05.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -537,7 +537,7 @@ export const FantasticFour = {
                 },
                 {
                     name: "Secret Tunnel",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/mole-man-03.png",
+                    imageUrl: "/CardImages/Masterminds/mole-man-03.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -551,7 +551,7 @@ export const FantasticFour = {
                 },
                 {
                     name: "Underground Riches",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/mole-man-02.png",
+                    imageUrl: "/CardImages/Masterminds/mole-man-02.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -573,7 +573,7 @@ export const FantasticFour = {
             cards: [
                 {
                     name: "Firelord",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/heralds-of-galactus-02.png",
+                    imageUrl: "/CardImages/Villains/heralds-of-galactus-02.webp",
                     qtd: 2,
                     vAttack: "9",
                     vp: "4",
@@ -602,7 +602,7 @@ export const FantasticFour = {
                 },
                 {
                     name: "Morg",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/heralds-of-galactus-01.png",
+                    imageUrl: "/CardImages/Villains/heralds-of-galactus-01.webp",
                     qtd: 2,
                     vAttack: "12",
                     vp: "6",
@@ -625,7 +625,7 @@ export const FantasticFour = {
                 },
                 {
                     name: "Stardust",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/heralds-of-galactus-04.png",
+                    imageUrl: "/CardImages/Villains/heralds-of-galactus-04.webp",
                     qtd: 2,
                     vAttack: "10",
                     vp: "5",
@@ -648,7 +648,7 @@ export const FantasticFour = {
                 },
                 {
                     name: "Terrax the Tamer",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/heralds-of-galactus-03.png",
+                    imageUrl: "/CardImages/Villains/heralds-of-galactus-03.webp",
                     qtd: 2,
                     vAttack: "11",
                     vp: "5",
@@ -677,7 +677,7 @@ export const FantasticFour = {
             cards: [
                 {
                     name: "Giganto",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/subterranea-01.png",
+                    imageUrl: "/CardImages/Villains/subterranea-01.webp",
                     qtd: 2,
                     vAttack: "7",
                     vp: "4",
@@ -695,7 +695,7 @@ export const FantasticFour = {
                 },
                 {
                     name: "Megataur",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/subterranea-03.png",
+                    imageUrl: "/CardImages/Villains/subterranea-03.webp",
                     qtd: 2,
                     vAttack: "6",
                     vp: "4",
@@ -713,7 +713,7 @@ export const FantasticFour = {
                 },
                 {
                     name: "Moloids",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/subterranea-02.png",
+                    imageUrl: "/CardImages/Villains/subterranea-02.webp",
                     qtd: 2,
                     vAttack: "3",
                     vp: "2",
@@ -731,7 +731,7 @@ export const FantasticFour = {
                 },
                 {
                     name: "Ra'ktar the Molan King",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/subterranea-04.png",
+                    imageUrl: "/CardImages/Villains/subterranea-04.webp",
                     qtd: 2,
                     vAttack: "4",
                     vp: "2",
@@ -754,7 +754,7 @@ export const FantasticFour = {
         {
             id: 17,
             name: "Bathe the Earth in Cosmic Rays",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Schemes/17Scheme(48).png",
+            imageUrl: "/CardImages/Schemes/17Scheme(48).webp",
             cards: [
                 {
                     abilities: [
@@ -777,7 +777,7 @@ export const FantasticFour = {
         {
             id: 18,
             name: "Flood the Planet with Melted Glaciers",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Schemes/18Scheme(49).png",
+            imageUrl: "/CardImages/Schemes/18Scheme(49).webp",
             cards: [
                 {
                     abilities: [
@@ -800,7 +800,7 @@ export const FantasticFour = {
         {
             id: 19,
             name: "Invincible Force Field",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Schemes/19Scheme(50).png",
+            imageUrl: "/CardImages/Schemes/19Scheme(50).webp",
             cards: [
                 {
                     abilities: [
@@ -833,7 +833,7 @@ export const FantasticFour = {
         {
             id: 20,
             name: "Pull Reality Into the Negative Zone",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Schemes/20Scheme(51).png",
+            imageUrl: "/CardImages/Schemes/20Scheme(51).webp",
             cards: [
                 {
                     abilities: [

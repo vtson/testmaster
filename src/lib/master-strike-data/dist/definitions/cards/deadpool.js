@@ -8,7 +8,7 @@ export const Deadpool = {
             cards: [
                 {
                     name: "Bullets Flying, Bob Hiding",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/bob-04.png",
+                    imageUrl: "/CardImages/Heroes/bob-04.webp",
                     hc: 1,
                     rarity: 1,
                     cost: 3,
@@ -22,7 +22,7 @@ export const Deadpool = {
                 },
                 {
                     name: "HYDRA Half-Wit",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/bob-03.png",
+                    imageUrl: "/CardImages/Heroes/bob-03.webp",
                     hc: 5,
                     rarity: 1,
                     cost: 2,
@@ -39,7 +39,7 @@ export const Deadpool = {
                 },
                 {
                     name: "How Do I Get Out of Here??",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/bob-02.png",
+                    imageUrl: "/CardImages/Heroes/bob-02.webp",
                     hc: 1,
                     rarity: 2,
                     cost: 6,
@@ -53,7 +53,7 @@ export const Deadpool = {
                 },
                 {
                     name: "Epic Middle Manager",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/bob-01.png",
+                    imageUrl: "/CardImages/Heroes/bob-01.webp",
                     hc: 1,
                     rarity: 3,
                     cost: 8,
@@ -78,7 +78,7 @@ export const Deadpool = {
             cards: [
                 {
                     name: "Nighttime Is the Right Time",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/deadpool-03-1.png",
+                    imageUrl: "/CardImages/Heroes/deadpool-03-1.webp",
                     hc: 5,
                     rarity: 1,
                     cost: 3,
@@ -102,7 +102,7 @@ export const Deadpool = {
                 },
                 {
                     name: "It'll Grow Back",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/deadpool-04-1.png",
+                    imageUrl: "/CardImages/Heroes/deadpool-04-1.webp",
                     hc: 2,
                     rarity: 1,
                     cost: 4,
@@ -118,7 +118,7 @@ export const Deadpool = {
                 },
                 {
                     name: "Running Commentary",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/deadpool-02-1.png",
+                    imageUrl: "/CardImages/Heroes/deadpool-02-1.webp",
                     hc: 1,
                     rarity: 2,
                     cost: 5,
@@ -134,7 +134,7 @@ export const Deadpool = {
                 },
                 {
                     name: "Deadpool Rage!",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/deadpool-01-1.png",
+                    imageUrl: "/CardImages/Heroes/deadpool-01-1.webp",
                     hc: 4,
                     rarity: 3,
                     cost: 7,
@@ -155,7 +155,7 @@ export const Deadpool = {
             cards: [
                 {
                     name: "Napoleon Complex",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/slapstick-04.png",
+                    imageUrl: "/CardImages/Heroes/slapstick-04.webp",
                     hc: 3,
                     rarity: 1,
                     cost: 4,
@@ -172,7 +172,7 @@ export const Deadpool = {
                 },
                 {
                     name: "Saturday Morning Harpoons",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/slapstick-03.png",
+                    imageUrl: "/CardImages/Heroes/slapstick-03.webp",
                     hc: 3,
                     rarity: 1,
                     cost: 3,
@@ -186,7 +186,7 @@ export const Deadpool = {
                 },
                 {
                     name: "Surprise Chainsaw",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/slapstick-02.png",
+                    imageUrl: "/CardImages/Heroes/slapstick-02.webp",
                     hc: 4,
                     rarity: 2,
                     cost: 6,
@@ -200,7 +200,7 @@ export const Deadpool = {
                 },
                 {
                     name: "Electroplasmic Insanity",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/slapstick-01.png",
+                    imageUrl: "/CardImages/Heroes/slapstick-01.webp",
                     hc: 3,
                     rarity: 3,
                     cost: 8,
@@ -221,7 +221,7 @@ export const Deadpool = {
             cards: [
                 {
                     name: "Half-Cocked",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/solo-03.png",
+                    imageUrl: "/CardImages/Heroes/solo-03.webp",
                     hc: 5,
                     rarity: 1,
                     cost: 2,
@@ -231,7 +231,7 @@ export const Deadpool = {
                 },
                 {
                     name: "Merc's Gotta Get Paid",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/solo-04.png",
+                    imageUrl: "/CardImages/Heroes/solo-04.webp",
                     hc: 2,
                     rarity: 1,
                     cost: 3,
@@ -249,7 +249,7 @@ export const Deadpool = {
                 },
                 {
                     name: "Guns on My Guns",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/solo-02.png",
+                    imageUrl: "/CardImages/Heroes/solo-02.webp",
                     hc: 5,
                     rarity: 2,
                     cost: 5,
@@ -263,7 +263,7 @@ export const Deadpool = {
                 },
                 {
                     name: "Cut in Half",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/solo-01.png",
+                    imageUrl: "/CardImages/Heroes/solo-01.webp",
                     hc: 2,
                     rarity: 3,
                     cost: 7,
@@ -291,7 +291,7 @@ export const Deadpool = {
             cards: [
                 {
                     name: "Deck Chairs on the Titanic",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/stingray-04.png",
+                    imageUrl: "/CardImages/Heroes/stingray-04.webp",
                     hc: 5,
                     rarity: 1,
                     cost: 4,
@@ -307,7 +307,7 @@ export const Deadpool = {
                 },
                 {
                     name: "Superpowered Swimsuit",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/stingray-03.png",
+                    imageUrl: "/CardImages/Heroes/stingray-03.webp",
                     hc: 5,
                     rarity: 1,
                     cost: 2,
@@ -327,7 +327,7 @@ export const Deadpool = {
                 },
                 {
                     name: "Sting of the Stingray's Sting",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/stingray-02.png",
+                    imageUrl: "/CardImages/Heroes/stingray-02.webp",
                     hc: 3,
                     rarity: 2,
                     cost: 5,
@@ -341,7 +341,7 @@ export const Deadpool = {
                 },
                 {
                     name: "PhD in Oceanography",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/stingray-01.png",
+                    imageUrl: "/CardImages/Heroes/stingray-01.webp",
                     hc: 5,
                     rarity: 3,
                     cost: 8,
@@ -369,7 +369,7 @@ export const Deadpool = {
             cards: [
                 {
                     name: "Evil Deadpool",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/evil-deadpool-01.png",
+                    imageUrl: "/CardImages/Masterminds/evil-deadpool-01.webp",
                     vAttack: "11+",
                     abilities: [
                         { keyword: 31, text: "Revenge for Mastermind Tactics" },
@@ -387,7 +387,7 @@ export const Deadpool = {
                 },
                 {
                     name: "Evil Even Oddball",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/evil-deadpool-03.png",
+                    imageUrl: "/CardImages/Masterminds/evil-deadpool-03.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -400,7 +400,7 @@ export const Deadpool = {
                 },
                 {
                     name: "Hyper-Insane Healing Factor",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/evil-deadpool-02.png",
+                    imageUrl: "/CardImages/Masterminds/evil-deadpool-02.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -414,7 +414,7 @@ export const Deadpool = {
                 },
                 {
                     name: "Of Course it's Corpse",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/evil-deadpool-04.png",
+                    imageUrl: "/CardImages/Masterminds/evil-deadpool-04.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -427,7 +427,7 @@ export const Deadpool = {
                 },
                 {
                     name: "Stitched from Dead (Pool) Parts",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/evil-deadpool-05.png",
+                    imageUrl: "/CardImages/Masterminds/evil-deadpool-05.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -448,7 +448,7 @@ export const Deadpool = {
             cards: [
                 {
                     name: "Macho Gomez",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/macho-gomez-01.png",
+                    imageUrl: "/CardImages/Masterminds/macho-gomez-01.webp",
                     vAttack: "9+",
                     abilities: [
                         { keyword: 31, text: "Revenge for Deadpool's “Friends“" },
@@ -466,7 +466,7 @@ export const Deadpool = {
                 },
                 {
                     name: "Bounty Payout",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/macho-gomez-02.png",
+                    imageUrl: "/CardImages/Masterminds/macho-gomez-02.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -480,7 +480,7 @@ export const Deadpool = {
                 },
                 {
                     name: "Interstellar Assassin",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/macho-gomez-03.png",
+                    imageUrl: "/CardImages/Masterminds/macho-gomez-03.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -491,7 +491,7 @@ export const Deadpool = {
                 },
                 {
                     name: "Renegotiate the Contract",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/macho-gomez-04.png",
+                    imageUrl: "/CardImages/Masterminds/macho-gomez-04.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -502,7 +502,7 @@ export const Deadpool = {
                 },
                 {
                     name: "Super Macho Man",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/macho-gomez-05.png",
+                    imageUrl: "/CardImages/Masterminds/macho-gomez-05.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -521,7 +521,7 @@ export const Deadpool = {
             cards: [
                 {
                     name: "Blind Al and Deuce",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/deadpools-friends-04.png",
+                    imageUrl: "/CardImages/Villains/deadpools-friends-04.webp",
                     qtd: 2,
                     vAttack: "2+",
                     vp: "3",
@@ -542,7 +542,7 @@ export const Deadpool = {
                 },
                 {
                     name: "Sluggo",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/deadpools-friends-02.png",
+                    imageUrl: "/CardImages/Villains/deadpools-friends-02.webp",
                     qtd: 2,
                     vAttack: "5+",
                     vp: "4",
@@ -566,7 +566,7 @@ export const Deadpool = {
                 },
                 {
                     name: "Taskmaster",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/deadpools-friends-01.png",
+                    imageUrl: "/CardImages/Villains/deadpools-friends-01.webp",
                     qtd: 2,
                     vAttack: "3+",
                     vp: "4",
@@ -587,7 +587,7 @@ export const Deadpool = {
                 },
                 {
                     name: "Weasel",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/deadpools-friends-03.png",
+                    imageUrl: "/CardImages/Villains/deadpools-friends-03.webp",
                     qtd: 2,
                     vAttack: "4+",
                     vp: "3",
@@ -615,7 +615,7 @@ export const Deadpool = {
             cards: [
                 {
                     name: "D.E.A.D.P.O.O.L.",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/evil-deadpool-corpse-02.png",
+                    imageUrl: "/CardImages/Villains/evil-deadpool-corpse-02.webp",
                     qtd: 2,
                     vAttack: "4+",
                     vp: "3",
@@ -633,7 +633,7 @@ export const Deadpool = {
                 },
                 {
                     name: "The Deadpool Kid",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/evil-deadpool-corpse-01.png",
+                    imageUrl: "/CardImages/Villains/evil-deadpool-corpse-01.webp",
                     qtd: 2,
                     vAttack: "5+",
                     vp: "4",
@@ -651,7 +651,7 @@ export const Deadpool = {
                 },
                 {
                     name: "Ultimate Deadpool",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/evil-deadpool-corpse-04.png",
+                    imageUrl: "/CardImages/Villains/evil-deadpool-corpse-04.webp",
                     qtd: 2,
                     vAttack: "5+",
                     vp: "4",
@@ -675,7 +675,7 @@ export const Deadpool = {
                 },
                 {
                     name: "Wolverinepool",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/evil-deadpool-corpse-03.png",
+                    imageUrl: "/CardImages/Villains/evil-deadpool-corpse-03.webp",
                     qtd: 2,
                     vAttack: "7+",
                     vp: "6",
@@ -708,7 +708,7 @@ export const Deadpool = {
         {
             id: 68,
             name: "Deadpool Kills the Marvel Universe",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Schemes/60Scheme(13).png",
+            imageUrl: "/CardImages/Schemes/60Scheme(13).webp",
             cards: [
                 {
                     abilities: [
@@ -731,7 +731,7 @@ export const Deadpool = {
         {
             id: 69,
             name: "Deadpool Wants a Chimichanga",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Schemes/61Scheme(79).png",
+            imageUrl: "/CardImages/Schemes/61Scheme(79).webp",
             cards: [
                 {
                     abilities: [
@@ -760,7 +760,7 @@ export const Deadpool = {
         {
             id: 70,
             name: "Deadpool Writes a Scheme",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Schemes/62Scheme(80).png",
+            imageUrl: "/CardImages/Schemes/62Scheme(80).webp",
             cards: [
                 {
                     abilities: [
@@ -799,7 +799,7 @@ export const Deadpool = {
         {
             id: 71,
             name: "Everybody Hates Deadpool",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Schemes/63Scheme(81).png",
+            imageUrl: "/CardImages/Schemes/63Scheme(81).webp",
             cards: [
                 {
                     abilities: [

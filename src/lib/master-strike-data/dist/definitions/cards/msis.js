@@ -9,7 +9,7 @@ export const MSInfinitySaga = {
             cards: [
                 {
                     name: "Open Portals",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/DoctorStrangeIS_2Common.png",
+                    imageUrl: "/CardImages/Heroes/DoctorStrangeIS_2Common.webp",
                     hc: 3,
                     rarity: 1,
                     qtd: 3,
@@ -28,7 +28,7 @@ export const MSInfinitySaga = {
                 },
                 {
                     name: "Defend this Dimension",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/DoctorStrangeIS_3Common.png",
+                    imageUrl: "/CardImages/Heroes/DoctorStrangeIS_3Common.webp",
                     hc: 2,
                     rarity: 1,
                     qtd: 3,
@@ -46,7 +46,7 @@ export const MSInfinitySaga = {
                 },
                 {
                     name: "Sift Futures",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/DoctorStrangeIS_4Common.png",
+                    imageUrl: "/CardImages/Heroes/DoctorStrangeIS_4Common.webp",
                     hc: 2,
                     hc2: 3,
                     rarity: 1,
@@ -60,7 +60,7 @@ export const MSInfinitySaga = {
                 },
                 {
                     name: "Invoke the Time Stone",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/DoctorStrangeIS_5Uncommon.png",
+                    imageUrl: "/CardImages/Heroes/DoctorStrangeIS_5Uncommon.webp",
                     hc: 3,
                     rarity: 2,
                     qtd: 2,
@@ -78,7 +78,7 @@ export const MSInfinitySaga = {
                 },
                 {
                     name: "Bind Evil",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/DoctorStrangeIS_6Uncommon.png",
+                    imageUrl: "/CardImages/Heroes/DoctorStrangeIS_6Uncommon.webp",
                     hc: 2,
                     rarity: 2,
                     qtd: 2,
@@ -96,7 +96,7 @@ export const MSInfinitySaga = {
                 },
                 {
                     name: "1 in 14,000,065",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/DoctorStrangeIS_1Rare.png",
+                    imageUrl: "/CardImages/Heroes/DoctorStrangeIS_1Rare.webp",
                     hc: 2,
                     rarity: 3,
                     qtd: 1,
@@ -121,7 +121,7 @@ export const MSInfinitySaga = {
             cards: [
                 {
                     name: "Avengers Reassembled",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/BlackPantherIS_3Common.png",
+                    imageUrl: "/CardImages/Heroes/BlackPantherIS_3Common.webp",
                     hc: 2,
                     hc2: 1,
                     rarity: 1,
@@ -139,7 +139,7 @@ export const MSInfinitySaga = {
                 },
                 {
                     name: "Great Many Lives Lost",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/BlackPantherIS_4Common.png",
+                    imageUrl: "/CardImages/Heroes/BlackPantherIS_4Common.webp",
                     hc: 4,
                     hc2: 2,
                     rarity: 1,
@@ -157,7 +157,7 @@ export const MSInfinitySaga = {
                 },
                 {
                     name: "Wakanda Forever",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/BlackPantherIS_2Common.png",
+                    imageUrl: "/CardImages/Heroes/BlackPantherIS_2Common.webp",
                     hc: 1,
                     hc2: 5,
                     rarity: 1,
@@ -173,7 +173,7 @@ export const MSInfinitySaga = {
                 },
                 {
                     name: "Vibranium Nanites",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/BlackPantherIS_6Uncommon.png",
+                    imageUrl: "/CardImages/Heroes/BlackPantherIS_6Uncommon.webp",
                     hc: 5,
                     hc2: 3,
                     rarity: 2,
@@ -194,7 +194,7 @@ export const MSInfinitySaga = {
                 },
                 {
                     name: "Council of War",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/BlackPantherIS_5Uncommon.png",
+                    imageUrl: "/CardImages/Heroes/BlackPantherIS_5Uncommon.webp",
                     hc: 4,
                     hc2: 1,
                     rarity: 2,
@@ -223,7 +223,7 @@ export const MSInfinitySaga = {
                 },
                 {
                     name: "Fateful Return",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/BlackPantherIS_1Rare.png",
+                    imageUrl: "/CardImages/Heroes/BlackPantherIS_1Rare.webp",
                     hc: 2,
                     hc2: 5,
                     rarity: 3,
@@ -249,7 +249,7 @@ export const MSInfinitySaga = {
             cards: [
                 {
                     name: "Burst of Rage",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/BruceBannerIS_2Common.png",
+                    imageUrl: "/CardImages/Heroes/BruceBannerIS_2Common.webp",
                     hc: 4,
                     rarity: 1,
                     qtd: 3,
@@ -269,7 +269,7 @@ export const MSInfinitySaga = {
                 },
                 {
                     name: "Hulkbuster Armor",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/BruceBannerIS_4Common.png",
+                    imageUrl: "/CardImages/Heroes/BruceBannerIS_4Common.webp",
                     hc: 5,
                     rarity: 1,
                     qtd: 3,
@@ -286,7 +286,7 @@ export const MSInfinitySaga = {
                 },
                 {
                     name: "Brains and Brawn",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/BruceBannerIS_3Common.png",
+                    imageUrl: "/CardImages/Heroes/BruceBannerIS_3Common.webp",
                     hc: 4,
                     hc2: 5,
                     rarity: 1,
@@ -306,7 +306,7 @@ export const MSInfinitySaga = {
                 },
                 {
                     name: "Hulk Gets Smashed",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/BruceBannerIS_5Uncommon.png",
+                    imageUrl: "/CardImages/Heroes/BruceBannerIS_5Uncommon.webp",
                     hc: 4,
                     rarity: 2,
                     qtd: 2,
@@ -321,7 +321,7 @@ export const MSInfinitySaga = {
                 },
                 {
                     name: "Crush Puny Weaklings",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/BruceBannerIS_6Uncommon.png",
+                    imageUrl: "/CardImages/Heroes/BruceBannerIS_6Uncommon.webp",
                     hc: 5,
                     rarity: 2,
                     qtd: 2,
@@ -339,7 +339,7 @@ export const MSInfinitySaga = {
                 },
                 {
                     name: "Reverse the Snap",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/BruceBannerIS_1Rare.png",
+                    imageUrl: "/CardImages/Heroes/BruceBannerIS_1Rare.webp",
                     hc: 5,
                     rarity: 3,
                     qtd: 1,
@@ -364,7 +364,7 @@ export const MSInfinitySaga = {
             cards: [
                 {
                     name: "Return from the Stars",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/CaptainMarvelIS_3Common.png",
+                    imageUrl: "/CardImages/Heroes/CaptainMarvelIS_3Common.webp",
                     hc: 4,
                     rarity: 1,
                     qtd: 3,
@@ -391,7 +391,7 @@ export const MSInfinitySaga = {
                 },
                 {
                     name: "Turning Point",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/CaptainMarvelIS_4Common.png",
+                    imageUrl: "/CardImages/Heroes/CaptainMarvelIS_4Common.webp",
                     hc: 4,
                     hc2: 3,
                     rarity: 1,
@@ -416,7 +416,7 @@ export const MSInfinitySaga = {
                 },
                 {
                     name: "Infused by the Tesseract",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/CaptainMarvelIS_2Common.png",
+                    imageUrl: "/CardImages/Heroes/CaptainMarvelIS_2Common.webp",
                     hc: 3,
                     rarity: 1,
                     qtd: 3,
@@ -437,7 +437,7 @@ export const MSInfinitySaga = {
                 },
                 {
                     name: "Moment of Destiny",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/CaptainMarvelIS_6Uncommon.png",
+                    imageUrl: "/CardImages/Heroes/CaptainMarvelIS_6Uncommon.webp",
                     hc: 4,
                     rarity: 2,
                     qtd: 2,
@@ -455,7 +455,7 @@ export const MSInfinitySaga = {
                 },
                 {
                     name: "Dawning Hope",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/CaptainMarvelIS_5Uncommon.png",
+                    imageUrl: "/CardImages/Heroes/CaptainMarvelIS_5Uncommon.webp",
                     hc: 3,
                     rarity: 2,
                     qtd: 2,
@@ -467,7 +467,7 @@ export const MSInfinitySaga = {
                 },
                 {
                     name: "Time to End It",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/CaptainMarvelIS_1Rare.png",
+                    imageUrl: "/CardImages/Heroes/CaptainMarvelIS_1Rare.webp",
                     hc: 3,
                     rarity: 3,
                     qtd: 1,
@@ -502,7 +502,7 @@ export const MSInfinitySaga = {
             cards: [
                 {
                     name: "We Have to Destroy It",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/WandaAndVision_2Common.png",
+                    imageUrl: "/CardImages/Heroes/WandaAndVision_2Common.webp",
                     hc: 5,
                     rarity: 1,
                     qtd: 3,
@@ -523,7 +523,7 @@ export const MSInfinitySaga = {
                 },
                 {
                     name: "Witchcraft",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/WandaAndVision_3Common.png",
+                    imageUrl: "/CardImages/Heroes/WandaAndVision_3Common.webp",
                     hc: 1,
                     rarity: 1,
                     qtd: 3,
@@ -538,7 +538,7 @@ export const MSInfinitySaga = {
                 },
                 {
                     name: "Hold On",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/WandaAndVision_4Common.png",
+                    imageUrl: "/CardImages/Heroes/WandaAndVision_4Common.webp",
                     subtitle: "Wanda",
                     hc: 1,
                     rarity: 1,
@@ -577,7 +577,7 @@ export const MSInfinitySaga = {
                 },
                 {
                     name: "Magic",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/WandaAndVision_6Uncommon.png",
+                    imageUrl: "/CardImages/Heroes/WandaAndVision_6Uncommon.webp",
                     subtitle: "Wanda",
                     hc: 3,
                     rarity: 2,
@@ -616,7 +616,7 @@ export const MSInfinitySaga = {
                 },
                 {
                     name: "Rage",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/WandaAndVision_5Uncommon.png",
+                    imageUrl: "/CardImages/Heroes/WandaAndVision_5Uncommon.webp",
                     subtitle: "Wanda",
                     hc: 1,
                     rarity: 2,
@@ -654,7 +654,7 @@ export const MSInfinitySaga = {
                 },
                 {
                     name: "Odd Couple",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/WandaAndVision_1Rare.png",
+                    imageUrl: "/CardImages/Heroes/WandaAndVision_1Rare.webp",
                     hc: 1,
                     hc2: 3,
                     rarity: 3,
@@ -682,7 +682,7 @@ export const MSInfinitySaga = {
             cards: [
                 {
                     name: "Thanos",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/ThanosIS.png",
+                    imageUrl: "/CardImages/Masterminds/ThanosIS.webp",
                     vAttack: "11+",
                     abilities: [
                         [
@@ -707,7 +707,7 @@ export const MSInfinitySaga = {
                 },
                 {
                     name: "Epic Thanos",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/ThanosIS_Epic.png",
+                    imageUrl: "/CardImages/Masterminds/ThanosIS_Epic.webp",
                     vAttack: "13+",
                     epic: true,
                     abilities: [
@@ -735,7 +735,7 @@ export const MSInfinitySaga = {
                 },
                 {
                     name: "The Snap",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/ThanosISTactic3.png",
+                    imageUrl: "/CardImages/Masterminds/ThanosISTactic3.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -748,7 +748,7 @@ export const MSInfinitySaga = {
                 },
                 {
                     name: "Destiny Arrives All the Same",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/ThanosISTactic1.png",
+                    imageUrl: "/CardImages/Masterminds/ThanosISTactic1.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -759,7 +759,7 @@ export const MSInfinitySaga = {
                 },
                 {
                     name: "Price to Pay",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/ThanosISTactic2.png",
+                    imageUrl: "/CardImages/Masterminds/ThanosISTactic2.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -770,7 +770,7 @@ export const MSInfinitySaga = {
                 },
                 {
                     name: "You Should Have Gone for the Head",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/ThanosISTactic4.png",
+                    imageUrl: "/CardImages/Masterminds/ThanosISTactic4.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -790,7 +790,7 @@ export const MSInfinitySaga = {
             cards: [
                 {
                     name: "Ebony Maw",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/EbonyMaw.png",
+                    imageUrl: "/CardImages/Masterminds/EbonyMaw.webp",
                     vAttack: "8+",
                     abilities: [
                         [
@@ -815,7 +815,7 @@ export const MSInfinitySaga = {
                 },
                 {
                     name: "Epic Ebony Maw",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/EbonyMaw_Epic.png",
+                    imageUrl: "/CardImages/Masterminds/EbonyMaw_Epic.webp",
                     vAttack: "10+",
                     epic: true,
                     abilities: [
@@ -841,7 +841,7 @@ export const MSInfinitySaga = {
                 },
                 {
                     name: "Your Powers are Quaint",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/EbonyMawTactic4.png",
+                    imageUrl: "/CardImages/Masterminds/EbonyMawTactic4.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -856,7 +856,7 @@ export const MSInfinitySaga = {
                 },
                 {
                     name: "Hear Me and Rejoice",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/EbonyMawTactic1.png",
+                    imageUrl: "/CardImages/Masterminds/EbonyMawTactic1.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -871,7 +871,7 @@ export const MSInfinitySaga = {
                 },
                 {
                     name: "Smile...Even in Death",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/EbonyMawTactic2.png",
+                    imageUrl: "/CardImages/Masterminds/EbonyMawTactic2.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -886,7 +886,7 @@ export const MSInfinitySaga = {
                 },
                 {
                     name: "You May Think This is Suffering",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/EbonyMawTactic3.png",
+                    imageUrl: "/CardImages/Masterminds/EbonyMawTactic3.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -913,7 +913,7 @@ export const MSInfinitySaga = {
             cards: [
                 {
                     name: "Endless Armies of Chitauri",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/ChildrenOfThanosEndlessArmiesOfChitauri.png",
+                    imageUrl: "/CardImages/Villains/ChildrenOfThanosEndlessArmiesOfChitauri.webp",
                     qtd: 1,
                     vAttack: "4+",
                     vp: "3",
@@ -934,7 +934,7 @@ export const MSInfinitySaga = {
                 },
                 {
                     name: "Outriders",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/ChildrenOfThanosOutriders.png",
+                    imageUrl: "/CardImages/Villains/ChildrenOfThanosOutriders.webp",
                     qtd: 1,
                     vAttack: "4+",
                     vp: "3",
@@ -955,7 +955,7 @@ export const MSInfinitySaga = {
                 },
                 {
                     name: "Outrider Dropships",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/ChildrenOfThanosOutriderDropships.png",
+                    imageUrl: "/CardImages/Villains/ChildrenOfThanosOutriderDropships.webp",
                     qtd: 1,
                     vAttack: "4+",
                     vp: "3",
@@ -982,7 +982,7 @@ export const MSInfinitySaga = {
                 },
                 {
                     name: "Outrider Threshers",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/ChildrenOfThanosOutriderThreshers.png",
+                    imageUrl: "/CardImages/Villains/ChildrenOfThanosOutriderThreshers.webp",
                     qtd: 1,
                     vAttack: "5+",
                     vp: "4",
@@ -1003,7 +1003,7 @@ export const MSInfinitySaga = {
                 },
                 {
                     name: "Cull Obsidian",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/ChildrenOfThanosCullObsidian.png",
+                    imageUrl: "/CardImages/Villains/ChildrenOfThanosCullObsidian.webp",
                     qtd: 1,
                     vAttack: "6+",
                     vp: "5",
@@ -1034,7 +1034,7 @@ export const MSInfinitySaga = {
                 },
                 {
                     name: "Corvus Glaive",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/ChildrenOfThanosCorvusGlaive.png",
+                    imageUrl: "/CardImages/Villains/ChildrenOfThanosCorvusGlaive.webp",
                     qtd: 1,
                     vAttack: "6+",
                     vp: "5",
@@ -1065,7 +1065,7 @@ export const MSInfinitySaga = {
                 },
                 {
                     name: "Chitauri Gorilla",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/ChildrenOfThanosChitauriGorilla.png",
+                    imageUrl: "/CardImages/Villains/ChildrenOfThanosChitauriGorilla.webp",
                     qtd: 1,
                     vAttack: "5+",
                     vp: "4",
@@ -1086,7 +1086,7 @@ export const MSInfinitySaga = {
                 },
                 {
                     name: "Proxima Midnight",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/ChildrenOfThanosProximaMidnight.png",
+                    imageUrl: "/CardImages/Villains/ChildrenOfThanosProximaMidnight.webp",
                     qtd: 1,
                     vAttack: "7+",
                     vp: "5",
@@ -1125,7 +1125,7 @@ export const MSInfinitySaga = {
             cards: [
                 {
                     name: "The Power Stone",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/InfinityStonesThePowerStone.png",
+                    imageUrl: "/CardImages/Villains/InfinityStonesThePowerStone.webp",
                     qtd: 1,
                     vAttack: "6+",
                     vp: "5",
@@ -1152,7 +1152,7 @@ export const MSInfinitySaga = {
                 },
                 {
                     name: "The Space Stone",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/InfinityStonesTheSpaceStone.png",
+                    imageUrl: "/CardImages/Villains/InfinityStonesTheSpaceStone.webp",
                     qtd: 1,
                     vAttack: "5+",
                     vp: "5",
@@ -1179,7 +1179,7 @@ export const MSInfinitySaga = {
                 },
                 {
                     name: "The Reality Stone",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/InfinityStonesTheRealityStone.png",
+                    imageUrl: "/CardImages/Villains/InfinityStonesTheRealityStone.webp",
                     qtd: 1,
                     vAttack: "5+",
                     vp: "5",
@@ -1206,7 +1206,7 @@ export const MSInfinitySaga = {
                 },
                 {
                     name: "The Time Stone",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/InfinityStonesTheTimeStone.png",
+                    imageUrl: "/CardImages/Villains/InfinityStonesTheTimeStone.webp",
                     qtd: 1,
                     vAttack: "5+",
                     vp: "5",
@@ -1233,7 +1233,7 @@ export const MSInfinitySaga = {
                 },
                 {
                     name: "The Soul Stone",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/InfinityStonesTheSoulStone.png",
+                    imageUrl: "/CardImages/Villains/InfinityStonesTheSoulStone.webp",
                     qtd: 1,
                     vAttack: "5+",
                     vp: "5",
@@ -1260,7 +1260,7 @@ export const MSInfinitySaga = {
                 },
                 {
                     name: "The Mind Stone",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/InfinityStonesTheMindStone.png",
+                    imageUrl: "/CardImages/Villains/InfinityStonesTheMindStone.webp",
                     qtd: 1,
                     vAttack: "1+",
                     vp: "5",
@@ -1287,7 +1287,7 @@ export const MSInfinitySaga = {
                 },
                 {
                     name: "Nebula, Stone Seeker",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/InfinityStonesNebulaStoneSeeker.png",
+                    imageUrl: "/CardImages/Villains/InfinityStonesNebulaStoneSeeker.webp",
                     qtd: 1,
                     vAttack: "4",
                     vp: "2",
@@ -1309,7 +1309,7 @@ export const MSInfinitySaga = {
                 },
                 {
                     name: "Stonekeeper",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/InfinityStonesStonekeeper.png",
+                    imageUrl: "/CardImages/Villains/InfinityStonesStonekeeper.webp",
                     qtd: 1,
                     vAttack: "5",
                     vp: "3",
@@ -1336,7 +1336,7 @@ export const MSInfinitySaga = {
         {
             id: 166,
             name: "Sacrifice for the Soul Stone",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Schemes/SacrificefortheSoulStone.png",
+            imageUrl: "/CardImages/Schemes/SacrificefortheSoulStone.webp",
             cards: [
                 {
                     abilities: [
@@ -1359,7 +1359,7 @@ export const MSInfinitySaga = {
         {
             id: 167,
             name: "Halve All Life in the Universe",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Schemes/HalveAllLifeintheUniverse.png",
+            imageUrl: "/CardImages/Schemes/HalveAllLifeintheUniverse.webp",
             cards: [
                 {
                     abilities: [
@@ -1388,7 +1388,7 @@ export const MSInfinitySaga = {
         {
             id: 168,
             name: "Warp Reality into a TV Show",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Schemes/WarpRealityIntoaTVShow.png",
+            imageUrl: "/CardImages/Schemes/WarpRealityIntoaTVShow.webp",
             cards: [
                 {
                     abilities: [
@@ -1415,7 +1415,7 @@ export const MSInfinitySaga = {
         {
             id: 169,
             name: "The Time Heist",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Schemes/TheTimeHeist.png",
+            imageUrl: "/CardImages/Schemes/TheTimeHeist.webp",
             cards: [
                 {
                     abilities: [

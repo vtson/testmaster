@@ -8,7 +8,7 @@ export const PaintTheTownRed = {
             cards: [
                 {
                     name: "Casual Bank Robbery",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/black-cat-04.png",
+                    imageUrl: "/CardImages/Heroes/black-cat-04.webp",
                     hc: 1,
                     rarity: 1,
                     cost: 4,
@@ -25,7 +25,7 @@ export const PaintTheTownRed = {
                 },
                 {
                     name: "Pickpocket",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/black-cat-03.png",
+                    imageUrl: "/CardImages/Heroes/black-cat-03.webp",
                     hc: 1,
                     rarity: 1,
                     cost: 1,
@@ -46,7 +46,7 @@ export const PaintTheTownRed = {
                 },
                 {
                     name: "Jinx",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/black-cat-02.png",
+                    imageUrl: "/CardImages/Heroes/black-cat-02.webp",
                     hc: 2,
                     rarity: 2,
                     cost: 5,
@@ -57,7 +57,7 @@ export const PaintTheTownRed = {
                 },
                 {
                     name: "Cat Burglar",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/black-cat-01.png",
+                    imageUrl: "/CardImages/Heroes/black-cat-01.webp",
                     hc: 1,
                     rarity: 3,
                     cost: 8,
@@ -86,7 +86,7 @@ export const PaintTheTownRed = {
             cards: [
                 {
                     name: "Climbing Claws",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/moon-knight-04.png",
+                    imageUrl: "/CardImages/Heroes/moon-knight-04.webp",
                     hc: 5,
                     rarity: 1,
                     cost: 3,
@@ -104,7 +104,7 @@ export const PaintTheTownRed = {
                 },
                 {
                     name: "Lunar Communion",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/moon-knight-03.png",
+                    imageUrl: "/CardImages/Heroes/moon-knight-03.webp",
                     hc: 2,
                     rarity: 1,
                     cost: 3,
@@ -118,7 +118,7 @@ export const PaintTheTownRed = {
                 },
                 {
                     name: "Crescent Moon Darts",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/moon-knight-02.png",
+                    imageUrl: "/CardImages/Heroes/moon-knight-02.webp",
                     hc: 5,
                     rarity: 2,
                     cost: 5,
@@ -135,7 +135,7 @@ export const PaintTheTownRed = {
                 },
                 {
                     name: "Golden Ankh of Khonshu",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/moon-knight-01.png",
+                    imageUrl: "/CardImages/Heroes/moon-knight-01.webp",
                     hc: 2,
                     rarity: 3,
                     cost: 8,
@@ -161,7 +161,7 @@ export const PaintTheTownRed = {
             cards: [
                 {
                     name: "Flip Out",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/scarlet-spider-04.png",
+                    imageUrl: "/CardImages/Heroes/scarlet-spider-04.webp",
                     hc: 4,
                     rarity: 1,
                     cost: 2,
@@ -176,7 +176,7 @@ export const PaintTheTownRed = {
                 },
                 {
                     name: "Perfect Hunter",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/scarlet-spider-03.png",
+                    imageUrl: "/CardImages/Heroes/scarlet-spider-03.webp",
                     hc: 2,
                     rarity: 1,
                     cost: 4,
@@ -190,7 +190,7 @@ export const PaintTheTownRed = {
                 },
                 {
                     name: "Leap from Above",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/scarlet-spider-02.png",
+                    imageUrl: "/CardImages/Heroes/scarlet-spider-02.webp",
                     hc: 1,
                     rarity: 2,
                     cost: 6,
@@ -208,7 +208,7 @@ export const PaintTheTownRed = {
                 },
                 {
                     name: "Sting of the Spider",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/scarlet-spider-01.png",
+                    imageUrl: "/CardImages/Heroes/scarlet-spider-01.webp",
                     hc: 4,
                     rarity: 3,
                     cost: 7,
@@ -228,7 +228,7 @@ export const PaintTheTownRed = {
             cards: [
                 {
                     name: "Bioelectric Shock",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/spider-woman-03.png",
+                    imageUrl: "/CardImages/Heroes/spider-woman-03.webp",
                     hc: 3,
                     rarity: 1,
                     cost: 4,
@@ -244,7 +244,7 @@ export const PaintTheTownRed = {
                 },
                 {
                     name: "Radioactive Spider",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/spider-woman-04.png",
+                    imageUrl: "/CardImages/Heroes/spider-woman-04.webp",
                     hc: 4,
                     rarity: 1,
                     cost: 2,
@@ -257,7 +257,7 @@ export const PaintTheTownRed = {
                 },
                 {
                     name: "Venom Blast",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/spider-woman-02.png",
+                    imageUrl: "/CardImages/Heroes/spider-woman-02.webp",
                     hc: 3,
                     rarity: 2,
                     cost: 6,
@@ -273,7 +273,7 @@ export const PaintTheTownRed = {
                 },
                 {
                     name: "Arachno-Pheromones",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/spider-woman-01.png",
+                    imageUrl: "/CardImages/Heroes/spider-woman-01.webp",
                     hc: 1,
                     rarity: 3,
                     cost: 7,
@@ -294,7 +294,7 @@ export const PaintTheTownRed = {
             cards: [
                 {
                     name: "Dark Strength",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/symbiote-spider-man-04.png",
+                    imageUrl: "/CardImages/Heroes/symbiote-spider-man-04.webp",
                     hc: 4,
                     rarity: 1,
                     cost: 2,
@@ -315,7 +315,7 @@ export const PaintTheTownRed = {
                 },
                 {
                     name: "Spider-Sense Tingling",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/symbiote-spider-man-03.png",
+                    imageUrl: "/CardImages/Heroes/symbiote-spider-man-03.webp",
                     hc: 2,
                     rarity: 1,
                     cost: 2,
@@ -329,7 +329,7 @@ export const PaintTheTownRed = {
                 },
                 {
                     name: "Shadowed Spider",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/symbiote-spider-man-02.png",
+                    imageUrl: "/CardImages/Heroes/symbiote-spider-man-02.webp",
                     hc: 1,
                     rarity: 2,
                     cost: 2,
@@ -350,7 +350,7 @@ export const PaintTheTownRed = {
                 },
                 {
                     name: "Thwip!",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/symbiote-spider-man-01.png",
+                    imageUrl: "/CardImages/Heroes/symbiote-spider-man-01.webp",
                     hc: 3,
                     rarity: 3,
                     cost: 2,
@@ -371,7 +371,7 @@ export const PaintTheTownRed = {
             cards: [
                 {
                     name: "Carnage",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/carnage-01.png",
+                    imageUrl: "/CardImages/Masterminds/carnage-01.webp",
                     abilities: [
                         [
                             { bold: "Always Leads" },
@@ -387,7 +387,7 @@ export const PaintTheTownRed = {
                 },
                 {
                     name: "Drooling Jaws",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/carnage-02.png",
+                    imageUrl: "/CardImages/Masterminds/carnage-02.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -400,7 +400,7 @@ export const PaintTheTownRed = {
                 },
                 {
                     name: "Endless Hunger",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/carnage-03.png",
+                    imageUrl: "/CardImages/Masterminds/carnage-03.webp",
                     tactic: true,
                     abilities: [
                         { keyword: 8 },
@@ -411,7 +411,7 @@ export const PaintTheTownRed = {
                 },
                 {
                     name: "Feed Me",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/carnage-04.png",
+                    imageUrl: "/CardImages/Masterminds/carnage-04.webp",
                     tactic: true,
                     abilities: [
                         { keyword: 8 },
@@ -427,7 +427,7 @@ export const PaintTheTownRed = {
                 },
                 {
                     name: "Om Nom Nom",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/carnage-05.png",
+                    imageUrl: "/CardImages/Masterminds/carnage-05.webp",
                     tactic: true,
                     abilities: [
                         { keyword: 8 },
@@ -446,7 +446,7 @@ export const PaintTheTownRed = {
             cards: [
                 {
                     name: "Mysterio",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/mysterio-01-1.png",
+                    imageUrl: "/CardImages/Masterminds/mysterio-01-1.webp",
                     abilities: [
                         [
                             { bold: "Always Leads" },
@@ -463,7 +463,7 @@ export const PaintTheTownRed = {
                 },
                 {
                     name: "Blurring Images",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/mysterio-02-1.png",
+                    imageUrl: "/CardImages/Masterminds/mysterio-02-1.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -477,7 +477,7 @@ export const PaintTheTownRed = {
                 },
                 {
                     name: "Captive Audience",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/mysterio-03-1.png",
+                    imageUrl: "/CardImages/Masterminds/mysterio-03-1.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -488,7 +488,7 @@ export const PaintTheTownRed = {
                 },
                 {
                     name: "Master of Illusions",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/mysterio-04-1.png",
+                    imageUrl: "/CardImages/Masterminds/mysterio-04-1.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -499,7 +499,7 @@ export const PaintTheTownRed = {
                 },
                 {
                     name: "Mists of Deception",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/mysterio-05.png",
+                    imageUrl: "/CardImages/Masterminds/mysterio-05.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -518,7 +518,7 @@ export const PaintTheTownRed = {
             cards: [
                 {
                     name: "Carrion",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/maximum-carnage-03.png",
+                    imageUrl: "/CardImages/Villains/maximum-carnage-03.webp",
                     qtd: 2,
                     vAttack: "4",
                     vp: "3",
@@ -535,7 +535,7 @@ export const PaintTheTownRed = {
                 },
                 {
                     name: "Demogoblin",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/maximum-carnage-02.png",
+                    imageUrl: "/CardImages/Villains/maximum-carnage-02.webp",
                     qtd: 2,
                     vAttack: "5",
                     vp: "3",
@@ -553,7 +553,7 @@ export const PaintTheTownRed = {
                 },
                 {
                     name: "Doppelganger",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/maximum-carnage-04.png",
+                    imageUrl: "/CardImages/Villains/maximum-carnage-04.webp",
                     qtd: 2,
                     vAttack: "",
                     vp: "3",
@@ -573,7 +573,7 @@ export const PaintTheTownRed = {
                 },
                 {
                     name: "Shriek",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/maximum-carnage-01.png",
+                    imageUrl: "/CardImages/Villains/maximum-carnage-01.webp",
                     qtd: 2,
                     vAttack: "6",
                     vp: "4",
@@ -600,7 +600,7 @@ export const PaintTheTownRed = {
             cards: [
                 {
                     name: "Chameleon",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/sinister-six-04.png",
+                    imageUrl: "/CardImages/Villains/sinister-six-04.webp",
                     qtd: 1,
                     vAttack: "6",
                     vp: "2",
@@ -619,7 +619,7 @@ export const PaintTheTownRed = {
                 },
                 {
                     name: "Hobgoblin",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/sinister-six-06.png",
+                    imageUrl: "/CardImages/Villains/sinister-six-06.webp",
                     qtd: 1,
                     vAttack: "5",
                     vp: "3",
@@ -634,7 +634,7 @@ export const PaintTheTownRed = {
                 },
                 {
                     name: "Kraven the Hunter",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/sinister-six-01.png",
+                    imageUrl: "/CardImages/Villains/sinister-six-01.webp",
                     qtd: 1,
                     vAttack: "",
                     vp: "4",
@@ -659,7 +659,7 @@ export const PaintTheTownRed = {
                 },
                 {
                     name: "Sandman",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/sinister-six-05.png",
+                    imageUrl: "/CardImages/Villains/sinister-six-05.webp",
                     qtd: 1,
                     vAttack: "",
                     vp: "4",
@@ -682,7 +682,7 @@ export const PaintTheTownRed = {
                 },
                 {
                     name: "Shocker",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/sinister-six-02.png",
+                    imageUrl: "/CardImages/Villains/sinister-six-02.webp",
                     qtd: 2,
                     vAttack: "5",
                     vp: "3",
@@ -699,7 +699,7 @@ export const PaintTheTownRed = {
                 },
                 {
                     name: "Vulture",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/sinister-six-03.png",
+                    imageUrl: "/CardImages/Villains/sinister-six-03.webp",
                     qtd: 2,
                     vAttack: "4",
                     vp: "2",
@@ -729,7 +729,7 @@ export const PaintTheTownRed = {
         {
             id: 21,
             name: "Clone Saga, The",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Schemes/31Scheme(54).png",
+            imageUrl: "/CardImages/Schemes/31Scheme(54).webp",
             cards: [
                 {
                     abilities: [
@@ -752,7 +752,7 @@ export const PaintTheTownRed = {
         {
             id: 22,
             name: "Invade the Daily Bugle News HQ",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Schemes/29Scheme(52).png",
+            imageUrl: "/CardImages/Schemes/29Scheme(52).webp",
             cards: [
                 {
                     abilities: [
@@ -781,7 +781,7 @@ export const PaintTheTownRed = {
         {
             id: 23,
             name: "Splice Humans with Spider DNA",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Schemes/32Scheme(55).png",
+            imageUrl: "/CardImages/Schemes/32Scheme(55).webp",
             cards: [
                 {
                     abilities: [
@@ -813,7 +813,7 @@ export const PaintTheTownRed = {
         {
             id: 24,
             name: "Weave a Web of Lies",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Schemes/30Scheme(53).png",
+            imageUrl: "/CardImages/Schemes/30Scheme(53).webp",
             cards: [
                 {
                     abilities: [

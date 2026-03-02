@@ -8,7 +8,7 @@ export const GuardiansOfTheGalaxy = {
             cards: [
                 {
                     name: "Knives of the Hunter",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/drax-03.png",
+                    imageUrl: "/CardImages/Heroes/drax-03.webp",
                     hc: 4,
                     rarity: 1,
                     cost: 3,
@@ -24,7 +24,7 @@ export const GuardiansOfTheGalaxy = {
                 },
                 {
                     name: "Interstellar Tracker",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/drax-04.png",
+                    imageUrl: "/CardImages/Heroes/drax-04.webp",
                     hc: 2,
                     rarity: 1,
                     cost: 3,
@@ -39,7 +39,7 @@ export const GuardiansOfTheGalaxy = {
                 },
                 {
                     name: "The Destroyer",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/drax-02.png",
+                    imageUrl: "/CardImages/Heroes/drax-02.webp",
                     hc: 2,
                     rarity: 2,
                     cost: 6,
@@ -57,7 +57,7 @@ export const GuardiansOfTheGalaxy = {
                 },
                 {
                     name: "Avatar of Destruction",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/drax-01.png",
+                    imageUrl: "/CardImages/Heroes/drax-01.webp",
                     hc: 2,
                     rarity: 3,
                     cost: 7,
@@ -79,7 +79,7 @@ export const GuardiansOfTheGalaxy = {
             cards: [
                 {
                     name: "Bounty Hunter",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/gamora-04.png",
+                    imageUrl: "/CardImages/Heroes/gamora-04.webp",
                     hc: 1,
                     rarity: 1,
                     cost: 2,
@@ -94,7 +94,7 @@ export const GuardiansOfTheGalaxy = {
                 },
                 {
                     name: "Deadliest Woman in the Universe",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/gamora-03.png",
+                    imageUrl: "/CardImages/Heroes/gamora-03.webp",
                     hc: 2,
                     rarity: 1,
                     cost: 3,
@@ -114,7 +114,7 @@ export const GuardiansOfTheGalaxy = {
                 },
                 {
                     name: "Galactic Assassin",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/gamora-02.png",
+                    imageUrl: "/CardImages/Heroes/gamora-02.webp",
                     hc: 1,
                     rarity: 2,
                     cost: 5,
@@ -140,7 +140,7 @@ export const GuardiansOfTheGalaxy = {
                 },
                 {
                     name: "Godslayer Blade",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/gamora-01.png",
+                    imageUrl: "/CardImages/Heroes/gamora-01.webp",
                     hc: 1,
                     rarity: 3,
                     cost: 8,
@@ -170,7 +170,7 @@ export const GuardiansOfTheGalaxy = {
             cards: [
                 {
                     name: "Prune the Growths",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/groot-03.png",
+                    imageUrl: "/CardImages/Heroes/groot-03.webp",
                     hc: 4,
                     rarity: 1,
                     cost: 4,
@@ -186,7 +186,7 @@ export const GuardiansOfTheGalaxy = {
                 },
                 {
                     name: "Surviving Sprig",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/groot-04.png",
+                    imageUrl: "/CardImages/Heroes/groot-04.webp",
                     hc: 4,
                     rarity: 1,
                     cost: 3,
@@ -197,7 +197,7 @@ export const GuardiansOfTheGalaxy = {
                 },
                 {
                     name: "Groot and Branches",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/groot-02.png",
+                    imageUrl: "/CardImages/Heroes/groot-02.webp",
                     hc: 1,
                     rarity: 2,
                     cost: 4,
@@ -219,7 +219,7 @@ export const GuardiansOfTheGalaxy = {
                 },
                 {
                     name: "I Am Groot",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/groot-01.png",
+                    imageUrl: "/CardImages/Heroes/groot-01.webp",
                     hc: 4,
                     rarity: 3,
                     cost: 8,
@@ -241,7 +241,7 @@ export const GuardiansOfTheGalaxy = {
             cards: [
                 {
                     name: "Gritty Scavenger",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/rocket-04.png",
+                    imageUrl: "/CardImages/Heroes/rocket-04.webp",
                     hc: 5,
                     rarity: 1,
                     cost: 3,
@@ -254,7 +254,7 @@ export const GuardiansOfTheGalaxy = {
                 },
                 {
                     name: "Trigger Happy",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/rocket-03.png",
+                    imageUrl: "/CardImages/Heroes/rocket-03.webp",
                     hc: 3,
                     rarity: 1,
                     cost: 4,
@@ -272,7 +272,7 @@ export const GuardiansOfTheGalaxy = {
                 },
                 {
                     name: "Incoming Detector",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/rocket-02.png",
+                    imageUrl: "/CardImages/Heroes/rocket-02.webp",
                     hc: 2,
                     rarity: 2,
                     cost: 4,
@@ -287,7 +287,7 @@ export const GuardiansOfTheGalaxy = {
                 },
                 {
                     name: "Vengeance is Rocket",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/rocket-01.png",
+                    imageUrl: "/CardImages/Heroes/rocket-01.webp",
                     hc: 5,
                     rarity: 3,
                     cost: 7,
@@ -312,7 +312,7 @@ export const GuardiansOfTheGalaxy = {
             cards: [
                 {
                     name: "Element Guns",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/star-lord-03.png",
+                    imageUrl: "/CardImages/Heroes/star-lord-03.webp",
                     hc: 3,
                     rarity: 1,
                     cost: 4,
@@ -327,7 +327,7 @@ export const GuardiansOfTheGalaxy = {
                 },
                 {
                     name: "Legendary Outlaw",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/star-lord-04.png",
+                    imageUrl: "/CardImages/Heroes/star-lord-04.webp",
                     hc: 1,
                     rarity: 1,
                     cost: 4,
@@ -340,7 +340,7 @@ export const GuardiansOfTheGalaxy = {
                 },
                 {
                     name: "Implanted Memory Chip",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/star-lord-01.png",
+                    imageUrl: "/CardImages/Heroes/star-lord-01.webp",
                     hc: 5,
                     rarity: 2,
                     cost: 6,
@@ -353,7 +353,7 @@ export const GuardiansOfTheGalaxy = {
                 },
                 {
                     name: "Sentient Starship",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/star-lord-01-1.png",
+                    imageUrl: "/CardImages/Heroes/star-lord-01-1.webp",
                     hc: 3,
                     rarity: 3,
                     cost: 8,
@@ -379,7 +379,7 @@ export const GuardiansOfTheGalaxy = {
             cards: [
                 {
                     name: "Supreme Intelligence of the Kree",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/supreme-intelligence-of-the-kree-01.png",
+                    imageUrl: "/CardImages/Masterminds/supreme-intelligence-of-the-kree-01.webp",
                     abilities: [
                         [
                             { bold: "Always Leads" },
@@ -395,7 +395,7 @@ export const GuardiansOfTheGalaxy = {
                 },
                 {
                     name: "Combined Knowledge of All Kree",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/supreme-intelligence-of-the-kree-05.png",
+                    imageUrl: "/CardImages/Masterminds/supreme-intelligence-of-the-kree-05.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -408,7 +408,7 @@ export const GuardiansOfTheGalaxy = {
                 },
                 {
                     name: "Cosmic Omniscience",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/supreme-intelligence-of-the-kree-04.png",
+                    imageUrl: "/CardImages/Masterminds/supreme-intelligence-of-the-kree-04.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -421,7 +421,7 @@ export const GuardiansOfTheGalaxy = {
                 },
                 {
                     name: "Countermeasure Protocols",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/supreme-intelligence-of-the-kree-03.png",
+                    imageUrl: "/CardImages/Masterminds/supreme-intelligence-of-the-kree-03.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -434,7 +434,7 @@ export const GuardiansOfTheGalaxy = {
                 },
                 {
                     name: "Guide Kree Evolution",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/supreme-intelligence-of-the-kree-02.png",
+                    imageUrl: "/CardImages/Masterminds/supreme-intelligence-of-the-kree-02.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -456,7 +456,7 @@ export const GuardiansOfTheGalaxy = {
             cards: [
                 {
                     name: "Thanos",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/thanos-01.png",
+                    imageUrl: "/CardImages/Masterminds/thanos-01.webp",
                     vAttackAsterisk: true,
                     abilities: [
                         [
@@ -477,7 +477,7 @@ export const GuardiansOfTheGalaxy = {
                 },
                 {
                     name: "Centuries of Envy",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/thanos-05.png",
+                    imageUrl: "/CardImages/Masterminds/thanos-05.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -488,7 +488,7 @@ export const GuardiansOfTheGalaxy = {
                 },
                 {
                     name: "God of Death",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/thanos-02.png",
+                    imageUrl: "/CardImages/Masterminds/thanos-02.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -499,7 +499,7 @@ export const GuardiansOfTheGalaxy = {
                 },
                 {
                     name: "Keeper of Souls",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/thanos-04.png",
+                    imageUrl: "/CardImages/Masterminds/thanos-04.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -510,7 +510,7 @@ export const GuardiansOfTheGalaxy = {
                 },
                 {
                     name: "The Mad Titan",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/thanos-03.png",
+                    imageUrl: "/CardImages/Masterminds/thanos-03.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -529,7 +529,7 @@ export const GuardiansOfTheGalaxy = {
             cards: [
                 {
                     name: "Captain Atlas",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/kree-starforce-05.png",
+                    imageUrl: "/CardImages/Villains/kree-starforce-05.webp",
                     qtd: 1,
                     vAttack: "6+",
                     vp: "4",
@@ -554,7 +554,7 @@ export const GuardiansOfTheGalaxy = {
                 },
                 {
                     name: "Demon Druid",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/kree-starforce-01.png",
+                    imageUrl: "/CardImages/Villains/kree-starforce-01.webp",
                     qtd: 1,
                     vAttack: "5",
                     vp: "3",
@@ -571,7 +571,7 @@ export const GuardiansOfTheGalaxy = {
                 },
                 {
                     name: "Dr. Minerva",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/kree-starforce-03.png",
+                    imageUrl: "/CardImages/Villains/kree-starforce-03.webp",
                     qtd: 1,
                     vAttack: "5",
                     vp: "3",
@@ -588,7 +588,7 @@ export const GuardiansOfTheGalaxy = {
                 },
                 {
                     name: "Korath the Pursuer",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/kree-starforce-06.png",
+                    imageUrl: "/CardImages/Villains/kree-starforce-06.webp",
                     qtd: 1,
                     vAttack: "5",
                     vp: "3",
@@ -613,7 +613,7 @@ export const GuardiansOfTheGalaxy = {
                 },
                 {
                     name: "Ronan the Accuser",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/kree-starforce-08.png",
+                    imageUrl: "/CardImages/Villains/kree-starforce-08.webp",
                     qtd: 1,
                     vAttack: "7",
                     vp: "5",
@@ -634,7 +634,7 @@ export const GuardiansOfTheGalaxy = {
                 },
                 {
                     name: "Shatterax",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/kree-starforce-02.png",
+                    imageUrl: "/CardImages/Villains/kree-starforce-02.webp",
                     qtd: 1,
                     vAttack: "5",
                     vp: "3",
@@ -655,7 +655,7 @@ export const GuardiansOfTheGalaxy = {
                 },
                 {
                     name: "Supremor",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/kree-starforce-04.png",
+                    imageUrl: "/CardImages/Villains/kree-starforce-04.webp",
                     qtd: 2,
                     vAttack: "3",
                     vp: "2",
@@ -678,7 +678,7 @@ export const GuardiansOfTheGalaxy = {
             cards: [
                 {
                     name: "Mind Gem",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/infinity-gems-01.png",
+                    imageUrl: "/CardImages/Villains/infinity-gems-01.webp",
                     qtd: 1,
                     vAttack: "6",
                     vp: "0",
@@ -708,7 +708,7 @@ export const GuardiansOfTheGalaxy = {
                 },
                 {
                     name: "Power Gem",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/infinity-gems-05.png",
+                    imageUrl: "/CardImages/Villains/infinity-gems-05.webp",
                     qtd: 1,
                     vAttack: "7",
                     vp: "0",
@@ -738,7 +738,7 @@ export const GuardiansOfTheGalaxy = {
                 },
                 {
                     name: "Reality Gem",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/infinity-gems-06.png",
+                    imageUrl: "/CardImages/Villains/infinity-gems-06.webp",
                     qtd: 2,
                     vAttack: "5",
                     vp: "0",
@@ -767,7 +767,7 @@ export const GuardiansOfTheGalaxy = {
                 },
                 {
                     name: "Soul Gem",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/infinity-gems-03.png",
+                    imageUrl: "/CardImages/Villains/infinity-gems-03.webp",
                     qtd: 1,
                     vAttack: "6",
                     vp: "0",
@@ -799,7 +799,7 @@ export const GuardiansOfTheGalaxy = {
                 },
                 {
                     name: "Space Gem",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/infinity-gems-02.png",
+                    imageUrl: "/CardImages/Villains/infinity-gems-02.webp",
                     qtd: 2,
                     vAttack: "5",
                     vp: "0",
@@ -828,7 +828,7 @@ export const GuardiansOfTheGalaxy = {
                 },
                 {
                     name: "Time Gem",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/infinity-gems-04.png",
+                    imageUrl: "/CardImages/Villains/infinity-gems-04.webp",
                     qtd: 1,
                     vAttack: "6",
                     vp: "0",
@@ -860,7 +860,7 @@ export const GuardiansOfTheGalaxy = {
         {
             id: 33,
             name: "Forge the Infinity Gauntlet",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Schemes/36Scheme(59).png",
+            imageUrl: "/CardImages/Schemes/36Scheme(59).webp",
             cards: [
                 {
                     abilities: [
@@ -889,7 +889,7 @@ export const GuardiansOfTheGalaxy = {
         {
             id: 34,
             name: "Intergalactic Kree Nega-Bomb",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Schemes/34Scheme(57).png",
+            imageUrl: "/CardImages/Schemes/34Scheme(57).webp",
             cards: [
                 {
                     abilities: [
@@ -912,7 +912,7 @@ export const GuardiansOfTheGalaxy = {
         {
             id: 35,
             name: "Kree-Skrull War, The",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Schemes/33Scheme(56).png",
+            imageUrl: "/CardImages/Schemes/33Scheme(56).webp",
             cards: [
                 {
                     abilities: [
@@ -939,7 +939,7 @@ export const GuardiansOfTheGalaxy = {
         {
             id: 36,
             name: "Unite the Shards",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Schemes/35Scheme(58).png",
+            imageUrl: "/CardImages/Schemes/35Scheme(58).webp",
             cards: [
                 {
                     abilities: [

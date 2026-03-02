@@ -8,7 +8,7 @@ export const MessiahComplex = {
             cards: [
                 {
                     name: "Finding Myself",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/multiple_man_01.png",
+                    imageUrl: "/CardImages/Heroes/multiple_man_01.webp",
                     hc: 5,
                     qtd: 4,
                     rarity: 1,
@@ -29,7 +29,7 @@ export const MessiahComplex = {
                 },
                 {
                     name: "Me, Myself, and I",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/multiple_man_02.png",
+                    imageUrl: "/CardImages/Heroes/multiple_man_02.webp",
                     hc: 2,
                     qtd: 4,
                     rarity: 1,
@@ -49,7 +49,7 @@ export const MessiahComplex = {
                 },
                 {
                     name: "Perfect Match",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/multiple_man_03.png",
+                    imageUrl: "/CardImages/Heroes/multiple_man_03.webp",
                     hc: 5,
                     qtd: 4,
                     rarity: 1,
@@ -71,7 +71,7 @@ export const MessiahComplex = {
                 },
                 {
                     name: "Reabsorb Duplicates",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/multiple_man_04.png",
+                    imageUrl: "/CardImages/Heroes/multiple_man_04.webp",
                     hc: 2,
                     qtd: 2,
                     rarity: 3,
@@ -98,7 +98,7 @@ export const MessiahComplex = {
             cards: [
                 {
                     name: "Strive for Greatness",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/shatterstar_01.png",
+                    imageUrl: "/CardImages/Heroes/shatterstar_01.webp",
                     hc: 2,
                     qtd: 4,
                     rarity: 1,
@@ -124,7 +124,7 @@ export const MessiahComplex = {
                 },
                 {
                     name: "Bioelectric Surge",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/shatterstar_02.png",
+                    imageUrl: "/CardImages/Heroes/shatterstar_02.webp",
                     hc: 3,
                     qtd: 4,
                     rarity: 1,
@@ -150,7 +150,7 @@ export const MessiahComplex = {
                 },
                 {
                     name: "Gladiator's Blades",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/shatterstar_03.png",
+                    imageUrl: "/CardImages/Heroes/shatterstar_03.webp",
                     hc: 2,
                     qtd: 4,
                     rarity: 1,
@@ -173,7 +173,7 @@ export const MessiahComplex = {
                 },
                 {
                     name: "Gene-Spliced Creation",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/shatterstar_04.png",
+                    imageUrl: "/CardImages/Heroes/shatterstar_04.webp",
                     hc: 2,
                     qtd: 2,
                     rarity: 3,
@@ -206,7 +206,7 @@ export const MessiahComplex = {
             cards: [
                 {
                     name: "Find Mutants with Cerebro",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/stepford_cuckoos_01.png",
+                    imageUrl: "/CardImages/Heroes/stepford_cuckoos_01.webp",
                     hc: 5,
                     qtd: 4,
                     rarity: 1,
@@ -230,7 +230,7 @@ export const MessiahComplex = {
                 },
                 {
                     name: "Shared Thoughts",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/stepford_cuckoos_02.png",
+                    imageUrl: "/CardImages/Heroes/stepford_cuckoos_02.webp",
                     hc: 1,
                     qtd: 4,
                     rarity: 1,
@@ -263,7 +263,7 @@ export const MessiahComplex = {
                 },
                 {
                     name: "Telepathic Warning",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/stepford_cuckoos_03.png",
+                    imageUrl: "/CardImages/Heroes/stepford_cuckoos_03.webp",
                     hc: 3,
                     qtd: 4,
                     rarity: 1,
@@ -295,7 +295,7 @@ export const MessiahComplex = {
                 },
                 {
                     name: "Mind Wipe",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/stepford_cuckoos_04.png",
+                    imageUrl: "/CardImages/Heroes/stepford_cuckoos_04.webp",
                     hc: 3,
                     qtd: 2,
                     rarity: 3,
@@ -327,7 +327,7 @@ export const MessiahComplex = {
             cards: [
                 {
                     name: "Penance Form",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/m_1.png",
+                    imageUrl: "/CardImages/Heroes/m_1.webp",
                     hc: 4,
                     qtd: 4,
                     rarity: 1,
@@ -352,7 +352,7 @@ export const MessiahComplex = {
                 },
                 {
                     name: "Three Sisters Combined",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/m_2.png",
+                    imageUrl: "/CardImages/Heroes/m_2.webp",
                     hc: 4,
                     qtd: 4,
                     rarity: 1,
@@ -379,7 +379,7 @@ export const MessiahComplex = {
                 },
                 {
                     name: "Uncover Family Secrets",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/m_03.png",
+                    imageUrl: "/CardImages/Heroes/m_03.webp",
                     hc: 1,
                     qtd: 4,
                     rarity: 1,
@@ -402,7 +402,7 @@ export const MessiahComplex = {
                 },
                 {
                     name: "Interweaving Powers",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/m_4.png",
+                    imageUrl: "/CardImages/Heroes/m_4.webp",
                     hc: 1,
                     qtd: 2,
                     rarity: 3,
@@ -435,7 +435,7 @@ export const MessiahComplex = {
             cards: [
                 {
                     name: "X-Factor Investigations",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/strong_guy_01.png",
+                    imageUrl: "/CardImages/Heroes/strong_guy_01.webp",
                     hc: 4,
                     rarity: 1,
                     cost: 4,
@@ -453,7 +453,7 @@ export const MessiahComplex = {
                 },
                 {
                     name: "Absorb Kinetic Energy",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/strong_guy_02.png",
+                    imageUrl: "/CardImages/Heroes/strong_guy_02.webp",
                     hc: 4,
                     rarity: 1,
                     cost: 5,
@@ -464,7 +464,7 @@ export const MessiahComplex = {
                 },
                 {
                     name: "Go Big",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/strong_guy_03.png",
+                    imageUrl: "/CardImages/Heroes/strong_guy_03.webp",
                     hc: 4,
                     rarity: 2,
                     cost: 4,
@@ -481,7 +481,7 @@ export const MessiahComplex = {
                 },
                 {
                     name: "Treasure Hunt",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/strong_guy_04.png",
+                    imageUrl: "/CardImages/Heroes/strong_guy_04.webp",
                     hc: 4,
                     rarity: 3,
                     cost: 8,
@@ -518,7 +518,7 @@ export const MessiahComplex = {
             cards: [
                 {
                     name: "Grim Tracker",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/warpath_01.png",
+                    imageUrl: "/CardImages/Heroes/warpath_01.webp",
                     hc: 2,
                     rarity: 1,
                     cost: 2,
@@ -533,7 +533,7 @@ export const MessiahComplex = {
                 },
                 {
                     name: "Endless Endurance",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/warpath_02.png",
+                    imageUrl: "/CardImages/Heroes/warpath_02.webp",
                     hc: 4,
                     rarity: 1,
                     cost: 5,
@@ -543,7 +543,7 @@ export const MessiahComplex = {
                 },
                 {
                     name: "Dangerous Maneuver",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/warpath_03.png",
+                    imageUrl: "/CardImages/Heroes/warpath_03.webp",
                     hc: 1,
                     rarity: 2,
                     cost: 2,
@@ -563,7 +563,7 @@ export const MessiahComplex = {
                 },
                 {
                     name: "Superhuman Senses",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/warpath_04.png",
+                    imageUrl: "/CardImages/Heroes/warpath_04.webp",
                     hc: 2,
                     rarity: 3,
                     cost: 7,
@@ -592,7 +592,7 @@ export const MessiahComplex = {
             cards: [
                 {
                     name: "Echolocation",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/siryn_01.png",
+                    imageUrl: "/CardImages/Heroes/siryn_01.webp",
                     hc: 1,
                     rarity: 1,
                     cost: 2,
@@ -607,7 +607,7 @@ export const MessiahComplex = {
                 },
                 {
                     name: "Hypnotic Call",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/siryn_02.png",
+                    imageUrl: "/CardImages/Heroes/siryn_02.webp",
                     hc: 1,
                     rarity: 1,
                     cost: 4,
@@ -623,7 +623,7 @@ export const MessiahComplex = {
                 },
                 {
                     name: "Three-Octave Arpeggio",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/siryn_03.png",
+                    imageUrl: "/CardImages/Heroes/siryn_03.webp",
                     hc: 3,
                     rarity: 2,
                     cost: 6,
@@ -639,7 +639,7 @@ export const MessiahComplex = {
                 },
                 {
                     name: "Splintering Shriek",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/siryn_04.png",
+                    imageUrl: "/CardImages/Heroes/siryn_04.webp",
                     hc: 1,
                     rarity: 3,
                     cost: 8,
@@ -659,7 +659,7 @@ export const MessiahComplex = {
             cards: [
                 {
                     name: "Underground Cave-In",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/rictor_01.png",
+                    imageUrl: "/CardImages/Heroes/rictor_01.webp",
                     hc: 3,
                     rarity: 1,
                     cost: 3,
@@ -675,7 +675,7 @@ export const MessiahComplex = {
                 },
                 {
                     name: "Unearth Tectonic Power",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/rictor_02.png",
+                    imageUrl: "/CardImages/Heroes/rictor_02.webp",
                     hc: 2,
                     rarity: 1,
                     cost: 5,
@@ -693,7 +693,7 @@ export const MessiahComplex = {
                 },
                 {
                     name: "Trace the Fault Lines",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/rictor_03.png",
+                    imageUrl: "/CardImages/Heroes/rictor_03.webp",
                     hc: 3,
                     rarity: 2,
                     cost: 4,
@@ -709,7 +709,7 @@ export const MessiahComplex = {
                 },
                 {
                     name: "Massive Earthquake",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/rictor_04.png",
+                    imageUrl: "/CardImages/Heroes/rictor_04.webp",
                     hc: 3,
                     rarity: 3,
                     cost: 7,
@@ -734,7 +734,7 @@ export const MessiahComplex = {
             cards: [
                 {
                     name: "Lady Deathstrike",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/lady_deathstrike_01.png",
+                    imageUrl: "/CardImages/Masterminds/lady_deathstrike_01.webp",
                     abilities: [
                         [
                             { bold: "Always Leads" },
@@ -761,7 +761,7 @@ export const MessiahComplex = {
                 },
                 {
                     name: "Epic Lady Deathstrike",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/lady_deathstrike_02.png",
+                    imageUrl: "/CardImages/Masterminds/lady_deathstrike_02.webp",
                     vAttack: "11",
                     epic: true,
                     abilities: [
@@ -790,7 +790,7 @@ export const MessiahComplex = {
                 },
                 {
                     name: "Cybernetic Healing Factor",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/lady_deathstrike_03.png",
+                    imageUrl: "/CardImages/Masterminds/lady_deathstrike_03.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -803,7 +803,7 @@ export const MessiahComplex = {
                 },
                 {
                     name: "Prey on the Weak",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/lady_deathstrike_04.png",
+                    imageUrl: "/CardImages/Masterminds/lady_deathstrike_04.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -820,7 +820,7 @@ export const MessiahComplex = {
                 },
                 {
                     name: "Relentless Assassin",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/lady_deathstrike_05.png",
+                    imageUrl: "/CardImages/Masterminds/lady_deathstrike_05.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -835,7 +835,7 @@ export const MessiahComplex = {
                 },
                 {
                     name: "Stretching Adamantium Claws",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/lady_deathstrike_06.png",
+                    imageUrl: "/CardImages/Masterminds/lady_deathstrike_06.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -857,7 +857,7 @@ export const MessiahComplex = {
             cards: [
                 {
                     name: "Bastion, Fused Sentinel",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/bastion_01.png",
+                    imageUrl: "/CardImages/Masterminds/bastion_01.webp",
                     abilities: [
                         [
                             "All Sentinel Masterminds get ",
@@ -886,7 +886,7 @@ export const MessiahComplex = {
                 },
                 {
                     name: "Epic Bastion, Fused Sentinel",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/bastion_02.png",
+                    imageUrl: "/CardImages/Masterminds/bastion_02.webp",
                     vAttack: "6+",
                     epic: true,
                     abilities: [
@@ -917,7 +917,7 @@ export const MessiahComplex = {
                 },
                 {
                     name: "Master Mold, Sentinel Factory",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/bastion_04.png",
+                    imageUrl: "/CardImages/Masterminds/bastion_04.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -935,7 +935,7 @@ export const MessiahComplex = {
                 },
                 {
                     name: "Template, Infected Sentinel",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/bastion_06.png",
+                    imageUrl: "/CardImages/Masterminds/bastion_06.webp",
                     vAttack: "5+",
                     tactic: true,
                     abilities: [
@@ -956,7 +956,7 @@ export const MessiahComplex = {
                 },
                 {
                     name: "Nimrod, Future Sentinel",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/bastion_05.png",
+                    imageUrl: "/CardImages/Masterminds/bastion_05.webp",
                     vAttack: "6+",
                     tactic: true,
                     abilities: [
@@ -979,7 +979,7 @@ export const MessiahComplex = {
                 },
                 {
                     name: "Machine Man, Sentinel Supereme",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/bastion_03.png",
+                    imageUrl: "/CardImages/Masterminds/bastion_03.webp",
                     vAttack: "7+",
                     tactic: true,
                     abilities: [
@@ -1008,7 +1008,7 @@ export const MessiahComplex = {
             cards: [
                 {
                     name: "Exodus",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/exodus_06.png",
+                    imageUrl: "/CardImages/Masterminds/exodus_06.webp",
                     vAttackAsterisk: true,
                     abilities: [
                         [
@@ -1039,7 +1039,7 @@ export const MessiahComplex = {
                 },
                 {
                     name: "Epic Exodus",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/exodus_02.png",
+                    imageUrl: "/CardImages/Masterminds/exodus_02.webp",
                     vAttack: "36",
                     vAttackAsterisk: true,
                     epic: true,
@@ -1075,7 +1075,7 @@ export const MessiahComplex = {
                 },
                 {
                     name: "Unite All Mutantkind",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/exodus_01.png",
+                    imageUrl: "/CardImages/Masterminds/exodus_01.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -1098,7 +1098,7 @@ export const MessiahComplex = {
                 },
                 {
                     name: "Omega-Level Mutant",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/exodus_04.png",
+                    imageUrl: "/CardImages/Masterminds/exodus_04.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -1109,7 +1109,7 @@ export const MessiahComplex = {
                 },
                 {
                     name: "Avalon, Asteroid Haven",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/exodus_03.png",
+                    imageUrl: "/CardImages/Masterminds/exodus_03.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -1128,7 +1128,7 @@ export const MessiahComplex = {
                 },
                 {
                     name: "Resurrect the Dead",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/exodus_05.png",
+                    imageUrl: "/CardImages/Masterminds/exodus_05.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -1152,7 +1152,7 @@ export const MessiahComplex = {
         {
             id: 37,
             name: "Mr. Sinister Clones",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Henchmen/mc_henchman_mr_sinister_clones.png",
+            imageUrl: "/CardImages/Henchmen/mc_henchman_mr_sinister_clones.webp",
             vAttack: "3",
             vp: 1,
             cards: [
@@ -1177,7 +1177,7 @@ export const MessiahComplex = {
         {
             id: 44,
             name: "Sentinel Squad O∗N∗E∗",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Henchmen/mc_henchman_sentinel_squad_one.png",
+            imageUrl: "/CardImages/Henchmen/mc_henchman_sentinel_squad_one.webp",
             vAttack: "2",
             vp: 1,
             cards: [
@@ -1205,7 +1205,7 @@ export const MessiahComplex = {
             cards: [
                 {
                     name: "Donald Pierce",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/reavers_02.png",
+                    imageUrl: "/CardImages/Villains/reavers_02.webp",
                     qtd: 2,
                     vAttack: "6",
                     vp: "4",
@@ -1230,7 +1230,7 @@ export const MessiahComplex = {
                 },
                 {
                     name: "Bonebreaker",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/reavers_01.png",
+                    imageUrl: "/CardImages/Villains/reavers_01.webp",
                     qtd: 2,
                     vAttack: "5",
                     vp: "3",
@@ -1255,7 +1255,7 @@ export const MessiahComplex = {
                 },
                 {
                     name: "Skullbuster",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/reavers_04.png",
+                    imageUrl: "/CardImages/Villains/reavers_04.webp",
                     qtd: 2,
                     vAttack: "5",
                     vp: "3",
@@ -1276,7 +1276,7 @@ export const MessiahComplex = {
                 },
                 {
                     name: "Pretty Boy",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/reavers_03.png",
+                    imageUrl: "/CardImages/Villains/reavers_03.webp",
                     qtd: 2,
                     vAttack: "2",
                     vp: "2",
@@ -1316,7 +1316,7 @@ export const MessiahComplex = {
             cards: [
                 {
                     name: "Predator X (Ranged)",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/purifiers_07.png",
+                    imageUrl: "/CardImages/Villains/purifiers_07.webp",
                     qtd: 1,
                     vAttack: "3",
                     vp: "2",
@@ -1341,7 +1341,7 @@ export const MessiahComplex = {
                 },
                 {
                     name: "Predator X (Tech)",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/purifiers_06.png",
+                    imageUrl: "/CardImages/Villains/purifiers_06.webp",
                     qtd: 1,
                     vAttack: "3",
                     vp: "2",
@@ -1366,7 +1366,7 @@ export const MessiahComplex = {
                 },
                 {
                     name: "Predator X (Covert)",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/purifiers_05.png",
+                    imageUrl: "/CardImages/Villains/purifiers_05.webp",
                     qtd: 1,
                     vAttack: "3",
                     vp: "2",
@@ -1391,7 +1391,7 @@ export const MessiahComplex = {
                 },
                 {
                     name: "Predator X (Instinct)",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/purifiers_04.png",
+                    imageUrl: "/CardImages/Villains/purifiers_04.webp",
                     qtd: 1,
                     vAttack: "3",
                     vp: "2",
@@ -1416,7 +1416,7 @@ export const MessiahComplex = {
                 },
                 {
                     name: "Predator X (Strength)",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/purifiers_03.png",
+                    imageUrl: "/CardImages/Villains/purifiers_03.webp",
                     qtd: 1,
                     vAttack: "3",
                     vp: "2",
@@ -1441,7 +1441,7 @@ export const MessiahComplex = {
                 },
                 {
                     name: "Leper Queen",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/purifiers_02.png",
+                    imageUrl: "/CardImages/Villains/purifiers_02.webp",
                     qtd: 1,
                     vAttack: "4",
                     vp: "2",
@@ -1472,7 +1472,7 @@ export const MessiahComplex = {
                 },
                 {
                     name: "Reverend William Stryker",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/purifiers_08.png",
+                    imageUrl: "/CardImages/Villains/purifiers_08.webp",
                     qtd: 1,
                     vAttack: "5",
                     vp: "3",
@@ -1513,7 +1513,7 @@ export const MessiahComplex = {
                 },
                 {
                     name: "Cameron Hodge",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/purifiers_01.png",
+                    imageUrl: "/CardImages/Villains/purifiers_01.webp",
                     qtd: 1,
                     vAttack: "6",
                     vp: "4",
@@ -1550,7 +1550,7 @@ export const MessiahComplex = {
             cards: [
                 {
                     name: "Unuscione",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/acolytes_04.png",
+                    imageUrl: "/CardImages/Villains/acolytes_04.webp",
                     qtd: 2,
                     vAttack: "8",
                     vAttackAsterisk: true,
@@ -1572,7 +1572,7 @@ export const MessiahComplex = {
                 },
                 {
                     name: "Tempo",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/acolytes_03.png",
+                    imageUrl: "/CardImages/Villains/acolytes_03.webp",
                     qtd: 2,
                     vAttack: "16",
                     vAttackAsterisk: true,
@@ -1591,7 +1591,7 @@ export const MessiahComplex = {
                 },
                 {
                     name: "Frenzy",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/acolytes_01.png",
+                    imageUrl: "/CardImages/Villains/acolytes_01.webp",
                     qtd: 2,
                     vAttack: "12",
                     vAttackAsterisk: true,
@@ -1617,7 +1617,7 @@ export const MessiahComplex = {
                 },
                 {
                     name: "Random",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/acolytes_02.png",
+                    imageUrl: "/CardImages/Villains/acolytes_02.webp",
                     qtd: 2,
                     vAttack: "10",
                     vAttackAsterisk: true,
@@ -1654,7 +1654,7 @@ export const MessiahComplex = {
             cards: [
                 {
                     name: "Silver Samurai",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/clan_yashida_04.png",
+                    imageUrl: "/CardImages/Villains/clan_yashida_04.webp",
                     qtd: 2,
                     vAttack: "3",
                     vAttackAsterisk: true,
@@ -1673,7 +1673,7 @@ export const MessiahComplex = {
                 },
                 {
                     name: "Scarlet Samurai",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/clan_yashida_03.png",
+                    imageUrl: "/CardImages/Villains/clan_yashida_03.webp",
                     qtd: 2,
                     vAttack: "3",
                     vAttackAsterisk: true,
@@ -1696,7 +1696,7 @@ export const MessiahComplex = {
                 },
                 {
                     name: "Lord Shingen",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/clan_yashida_02.png",
+                    imageUrl: "/CardImages/Villains/clan_yashida_02.webp",
                     qtd: 2,
                     vAttack: "4",
                     vAttackAsterisk: true,
@@ -1721,7 +1721,7 @@ export const MessiahComplex = {
                 },
                 {
                     name: "Gorgon",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/clan_yashida_01.png",
+                    imageUrl: "/CardImages/Villains/clan_yashida_01.webp",
                     qtd: 2,
                     vAttack: "5",
                     vAttackAsterisk: true,
@@ -1745,7 +1745,7 @@ export const MessiahComplex = {
         {
             id: 142,
             name: "Hack Cerebro Servers To...",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Schemes/mc_scheme_02.png",
+            imageUrl: "/CardImages/Schemes/mc_scheme_02.webp",
             cards: [
                 {
                     veiled: true,
@@ -1773,7 +1773,7 @@ export const MessiahComplex = {
         {
             id: 143,
             name: "...Control the Mutant Messiah",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Schemes/mc_scheme_02_1.png",
+            imageUrl: "/CardImages/Schemes/mc_scheme_02_1.webp",
             sortName: "Control the Mutant Messiah",
             cards: [
                 {
@@ -1805,7 +1805,7 @@ export const MessiahComplex = {
         {
             id: 144,
             name: "Drain Mutant Powers To...",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Schemes/mc_scheme_01.png",
+            imageUrl: "/CardImages/Schemes/mc_scheme_01.webp",
             cards: [
                 {
                     veiled: true,
@@ -1847,7 +1847,7 @@ export const MessiahComplex = {
         {
             id: 145,
             name: "...Open Rifts to Future Timelines",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Schemes/mc_scheme_01_1.png",
+            imageUrl: "/CardImages/Schemes/mc_scheme_01_1.webp",
             sortName: "Open Rifts to Future Timelines",
             cards: [
                 {
@@ -1873,7 +1873,7 @@ export const MessiahComplex = {
         {
             id: 146,
             name: "Hire Singularity Investigations To...",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Schemes/mc_scheme_03.png",
+            imageUrl: "/CardImages/Schemes/mc_scheme_03.webp",
             cards: [
                 {
                     veiled: true,
@@ -1912,7 +1912,7 @@ export const MessiahComplex = {
         {
             id: 147,
             name: "...Reveal The Heroes' Evil Clones",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Schemes/mc_scheme_03_1.png",
+            imageUrl: "/CardImages/Schemes/mc_scheme_03_1.webp",
             sortName: "Reveal The Heroes' Evil Clones",
             cards: [
                 {
@@ -1947,7 +1947,7 @@ export const MessiahComplex = {
         {
             id: 148,
             name: "Raid Gene Banks To...",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Schemes/mc_scheme_04.png",
+            imageUrl: "/CardImages/Schemes/mc_scheme_04.webp",
             cards: [
                 {
                     veiled: true,
@@ -1975,7 +1975,7 @@ export const MessiahComplex = {
         {
             id: 149,
             name: "...Unleash an Anti-Mutant Bioweapon",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Schemes/mc_scheme_04_1.png",
+            imageUrl: "/CardImages/Schemes/mc_scheme_04_1.webp",
             sortName: "Unleash an Anti-Mutant Bioweapon",
             cards: [
                 {
@@ -2002,7 +2002,7 @@ export const MessiahComplex = {
         {
             id: 49,
             name: "Cloning Technician",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Bystanders/mc_bystander_cloning_technician.png",
+            imageUrl: "/CardImages/Bystanders/mc_bystander_cloning_technician.webp",
             vp: 1,
             cards: [
                 {
@@ -2020,7 +2020,7 @@ export const MessiahComplex = {
         {
             id: 50,
             name: "Opera Singer",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Bystanders/mc_bystander_opera_singer.png",
+            imageUrl: "/CardImages/Bystanders/mc_bystander_opera_singer.webp",
             vp: 1,
             cards: [
                 {
@@ -2040,7 +2040,7 @@ export const MessiahComplex = {
         {
             id: 51,
             name: "Private Investigator",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Bystanders/mc_bystander_private_investigator.png",
+            imageUrl: "/CardImages/Bystanders/mc_bystander_private_investigator.webp",
             vp: 1,
             cards: [
                 {

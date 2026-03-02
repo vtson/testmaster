@@ -8,7 +8,7 @@ export const FearItself = {
             cards: [
                 {
                     name: "Absorb Metal",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/greithoth-04.png",
+                    imageUrl: "/CardImages/Heroes/greithoth-04.webp",
                     hc: 1,
                     rarity: 1,
                     cost: 3,
@@ -26,7 +26,7 @@ export const FearItself = {
                 },
                 {
                     name: "Mace of Chains",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/greithoth-03.png",
+                    imageUrl: "/CardImages/Heroes/greithoth-03.webp",
                     hc: 2,
                     rarity: 1,
                     cost: 3,
@@ -42,7 +42,7 @@ export const FearItself = {
                 },
                 {
                     name: "Break the Will to Resist",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/greithoth-02.png",
+                    imageUrl: "/CardImages/Heroes/greithoth-02.webp",
                     hc: 4,
                     rarity: 2,
                     cost: 5,
@@ -59,7 +59,7 @@ export const FearItself = {
                 },
                 {
                     name: "Body of Uru",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/greithoth-01.png",
+                    imageUrl: "/CardImages/Heroes/greithoth-01.webp",
                     hc: 1,
                     rarity: 3,
                     cost: 7,
@@ -86,7 +86,7 @@ export const FearItself = {
             cards: [
                 {
                     name: "Reach for Power",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/kuurth-03.png",
+                    imageUrl: "/CardImages/Heroes/kuurth-03.webp",
                     hc: 4,
                     rarity: 1,
                     cost: 4,
@@ -102,7 +102,7 @@ export const FearItself = {
                 },
                 {
                     name: "Unstoppable Sledge",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/kuurth-04.png",
+                    imageUrl: "/CardImages/Heroes/kuurth-04.webp",
                     hc: 3,
                     rarity: 1,
                     cost: 4,
@@ -118,7 +118,7 @@ export const FearItself = {
                 },
                 {
                     name: "Contest of Strength",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/kuurth-02.png",
+                    imageUrl: "/CardImages/Heroes/kuurth-02.webp",
                     hc: 4,
                     rarity: 2,
                     cost: 5,
@@ -135,7 +135,7 @@ export const FearItself = {
                 },
                 {
                     name: "Break Every Bone",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/kuurth-01.png",
+                    imageUrl: "/CardImages/Heroes/kuurth-01.webp",
                     hc: 4,
                     rarity: 3,
                     cost: 7,
@@ -158,7 +158,7 @@ export const FearItself = {
             cards: [
                 {
                     name: "Pull of the Tides",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/nerkkod-04.png",
+                    imageUrl: "/CardImages/Heroes/nerkkod-04.webp",
                     hc: 4,
                     rarity: 1,
                     cost: 3,
@@ -171,7 +171,7 @@ export const FearItself = {
                 },
                 {
                     name: "Feed My Undersea Legions",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/nerkkod-03.png",
+                    imageUrl: "/CardImages/Heroes/nerkkod-03.webp",
                     hc: 1,
                     rarity: 1,
                     cost: 4,
@@ -184,7 +184,7 @@ export const FearItself = {
                 },
                 {
                     name: "Cudgel of the Deep",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/nerkkod-02.png",
+                    imageUrl: "/CardImages/Heroes/nerkkod-02.webp",
                     hc: 3,
                     rarity: 2,
                     cost: 5,
@@ -200,7 +200,7 @@ export const FearItself = {
                 },
                 {
                     name: "Break Their Loyalties",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/nerkkod-01.png",
+                    imageUrl: "/CardImages/Heroes/nerkkod-01.webp",
                     hc: 2,
                     rarity: 3,
                     cost: 7,
@@ -221,7 +221,7 @@ export const FearItself = {
             cards: [
                 {
                     name: "Demolition Derby",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/nul-03.png",
+                    imageUrl: "/CardImages/Heroes/nul-03.webp",
                     hc: 4,
                     rarity: 1,
                     cost: 3,
@@ -237,7 +237,7 @@ export const FearItself = {
                 },
                 {
                     name: "Otherworldly Maul",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/nul-04.png",
+                    imageUrl: "/CardImages/Heroes/nul-04.webp",
                     hc: 2,
                     rarity: 1,
                     cost: 4,
@@ -255,7 +255,7 @@ export const FearItself = {
                 },
                 {
                     name: "Nul Smash!",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/nul-02.png",
+                    imageUrl: "/CardImages/Heroes/nul-02.webp",
                     hc: 4,
                     rarity: 2,
                     cost: 6,
@@ -268,7 +268,7 @@ export const FearItself = {
                 },
                 {
                     name: "Break the World",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/nul-01.png",
+                    imageUrl: "/CardImages/Heroes/nul-01.webp",
                     hc: 2,
                     rarity: 3,
                     cost: 8,
@@ -290,7 +290,7 @@ export const FearItself = {
             cards: [
                 {
                     name: "Dark Prophecy",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/skadi-04.png",
+                    imageUrl: "/CardImages/Heroes/skadi-04.webp",
                     hc: 5,
                     rarity: 1,
                     cost: 3,
@@ -304,7 +304,7 @@ export const FearItself = {
                 },
                 {
                     name: "Ancient Oath of HYDRA",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/skadi-03.png",
+                    imageUrl: "/CardImages/Heroes/skadi-03.webp",
                     hc: 5,
                     rarity: 1,
                     cost: 5,
@@ -319,7 +319,7 @@ export const FearItself = {
                 },
                 {
                     name: "Hammer of the Serpent",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/skadi-02.png",
+                    imageUrl: "/CardImages/Heroes/skadi-02.webp",
                     hc: 4,
                     rarity: 2,
                     cost: 5,
@@ -336,7 +336,7 @@ export const FearItself = {
                 },
                 {
                     name: "War Banner of HYDRA",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/skadi-01.png",
+                    imageUrl: "/CardImages/Heroes/skadi-01.webp",
                     hc: 1,
                     rarity: 3,
                     cost: 7,
@@ -361,7 +361,7 @@ export const FearItself = {
             cards: [
                 {
                     name: "Towering Leader",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/skirn-03.png",
+                    imageUrl: "/CardImages/Heroes/skirn-03.webp",
                     hc: 2,
                     rarity: 1,
                     cost: 3,
@@ -375,7 +375,7 @@ export const FearItself = {
                 },
                 {
                     name: "Underhanded Dealings",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/skirn-04.png",
+                    imageUrl: "/CardImages/Heroes/skirn-04.webp",
                     hc: 1,
                     rarity: 1,
                     cost: 4,
@@ -390,7 +390,7 @@ export const FearItself = {
                 },
                 {
                     name: "Titanic Bludgeon",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/skirn-02.png",
+                    imageUrl: "/CardImages/Heroes/skirn-02.webp",
                     hc: 3,
                     rarity: 2,
                     cost: 2,
@@ -407,7 +407,7 @@ export const FearItself = {
                 },
                 {
                     name: "Break Your Hopes",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/skirn-01.png",
+                    imageUrl: "/CardImages/Heroes/skirn-01.webp",
                     hc: 4,
                     rarity: 3,
                     cost: 7,
@@ -433,7 +433,7 @@ export const FearItself = {
             cards: [
                 {
                     name: "Uru-Enchanted Iron Man",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/uru-enchanted-iron-man-01-1.png",
+                    imageUrl: "/CardImages/Masterminds/uru-enchanted-iron-man-01-1.webp",
                     vAttackAsterisk: true,
                     abilities: [
                         [
@@ -452,7 +452,7 @@ export const FearItself = {
                 },
                 {
                     name: "Armor of the Destroyer",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/uru-enchanted-iron-man-02.png",
+                    imageUrl: "/CardImages/Masterminds/uru-enchanted-iron-man-02.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -467,7 +467,7 @@ export const FearItself = {
                 },
                 {
                     name: "Pepper Potts in Rescue Armor",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/uru-enchanted-iron-man-03.png",
+                    imageUrl: "/CardImages/Masterminds/uru-enchanted-iron-man-03.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -478,7 +478,7 @@ export const FearItself = {
                 },
                 {
                     name: "Quantum Inventions",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/uru-enchanted-iron-man-04.png",
+                    imageUrl: "/CardImages/Masterminds/uru-enchanted-iron-man-04.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -491,7 +491,7 @@ export const FearItself = {
                 },
                 {
                     name: "Repulsor Coils",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/uru-enchanted-iron-man-05.png",
+                    imageUrl: "/CardImages/Masterminds/uru-enchanted-iron-man-05.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -513,7 +513,7 @@ export const FearItself = {
             cards: [
                 {
                     name: "Black Widow",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/the-mighty-05.png",
+                    imageUrl: "/CardImages/Villains/the-mighty-05.webp",
                     qtd: 1,
                     vAttack: "3",
                     vp: "4",
@@ -528,7 +528,7 @@ export const FearItself = {
                 },
                 {
                     name: "Dr. Strange",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/the-mighty-06.png",
+                    imageUrl: "/CardImages/Villains/the-mighty-06.webp",
                     qtd: 1,
                     vAttack: "5",
                     vp: "4",
@@ -552,7 +552,7 @@ export const FearItself = {
                 },
                 {
                     name: "Hawkeye",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/the-mighty-01.png",
+                    imageUrl: "/CardImages/Villains/the-mighty-01.webp",
                     qtd: 1,
                     vAttack: "3",
                     vp: "2",
@@ -567,7 +567,7 @@ export const FearItself = {
                 },
                 {
                     name: "Iron Fist",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/the-mighty-04.png",
+                    imageUrl: "/CardImages/Villains/the-mighty-04.webp",
                     qtd: 1,
                     vAttack: "3",
                     vp: "2",
@@ -582,7 +582,7 @@ export const FearItself = {
                 },
                 {
                     name: "Ms. Marvel",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/the-mighty-08.png",
+                    imageUrl: "/CardImages/Villains/the-mighty-08.webp",
                     qtd: 1,
                     vAttack: "4",
                     vp: "3",
@@ -605,7 +605,7 @@ export const FearItself = {
                 },
                 {
                     name: "Red She-Hulk",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/the-mighty-07.png",
+                    imageUrl: "/CardImages/Villains/the-mighty-07.webp",
                     qtd: 1,
                     vAttack: "4",
                     vp: "2",
@@ -620,7 +620,7 @@ export const FearItself = {
                 },
                 {
                     name: "Spider-Man",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/the-mighty-03.png",
+                    imageUrl: "/CardImages/Villains/the-mighty-03.webp",
                     qtd: 1,
                     vAttack: "2",
                     vp: "3",
@@ -641,7 +641,7 @@ export const FearItself = {
                 },
                 {
                     name: "Wolverine",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/the-mighty-02.png",
+                    imageUrl: "/CardImages/Villains/the-mighty-02.webp",
                     qtd: 1,
                     vAttack: "5",
                     vp: "6",
@@ -669,7 +669,7 @@ export const FearItself = {
         {
             id: 37,
             name: "Fear Itself",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Schemes/39Scheme(11).png",
+            imageUrl: "/CardImages/Schemes/39Scheme(11).webp",
             cards: [
                 {
                     abilities: [
@@ -695,7 +695,7 @@ export const FearItself = {
         {
             id: 38,
             name: "Last Stand at Avengers Tower",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Schemes/37Scheme(9).png",
+            imageUrl: "/CardImages/Schemes/37Scheme(9).webp",
             cards: [
                 {
                     abilities: [
@@ -725,7 +725,7 @@ export const FearItself = {
         {
             id: 39,
             name: "Traitor, The",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Schemes/38Scheme(10).png",
+            imageUrl: "/CardImages/Schemes/38Scheme(10).webp",
             cards: [
                 {
                     abilities: [

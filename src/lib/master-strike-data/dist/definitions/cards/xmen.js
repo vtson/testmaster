@@ -8,7 +8,7 @@ export const XMen = {
             cards: [
                 {
                     name: "Northern Lights",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/aurora-and-northstar-04.png",
+                    imageUrl: "/CardImages/Heroes/aurora-and-northstar-04.webp",
                     hc: 1,
                     rarity: 1,
                     cost: 3,
@@ -23,7 +23,7 @@ export const XMen = {
                 },
                 {
                     name: "Blazing Flare",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/aurora-and-northstar-03-1.png",
+                    imageUrl: "/CardImages/Heroes/aurora-and-northstar-03-1.webp",
                     subtitle: "Aurora",
                     hc: 3,
                     rarity: 1,
@@ -54,7 +54,7 @@ export const XMen = {
                 },
                 {
                     name: "Twin Blast",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/aurora-and-northstar-02.png",
+                    imageUrl: "/CardImages/Heroes/aurora-and-northstar-02.webp",
                     hc: 3,
                     rarity: 2,
                     cost: 5,
@@ -72,7 +72,7 @@ export const XMen = {
                 },
                 {
                     name: "Mach 10",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/aurora-and-northstar-01.png",
+                    imageUrl: "/CardImages/Heroes/aurora-and-northstar-01.webp",
                     hc: 2,
                     rarity: 3,
                     cost: 7,
@@ -105,7 +105,7 @@ export const XMen = {
             cards: [
                 {
                     name: "Sonar Detection",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/banshee-03.png",
+                    imageUrl: "/CardImages/Heroes/banshee-03.webp",
                     hc: 1,
                     rarity: 1,
                     cost: 2,
@@ -126,7 +126,7 @@ export const XMen = {
                 },
                 {
                     name: "Speed of Sound",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/banshee-04.png",
+                    imageUrl: "/CardImages/Heroes/banshee-04.webp",
                     hc: 3,
                     rarity: 1,
                     cost: 3,
@@ -138,7 +138,7 @@ export const XMen = {
                 },
                 {
                     name: "Sonic Blastwave",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/banshee-02.png",
+                    imageUrl: "/CardImages/Heroes/banshee-02.webp",
                     hc: 3,
                     rarity: 2,
                     cost: 5,
@@ -158,7 +158,7 @@ export const XMen = {
                 },
                 {
                     name: "Bone-Shattering Howl",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/banshee-01.png",
+                    imageUrl: "/CardImages/Heroes/banshee-01.webp",
                     hc: 3,
                     rarity: 3,
                     cost: 8,
@@ -186,7 +186,7 @@ export const XMen = {
             cards: [
                 {
                     name: "Captivating Conundrum",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/beast-04.png",
+                    imageUrl: "/CardImages/Heroes/beast-04.webp",
                     hc: 5,
                     rarity: 1,
                     cost: 2,
@@ -202,7 +202,7 @@ export const XMen = {
                 },
                 {
                     name: "Furry Fury",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/beast-03.png",
+                    imageUrl: "/CardImages/Heroes/beast-03.webp",
                     hc: 4,
                     rarity: 1,
                     cost: 4,
@@ -220,7 +220,7 @@ export const XMen = {
                 },
                 {
                     name: "Calculated Rage",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/beast-02.png",
+                    imageUrl: "/CardImages/Heroes/beast-02.webp",
                     hc: 5,
                     rarity: 2,
                     cost: 5,
@@ -234,7 +234,7 @@ export const XMen = {
                 },
                 {
                     name: "Recursive Pummeling",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/beast-01.png",
+                    imageUrl: "/CardImages/Heroes/beast-01.webp",
                     hc: 5,
                     rarity: 3,
                     cost: 8,
@@ -258,7 +258,7 @@ export const XMen = {
             cards: [
                 {
                     name: "Kinetic Blast Field",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/cannonball-04.png",
+                    imageUrl: "/CardImages/Heroes/cannonball-04.webp",
                     hc: 2,
                     rarity: 1,
                     cost: 3,
@@ -276,7 +276,7 @@ export const XMen = {
                 },
                 {
                     name: "Carry to the Air",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/cannonball-03.png",
+                    imageUrl: "/CardImages/Heroes/cannonball-03.webp",
                     hc: 4,
                     rarity: 1,
                     cost: 4,
@@ -293,7 +293,7 @@ export const XMen = {
                 },
                 {
                     name: "Natural Leader",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/cannonball-02.png",
+                    imageUrl: "/CardImages/Heroes/cannonball-02.webp",
                     hc: 4,
                     rarity: 2,
                     cost: 6,
@@ -310,7 +310,7 @@ export const XMen = {
                 },
                 {
                     name: "Human Cannon",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/cannonball-01.png",
+                    imageUrl: "/CardImages/Heroes/cannonball-01.webp",
                     hc: 4,
                     rarity: 3,
                     cost: 8,
@@ -334,7 +334,7 @@ export const XMen = {
             cards: [
                 {
                     name: "Reliable",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/colossus-and-wolverine-04-1.png",
+                    imageUrl: "/CardImages/Heroes/colossus-and-wolverine-04-1.webp",
                     subtitle: "Colossus",
                     hc: 4,
                     rarity: 1,
@@ -361,7 +361,7 @@ export const XMen = {
                 },
                 {
                     name: "Fastball Special",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/colossus-and-wolverine-03.png",
+                    imageUrl: "/CardImages/Heroes/colossus-and-wolverine-03.webp",
                     hc: 4,
                     rarity: 1,
                     cost: 4,
@@ -379,7 +379,7 @@ export const XMen = {
                 },
                 {
                     name: "Insane Disregard for Danger",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/colossus-and-wolverine-02.png",
+                    imageUrl: "/CardImages/Heroes/colossus-and-wolverine-02.webp",
                     hc: 2,
                     rarity: 2,
                     cost: 6,
@@ -393,7 +393,7 @@ export const XMen = {
                 },
                 {
                     name: "Uncanny X-Men",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/colossus-and-wolverine-01.png",
+                    imageUrl: "/CardImages/Heroes/colossus-and-wolverine-01.webp",
                     hc: 4,
                     rarity: 3,
                     cost: 7,
@@ -422,7 +422,7 @@ export const XMen = {
             cards: [
                 {
                     name: "Convert Sound to Light",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/dazzler-03.png",
+                    imageUrl: "/CardImages/Heroes/dazzler-03.webp",
                     hc: 2,
                     rarity: 1,
                     cost: 3,
@@ -441,7 +441,7 @@ export const XMen = {
                 },
                 {
                     name: "Dazzling Glamour",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/dazzler-04.png",
+                    imageUrl: "/CardImages/Heroes/dazzler-04.webp",
                     hc: 3,
                     rarity: 1,
                     cost: 4,
@@ -458,7 +458,7 @@ export const XMen = {
                 },
                 {
                     name: "Citywide Mega-Concert",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/dazzler-02.png",
+                    imageUrl: "/CardImages/Heroes/dazzler-02.webp",
                     hc: 5,
                     rarity: 2,
                     cost: 5,
@@ -472,7 +472,7 @@ export const XMen = {
                 },
                 {
                     name: "Inspire the World",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/dazzler-01.png",
+                    imageUrl: "/CardImages/Heroes/dazzler-01.webp",
                     hc: 3,
                     rarity: 3,
                     cost: 7,
@@ -493,7 +493,7 @@ export const XMen = {
             cards: [
                 {
                     name: "Blinding Burst",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/havok-04.png",
+                    imageUrl: "/CardImages/Heroes/havok-04.webp",
                     hc: 3,
                     rarity: 1,
                     cost: 3,
@@ -511,7 +511,7 @@ export const XMen = {
                 },
                 {
                     name: "Unleash Havok",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/havok-03.png",
+                    imageUrl: "/CardImages/Heroes/havok-03.webp",
                     hc: 3,
                     rarity: 1,
                     cost: 4,
@@ -527,7 +527,7 @@ export const XMen = {
                 },
                 {
                     name: "Concussive Plasma",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/havok-02.png",
+                    imageUrl: "/CardImages/Heroes/havok-02.webp",
                     hc: 3,
                     rarity: 2,
                     cost: 5,
@@ -548,7 +548,7 @@ export const XMen = {
                 },
                 {
                     name: "Radiation Focus Array",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/havok-01.png",
+                    imageUrl: "/CardImages/Heroes/havok-01.webp",
                     hc: 5,
                     rarity: 3,
                     cost: 7,
@@ -576,7 +576,7 @@ export const XMen = {
             cards: [
                 {
                     name: "Light a Spark",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/jubilee-03.png",
+                    imageUrl: "/CardImages/Heroes/jubilee-03.webp",
                     hc: 1,
                     rarity: 1,
                     cost: 2,
@@ -594,7 +594,7 @@ export const XMen = {
                 },
                 {
                     name: "Blasting Fireworks",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/jubilee-04.png",
+                    imageUrl: "/CardImages/Heroes/jubilee-04.webp",
                     hc: 3,
                     rarity: 1,
                     cost: 4,
@@ -612,7 +612,7 @@ export const XMen = {
                 },
                 {
                     name: "Unexpected Explosion",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/jubilee-02.png",
+                    imageUrl: "/CardImages/Heroes/jubilee-02.webp",
                     hc: 2,
                     rarity: 2,
                     cost: 5,
@@ -626,7 +626,7 @@ export const XMen = {
                 },
                 {
                     name: "Prismatic Cascade",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/jubilee-01.png",
+                    imageUrl: "/CardImages/Heroes/jubilee-01.webp",
                     hc: 1,
                     rarity: 3,
                     cost: 7,
@@ -656,7 +656,7 @@ export const XMen = {
             cards: [
                 {
                     name: "Intangible Qualities",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/kitty-pryde-04.png",
+                    imageUrl: "/CardImages/Heroes/kitty-pryde-04.webp",
                     hc: 2,
                     rarity: 1,
                     cost: 3,
@@ -681,7 +681,7 @@ export const XMen = {
                 },
                 {
                     name: "Going through a Phase",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/kitty-pryde-03.png",
+                    imageUrl: "/CardImages/Heroes/kitty-pryde-03.webp",
                     hc: 1,
                     rarity: 1,
                     cost: 4,
@@ -698,7 +698,7 @@ export const XMen = {
                 },
                 {
                     name: "Ghost in the Machine",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/kitty-pryde-02.png",
+                    imageUrl: "/CardImages/Heroes/kitty-pryde-02.webp",
                     hc: 5,
                     rarity: 2,
                     cost: 6,
@@ -714,7 +714,7 @@ export const XMen = {
                 },
                 {
                     name: "Lockheed, Kitty's Dragon",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/kitty-pryde-01.png",
+                    imageUrl: "/CardImages/Heroes/kitty-pryde-01.webp",
                     hc: 3,
                     rarity: 3,
                     cost: 8,
@@ -738,7 +738,7 @@ export const XMen = {
             cards: [
                 {
                     name: "Bend Steel",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/legion-04-1.png",
+                    imageUrl: "/CardImages/Heroes/legion-04-1.webp",
                     hc: 4,
                     rarity: 1,
                     divided: 1,
@@ -767,7 +767,7 @@ export const XMen = {
                 },
                 {
                     name: "Split Personality",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/legion-03-1.png",
+                    imageUrl: "/CardImages/Heroes/legion-03-1.webp",
                     hc: 5,
                     rarity: 1,
                     divided: 1,
@@ -790,7 +790,7 @@ export const XMen = {
                 },
                 {
                     name: "Channel Time",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/legion-02-1.png",
+                    imageUrl: "/CardImages/Heroes/legion-02-1.webp",
                     hc: 2,
                     rarity: 2,
                     divided: 1,
@@ -817,7 +817,7 @@ export const XMen = {
                 },
                 {
                     name: "Maelstrom of Clashing Powers",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/legion-01.png",
+                    imageUrl: "/CardImages/Heroes/legion-01.webp",
                     hc: 1,
                     rarity: 3,
                     cost: 8,
@@ -840,7 +840,7 @@ export const XMen = {
             cards: [
                 {
                     name: "Fortune Favors the Bold",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/longshot-04.png",
+                    imageUrl: "/CardImages/Heroes/longshot-04.webp",
                     hc: 2,
                     rarity: 1,
                     cost: 3,
@@ -853,7 +853,7 @@ export const XMen = {
                 },
                 {
                     name: "Flurry of Blades",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/longshot-03.png",
+                    imageUrl: "/CardImages/Heroes/longshot-03.webp",
                     hc: 5,
                     rarity: 1,
                     cost: 4,
@@ -869,7 +869,7 @@ export const XMen = {
                 },
                 {
                     name: "Make My Own Luck",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/longshot-02.png",
+                    imageUrl: "/CardImages/Heroes/longshot-02.webp",
                     hc: 1,
                     rarity: 2,
                     cost: 6,
@@ -884,7 +884,7 @@ export const XMen = {
                 },
                 {
                     name: "Escape from Mojo World",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/longshot-01.png",
+                    imageUrl: "/CardImages/Heroes/longshot-01.webp",
                     hc: 5,
                     rarity: 3,
                     cost: 7,
@@ -909,7 +909,7 @@ export const XMen = {
             cards: [
                 {
                     name: "Life & Death Incarnate",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/phoenix-03.png",
+                    imageUrl: "/CardImages/Heroes/phoenix-03.webp",
                     hc: 4,
                     rarity: 1,
                     cost: 3,
@@ -923,7 +923,7 @@ export const XMen = {
                 },
                 {
                     name: "Obliterating Fire",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/phoenix-04.png",
+                    imageUrl: "/CardImages/Heroes/phoenix-04.webp",
                     hc: 3,
                     rarity: 1,
                     cost: 4,
@@ -936,7 +936,7 @@ export const XMen = {
                 },
                 {
                     name: "Reincarnating Phoenix",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/phoenix-02.png",
+                    imageUrl: "/CardImages/Heroes/phoenix-02.webp",
                     hc: 1,
                     rarity: 2,
                     cost: 6,
@@ -949,7 +949,7 @@ export const XMen = {
                 },
                 {
                     name: "Driven Mad by Power",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/phoenix-01.png",
+                    imageUrl: "/CardImages/Heroes/phoenix-01.webp",
                     hc: 4,
                     rarity: 3,
                     cost: 9,
@@ -981,7 +981,7 @@ export const XMen = {
             cards: [
                 {
                     name: "Ride the Magnetic Waves",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/polaris-04.png",
+                    imageUrl: "/CardImages/Heroes/polaris-04.webp",
                     hc: 1,
                     rarity: 1,
                     cost: 3,
@@ -996,7 +996,7 @@ export const XMen = {
                 },
                 {
                     name: "Electromagnetic Pulse",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/polaris-03.png",
+                    imageUrl: "/CardImages/Heroes/polaris-03.webp",
                     hc: 3,
                     rarity: 1,
                     cost: 4,
@@ -1011,7 +1011,7 @@ export const XMen = {
                 },
                 {
                     name: "Subtle Attunement",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/polaris-02.png",
+                    imageUrl: "/CardImages/Heroes/polaris-02.webp",
                     hc: 1,
                     rarity: 2,
                     cost: 6,
@@ -1026,7 +1026,7 @@ export const XMen = {
                 },
                 {
                     name: "Reverse Polarity",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/polaris-01.png",
+                    imageUrl: "/CardImages/Heroes/polaris-01.webp",
                     hc: 1,
                     rarity: 3,
                     cost: 8,
@@ -1054,7 +1054,7 @@ export const XMen = {
             cards: [
                 {
                     name: "Psychic Knife",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/psylocke-04.png",
+                    imageUrl: "/CardImages/Heroes/psylocke-04.webp",
                     hc: 2,
                     rarity: 1,
                     cost: 2,
@@ -1075,7 +1075,7 @@ export const XMen = {
                 },
                 {
                     name: "Precognition",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/psylocke-03.png",
+                    imageUrl: "/CardImages/Heroes/psylocke-03.webp",
                     hc: 1,
                     rarity: 1,
                     cost: 3,
@@ -1086,7 +1086,7 @@ export const XMen = {
                 },
                 {
                     name: "Butterfly Effect",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/psylocke-02.png",
+                    imageUrl: "/CardImages/Heroes/psylocke-02.webp",
                     hc: 1,
                     rarity: 2,
                     cost: 5,
@@ -1106,7 +1106,7 @@ export const XMen = {
                 },
                 {
                     name: "Telepathic Ninjutsu",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/psylocke-01.png",
+                    imageUrl: "/CardImages/Heroes/psylocke-01.webp",
                     hc: 2,
                     rarity: 3,
                     cost: 7,
@@ -1127,7 +1127,7 @@ export const XMen = {
             cards: [
                 {
                     name: "Adamantium Foot Claws",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/x23-04.png",
+                    imageUrl: "/CardImages/Heroes/x23-04.webp",
                     hc: 5,
                     rarity: 1,
                     cost: 3,
@@ -1143,7 +1143,7 @@ export const XMen = {
                 },
                 {
                     name: "Healing Factor Genome",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/x23-03.png",
+                    imageUrl: "/CardImages/Heroes/x23-03.webp",
                     hc: 2,
                     rarity: 1,
                     cost: 4,
@@ -1155,7 +1155,7 @@ export const XMen = {
                 },
                 {
                     name: "Bioengineered Assassin",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/x23-02.png",
+                    imageUrl: "/CardImages/Heroes/x23-02.webp",
                     hc: 1,
                     rarity: 2,
                     cost: 6,
@@ -1172,7 +1172,7 @@ export const XMen = {
                 },
                 {
                     name: "Heir to Wolverine",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/x23-01.png",
+                    imageUrl: "/CardImages/Heroes/x23-01.webp",
                     hc: 2,
                     rarity: 3,
                     cost: 7,
@@ -1207,7 +1207,7 @@ export const XMen = {
             cards: [
                 {
                     name: "Arcade",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/arcade-01.png",
+                    imageUrl: "/CardImages/Masterminds/arcade-01.webp",
                     vAttackAsterisk: true,
                     abilities: [
                         [
@@ -1230,7 +1230,7 @@ export const XMen = {
                 },
                 {
                     name: "Epic Arcade",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/arcade-01a.png",
+                    imageUrl: "/CardImages/Masterminds/arcade-01a.webp",
                     vAttack: "4",
                     vAttackAsterisk: true,
                     epic: true,
@@ -1255,7 +1255,7 @@ export const XMen = {
                 },
                 {
                     name: "I Love a Parade!",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/arcade-04.png",
+                    imageUrl: "/CardImages/Masterminds/arcade-04.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -1268,7 +1268,7 @@ export const XMen = {
                 },
                 {
                     name: "I Need an Audience",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/arcade-05.png",
+                    imageUrl: "/CardImages/Masterminds/arcade-05.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -1281,7 +1281,7 @@ export const XMen = {
                 },
                 {
                     name: "Roulette Wheel of Death",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/arcade-03.png",
+                    imageUrl: "/CardImages/Masterminds/arcade-03.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -1294,7 +1294,7 @@ export const XMen = {
                 },
                 {
                     name: "Welcome to my Theme Park!",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/arcade-02.png",
+                    imageUrl: "/CardImages/Masterminds/arcade-02.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -1315,7 +1315,7 @@ export const XMen = {
             cards: [
                 {
                     name: "Dark Phoenix",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/darak-phoenix-01.png",
+                    imageUrl: "/CardImages/Masterminds/darak-phoenix-01.webp",
                     abilities: [
                         [
                             { bold: "Always Leads" },
@@ -1333,7 +1333,7 @@ export const XMen = {
                 },
                 {
                     name: "Epic Dark Phoenix",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/darak-phoenix-01a.png",
+                    imageUrl: "/CardImages/Masterminds/darak-phoenix-01a.webp",
                     vAttack: "15",
                     epic: true,
                     abilities: [
@@ -1353,7 +1353,7 @@ export const XMen = {
                 },
                 {
                     name: "Burn the World to Ashes",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/darak-phoenix-04.png",
+                    imageUrl: "/CardImages/Masterminds/darak-phoenix-04.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -1364,7 +1364,7 @@ export const XMen = {
                 },
                 {
                     name: "Consume an Entire Galaxy",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/darak-phoenix-03.png",
+                    imageUrl: "/CardImages/Masterminds/darak-phoenix-03.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -1375,7 +1375,7 @@ export const XMen = {
                 },
                 {
                     name: "Fiery Reincarnation",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/darak-phoenix-02.png",
+                    imageUrl: "/CardImages/Masterminds/darak-phoenix-02.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -1386,7 +1386,7 @@ export const XMen = {
                 },
                 {
                     name: "Worship Me as a God",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/darak-phoenix-05.png",
+                    imageUrl: "/CardImages/Masterminds/darak-phoenix-05.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -1405,7 +1405,7 @@ export const XMen = {
             cards: [
                 {
                     name: "Deathbird",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/deathbird_01.png",
+                    imageUrl: "/CardImages/Masterminds/deathbird_01.webp",
                     vAttack: "8+",
                     abilities: [
                         [
@@ -1432,7 +1432,7 @@ export const XMen = {
                 },
                 {
                     name: "Epic Deathbird",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/deathbird_01a.png",
+                    imageUrl: "/CardImages/Masterminds/deathbird_01a.webp",
                     vAttack: "10+",
                     epic: true,
                     abilities: [
@@ -1460,7 +1460,7 @@ export const XMen = {
                 },
                 {
                     name: "Shi'ar Elite Bodyguards",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/deathbird_05.png",
+                    imageUrl: "/CardImages/Masterminds/deathbird_05.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -1473,7 +1473,7 @@ export const XMen = {
                 },
                 {
                     name: "Shi'ar Extermination Legion",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/deathbird_04.png",
+                    imageUrl: "/CardImages/Masterminds/deathbird_04.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -1486,7 +1486,7 @@ export const XMen = {
                 },
                 {
                     name: "Shi'ar Hovertake Battalion",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/deathbird_03.png",
+                    imageUrl: "/CardImages/Masterminds/deathbird_03.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -1499,7 +1499,7 @@ export const XMen = {
                 },
                 {
                     name: "Shi'ar Master Spies",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/deathbird_02.png",
+                    imageUrl: "/CardImages/Masterminds/deathbird_02.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -1520,7 +1520,7 @@ export const XMen = {
             cards: [
                 {
                     name: "Mojo",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/mojo-01.png",
+                    imageUrl: "/CardImages/Masterminds/mojo-01.webp",
                     vAttackAsterisk: true,
                     abilities: [
                         [
@@ -1550,7 +1550,7 @@ export const XMen = {
                 },
                 {
                     name: "Epic Mojo",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/mojo-01a.png",
+                    imageUrl: "/CardImages/Masterminds/mojo-01a.webp",
                     vAttack: "7",
                     vAttackAsterisk: true,
                     epic: true,
@@ -1582,7 +1582,7 @@ export const XMen = {
                 },
                 {
                     name: "Billions of TV Viewers",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/mojo-04.png",
+                    imageUrl: "/CardImages/Masterminds/mojo-04.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -1597,7 +1597,7 @@ export const XMen = {
                 },
                 {
                     name: "Brain-Melting TV Marathon",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/mojo-05.png",
+                    imageUrl: "/CardImages/Masterminds/mojo-05.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -1608,7 +1608,7 @@ export const XMen = {
                 },
                 {
                     name: "Cross-Dimensional Marketing",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/mojo-02.png",
+                    imageUrl: "/CardImages/Masterminds/mojo-02.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -1624,7 +1624,7 @@ export const XMen = {
                 },
                 {
                     name: "Mojo Branding Opportunity",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/mojo-03.png",
+                    imageUrl: "/CardImages/Masterminds/mojo-03.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -1645,7 +1645,7 @@ export const XMen = {
             cards: [
                 {
                     name: "Onslaught",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/onslaught-01.png",
+                    imageUrl: "/CardImages/Masterminds/onslaught-01.webp",
                     vAttack: "10+",
                     abilities: [
                         "Each player's hand size is 1 less.",
@@ -1665,7 +1665,7 @@ export const XMen = {
                 },
                 {
                     name: "Epic Onslaught",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/onslaught-01a.png",
+                    imageUrl: "/CardImages/Masterminds/onslaught-01a.webp",
                     vAttack: "12+",
                     epic: true,
                     abilities: [
@@ -1686,7 +1686,7 @@ export const XMen = {
                 },
                 {
                     name: "Godlike Psionic Entity",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/onslaught-05.png",
+                    imageUrl: "/CardImages/Masterminds/onslaught-05.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -1699,7 +1699,7 @@ export const XMen = {
                 },
                 {
                     name: "Sins of X-Men Past",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/onslaught-02.png",
+                    imageUrl: "/CardImages/Masterminds/onslaught-02.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -1714,7 +1714,7 @@ export const XMen = {
                 },
                 {
                     name: "Xavier and Magneto Combined",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/onslaught-04.png",
+                    imageUrl: "/CardImages/Masterminds/onslaught-04.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -1731,7 +1731,7 @@ export const XMen = {
                 },
                 {
                     name: "Worldwide Mental Control",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/onslaught-03.png",
+                    imageUrl: "/CardImages/Masterminds/onslaught-03.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -1752,7 +1752,7 @@ export const XMen = {
             cards: [
                 {
                     name: "Shadow King",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/shadow-king-01.png",
+                    imageUrl: "/CardImages/Masterminds/shadow-king-01.webp",
                     vAttack: "7+",
                     abilities: [
                         [
@@ -1771,7 +1771,7 @@ export const XMen = {
                 },
                 {
                     name: "Epic Shadow King",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/shadow-king-01a.png",
+                    imageUrl: "/CardImages/Masterminds/shadow-king-01a.webp",
                     vAttack: "9+",
                     epic: true,
                     abilities: [
@@ -1795,7 +1795,7 @@ export const XMen = {
                 },
                 {
                     name: "Fiend of the Astral Plane",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/shadow-king-05.png",
+                    imageUrl: "/CardImages/Masterminds/shadow-king-05.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -1808,7 +1808,7 @@ export const XMen = {
                 },
                 {
                     name: "Poison their Minds",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/shadow-king-02.png",
+                    imageUrl: "/CardImages/Masterminds/shadow-king-02.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -1821,7 +1821,7 @@ export const XMen = {
                 },
                 {
                     name: "Psychic Seduction",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/shadow-king-03.png",
+                    imageUrl: "/CardImages/Masterminds/shadow-king-03.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -1834,7 +1834,7 @@ export const XMen = {
                 },
                 {
                     name: "Telepathic Betrayal",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/shadow-king-04.png",
+                    imageUrl: "/CardImages/Masterminds/shadow-king-04.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -1850,7 +1850,7 @@ export const XMen = {
         {
             id: 21,
             name: "Brood, The",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Henchmen/the-brood.png",
+            imageUrl: "/CardImages/Henchmen/the-brood.webp",
             vAttack: "1+",
             vp: 1,
             cards: [
@@ -1873,7 +1873,7 @@ export const XMen = {
         {
             id: 22,
             name: "Hellfire Cult",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Henchmen/hellfire-cult.png",
+            imageUrl: "/CardImages/Henchmen/hellfire-cult.webp",
             vAttack: "3",
             vp: 1,
             cards: [
@@ -1893,7 +1893,7 @@ export const XMen = {
         {
             id: 23,
             name: "Sapien League",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Henchmen/sapien-league.png",
+            imageUrl: "/CardImages/Henchmen/sapien-league.webp",
             vAttack: "3",
             vp: 1,
             cards: [
@@ -1910,7 +1910,7 @@ export const XMen = {
         {
             id: 24,
             name: "Shi'ar Death Commandos",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Henchmen/shiar-death-commandos.png",
+            imageUrl: "/CardImages/Henchmen/shiar-death-commandos.webp",
             vAttack: "2",
             vp: 1,
             cards: [
@@ -1934,7 +1934,7 @@ export const XMen = {
         {
             id: 25,
             name: "Shi'ar Patrol Craft",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Henchmen/shiar-patrol-craft.png",
+            imageUrl: "/CardImages/Henchmen/shiar-patrol-craft.webp",
             vAttack: "3",
             vp: 1,
             cards: [
@@ -1958,7 +1958,7 @@ export const XMen = {
             cards: [
                 {
                     name: "Fatale",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/dark-descendants-02.png",
+                    imageUrl: "/CardImages/Villains/dark-descendants-02.webp",
                     qtd: 2,
                     vp: "3",
                     vAttack: "5",
@@ -1981,7 +1981,7 @@ export const XMen = {
                 },
                 {
                     name: "Havok, Brainwashed",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/dark-descendants-04.png",
+                    imageUrl: "/CardImages/Villains/dark-descendants-04.webp",
                     qtd: 2,
                     vAttack: "6",
                     hc: 3,
@@ -2017,7 +2017,7 @@ export const XMen = {
                 },
                 {
                     name: "Nemesis",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/dark-descendants-01.png",
+                    imageUrl: "/CardImages/Villains/dark-descendants-01.webp",
                     qtd: 1,
                     vp: "5",
                     vAttack: "5+",
@@ -2034,7 +2034,7 @@ export const XMen = {
                 },
                 {
                     name: "Psychic Subjugation",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/dark-descendants-05.png",
+                    imageUrl: "/CardImages/Villains/dark-descendants-05.webp",
                     qtd: 1,
                     vp: "3",
                     subType: 1,
@@ -2053,7 +2053,7 @@ export const XMen = {
                 },
                 {
                     name: "Random",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/dark-descendants-03.png",
+                    imageUrl: "/CardImages/Villains/dark-descendants-03.webp",
                     qtd: 2,
                     vp: "3",
                     vAttack: "4+",
@@ -2078,7 +2078,7 @@ export const XMen = {
             cards: [
                 {
                     name: "Corrupt the Phoenix Force",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/corrupt-the-phoenix.png",
+                    imageUrl: "/CardImages/Villains/corrupt-the-phoenix.webp",
                     qtd: 1,
                     vp: "3",
                     subType: 1,
@@ -2102,7 +2102,7 @@ export const XMen = {
                 },
                 {
                     name: "Emma Frost (White Queen)",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/hellfire-club-04.png",
+                    imageUrl: "/CardImages/Villains/hellfire-club-04.webp",
                     qtd: 2,
                     vp: "4",
                     vAttack: "4+",
@@ -2121,7 +2121,7 @@ export const XMen = {
                 },
                 {
                     name: "Harry Leland (Black Bishop)",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/hellfire-club-03.png",
+                    imageUrl: "/CardImages/Villains/hellfire-club-03.webp",
                     qtd: 2,
                     vp: "3",
                     vAttack: "5",
@@ -2142,7 +2142,7 @@ export const XMen = {
                 },
                 {
                     name: "Mastermind (Jason Wyngarde)",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/hellfire-club-02.png",
+                    imageUrl: "/CardImages/Villains/hellfire-club-02.webp",
                     qtd: 1,
                     vp: "6",
                     vAttack: "8+",
@@ -2165,7 +2165,7 @@ export const XMen = {
                 },
                 {
                     name: "Sebastian Shaw (Black King)",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/hellfire-club-01.png",
+                    imageUrl: "/CardImages/Villains/hellfire-club-01.webp",
                     qtd: 2,
                     vp: "4",
                     vAttack: "3+",
@@ -2192,7 +2192,7 @@ export const XMen = {
             cards: [
                 {
                     name: "Mindwarping TV Broadcast",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/mojoverse-05.png",
+                    imageUrl: "/CardImages/Villains/mojoverse-05.webp",
                     qtd: 1,
                     vp: "3",
                     subType: 1,
@@ -2215,7 +2215,7 @@ export const XMen = {
                 },
                 {
                     name: "Minor Domo",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/mojoverse-02.png",
+                    imageUrl: "/CardImages/Villains/mojoverse-02.webp",
                     qtd: 2,
                     vp: "2",
                     vAttack: "2",
@@ -2241,7 +2241,7 @@ export const XMen = {
                 },
                 {
                     name: "Major Domo",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/mojoverse-01.png",
+                    imageUrl: "/CardImages/Villains/mojoverse-01.webp",
                     qtd: 2,
                     vp: "3",
                     vAttack: "4",
@@ -2267,7 +2267,7 @@ export const XMen = {
                 },
                 {
                     name: "Spiral",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/mojoverse-04.png",
+                    imageUrl: "/CardImages/Villains/mojoverse-04.webp",
                     qtd: 1,
                     vp: "4",
                     vAttack: "6",
@@ -2290,7 +2290,7 @@ export const XMen = {
                 },
                 {
                     name: "Warwolves",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/mojoverse-03.png",
+                    imageUrl: "/CardImages/Villains/mojoverse-03.webp",
                     qtd: 2,
                     vp: "2",
                     vAttack: "3",
@@ -2320,7 +2320,7 @@ export const XMen = {
             cards: [
                 {
                     name: "Animatronic Killer Clowns",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/murderworld-06.png",
+                    imageUrl: "/CardImages/Villains/murderworld-06.webp",
                     qtd: 2,
                     vp: "2",
                     subType: 1,
@@ -2344,7 +2344,7 @@ export const XMen = {
                 },
                 {
                     name: "Guillotine Rollercoaster",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/murderworld-05.png",
+                    imageUrl: "/CardImages/Villains/murderworld-05.webp",
                     qtd: 1,
                     vp: "3",
                     subType: 1,
@@ -2361,7 +2361,7 @@ export const XMen = {
                 },
                 {
                     name: "Miss Locke",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/murderworld-04.png",
+                    imageUrl: "/CardImages/Villains/murderworld-04.webp",
                     qtd: 2,
                     vp: "2",
                     vAttack: "2",
@@ -2381,7 +2381,7 @@ export const XMen = {
                 },
                 {
                     name: "Monstrous Pinball Machine",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/murderworld-02.png",
+                    imageUrl: "/CardImages/Villains/murderworld-02.webp",
                     qtd: 1,
                     vp: "3",
                     subType: 1,
@@ -2400,7 +2400,7 @@ export const XMen = {
                 },
                 {
                     name: "Sulfuric Acid Water Slide",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/murderworld-01.png",
+                    imageUrl: "/CardImages/Villains/murderworld-01.webp",
                     qtd: 2,
                     vp: "2",
                     subType: 1,
@@ -2429,7 +2429,7 @@ export const XMen = {
             cards: [
                 {
                     name: "Betrayal of the Shadow",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/shadow-x-01.png",
+                    imageUrl: "/CardImages/Villains/shadow-x-01.webp",
                     qtd: 1,
                     vp: "4",
                     subType: 1,
@@ -2448,7 +2448,7 @@ export const XMen = {
                 },
                 {
                     name: "Dark Angel",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/shadow-x-04.png",
+                    imageUrl: "/CardImages/Villains/shadow-x-04.webp",
                     qtd: 2,
                     vAttack: "4",
                     hc: 2,
@@ -2475,7 +2475,7 @@ export const XMen = {
                 },
                 {
                     name: "Dark Beast",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/shadow-x-06.png",
+                    imageUrl: "/CardImages/Villains/shadow-x-06.webp",
                     qtd: 1,
                     vAttack: "5",
                     hc: 5,
@@ -2500,7 +2500,7 @@ export const XMen = {
                 },
                 {
                     name: "Dark Cyclops",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/shadow-x-02.png",
+                    imageUrl: "/CardImages/Villains/shadow-x-02.webp",
                     qtd: 1,
                     vAttack: "7",
                     hc: 3,
@@ -2535,7 +2535,7 @@ export const XMen = {
                 },
                 {
                     name: "Dark Iceman",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/shadow-x-05.png",
+                    imageUrl: "/CardImages/Villains/shadow-x-05.webp",
                     qtd: 2,
                     vAttack: "5",
                     hc: 4,
@@ -2560,7 +2560,7 @@ export const XMen = {
                 },
                 {
                     name: "Dark Marvel Girl",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/shadow-x-03.png",
+                    imageUrl: "/CardImages/Villains/shadow-x-03.webp",
                     qtd: 1,
                     vAttack: "4+",
                     hc: 1,
@@ -2601,7 +2601,7 @@ export const XMen = {
             cards: [
                 {
                     name: "Blackthorn",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/shiar-imperial-guard-03.png",
+                    imageUrl: "/CardImages/Villains/shiar-imperial-guard-03.webp",
                     qtd: 2,
                     vp: "3",
                     vAttack: "5",
@@ -2622,7 +2622,7 @@ export const XMen = {
                 },
                 {
                     name: "Gladiator",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/shiar-imperial-guard-05.png",
+                    imageUrl: "/CardImages/Villains/shiar-imperial-guard-05.webp",
                     qtd: 1,
                     vp: "5",
                     vAttack: "7",
@@ -2645,7 +2645,7 @@ export const XMen = {
                 },
                 {
                     name: "Oracle",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/shiar-imperial-guard-04.png",
+                    imageUrl: "/CardImages/Villains/shiar-imperial-guard-04.webp",
                     qtd: 2,
                     vp: "4",
                     vAttack: "4+",
@@ -2662,7 +2662,7 @@ export const XMen = {
                 },
                 {
                     name: "Shi'ar Trial by Combat",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/shiar-imperial-guard-01.png",
+                    imageUrl: "/CardImages/Villains/shiar-imperial-guard-01.webp",
                     qtd: 1,
                     vp: "2",
                     subType: 1,
@@ -2685,7 +2685,7 @@ export const XMen = {
                 },
                 {
                     name: "Smasher",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/shiar-imperial-guard-02.png",
+                    imageUrl: "/CardImages/Villains/shiar-imperial-guard-02.webp",
                     qtd: 2,
                     vp: "3",
                     vAttack: "5",
@@ -2714,7 +2714,7 @@ export const XMen = {
             cards: [
                 {
                     name: "Lady Deathstrike",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/sisterhood-of-mutants-04.png",
+                    imageUrl: "/CardImages/Villains/sisterhood-of-mutants-04.webp",
                     qtd: 2,
                     vp: "4",
                     vAttack: "6",
@@ -2737,7 +2737,7 @@ export const XMen = {
                 },
                 {
                     name: "Lady Mastermind",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/sisterhood-of-mutants-02.png",
+                    imageUrl: "/CardImages/Villains/sisterhood-of-mutants-02.webp",
                     qtd: 1,
                     vp: "5",
                     vAttack: "7+",
@@ -2760,7 +2760,7 @@ export const XMen = {
                 },
                 {
                     name: "Resurrect Madelyne Pryor",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/sisterhood-of-mutants-05.png",
+                    imageUrl: "/CardImages/Villains/sisterhood-of-mutants-05.webp",
                     qtd: 1,
                     subType: 1,
                     abilities: [
@@ -2779,7 +2779,7 @@ export const XMen = {
                 },
                 {
                     name: "Selene",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/sisterhood-of-mutants-03.png",
+                    imageUrl: "/CardImages/Villains/sisterhood-of-mutants-03.webp",
                     qtd: 2,
                     vp: "3",
                     vAttack: "3+",
@@ -2808,7 +2808,7 @@ export const XMen = {
                 },
                 {
                     name: "Typhoid Mary",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/sisterhood-of-mutants-01.png",
+                    imageUrl: "/CardImages/Villains/sisterhood-of-mutants-01.webp",
                     qtd: 2,
                     vp: "3",
                     vAttack: "3+",
@@ -2830,7 +2830,7 @@ export const XMen = {
         {
             id: 76,
             name: "Alien Brood Encounters",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Schemes/81Scheme(96).png",
+            imageUrl: "/CardImages/Schemes/81Scheme(96).webp",
             cards: [
                 {
                     abilities: [
@@ -2862,7 +2862,7 @@ export const XMen = {
         {
             id: 77,
             name: "Anti-Mutant Hatred",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Schemes/83Scheme(98).png",
+            imageUrl: "/CardImages/Schemes/83Scheme(98).webp",
             cards: [
                 {
                     abilities: [
@@ -2889,7 +2889,7 @@ export const XMen = {
         {
             id: 78,
             name: "Dark Phoenix Saga, The",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Schemes/77Scheme(16).png",
+            imageUrl: "/CardImages/Schemes/77Scheme(16).webp",
             cards: [
                 {
                     abilities: [
@@ -2920,7 +2920,7 @@ export const XMen = {
         {
             id: 79,
             name: "Horror of Horrors",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Schemes/80Scheme(95).png",
+            imageUrl: "/CardImages/Schemes/80Scheme(95).webp",
             cards: [
                 {
                     abilities: [
@@ -2943,7 +2943,7 @@ export const XMen = {
         {
             id: 80,
             name: "Mutant-Hunting Super Sentinels",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Schemes/78Scheme(93).png",
+            imageUrl: "/CardImages/Schemes/78Scheme(93).webp",
             cards: [
                 {
                     abilities: [
@@ -2974,7 +2974,7 @@ export const XMen = {
         {
             id: 81,
             name: "Nuclear Armageddon",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Schemes/79Scheme(94).png",
+            imageUrl: "/CardImages/Schemes/79Scheme(94).webp",
             cards: [
                 {
                     abilities: [
@@ -2997,7 +2997,7 @@ export const XMen = {
         {
             id: 82,
             name: "Televised Deathtraps of Mojoworld",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Schemes/82Scheme(97).png",
+            imageUrl: "/CardImages/Schemes/82Scheme(97).webp",
             cards: [
                 {
                     abilities: [
@@ -3023,7 +3023,7 @@ export const XMen = {
         {
             id: 83,
             name: "X-Men Danger Room Goes Berserk",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Schemes/76Scheme(15).png",
+            imageUrl: "/CardImages/Schemes/76Scheme(15).webp",
             cards: [
                 {
                     abilities: [
@@ -3055,7 +3055,7 @@ export const XMen = {
         {
             id: 22,
             name: "Cypher",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Bystanders/bystander-cypher.png",
+            imageUrl: "/CardImages/Bystanders/bystander-cypher.webp",
             cards: [
                 {
                     qtd: 1,
@@ -3079,7 +3079,7 @@ export const XMen = {
         {
             id: 23,
             name: "Heartless Computer Scientist",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Bystanders/heartless-computer-scientist.png",
+            imageUrl: "/CardImages/Bystanders/heartless-computer-scientist.webp",
             cards: [
                 {
                     qtd: 1,
@@ -3104,7 +3104,7 @@ export const XMen = {
         {
             id: 24,
             name: "Karma",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Bystanders/bystander-karma.png",
+            imageUrl: "/CardImages/Bystanders/bystander-karma.webp",
             cards: [
                 {
                     qtd: 1,
@@ -3134,7 +3134,7 @@ export const XMen = {
         {
             id: 25,
             name: "Magik",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Bystanders/bystander-magik.png",
+            imageUrl: "/CardImages/Bystanders/bystander-magik.webp",
             cards: [
                 {
                     qtd: 1,
@@ -3160,7 +3160,7 @@ export const XMen = {
         {
             id: 26,
             name: "Magma",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Bystanders/bystander-magma.png",
+            imageUrl: "/CardImages/Bystanders/bystander-magma.webp",
             cards: [
                 {
                     qtd: 1,
@@ -3188,7 +3188,7 @@ export const XMen = {
         {
             id: 27,
             name: "Martial Arts Master",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Bystanders/martial-arts-master.png",
+            imageUrl: "/CardImages/Bystanders/martial-arts-master.webp",
             cards: [
                 {
                     qtd: 1,
@@ -3212,7 +3212,7 @@ export const XMen = {
         {
             id: 28,
             name: "Mirage",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Bystanders/bystander-mirage.png",
+            imageUrl: "/CardImages/Bystanders/bystander-mirage.webp",
             cards: [
                 {
                     qtd: 1,
@@ -3237,7 +3237,7 @@ export const XMen = {
         {
             id: 29,
             name: "Sunspot",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Bystanders/bystander-sunspot.png",
+            imageUrl: "/CardImages/Bystanders/bystander-sunspot.webp",
             cards: [
                 {
                     qtd: 1,
@@ -3266,7 +3266,7 @@ export const XMen = {
         {
             id: 30,
             name: "Warlock",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Bystanders/bystander-warlock.png",
+            imageUrl: "/CardImages/Bystanders/bystander-warlock.webp",
             cards: [
                 {
                     qtd: 1,
@@ -3292,7 +3292,7 @@ export const XMen = {
         {
             id: 31,
             name: "Wolfsbane",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Bystanders/bystander-wolfsbane.png",
+            imageUrl: "/CardImages/Bystanders/bystander-wolfsbane.webp",
             cards: [
                 {
                     qtd: 1,

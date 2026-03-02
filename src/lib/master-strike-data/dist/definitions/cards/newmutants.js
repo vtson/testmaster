@@ -8,7 +8,7 @@ export const NewMutants = {
             cards: [
                 {
                     name: "Sow Rivalry",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/karma-04.png",
+                    imageUrl: "/CardImages/Heroes/karma-04.webp",
                     hc: 1,
                     rarity: 1,
                     cost: 3,
@@ -25,7 +25,7 @@ export const NewMutants = {
                 },
                 {
                     name: "Temporary Possession",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/karma-03.png",
+                    imageUrl: "/CardImages/Heroes/karma-03.webp",
                     hc: 1,
                     rarity: 1,
                     cost: 4,
@@ -41,7 +41,7 @@ export const NewMutants = {
                 },
                 {
                     name: "Karmic Balance",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/karma-02.png",
+                    imageUrl: "/CardImages/Heroes/karma-02.webp",
                     hc: 3,
                     rarity: 2,
                     cost: 6,
@@ -54,7 +54,7 @@ export const NewMutants = {
                 },
                 {
                     name: "Control Like a Puppet",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/karma-01.png",
+                    imageUrl: "/CardImages/Heroes/karma-01.webp",
                     hc: 3,
                     rarity: 3,
                     cost: 8,
@@ -78,7 +78,7 @@ export const NewMutants = {
             cards: [
                 {
                     name: "Dreams Made Real",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/mirage-03.png",
+                    imageUrl: "/CardImages/Heroes/mirage-03.webp",
                     hc: 3,
                     rarity: 1,
                     cost: 3,
@@ -92,7 +92,7 @@ export const NewMutants = {
                 },
                 {
                     name: "Empathic Link",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/mirage-04.png",
+                    imageUrl: "/CardImages/Heroes/mirage-04.webp",
                     hc: 2,
                     rarity: 1,
                     cost: 3,
@@ -105,7 +105,7 @@ export const NewMutants = {
                 },
                 {
                     name: "Nightmare Wolves",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/mirage-02.png",
+                    imageUrl: "/CardImages/Heroes/mirage-02.webp",
                     hc: 1,
                     rarity: 2,
                     cost: 6,
@@ -123,7 +123,7 @@ export const NewMutants = {
                 },
                 {
                     name: "Haunted By the Demon Bear",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/mirage-01.png",
+                    imageUrl: "/CardImages/Heroes/mirage-01.webp",
                     hc: 1,
                     rarity: 3,
                     cost: 7,
@@ -152,7 +152,7 @@ export const NewMutants = {
             cards: [
                 {
                     name: "Absorb Radiation",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/sunspot-04.png",
+                    imageUrl: "/CardImages/Heroes/sunspot-04.webp",
                     hc: 3,
                     rarity: 1,
                     cost: 2,
@@ -170,7 +170,7 @@ export const NewMutants = {
                 },
                 {
                     name: "Solar-Powered",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/sunspot-03.png",
+                    imageUrl: "/CardImages/Heroes/sunspot-03.webp",
                     hc: 4,
                     rarity: 1,
                     cost: 4,
@@ -187,7 +187,7 @@ export const NewMutants = {
                 },
                 {
                     name: "Thermokinetic Fury",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/sunspot-02.png",
+                    imageUrl: "/CardImages/Heroes/sunspot-02.webp",
                     hc: 3,
                     rarity: 2,
                     cost: 6,
@@ -207,7 +207,7 @@ export const NewMutants = {
                 },
                 {
                     name: "Empyreal Force",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/sunspot-01.png",
+                    imageUrl: "/CardImages/Heroes/sunspot-01.webp",
                     hc: 4,
                     rarity: 3,
                     cost: 8,
@@ -234,7 +234,7 @@ export const NewMutants = {
             cards: [
                 {
                     name: "Earthling Choices",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/warlock-04.png",
+                    imageUrl: "/CardImages/Heroes/warlock-04.webp",
                     hc: 5,
                     rarity: 1,
                     cost: 2,
@@ -246,7 +246,7 @@ export const NewMutants = {
                 },
                 {
                     name: "Analyze Planetary Rotation",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/warlock-03.png",
+                    imageUrl: "/CardImages/Heroes/warlock-03.webp",
                     hc: 5,
                     rarity: 1,
                     cost: 3,
@@ -275,7 +275,7 @@ export const NewMutants = {
                 },
                 {
                     name: "Techno-Organic Adaptation",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/warlock-02.png",
+                    imageUrl: "/CardImages/Heroes/warlock-02.webp",
                     hc: 1,
                     rarity: 2,
                     cost: 6,
@@ -289,7 +289,7 @@ export const NewMutants = {
                 },
                 {
                     name: "Nanite Shapeshifter",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/warlock-01.png",
+                    imageUrl: "/CardImages/Heroes/warlock-01.webp",
                     hc: 5,
                     rarity: 3,
                     cost: 7,
@@ -328,7 +328,7 @@ export const NewMutants = {
             cards: [
                 {
                     name: "Night Vision",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/wolfsbane-03.png",
+                    imageUrl: "/CardImages/Heroes/wolfsbane-03.webp",
                     hc: 4,
                     rarity: 1,
                     cost: 3,
@@ -342,7 +342,7 @@ export const NewMutants = {
                 },
                 {
                     name: "Wolf Out",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/wolfsbane-04.png",
+                    imageUrl: "/CardImages/Heroes/wolfsbane-04.webp",
                     hc: 2,
                     rarity: 1,
                     cost: 3,
@@ -360,7 +360,7 @@ export const NewMutants = {
                 },
                 {
                     name: "Howl at the Moon",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/wolfsbane-02.png",
+                    imageUrl: "/CardImages/Heroes/wolfsbane-02.webp",
                     hc: 1,
                     rarity: 2,
                     cost: 5,
@@ -374,7 +374,7 @@ export const NewMutants = {
                 },
                 {
                     name: "Nocturnal Savagery",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/wolfsbane-01.png",
+                    imageUrl: "/CardImages/Heroes/wolfsbane-01.webp",
                     hc: 2,
                     rarity: 3,
                     cost: 7,
@@ -402,7 +402,7 @@ export const NewMutants = {
             cards: [
                 {
                     name: "Belasco, Demon Lord of Limbo",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/belasco-01.png",
+                    imageUrl: "/CardImages/Masterminds/belasco-01.webp",
                     vAttack: "9+",
                     abilities: [
                         [
@@ -431,7 +431,7 @@ export const NewMutants = {
                 },
                 {
                     name: "Epic Belasco",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/belasco-02.png",
+                    imageUrl: "/CardImages/Masterminds/belasco-02.webp",
                     vAttack: "10+",
                     epic: true,
                     abilities: [
@@ -461,7 +461,7 @@ export const NewMutants = {
                 },
                 {
                     name: "A Demon's Mercy",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/belasco-06.png",
+                    imageUrl: "/CardImages/Masterminds/belasco-06.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -472,7 +472,7 @@ export const NewMutants = {
                 },
                 {
                     name: "Bargain for Souls",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/belasco-05.png",
+                    imageUrl: "/CardImages/Masterminds/belasco-05.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -483,7 +483,7 @@ export const NewMutants = {
                 },
                 {
                     name: "Rescue from Limbo",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/belasco-03.png",
+                    imageUrl: "/CardImages/Masterminds/belasco-03.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -494,7 +494,7 @@ export const NewMutants = {
                 },
                 {
                     name: "Cleaving Demonblade",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/belasco-04.png",
+                    imageUrl: "/CardImages/Masterminds/belasco-04.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -514,7 +514,7 @@ export const NewMutants = {
             cards: [
                 {
                     name: "Emma Frost, The White Queen",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/emma-01.png",
+                    imageUrl: "/CardImages/Masterminds/emma-01.webp",
                     vAttack: "8+",
                     abilities: [
                         [
@@ -537,7 +537,7 @@ export const NewMutants = {
                 },
                 {
                     name: "Epic Emma Frost",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/emma-02.png",
+                    imageUrl: "/CardImages/Masterminds/emma-02.webp",
                     vAttack: "9+",
                     epic: true,
                     abilities: [
@@ -563,7 +563,7 @@ export const NewMutants = {
                 },
                 {
                     name: "Tempting Bargain",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/emma-04.png",
+                    imageUrl: "/CardImages/Masterminds/emma-04.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -577,7 +577,7 @@ export const NewMutants = {
                 },
                 {
                     name: "Psychic X-Men Link",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/emma-06.png",
+                    imageUrl: "/CardImages/Masterminds/emma-06.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -592,7 +592,7 @@ export const NewMutants = {
                 },
                 {
                     name: "Assume Diamond Form",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/emma-05.png",
+                    imageUrl: "/CardImages/Masterminds/emma-05.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -603,7 +603,7 @@ export const NewMutants = {
                 },
                 {
                     name: "Contempt for Weaklings",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/emma-03.png",
+                    imageUrl: "/CardImages/Masterminds/emma-03.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -622,7 +622,7 @@ export const NewMutants = {
             cards: [
                 {
                     name: "Crotus",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/limbo-01 (2).png",
+                    imageUrl: "/CardImages/Villains/limbo-01 (2).webp",
                     qtd: 2,
                     vp: "3",
                     vAttack: "3+",
@@ -644,7 +644,7 @@ export const NewMutants = {
                 },
                 {
                     name: "N'astirh",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/limbo-02 (2).png",
+                    imageUrl: "/CardImages/Villains/limbo-02 (2).webp",
                     qtd: 2,
                     vp: "3",
                     vAttack: "3+",
@@ -673,7 +673,7 @@ export const NewMutants = {
                 },
                 {
                     name: "S'ym",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/limbo-03 (2).png",
+                    imageUrl: "/CardImages/Villains/limbo-03 (2).webp",
                     qtd: 1,
                     vp: "5",
                     vAttack: "7",
@@ -702,7 +702,7 @@ export const NewMutants = {
                 },
                 {
                     name: "Demon Bear",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/limbo-04 (2).png",
+                    imageUrl: "/CardImages/Villains/limbo-04 (2).webp",
                     qtd: 1,
                     vp: "5",
                     vAttack: "5+",
@@ -734,7 +734,7 @@ export const NewMutants = {
                 },
                 {
                     name: "Witchfire",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/limbo-05.png",
+                    imageUrl: "/CardImages/Villains/limbo-05.webp",
                     qtd: 2,
                     vp: "4",
                     vAttack: "4+",
@@ -772,7 +772,7 @@ export const NewMutants = {
             cards: [
                 {
                     name: "Catseye",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/hellions-01.png",
+                    imageUrl: "/CardImages/Villains/hellions-01.webp",
                     qtd: 2,
                     vp: "3",
                     vAttack: "3+",
@@ -794,7 +794,7 @@ export const NewMutants = {
                 },
                 {
                     name: "Thunderbird",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/hellions-02.png",
+                    imageUrl: "/CardImages/Villains/hellions-02.webp",
                     qtd: 2,
                     vp: "4",
                     vAttack: "4+",
@@ -816,7 +816,7 @@ export const NewMutants = {
                 },
                 {
                     name: "Tarot",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/hellions-03.png",
+                    imageUrl: "/CardImages/Villains/hellions-03.webp",
                     qtd: 1,
                     vp: "3",
                     vAttack: "5",
@@ -839,7 +839,7 @@ export const NewMutants = {
                 },
                 {
                     name: "Roulette",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/hellions-04.png",
+                    imageUrl: "/CardImages/Villains/hellions-04.webp",
                     qtd: 1,
                     vp: "3",
                     vAttack: "5",
@@ -870,7 +870,7 @@ export const NewMutants = {
                 },
                 {
                     name: "Empath",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/hellions-05.png",
+                    imageUrl: "/CardImages/Villains/hellions-05.webp",
                     qtd: 1,
                     vp: "4",
                     vAttack: "4+",
@@ -901,7 +901,7 @@ export const NewMutants = {
                 },
                 {
                     name: "Jetstream",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/hellions-06.png",
+                    imageUrl: "/CardImages/Villains/hellions-06.webp",
                     qtd: 1,
                     vp: "4",
                     vAttack: "6",
@@ -931,7 +931,7 @@ export const NewMutants = {
         {
             id: 126,
             name: "Demon Bear Saga, The",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Schemes/122Scheme(114).png",
+            imageUrl: "/CardImages/Schemes/122Scheme(114).webp",
             cards: [
                 {
                     abilities: [
@@ -958,7 +958,7 @@ export const NewMutants = {
         {
             id: 127,
             name: "Crash the Moon into the Sun",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Schemes/120Scheme(27).png",
+            imageUrl: "/CardImages/Schemes/120Scheme(27).webp",
             cards: [
                 {
                     abilities: [
@@ -993,7 +993,7 @@ export const NewMutants = {
         {
             id: 128,
             name: "Trapped in the Insane Asylum",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Schemes/123Scheme(115).png",
+            imageUrl: "/CardImages/Schemes/123Scheme(115).webp",
             cards: [
                 {
                     abilities: [
@@ -1020,7 +1020,7 @@ export const NewMutants = {
         {
             id: 129,
             name: "Superhuman Baseball Game",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Schemes/121Scheme(113).png",
+            imageUrl: "/CardImages/Schemes/121Scheme(113).webp",
             cards: [
                 {
                     abilities: [

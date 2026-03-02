@@ -8,7 +8,7 @@ export const MidnightSuns = {
             cards: [
                 {
                     name: "Where Monsters Lurk",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/BladeDaywalker_2Common.png",
+                    imageUrl: "/CardImages/Heroes/BladeDaywalker_2Common.webp",
                     hc: 4,
                     rarity: 1,
                     cost: 4,
@@ -29,7 +29,7 @@ export const MidnightSuns = {
                 },
                 {
                     name: "Ride by Moonlight",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/BladeDaywalker_3Common.png",
+                    imageUrl: "/CardImages/Heroes/BladeDaywalker_3Common.webp",
                     hc: 5,
                     rarity: 1,
                     cost: 5,
@@ -49,7 +49,7 @@ export const MidnightSuns = {
                 },
                 {
                     name: "Hunt High And Low",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/BladeDaywalker_4Uncommon.png",
+                    imageUrl: "/CardImages/Heroes/BladeDaywalker_4Uncommon.webp",
                     hc: 2,
                     rarity: 2,
                     cost: 3,
@@ -67,7 +67,7 @@ export const MidnightSuns = {
                 },
                 {
                     name: "Creature of Dawn and Dusk",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/BladeDaywalker_1Rare.png",
+                    imageUrl: "/CardImages/Heroes/BladeDaywalker_1Rare.webp",
                     hc: 4,
                     rarity: 3,
                     cost: 7,
@@ -96,7 +96,7 @@ export const MidnightSuns = {
             cards: [
                 {
                     name: "Axe of the Slayer",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/ElsaBloodstoneMK_2Common.png",
+                    imageUrl: "/CardImages/Heroes/ElsaBloodstoneMK_2Common.webp",
                     hc: 2,
                     rarity: 1,
                     cost: 3,
@@ -121,7 +121,7 @@ export const MidnightSuns = {
                 },
                 {
                     name: "Silver Bullets",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/ElsaBloodstoneMK_3Common.png",
+                    imageUrl: "/CardImages/Heroes/ElsaBloodstoneMK_3Common.webp",
                     hc: 5,
                     rarity: 1,
                     cost: 4,
@@ -145,7 +145,7 @@ export const MidnightSuns = {
                 },
                 {
                     name: "Stalk the Night Stalkers",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/ElsaBloodstoneMK_4Uncommon.png",
+                    imageUrl: "/CardImages/Heroes/ElsaBloodstoneMK_4Uncommon.webp",
                     hc: 5,
                     rarity: 2,
                     cost: 6,
@@ -164,7 +164,7 @@ export const MidnightSuns = {
                 },
                 {
                     name: "Vengeance of the Bloodstone Gem",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/ElsaBloodstoneMK_1Rare.png",
+                    imageUrl: "/CardImages/Heroes/ElsaBloodstoneMK_1Rare.webp",
                     hc: 2,
                     rarity: 3,
                     cost: 8,
@@ -196,7 +196,7 @@ export const MidnightSuns = {
             cards: [
                 {
                     name: "Mesmerize",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/Morbius_2Common.png",
+                    imageUrl: "/CardImages/Heroes/Morbius_2Common.webp",
                     hc: 1,
                     rarity: 1,
                     cost: 3,
@@ -216,7 +216,7 @@ export const MidnightSuns = {
                 },
                 {
                     name: "Insatiable Craving",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/Morbius_3Common.png",
+                    imageUrl: "/CardImages/Heroes/Morbius_3Common.webp",
                     hc: 1,
                     rarity: 1,
                     cost: 5,
@@ -231,7 +231,7 @@ export const MidnightSuns = {
                 },
                 {
                     name: "Scalded by Sunlight",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/Morbius_4Uncommon.png",
+                    imageUrl: "/CardImages/Heroes/Morbius_4Uncommon.webp",
                     hc: 4,
                     rarity: 2,
                     cost: 4,
@@ -255,7 +255,7 @@ export const MidnightSuns = {
                 },
                 {
                     name: "It's Morbin' Time!",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/Morbius_1Rare.png",
+                    imageUrl: "/CardImages/Heroes/Morbius_1Rare.webp",
                     hc: 1,
                     rarity: 3,
                     cost: 7,
@@ -280,7 +280,7 @@ export const MidnightSuns = {
             cards: [
                 {
                     name: "Starlit Path",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/WerewolfByNight_2Common.png",
+                    imageUrl: "/CardImages/Heroes/WerewolfByNight_2Common.webp",
                     hc: 2,
                     rarity: 1,
                     cost: 2,
@@ -301,7 +301,7 @@ export const MidnightSuns = {
                 },
                 {
                     name: "Snarling Fangs",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/WerewolfByNight_3Common.png",
+                    imageUrl: "/CardImages/Heroes/WerewolfByNight_3Common.webp",
                     hc: 4,
                     rarity: 1,
                     cost: 3,
@@ -319,7 +319,7 @@ export const MidnightSuns = {
                 },
                 {
                     name: "Release the Beast",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/WerewolfByNight_4Uncommon.png",
+                    imageUrl: "/CardImages/Heroes/WerewolfByNight_4Uncommon.webp",
                     hc: 2,
                     rarity: 2,
                     cost: 5,
@@ -346,7 +346,7 @@ export const MidnightSuns = {
                 },
                 {
                     name: "Track the Captives",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/WerewolfByNight_1Rare.png",
+                    imageUrl: "/CardImages/Heroes/WerewolfByNight_1Rare.webp",
                     hc: 2,
                     rarity: 3,
                     cost: 7,
@@ -377,7 +377,7 @@ export const MidnightSuns = {
             cards: [
                 {
                     name: "Bridge Between Dimensions",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/WongMasteroftheMysticArts_2Common.png",
+                    imageUrl: "/CardImages/Heroes/WongMasteroftheMysticArts_2Common.webp",
                     hc: 3,
                     rarity: 1,
                     cost: 2,
@@ -391,7 +391,7 @@ export const MidnightSuns = {
                 },
                 {
                     name: "Searing Shards of Sunlight",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/WongMasteroftheMysticArts_3Common.png",
+                    imageUrl: "/CardImages/Heroes/WongMasteroftheMysticArts_3Common.webp",
                     hc: 3,
                     rarity: 1,
                     cost: 4,
@@ -416,7 +416,7 @@ export const MidnightSuns = {
                 },
                 {
                     name: "Seal the Rift",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/WongMasteroftheMysticArts_4Uncommon.png",
+                    imageUrl: "/CardImages/Heroes/WongMasteroftheMysticArts_4Uncommon.webp",
                     hc: 1,
                     rarity: 2,
                     cost: 5,
@@ -433,7 +433,7 @@ export const MidnightSuns = {
                 },
                 {
                     name: "Face Your Demons",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/WongMasteroftheMysticArts_1Rare.png",
+                    imageUrl: "/CardImages/Heroes/WongMasteroftheMysticArts_1Rare.webp",
                     hc: 3,
                     rarity: 3,
                     cost: 8,
@@ -469,7 +469,7 @@ export const MidnightSuns = {
             cards: [
                 {
                     name: "Lilith, Mother of Demons",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/LilithMotherofDemons.png",
+                    imageUrl: "/CardImages/Masterminds/LilithMotherofDemons.webp",
                     vAttack: "8+",
                     abilities: [
                         [
@@ -492,7 +492,7 @@ export const MidnightSuns = {
                 },
                 {
                     name: "Epic Lilith",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/LilithMotherofDemons_Epic.png",
+                    imageUrl: "/CardImages/Masterminds/LilithMotherofDemons_Epic.webp",
                     vAttack: "10+",
                     epic: true,
                     abilities: [
@@ -516,7 +516,7 @@ export const MidnightSuns = {
                 },
                 {
                     name: "Connoisseur of Souls",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/LilithMotherofDemonsTactic1.png",
+                    imageUrl: "/CardImages/Masterminds/LilithMotherofDemonsTactic1.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -535,7 +535,7 @@ export const MidnightSuns = {
                 },
                 {
                     name: "Offer of Corruption",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/LilithMotherofDemonsTactic3.png",
+                    imageUrl: "/CardImages/Masterminds/LilithMotherofDemonsTactic3.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -561,7 +561,7 @@ export const MidnightSuns = {
                 },
                 {
                     name: "Mesopotamian Demon Goddess",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/LilithMotherofDemonsTactic2.png",
+                    imageUrl: "/CardImages/Masterminds/LilithMotherofDemonsTactic2.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -577,7 +577,7 @@ export const MidnightSuns = {
                 },
                 {
                     name: "Respawn Demonic Offspring",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/LilithMotherofDemonsTactic4.png",
+                    imageUrl: "/CardImages/Masterminds/LilithMotherofDemonsTactic4.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -604,7 +604,7 @@ export const MidnightSuns = {
             cards: [
                 {
                     name: "Zarathos",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/Zarathos.png",
+                    imageUrl: "/CardImages/Masterminds/Zarathos.webp",
                     vAttack: "7",
                     abilities: [
                         [
@@ -621,7 +621,7 @@ export const MidnightSuns = {
                 },
                 {
                     name: "Epic Zarathos",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/Zarathos_Epic.png",
+                    imageUrl: "/CardImages/Masterminds/Zarathos_Epic.webp",
                     vAttack: "9",
                     epic: true,
                     abilities: [
@@ -639,7 +639,7 @@ export const MidnightSuns = {
                 },
                 {
                     name: "Eruption of Hellfire",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/ZarathosTactic3.png",
+                    imageUrl: "/CardImages/Masterminds/ZarathosTactic3.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -663,7 +663,7 @@ export const MidnightSuns = {
                 },
                 {
                     name: "Corrupted Spirit of Vengeance",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/ZarathosTactic2.png",
+                    imageUrl: "/CardImages/Masterminds/ZarathosTactic2.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -687,7 +687,7 @@ export const MidnightSuns = {
                 },
                 {
                     name: "Imprison in the Soul Crystal",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/ZarathosTactic4.png",
+                    imageUrl: "/CardImages/Masterminds/ZarathosTactic4.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -711,7 +711,7 @@ export const MidnightSuns = {
                 },
                 {
                     name: "Demonic Essence of Ghost Rider",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/ZarathosTactic1.png",
+                    imageUrl: "/CardImages/Masterminds/ZarathosTactic1.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -746,7 +746,7 @@ export const MidnightSuns = {
             cards: [
                 {
                     name: "Meatmarket",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/LilinMeatMarket.png",
+                    imageUrl: "/CardImages/Villains/LilinMeatMarket.webp",
                     qtd: 2,
                     vAttack: "3+",
                     vp: "3",
@@ -771,7 +771,7 @@ export const MidnightSuns = {
                 },
                 {
                     name: "Outcast",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/LilinOutcast.png",
+                    imageUrl: "/CardImages/Villains/LilinOutcast.webp",
                     qtd: 2,
                     vAttack: "4",
                     vp: "2",
@@ -786,7 +786,7 @@ export const MidnightSuns = {
                 },
                 {
                     name: "Sister Nil",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/LilinSisterNil.png",
+                    imageUrl: "/CardImages/Villains/LilinSisterNil.webp",
                     qtd: 1,
                     vAttack: "5+",
                     vp: "4",
@@ -812,7 +812,7 @@ export const MidnightSuns = {
                 },
                 {
                     name: "Skinner",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/LilinSkinner.png",
+                    imageUrl: "/CardImages/Villains/LilinSkinner.webp",
                     qtd: 2,
                     vAttack: "5+",
                     vp: "4",
@@ -836,7 +836,7 @@ export const MidnightSuns = {
                 },
                 {
                     name: "Blackout",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/LilinBlackout.png",
+                    imageUrl: "/CardImages/Villains/LilinBlackout.webp",
                     qtd: 1,
                     vAttack: "7+",
                     vp: "5",
@@ -872,7 +872,7 @@ export const MidnightSuns = {
             cards: [
                 {
                     name: "Metarchus",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/FallenMetarchus.png",
+                    imageUrl: "/CardImages/Villains/FallenMetarchus.webp",
                     qtd: 2,
                     vAttack: "3+",
                     vp: "4",
@@ -894,7 +894,7 @@ export const MidnightSuns = {
                 },
                 {
                     name: "Atrocity",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/FallenAtrocity.png",
+                    imageUrl: "/CardImages/Villains/FallenAtrocity.webp",
                     qtd: 2,
                     vAttack: "3",
                     vp: "2",
@@ -913,7 +913,7 @@ export const MidnightSuns = {
                 },
                 {
                     name: "Patriarch",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/FallenPatriarch.png",
+                    imageUrl: "/CardImages/Villains/FallenPatriarch.webp",
                     qtd: 3,
                     vAttack: "4",
                     vp: "3",
@@ -932,7 +932,7 @@ export const MidnightSuns = {
                 },
                 {
                     name: "Salomé, Sorceress Supreme",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/FallenSalomeSorceressSupreme.png",
+                    imageUrl: "/CardImages/Villains/FallenSalomeSorceressSupreme.webp",
                     qtd: 1,
                     vAttack: "6+",
                     vp: "5",
@@ -963,7 +963,7 @@ export const MidnightSuns = {
         {
             id: 170,
             name: "Sire Vampires at the Blood Bank",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Schemes/SireVampiresattheBloodBank.png",
+            imageUrl: "/CardImages/Schemes/SireVampiresattheBloodBank.webp",
             cards: [
                 {
                     abilities: [
@@ -994,7 +994,7 @@ export const MidnightSuns = {
         {
             id: 171,
             name: "Ritual Sacrifice to Summon Chthon",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Schemes/RitualSacrificetoSummonChthon.png",
+            imageUrl: "/CardImages/Schemes/RitualSacrificetoSummonChthon.webp",
             cards: [
                 {
                     abilities: [
@@ -1028,7 +1028,7 @@ export const MidnightSuns = {
                 },
                 {
                     name: "Great Old One Chthon",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Schemes/GreatOldOneChthon.png",
+                    imageUrl: "/CardImages/Schemes/GreatOldOneChthon.webp",
                     overrideType: 2,
                     vAttack: "27",
                     vp: 13,
@@ -1053,7 +1053,7 @@ export const MidnightSuns = {
         {
             id: 172,
             name: "Midnight Massacre",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Schemes/MidnightMassacre.png",
+            imageUrl: "/CardImages/Schemes/MidnightMassacre.webp",
             cards: [
                 {
                     abilities: [
@@ -1093,7 +1093,7 @@ export const MidnightSuns = {
         {
             id: 173,
             name: "Wager at Blackjack for Heroes' Souls",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Schemes/WageratBlackjackforHeroesSouls.png",
+            imageUrl: "/CardImages/Schemes/WageratBlackjackforHeroesSouls.webp",
             cards: [
                 {
                     abilities: [

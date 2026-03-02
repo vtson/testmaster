@@ -10,7 +10,7 @@ export const CoreSet = {
             cards: [
                 {
                     name: "Dangerous Rescue",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/black-widow-04.png",
+                    imageUrl: "/CardImages/Heroes/black-widow-04.webp",
                     hc: 1,
                     rarity: 1,
                     cost: 3,
@@ -24,7 +24,7 @@ export const CoreSet = {
                 },
                 {
                     name: "Mission Accomplished",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/black-widow-03.png",
+                    imageUrl: "/CardImages/Heroes/black-widow-03.webp",
                     hc: 5,
                     rarity: 1,
                     cost: 2,
@@ -38,7 +38,7 @@ export const CoreSet = {
                 },
                 {
                     name: "Covert Operation",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/black-widow-02.png",
+                    imageUrl: "/CardImages/Heroes/black-widow-02.webp",
                     hc: 1,
                     rarity: 2,
                     cost: 4,
@@ -54,7 +54,7 @@ export const CoreSet = {
                 },
                 {
                     name: "Silent Sniper",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/black-widow-01.png",
+                    imageUrl: "/CardImages/Heroes/black-widow-01.webp",
                     hc: 1,
                     rarity: 3,
                     cost: 7,
@@ -75,7 +75,7 @@ export const CoreSet = {
             cards: [
                 {
                     name: "Avengers Assemble!",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/captain-america-04.png",
+                    imageUrl: "/CardImages/Heroes/captain-america-04.webp",
                     hc: 2,
                     rarity: 1,
                     cost: 3,
@@ -91,7 +91,7 @@ export const CoreSet = {
                 },
                 {
                     name: "Perfect Teamwork",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/captain-america-03.png",
+                    imageUrl: "/CardImages/Heroes/captain-america-03.webp",
                     hc: 4,
                     rarity: 1,
                     cost: 4,
@@ -107,7 +107,7 @@ export const CoreSet = {
                 },
                 {
                     name: "Diving Block",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/captain-america-02.png",
+                    imageUrl: "/CardImages/Heroes/captain-america-02.webp",
                     hc: 5,
                     rarity: 2,
                     cost: 6,
@@ -120,7 +120,7 @@ export const CoreSet = {
                 },
                 {
                     name: "A Day Unlike Any Other",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/captain-america-01.png",
+                    imageUrl: "/CardImages/Heroes/captain-america-01.webp",
                     hc: 1,
                     rarity: 3,
                     cost: 7,
@@ -146,7 +146,7 @@ export const CoreSet = {
             cards: [
                 {
                     name: "Determination",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/cyclops-03.png",
+                    imageUrl: "/CardImages/Heroes/cyclops-03.webp",
                     hc: 4,
                     rarity: 1,
                     cost: 2,
@@ -159,7 +159,7 @@ export const CoreSet = {
                 },
                 {
                     name: "Optic Blast",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/cyclops-04.png",
+                    imageUrl: "/CardImages/Heroes/cyclops-04.webp",
                     hc: 3,
                     rarity: 1,
                     cost: 3,
@@ -172,7 +172,7 @@ export const CoreSet = {
                 },
                 {
                     name: "Unending Energy",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/cyclops-02.png",
+                    imageUrl: "/CardImages/Heroes/cyclops-02.webp",
                     hc: 3,
                     rarity: 2,
                     cost: 6,
@@ -185,7 +185,7 @@ export const CoreSet = {
                 },
                 {
                     name: "X-Men United",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/cyclops-01.png",
+                    imageUrl: "/CardImages/Heroes/cyclops-01.webp",
                     hc: 3,
                     rarity: 3,
                     cost: 8,
@@ -212,7 +212,7 @@ export const CoreSet = {
             cards: [
                 {
                     name: "Here, Hold This for a Second",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/deadpool-04.png",
+                    imageUrl: "/CardImages/Heroes/deadpool-04.webp",
                     hc: 5,
                     rarity: 1,
                     cost: 3,
@@ -225,7 +225,7 @@ export const CoreSet = {
                 },
                 {
                     name: "Oddball",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/deadpool-03.png",
+                    imageUrl: "/CardImages/Heroes/deadpool-03.webp",
                     hc: 1,
                     rarity: 1,
                     cost: 5,
@@ -243,7 +243,7 @@ export const CoreSet = {
                 },
                 {
                     name: "Hey, Can I Get a Do-Over?",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/deadpool-02.png",
+                    imageUrl: "/CardImages/Heroes/deadpool-02.webp",
                     hc: 2,
                     rarity: 2,
                     cost: 3,
@@ -256,7 +256,7 @@ export const CoreSet = {
                 },
                 {
                     name: "Random Acts of Unkindness",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/deadpool-01.png",
+                    imageUrl: "/CardImages/Heroes/deadpool-01.webp",
                     hc: 2,
                     rarity: 3,
                     cost: 7,
@@ -276,7 +276,7 @@ export const CoreSet = {
             cards: [
                 {
                     name: "Mental Discipline",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/emma-frost-03.png",
+                    imageUrl: "/CardImages/Heroes/emma-frost-03.webp",
                     hc: 3,
                     rarity: 1,
                     cost: 3,
@@ -289,7 +289,7 @@ export const CoreSet = {
                 },
                 {
                     name: "Shadowed Thoughts",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/emma-frost-04.png",
+                    imageUrl: "/CardImages/Heroes/emma-frost-04.webp",
                     hc: 1,
                     rarity: 1,
                     cost: 4,
@@ -306,7 +306,7 @@ export const CoreSet = {
                 },
                 {
                     name: "Psychic Link",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/emma-frost-02.png",
+                    imageUrl: "/CardImages/Heroes/emma-frost-02.webp",
                     hc: 2,
                     rarity: 2,
                     cost: 5,
@@ -321,7 +321,7 @@ export const CoreSet = {
                 },
                 {
                     name: "Diamond Form",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/emma-frost-01.png",
+                    imageUrl: "/CardImages/Heroes/emma-frost-01.webp",
                     hc: 4,
                     rarity: 3,
                     cost: 7,
@@ -345,7 +345,7 @@ export const CoreSet = {
             cards: [
                 {
                     name: "Card Shark",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/gambit-03.png",
+                    imageUrl: "/CardImages/Heroes/gambit-03.webp",
                     hc: 3,
                     rarity: 1,
                     cost: 4,
@@ -360,7 +360,7 @@ export const CoreSet = {
                 },
                 {
                     name: "Stack the Deck",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/gambit-04.png",
+                    imageUrl: "/CardImages/Heroes/gambit-04.webp",
                     hc: 1,
                     rarity: 1,
                     cost: 2,
@@ -372,7 +372,7 @@ export const CoreSet = {
                 },
                 {
                     name: "Hypnotic Charm",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/gambit-02.png",
+                    imageUrl: "/CardImages/Heroes/gambit-02.webp",
                     hc: 2,
                     rarity: 2,
                     cost: 3,
@@ -389,7 +389,7 @@ export const CoreSet = {
                 },
                 {
                     name: "High Stakes Jackpot",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/gambit-01.png",
+                    imageUrl: "/CardImages/Heroes/gambit-01.webp",
                     hc: 2,
                     rarity: 3,
                     cost: 7,
@@ -413,7 +413,7 @@ export const CoreSet = {
             cards: [
                 {
                     name: "Quick Draw",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/hawkeye-03.png",
+                    imageUrl: "/CardImages/Heroes/hawkeye-03.webp",
                     hc: 2,
                     rarity: 1,
                     cost: 3,
@@ -426,7 +426,7 @@ export const CoreSet = {
                 },
                 {
                     name: "Team Player",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/hawkeye-04.png",
+                    imageUrl: "/CardImages/Heroes/hawkeye-04.webp",
                     hc: 5,
                     rarity: 1,
                     cost: 4,
@@ -443,7 +443,7 @@ export const CoreSet = {
                 },
                 {
                     name: "Covering Fire",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/hawkeye-02.png",
+                    imageUrl: "/CardImages/Heroes/hawkeye-02.webp",
                     hc: 5,
                     rarity: 2,
                     cost: 5,
@@ -457,7 +457,7 @@ export const CoreSet = {
                 },
                 {
                     name: "Impossible Trick Shot",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/hawkeye-01.png",
+                    imageUrl: "/CardImages/Heroes/hawkeye-01.webp",
                     hc: 5,
                     rarity: 3,
                     cost: 7,
@@ -478,7 +478,7 @@ export const CoreSet = {
             cards: [
                 {
                     name: "Growing Anger",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/hulk-03.png",
+                    imageUrl: "/CardImages/Heroes/hulk-03.webp",
                     hc: 4,
                     rarity: 1,
                     cost: 3,
@@ -495,7 +495,7 @@ export const CoreSet = {
                 },
                 {
                     name: "Unstoppable Hulk",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/hulk-04.png",
+                    imageUrl: "/CardImages/Heroes/hulk-04.webp",
                     hc: 2,
                     rarity: 1,
                     cost: 4,
@@ -511,7 +511,7 @@ export const CoreSet = {
                 },
                 {
                     name: "Crazed Rampage",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/hulk-02.png",
+                    imageUrl: "/CardImages/Heroes/hulk-02.webp",
                     hc: 4,
                     rarity: 2,
                     cost: 5,
@@ -524,7 +524,7 @@ export const CoreSet = {
                 },
                 {
                     name: "Hulk Smash!",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/hulk-01.png",
+                    imageUrl: "/CardImages/Heroes/hulk-01.webp",
                     hc: 4,
                     rarity: 3,
                     cost: 8,
@@ -549,7 +549,7 @@ export const CoreSet = {
             cards: [
                 {
                     name: "Endless Invention",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/iron-man-04.png",
+                    imageUrl: "/CardImages/Heroes/iron-man-04.webp",
                     hc: 5,
                     rarity: 1,
                     cost: 3,
@@ -565,7 +565,7 @@ export const CoreSet = {
                 },
                 {
                     name: "Repulsor Rays",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/iron-man-03.png",
+                    imageUrl: "/CardImages/Heroes/iron-man-03.webp",
                     hc: 3,
                     rarity: 1,
                     cost: 3,
@@ -582,7 +582,7 @@ export const CoreSet = {
                 },
                 {
                     name: "Arc Reactor",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/iron-man-02.png",
+                    imageUrl: "/CardImages/Heroes/iron-man-02.webp",
                     hc: 5,
                     rarity: 2,
                     cost: 5,
@@ -601,7 +601,7 @@ export const CoreSet = {
                 },
                 {
                     name: "Quantum Breakthrough",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/iron-man-01.png",
+                    imageUrl: "/CardImages/Heroes/iron-man-01.webp",
                     hc: 5,
                     rarity: 3,
                     cost: 7,
@@ -623,7 +623,7 @@ export const CoreSet = {
             cards: [
                 {
                     name: "Battlefield Promotion",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/nick-fury-04.png",
+                    imageUrl: "/CardImages/Heroes/nick-fury-04.webp",
                     hc: 1,
                     rarity: 1,
                     cost: 4,
@@ -637,7 +637,7 @@ export const CoreSet = {
                 },
                 {
                     name: "High-Tech Weaponry",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/nick-fury-03.png",
+                    imageUrl: "/CardImages/Heroes/nick-fury-03.webp",
                     hc: 5,
                     rarity: 1,
                     cost: 3,
@@ -654,7 +654,7 @@ export const CoreSet = {
                 },
                 {
                     name: "Legendary Commander",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/nick-fury-02.png",
+                    imageUrl: "/CardImages/Heroes/nick-fury-02.webp",
                     hc: 4,
                     rarity: 2,
                     cost: 6,
@@ -672,7 +672,7 @@ export const CoreSet = {
                 },
                 {
                     name: "Pure Fury",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/nick-fury-01.png",
+                    imageUrl: "/CardImages/Heroes/nick-fury-01.webp",
                     hc: 5,
                     rarity: 3,
                     cost: 8,
@@ -695,7 +695,7 @@ export const CoreSet = {
             cards: [
                 {
                     name: "Borrowed Brawn",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/rogue-03.png",
+                    imageUrl: "/CardImages/Heroes/rogue-03.webp",
                     hc: 4,
                     rarity: 1,
                     cost: 4,
@@ -712,7 +712,7 @@ export const CoreSet = {
                 },
                 {
                     name: "Energy Drain",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/rogue-04.png",
+                    imageUrl: "/CardImages/Heroes/rogue-04.webp",
                     hc: 1,
                     rarity: 1,
                     cost: 3,
@@ -729,7 +729,7 @@ export const CoreSet = {
                 },
                 {
                     name: "Copy Powers",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/rogue-02.png",
+                    imageUrl: "/CardImages/Heroes/rogue-02.webp",
                     hc: 1,
                     rarity: 2,
                     cost: 5,
@@ -743,7 +743,7 @@ export const CoreSet = {
                 },
                 {
                     name: "Steal Abilities",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/rogue-01.png",
+                    imageUrl: "/CardImages/Heroes/rogue-01.webp",
                     hc: 4,
                     rarity: 3,
                     cost: 8,
@@ -763,7 +763,7 @@ export const CoreSet = {
             cards: [
                 {
                     name: "Astonishing Strength",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/spider-man-04.png",
+                    imageUrl: "/CardImages/Heroes/spider-man-04.webp",
                     hc: 4,
                     rarity: 1,
                     cost: 2,
@@ -779,7 +779,7 @@ export const CoreSet = {
                 },
                 {
                     name: "Great Responsibility",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/spider-man-03.png",
+                    imageUrl: "/CardImages/Heroes/spider-man-03.webp",
                     hc: 2,
                     rarity: 1,
                     cost: 2,
@@ -795,7 +795,7 @@ export const CoreSet = {
                 },
                 {
                     name: "Web-Shooters",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/spider-man-02.png",
+                    imageUrl: "/CardImages/Heroes/spider-man-02.webp",
                     hc: 5,
                     rarity: 2,
                     cost: 2,
@@ -813,7 +813,7 @@ export const CoreSet = {
                 },
                 {
                     name: "The Amazing Spider-Man",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/spider-man-01.png",
+                    imageUrl: "/CardImages/Heroes/spider-man-01.webp",
                     hc: 1,
                     rarity: 3,
                     cost: 2,
@@ -835,7 +835,7 @@ export const CoreSet = {
             cards: [
                 {
                     name: "Gathering Stormclouds",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/storm-03.png",
+                    imageUrl: "/CardImages/Heroes/storm-03.webp",
                     hc: 3,
                     rarity: 1,
                     cost: 3,
@@ -849,7 +849,7 @@ export const CoreSet = {
                 },
                 {
                     name: "Lightning Bolt",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/storm-04.png",
+                    imageUrl: "/CardImages/Heroes/storm-04.webp",
                     hc: 3,
                     rarity: 1,
                     cost: 4,
@@ -865,7 +865,7 @@ export const CoreSet = {
                 },
                 {
                     name: "Spinning Cyclone",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/storm-01.png",
+                    imageUrl: "/CardImages/Heroes/storm-01.webp",
                     hc: 1,
                     rarity: 2,
                     cost: 6,
@@ -881,7 +881,7 @@ export const CoreSet = {
                 },
                 {
                     name: "Tidal Wave",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/storm-02.png",
+                    imageUrl: "/CardImages/Heroes/storm-02.webp",
                     hc: 3,
                     rarity: 3,
                     cost: 7,
@@ -913,7 +913,7 @@ export const CoreSet = {
             cards: [
                 {
                     name: "Odinson",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/thor-03.png",
+                    imageUrl: "/CardImages/Heroes/thor-03.webp",
                     hc: 4,
                     rarity: 1,
                     cost: 3,
@@ -930,7 +930,7 @@ export const CoreSet = {
                 },
                 {
                     name: "Surge of Power",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/thor-04.png",
+                    imageUrl: "/CardImages/Heroes/thor-04.webp",
                     hc: 3,
                     rarity: 1,
                     cost: 4,
@@ -951,7 +951,7 @@ export const CoreSet = {
                 },
                 {
                     name: "Call Lightning",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/thor-02.png",
+                    imageUrl: "/CardImages/Heroes/thor-02.webp",
                     hc: 3,
                     rarity: 2,
                     cost: 6,
@@ -968,7 +968,7 @@ export const CoreSet = {
                 },
                 {
                     name: "God of Thunder",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/thor-01.png",
+                    imageUrl: "/CardImages/Heroes/thor-01.webp",
                     hc: 3,
                     rarity: 3,
                     cost: 8,
@@ -994,7 +994,7 @@ export const CoreSet = {
             cards: [
                 {
                     name: "Keen Senses",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/wolverine-04.png",
+                    imageUrl: "/CardImages/Heroes/wolverine-04.webp",
                     hc: 2,
                     rarity: 1,
                     cost: 2,
@@ -1008,7 +1008,7 @@ export const CoreSet = {
                 },
                 {
                     name: "Healing Factor",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/wolverine-03.png",
+                    imageUrl: "/CardImages/Heroes/wolverine-03.webp",
                     hc: 2,
                     rarity: 1,
                     cost: 3,
@@ -1019,7 +1019,7 @@ export const CoreSet = {
                 },
                 {
                     name: "Frenzied Slashing",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/wolverine-02.png",
+                    imageUrl: "/CardImages/Heroes/wolverine-02.webp",
                     hc: 2,
                     rarity: 2,
                     cost: 5,
@@ -1033,7 +1033,7 @@ export const CoreSet = {
                 },
                 {
                     name: "Berserker Rage",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/wolverine-01.png",
+                    imageUrl: "/CardImages/Heroes/wolverine-01.webp",
                     hc: 2,
                     rarity: 3,
                     cost: 8,
@@ -1061,7 +1061,7 @@ export const CoreSet = {
             cards: [
                 {
                     name: "Dr. Doom",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/dr-doom-01.png",
+                    imageUrl: "/CardImages/Masterminds/dr-doom-01.webp",
                     abilities: [
                         [
                             { bold: "Always Leads" },
@@ -1077,7 +1077,7 @@ export const CoreSet = {
                 },
                 {
                     name: "Dark Technology",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/dr-doom-03.png",
+                    imageUrl: "/CardImages/Masterminds/dr-doom-03.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -1092,7 +1092,7 @@ export const CoreSet = {
                 },
                 {
                     name: "Monarch's Decree",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/dr-doom-05.png",
+                    imageUrl: "/CardImages/Masterminds/dr-doom-05.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -1103,7 +1103,7 @@ export const CoreSet = {
                 },
                 {
                     name: "Secrets of Time Travel",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/dr-doom-04.png",
+                    imageUrl: "/CardImages/Masterminds/dr-doom-04.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -1114,7 +1114,7 @@ export const CoreSet = {
                 },
                 {
                     name: "Treasures of Latveria",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/dr-doom-02.png",
+                    imageUrl: "/CardImages/Masterminds/dr-doom-02.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -1134,7 +1134,7 @@ export const CoreSet = {
             cards: [
                 {
                     name: "Loki",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/loki-01.png",
+                    imageUrl: "/CardImages/Masterminds/loki-01.webp",
                     abilities: [
                         [
                             { bold: "Always Leads" },
@@ -1150,7 +1150,7 @@ export const CoreSet = {
                 },
                 {
                     name: "Cruel Ruler",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/loki-02.png",
+                    imageUrl: "/CardImages/Masterminds/loki-02.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -1161,7 +1161,7 @@ export const CoreSet = {
                 },
                 {
                     name: "Maniacal Tyrant",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/loki-03.png",
+                    imageUrl: "/CardImages/Masterminds/loki-03.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -1172,7 +1172,7 @@ export const CoreSet = {
                 },
                 {
                     name: "Vanishing Illusions",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/loki-04.png",
+                    imageUrl: "/CardImages/Masterminds/loki-04.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -1183,7 +1183,7 @@ export const CoreSet = {
                 },
                 {
                     name: "Whispers and Lies",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/loki-05.png",
+                    imageUrl: "/CardImages/Masterminds/loki-05.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -1202,7 +1202,7 @@ export const CoreSet = {
             cards: [
                 {
                     name: "Magneto",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/magneto-01.png",
+                    imageUrl: "/CardImages/Masterminds/magneto-01.webp",
                     abilities: [
                         [
                             { bold: "Always Leads" },
@@ -1218,7 +1218,7 @@ export const CoreSet = {
                 },
                 {
                     name: "Bitter Captor",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/magneto-02.png",
+                    imageUrl: "/CardImages/Masterminds/magneto-02.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -1231,7 +1231,7 @@ export const CoreSet = {
                 },
                 {
                     name: "Crushing Shockwave",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/magneto-03.png",
+                    imageUrl: "/CardImages/Masterminds/magneto-03.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -1244,7 +1244,7 @@ export const CoreSet = {
                 },
                 {
                     name: "Electromagnetic Bubble",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/magneto-04.png",
+                    imageUrl: "/CardImages/Masterminds/magneto-04.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -1257,7 +1257,7 @@ export const CoreSet = {
                 },
                 {
                     name: "Xavier's Nemesis",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/magneto-05.png",
+                    imageUrl: "/CardImages/Masterminds/magneto-05.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -1279,7 +1279,7 @@ export const CoreSet = {
             cards: [
                 {
                     name: "Red Skull",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/red-skull-01.png",
+                    imageUrl: "/CardImages/Masterminds/red-skull-01.webp",
                     abilities: [
                         [
                             { bold: "Always Leads" },
@@ -1293,7 +1293,7 @@ export const CoreSet = {
                 },
                 {
                     name: "Endless Resources",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/red-skull-03.png",
+                    imageUrl: "/CardImages/Masterminds/red-skull-03.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -1307,7 +1307,7 @@ export const CoreSet = {
                 },
                 {
                     name: "HYDRA Conspiracy",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/red-skull-05.png",
+                    imageUrl: "/CardImages/Masterminds/red-skull-05.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -1318,7 +1318,7 @@ export const CoreSet = {
                 },
                 {
                     name: "Negablast Grenades",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/red-skull-04.png",
+                    imageUrl: "/CardImages/Masterminds/red-skull-04.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -1332,7 +1332,7 @@ export const CoreSet = {
                 },
                 {
                     name: "Ruthless Dictator",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/red-skull-02.png",
+                    imageUrl: "/CardImages/Masterminds/red-skull-02.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -1348,7 +1348,7 @@ export const CoreSet = {
         {
             id: 1,
             name: "Doombot Legion",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Henchmen/doombot-legion.png",
+            imageUrl: "/CardImages/Henchmen/doombot-legion.webp",
             vAttack: "3",
             vp: 1,
             cards: [
@@ -1365,7 +1365,7 @@ export const CoreSet = {
         {
             id: 2,
             name: "Hand Ninjas",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Henchmen/hand-ninjas.png",
+            imageUrl: "/CardImages/Henchmen/hand-ninjas.webp",
             vAttack: "3",
             vp: 1,
             cards: [
@@ -1385,7 +1385,7 @@ export const CoreSet = {
         {
             id: 3,
             name: "Savage Land Mutates",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Henchmen/savage-land-mutants.png",
+            imageUrl: "/CardImages/Henchmen/savage-land-mutants.webp",
             vAttack: "3",
             vp: 1,
             cards: [
@@ -1402,7 +1402,7 @@ export const CoreSet = {
         {
             id: 4,
             name: "Sentinel",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Henchmen/sentinel.png",
+            imageUrl: "/CardImages/Henchmen/sentinel.webp",
             vAttack: "3",
             vp: 1,
             cards: [
@@ -1424,7 +1424,7 @@ export const CoreSet = {
             cards: [
                 {
                     name: "Blob",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/brotherhood-04.png",
+                    imageUrl: "/CardImages/Villains/brotherhood-04.webp",
                     qtd: 2,
                     vAttack: "4",
                     vp: "2",
@@ -1438,7 +1438,7 @@ export const CoreSet = {
                 },
                 {
                     name: "Juggernaut",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/brotherhood-03.png",
+                    imageUrl: "/CardImages/Villains/brotherhood-03.webp",
                     qtd: 2,
                     vAttack: "6",
                     vp: "4",
@@ -1459,7 +1459,7 @@ export const CoreSet = {
                 },
                 {
                     name: "Mystique",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/brotherhood-02.png",
+                    imageUrl: "/CardImages/Villains/brotherhood-02.webp",
                     qtd: 2,
                     vAttack: "5",
                     vp: "3",
@@ -1474,7 +1474,7 @@ export const CoreSet = {
                 },
                 {
                     name: "Sabretooth",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/brotherhood-01.png",
+                    imageUrl: "/CardImages/Villains/brotherhood-01.webp",
                     qtd: 2,
                     vAttack: "5",
                     vp: "3",
@@ -1504,7 +1504,7 @@ export const CoreSet = {
             cards: [
                 {
                     name: "Destroyer",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/enemies-of-asgard-03.png",
+                    imageUrl: "/CardImages/Villains/enemies-of-asgard-03.webp",
                     qtd: 1,
                     vAttack: "7",
                     vp: "5",
@@ -1527,7 +1527,7 @@ export const CoreSet = {
                 },
                 {
                     name: "Enchantress",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/enemies-of-asgard-02.png",
+                    imageUrl: "/CardImages/Villains/enemies-of-asgard-02.webp",
                     qtd: 2,
                     vAttack: "6",
                     vp: "4",
@@ -1542,7 +1542,7 @@ export const CoreSet = {
                 },
                 {
                     name: "Frost Giant",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/enemies-of-asgard-04.png",
+                    imageUrl: "/CardImages/Villains/enemies-of-asgard-04.webp",
                     qtd: 3,
                     vAttack: "4",
                     vp: "2",
@@ -1565,7 +1565,7 @@ export const CoreSet = {
                 },
                 {
                     name: "Ymir, Frost Giant King",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/enemies-of-asgard-01.png",
+                    imageUrl: "/CardImages/Villains/enemies-of-asgard-01.webp",
                     qtd: 2,
                     vAttack: "6",
                     vp: "4",
@@ -1595,7 +1595,7 @@ export const CoreSet = {
             cards: [
                 {
                     name: "Endless Armies of HYDRA",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/hydra-02.png",
+                    imageUrl: "/CardImages/Villains/hydra-02.webp",
                     qtd: 3,
                     vAttack: "4",
                     vp: "3",
@@ -1610,7 +1610,7 @@ export const CoreSet = {
                 },
                 {
                     name: "HYDRA Kidnappers",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/hydra-01.png",
+                    imageUrl: "/CardImages/Villains/hydra-01.webp",
                     qtd: 3,
                     vAttack: "3",
                     vp: "1",
@@ -1625,7 +1625,7 @@ export const CoreSet = {
                 },
                 {
                     name: "Supreme HYDRA",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/hydra-03.png",
+                    imageUrl: "/CardImages/Villains/hydra-03.webp",
                     qtd: 1,
                     vAttack: "6",
                     vp: "3*",
@@ -1640,7 +1640,7 @@ export const CoreSet = {
                 },
                 {
                     name: "Viper",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/hydra-04.png",
+                    imageUrl: "/CardImages/Villains/hydra-04.webp",
                     qtd: 1,
                     vAttack: "5",
                     vp: "3",
@@ -1667,7 +1667,7 @@ export const CoreSet = {
             cards: [
                 {
                     name: "Baron Zemo",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/masters-of-evil-02.png",
+                    imageUrl: "/CardImages/Villains/masters-of-evil-02.webp",
                     qtd: 2,
                     vAttack: "6",
                     vp: "4",
@@ -1684,7 +1684,7 @@ export const CoreSet = {
                 },
                 {
                     name: "Melter",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/masters-of-evil-01.png",
+                    imageUrl: "/CardImages/Villains/masters-of-evil-01.webp",
                     qtd: 2,
                     vAttack: "5",
                     vp: "3",
@@ -1699,7 +1699,7 @@ export const CoreSet = {
                 },
                 {
                     name: "Ultron",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/masters-of-evil-04.png",
+                    imageUrl: "/CardImages/Villains/masters-of-evil-04.webp",
                     qtd: 2,
                     vAttack: "6",
                     vp: "2+",
@@ -1724,7 +1724,7 @@ export const CoreSet = {
                 },
                 {
                     name: "Whirlwind",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/masters-of-evil-03.png",
+                    imageUrl: "/CardImages/Villains/masters-of-evil-03.webp",
                     qtd: 2,
                     vAttack: "4",
                     vp: "2",
@@ -1745,7 +1745,7 @@ export const CoreSet = {
             cards: [
                 {
                     name: "Abomination",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/radiation-04.png",
+                    imageUrl: "/CardImages/Villains/radiation-04.webp",
                     qtd: 2,
                     vAttack: "5",
                     vp: "3",
@@ -1760,7 +1760,7 @@ export const CoreSet = {
                 },
                 {
                     name: "The Leader",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/radiation-03.png",
+                    imageUrl: "/CardImages/Villains/radiation-03.webp",
                     qtd: 2,
                     vAttack: "4",
                     vp: "2",
@@ -1775,7 +1775,7 @@ export const CoreSet = {
                 },
                 {
                     name: "Maestro",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/radiation-02.png",
+                    imageUrl: "/CardImages/Villains/radiation-02.webp",
                     qtd: 2,
                     vAttack: "6",
                     vp: "4",
@@ -1792,7 +1792,7 @@ export const CoreSet = {
                 },
                 {
                     name: "Zzzax",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/radiation-01.png",
+                    imageUrl: "/CardImages/Villains/radiation-01.webp",
                     qtd: 2,
                     vAttack: "5",
                     vp: "3",
@@ -1821,7 +1821,7 @@ export const CoreSet = {
             cards: [
                 {
                     name: "Paibok the Power Skrull",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/skrulls-01.png",
+                    imageUrl: "/CardImages/Villains/skrulls-01.webp",
                     qtd: 1,
                     vAttack: "8",
                     vp: "3",
@@ -1836,7 +1836,7 @@ export const CoreSet = {
                 },
                 {
                     name: "Skrull Queen Veranke",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/skrulls-02.png",
+                    imageUrl: "/CardImages/Villains/skrulls-02.webp",
                     qtd: 1,
                     vAttack: "*",
                     vp: "4",
@@ -1861,7 +1861,7 @@ export const CoreSet = {
                 },
                 {
                     name: "Skrull Shapeshifters",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/skrulls-03.png",
+                    imageUrl: "/CardImages/Villains/skrulls-03.webp",
                     qtd: 3,
                     vAttack: "*",
                     vp: "2",
@@ -1886,7 +1886,7 @@ export const CoreSet = {
                 },
                 {
                     name: "Super-Skrull",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/skrulls-04.png",
+                    imageUrl: "/CardImages/Villains/skrulls-04.webp",
                     qtd: 3,
                     vAttack: "4",
                     vp: "2",
@@ -1907,7 +1907,7 @@ export const CoreSet = {
             cards: [
                 {
                     name: "Doctor Octopus",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/spider-foes-01.png",
+                    imageUrl: "/CardImages/Villains/spider-foes-01.webp",
                     qtd: 2,
                     vAttack: "4",
                     vp: "2",
@@ -1922,7 +1922,7 @@ export const CoreSet = {
                 },
                 {
                     name: "Green Goblin",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/spider-foes-03.png",
+                    imageUrl: "/CardImages/Villains/spider-foes-03.webp",
                     qtd: 2,
                     vAttack: "6",
                     vp: "4",
@@ -1937,7 +1937,7 @@ export const CoreSet = {
                 },
                 {
                     name: "The Lizard",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/spider-foes-02.png",
+                    imageUrl: "/CardImages/Villains/spider-foes-02.webp",
                     qtd: 2,
                     vAttack: "3",
                     vp: "2",
@@ -1952,7 +1952,7 @@ export const CoreSet = {
                 },
                 {
                     name: "Venom",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/spider-foes-04.png",
+                    imageUrl: "/CardImages/Villains/spider-foes-04.webp",
                     qtd: 2,
                     vAttack: "5",
                     vp: "3",
@@ -1977,7 +1977,7 @@ export const CoreSet = {
         {
             id: 1,
             name: "Midtown Bank Robbery",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Schemes/5Scheme(36).png",
+            imageUrl: "/CardImages/Schemes/5Scheme(36).webp",
             cards: [
                 {
                     abilities: [
@@ -2007,7 +2007,7 @@ export const CoreSet = {
         {
             id: 2,
             name: "Secret Invasion of the Skrull Shapeshifters",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Schemes/2Scheme(33).png",
+            imageUrl: "/CardImages/Schemes/2Scheme(33).webp",
             cards: [
                 {
                     abilities: [
@@ -2039,7 +2039,7 @@ export const CoreSet = {
         {
             id: 3,
             name: "Legacy Virus, The",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Schemes/4Scheme(35).png",
+            imageUrl: "/CardImages/Schemes/4Scheme(35).webp",
             cards: [
                 {
                     abilities: [
@@ -2064,7 +2064,7 @@ export const CoreSet = {
         {
             id: 4,
             name: "Negative Zone Prison Breakout",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Schemes/8Scheme(39).png",
+            imageUrl: "/CardImages/Schemes/8Scheme(39).webp",
             cards: [
                 {
                     abilities: [
@@ -2087,7 +2087,7 @@ export const CoreSet = {
         {
             id: 5,
             name: "Portals to the Dark Dimension",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Schemes/7Scheme(38).png",
+            imageUrl: "/CardImages/Schemes/7Scheme(38).webp",
             cards: [
                 {
                     abilities: [
@@ -2120,7 +2120,7 @@ export const CoreSet = {
         {
             id: 6,
             name: "Replace Earth's Leaders with Killbots",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Schemes/3Scheme(34).png",
+            imageUrl: "/CardImages/Schemes/3Scheme(34).webp",
             cards: [
                 {
                     abilities: [
@@ -2150,7 +2150,7 @@ export const CoreSet = {
             id: 7,
             set: [1, 20],
             name: "Super Hero Civil War",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Schemes/1Scheme(32).png",
+            imageUrl: "/CardImages/Schemes/1Scheme(32).webp",
             cards: [
                 {
                     abilities: [
@@ -2174,7 +2174,7 @@ export const CoreSet = {
             id: 8,
             set: [1, 20],
             name: "Unleash the Power of the Cosmic Cube",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Schemes/6Scheme(37).png",
+            imageUrl: "/CardImages/Schemes/6Scheme(37).webp",
             cards: [
                 {
                     abilities: [
@@ -2207,7 +2207,7 @@ export const CoreSet = {
         {
             id: 1,
             name: "Bystander",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Bystanders/bystanders.png",
+            imageUrl: "/CardImages/Bystanders/bystanders.webp",
             vp: 1,
             cards: [
                 {
@@ -2222,7 +2222,7 @@ export const CoreSet = {
             id: 1,
             name: "Wound",
             filterName: "Wound (Core)",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Wounds/wound.png",
+            imageUrl: "/CardImages/Wounds/wound.webp",
             set: 1,
             cards: [
                 {

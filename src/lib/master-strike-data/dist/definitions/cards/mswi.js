@@ -8,7 +8,7 @@ export const MSWhatIf = {
             cards: [
                 {
                     name: "Super Soldier Serum",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/CaptainCarter_2Common.png",
+                    imageUrl: "/CardImages/Heroes/CaptainCarter_2Common.webp",
                     hc: 4,
                     qtd: 3,
                     rarity: 1,
@@ -30,7 +30,7 @@ export const MSWhatIf = {
                 },
                 {
                     name: "Wartime Logistics",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/CaptainCarter_3Common.png",
+                    imageUrl: "/CardImages/Heroes/CaptainCarter_3Common.webp",
                     hc: 2,
                     qtd: 3,
                     rarity: 1,
@@ -52,7 +52,7 @@ export const MSWhatIf = {
                 },
                 {
                     name: "Coordinated Assault",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/CaptainCarter_4Common.png",
+                    imageUrl: "/CardImages/Heroes/CaptainCarter_4Common.webp",
                     hc: 5,
                     qtd: 3,
                     rarity: 1,
@@ -74,7 +74,7 @@ export const MSWhatIf = {
                 },
                 {
                     name: "The Shield of Britain",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/CaptainCarter_5Uncommon.png",
+                    imageUrl: "/CardImages/Heroes/CaptainCarter_5Uncommon.webp",
                     hc: 5,
                     qtd: 2,
                     rarity: 2,
@@ -90,7 +90,7 @@ export const MSWhatIf = {
                 },
                 {
                     name: "Give Them All We've Got",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/CaptainCarter_6Uncommon.png",
+                    imageUrl: "/CardImages/Heroes/CaptainCarter_6Uncommon.webp",
                     hc: 4,
                     qtd: 2,
                     rarity: 2,
@@ -104,7 +104,7 @@ export const MSWhatIf = {
                 },
                 {
                     name: "Icon of Hope",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/CaptainCarter_1Rare.png",
+                    imageUrl: "/CardImages/Heroes/CaptainCarter_1Rare.webp",
                     hc: 4,
                     qtd: 1,
                     rarity: 3,
@@ -142,7 +142,7 @@ export const MSWhatIf = {
             cards: [
                 {
                     name: "Fight or Flight",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/Star-LordTChalla_2Common.png",
+                    imageUrl: "/CardImages/Heroes/Star-LordTChalla_2Common.webp",
                     hc: 4,
                     hc2: 1,
                     qtd: 3,
@@ -170,7 +170,7 @@ export const MSWhatIf = {
                 },
                 {
                     name: "Interstellar Adventures",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/Star-LordTChalla_3Common.png",
+                    imageUrl: "/CardImages/Heroes/Star-LordTChalla_3Common.webp",
                     hc: 1,
                     hc2: 5,
                     qtd: 3,
@@ -189,7 +189,7 @@ export const MSWhatIf = {
                 },
                 {
                     name: "Plan the Heist",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/Star-LordTChalla_4Common.png",
+                    imageUrl: "/CardImages/Heroes/Star-LordTChalla_4Common.webp",
                     hc: 2,
                     hc2: 1,
                     qtd: 3,
@@ -204,7 +204,7 @@ export const MSWhatIf = {
                 },
                 {
                     name: "Unexpected Exit",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/Star-LordTChalla_5Uncommon.png",
+                    imageUrl: "/CardImages/Heroes/Star-LordTChalla_5Uncommon.webp",
                     hc: 4,
                     hc2: 2,
                     qtd: 2,
@@ -220,7 +220,7 @@ export const MSWhatIf = {
                 },
                 {
                     name: "Cross the Multiverse",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/Star-LordTChalla_6Uncommon.png",
+                    imageUrl: "/CardImages/Heroes/Star-LordTChalla_6Uncommon.webp",
                     hc: 4,
                     hc2: 3,
                     qtd: 2,
@@ -238,7 +238,7 @@ export const MSWhatIf = {
                 },
                 {
                     name: "Colliding Dreams",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/Star-LordTChalla_1Rare.png",
+                    imageUrl: "/CardImages/Heroes/Star-LordTChalla_1Rare.webp",
                     hc: 5,
                     hc2: 3,
                     qtd: 1,
@@ -265,7 +265,7 @@ export const MSWhatIf = {
             cards: [
                 {
                     name: "Forecast Says Thunder",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/PartyThor_2Common.png",
+                    imageUrl: "/CardImages/Heroes/PartyThor_2Common.webp",
                     hc: 3,
                     qtd: 3,
                     rarity: 1,
@@ -279,7 +279,7 @@ export const MSWhatIf = {
                 },
                 {
                     name: "Worthy Challenge",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/PartyThor_3Common.png",
+                    imageUrl: "/CardImages/Heroes/PartyThor_3Common.webp",
                     hc: 4,
                     qtd: 3,
                     rarity: 1,
@@ -296,7 +296,7 @@ export const MSWhatIf = {
                 },
                 {
                     name: "Destructive Feast",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/PartyThor_4Common.png",
+                    imageUrl: "/CardImages/Heroes/PartyThor_4Common.webp",
                     hc: 4,
                     qtd: 3,
                     rarity: 1,
@@ -310,7 +310,7 @@ export const MSWhatIf = {
                 },
                 {
                     name: "Asgardian Rager",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/PartyThor_5Uncommon.png",
+                    imageUrl: "/CardImages/Heroes/PartyThor_5Uncommon.webp",
                     hc: 3,
                     qtd: 2,
                     rarity: 2,
@@ -330,7 +330,7 @@ export const MSWhatIf = {
                 },
                 {
                     name: "Only Son",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/PartyThor_6Uncommon.png",
+                    imageUrl: "/CardImages/Heroes/PartyThor_6Uncommon.webp",
                     hc: 4,
                     qtd: 2,
                     rarity: 2,
@@ -348,7 +348,7 @@ export const MSWhatIf = {
                 },
                 {
                     name: "Worthy of the Lightning",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/PartyThor_1Rare.png",
+                    imageUrl: "/CardImages/Heroes/PartyThor_1Rare.webp",
                     hc: 3,
                     qtd: 1,
                     rarity: 3,
@@ -373,7 +373,7 @@ export const MSWhatIf = {
             cards: [
                 {
                     name: "Hunt New Prey",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/KillmongerSpecOps_2Common.png",
+                    imageUrl: "/CardImages/Heroes/KillmongerSpecOps_2Common.webp",
                     hc: 4,
                     hc2: 5,
                     qtd: 3,
@@ -391,7 +391,7 @@ export const MSWhatIf = {
                 },
                 {
                     name: "No Matter the Price",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/KillmongerSpecOps_3Common.png",
+                    imageUrl: "/CardImages/Heroes/KillmongerSpecOps_3Common.webp",
                     hc: 5,
                     qtd: 3,
                     rarity: 1,
@@ -410,7 +410,7 @@ export const MSWhatIf = {
                 },
                 {
                     name: "Violence Leaves Scars",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/KillmongerSpecOps_4Common.png",
+                    imageUrl: "/CardImages/Heroes/KillmongerSpecOps_4Common.webp",
                     hc: 4,
                     qtd: 3,
                     rarity: 1,
@@ -428,7 +428,7 @@ export const MSWhatIf = {
                 },
                 {
                     name: "Hostage Rescue",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/KillmongerSpecOps_5Uncommon.png",
+                    imageUrl: "/CardImages/Heroes/KillmongerSpecOps_5Uncommon.webp",
                     hc: 4,
                     qtd: 2,
                     rarity: 2,
@@ -444,7 +444,7 @@ export const MSWhatIf = {
                 },
                 {
                     name: "Plot a Betrayal",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/KillmongerSpecOps_6Uncommon.png",
+                    imageUrl: "/CardImages/Heroes/KillmongerSpecOps_6Uncommon.webp",
                     hc: 5,
                     qtd: 2,
                     rarity: 2,
@@ -463,7 +463,7 @@ export const MSWhatIf = {
                 },
                 {
                     name: "I'm the King Baby!",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/KillmongerSpecOps_1Rare.png",
+                    imageUrl: "/CardImages/Heroes/KillmongerSpecOps_1Rare.webp",
                     hc: 4,
                     qtd: 1,
                     rarity: 3,
@@ -493,7 +493,7 @@ export const MSWhatIf = {
             cards: [
                 {
                     name: "Humanity's Final Hope",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/ApocalypticBlackWidow_2Common.png",
+                    imageUrl: "/CardImages/Heroes/ApocalypticBlackWidow_2Common.webp",
                     hc: 5,
                     qtd: 3,
                     rarity: 1,
@@ -510,7 +510,7 @@ export const MSWhatIf = {
                 },
                 {
                     name: "Plant Hidden Asset",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/ApocalypticBlackWidow_3Common.png",
+                    imageUrl: "/CardImages/Heroes/ApocalypticBlackWidow_3Common.webp",
                     hc: 1,
                     qtd: 3,
                     rarity: 1,
@@ -527,7 +527,7 @@ export const MSWhatIf = {
                 },
                 {
                     name: "Precision Strike",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/ApocalypticBlackWidow_4Common.png",
+                    imageUrl: "/CardImages/Heroes/ApocalypticBlackWidow_4Common.webp",
                     hc: 5,
                     qtd: 3,
                     rarity: 1,
@@ -545,7 +545,7 @@ export const MSWhatIf = {
                 },
                 {
                     name: "Relentless",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/ApocalypticBlackWidow_5Uncommon.png",
+                    imageUrl: "/CardImages/Heroes/ApocalypticBlackWidow_5Uncommon.webp",
                     hc: 1,
                     qtd: 2,
                     rarity: 2,
@@ -564,7 +564,7 @@ export const MSWhatIf = {
                 },
                 {
                     name: "The Last Avenger",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/ApocalypticBlackWidow_6Uncommon.png",
+                    imageUrl: "/CardImages/Heroes/ApocalypticBlackWidow_6Uncommon.webp",
                     hc: 5,
                     qtd: 2,
                     rarity: 2,
@@ -580,7 +580,7 @@ export const MSWhatIf = {
                 },
                 {
                     name: "Time to Save the Multiverse",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/ApocalypticBlackWidow_1Rare.png",
+                    imageUrl: "/CardImages/Heroes/ApocalypticBlackWidow_1Rare.webp",
                     hc: 1,
                     qtd: 1,
                     rarity: 3,
@@ -602,7 +602,7 @@ export const MSWhatIf = {
             cards: [
                 {
                     name: "Assassin's Stealth",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/GamoraDestroyerOfThanos_2Common.png",
+                    imageUrl: "/CardImages/Heroes/GamoraDestroyerOfThanos_2Common.webp",
                     hc: 1,
                     qtd: 3,
                     rarity: 1,
@@ -623,7 +623,7 @@ export const MSWhatIf = {
                 },
                 {
                     name: "Tactical Insight",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/GamoraDestroyerOfThanos_3Common.png",
+                    imageUrl: "/CardImages/Heroes/GamoraDestroyerOfThanos_3Common.webp",
                     hc: 1,
                     qtd: 3,
                     rarity: 1,
@@ -637,7 +637,7 @@ export const MSWhatIf = {
                 },
                 {
                     name: "Wield the Blade of Thanos",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/GamoraDestroyerOfThanos_4Common.png",
+                    imageUrl: "/CardImages/Heroes/GamoraDestroyerOfThanos_4Common.webp",
                     hc: 2,
                     qtd: 3,
                     rarity: 1,
@@ -654,7 +654,7 @@ export const MSWhatIf = {
                 },
                 {
                     name: "Titanicide",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/GamoraDestroyerOfThanos_5Uncommon.png",
+                    imageUrl: "/CardImages/Heroes/GamoraDestroyerOfThanos_5Uncommon.webp",
                     hc: 1,
                     qtd: 2,
                     rarity: 2,
@@ -669,7 +669,7 @@ export const MSWhatIf = {
                 },
                 {
                     name: "Destroy an Infinity Stone",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/GamoraDestroyerOfThanos_6Uncommon.png",
+                    imageUrl: "/CardImages/Heroes/GamoraDestroyerOfThanos_6Uncommon.webp",
                     hc: 2,
                     qtd: 2,
                     rarity: 2,
@@ -685,7 +685,7 @@ export const MSWhatIf = {
                 },
                 {
                     name: "The Infinity Crusher",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/GamoraDestroyerOfThanos_1Rare.png",
+                    imageUrl: "/CardImages/Heroes/GamoraDestroyerOfThanos_1Rare.webp",
                     hc: 5,
                     qtd: 1,
                     rarity: 3,
@@ -711,7 +711,7 @@ export const MSWhatIf = {
             cards: [
                 {
                     name: "Seize Infernal Power",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/DoctorStrangeSupreme_2Common.png",
+                    imageUrl: "/CardImages/Heroes/DoctorStrangeSupreme_2Common.webp",
                     hc: 2,
                     qtd: 3,
                     rarity: 1,
@@ -730,7 +730,7 @@ export const MSWhatIf = {
                 },
                 {
                     name: "Summon Demon Minions",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/DoctorStrangeSupreme_3Common.png",
+                    imageUrl: "/CardImages/Heroes/DoctorStrangeSupreme_3Common.webp",
                     hc: 3,
                     qtd: 3,
                     rarity: 1,
@@ -749,7 +749,7 @@ export const MSWhatIf = {
                 },
                 {
                     name: "Wards of the Vishanti",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/DoctorStrangeSupreme_4Common.png",
+                    imageUrl: "/CardImages/Heroes/DoctorStrangeSupreme_4Common.webp",
                     hc: 3,
                     qtd: 3,
                     rarity: 1,
@@ -767,7 +767,7 @@ export const MSWhatIf = {
                 },
                 {
                     name: "To Save Christine",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/DoctorStrangeSupreme_5Uncommon.png",
+                    imageUrl: "/CardImages/Heroes/DoctorStrangeSupreme_5Uncommon.webp",
                     hc: 2,
                     qtd: 2,
                     rarity: 2,
@@ -789,7 +789,7 @@ export const MSWhatIf = {
                 },
                 {
                     name: "Break the Absolute Point in Time",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/DoctorStrangeSupreme_6Uncommon.png",
+                    imageUrl: "/CardImages/Heroes/DoctorStrangeSupreme_6Uncommon.webp",
                     hc: 2,
                     qtd: 2,
                     rarity: 2,
@@ -802,7 +802,7 @@ export const MSWhatIf = {
                 },
                 {
                     name: "Stygian Communion",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/DoctorStrangeSupreme_1Rare.png",
+                    imageUrl: "/CardImages/Heroes/DoctorStrangeSupreme_1Rare.webp",
                     hc: 2,
                     qtd: 1,
                     rarity: 3,
@@ -825,7 +825,7 @@ export const MSWhatIf = {
             cards: [
                 {
                     name: "Diverging Timestreams",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/UatuTheWatcher_2Common.png",
+                    imageUrl: "/CardImages/Heroes/UatuTheWatcher_2Common.webp",
                     hc: 1,
                     qtd: 3,
                     rarity: 1,
@@ -846,7 +846,7 @@ export const MSWhatIf = {
                 },
                 {
                     name: "Another Dimension Crumbles",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/UatuTheWatcher_3Common.png",
+                    imageUrl: "/CardImages/Heroes/UatuTheWatcher_3Common.webp",
                     hc: 1,
                     qtd: 3,
                     rarity: 1,
@@ -861,7 +861,7 @@ export const MSWhatIf = {
                 },
                 {
                     name: "Break the Oath",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/UatuTheWatcher_4Common.png",
+                    imageUrl: "/CardImages/Heroes/UatuTheWatcher_4Common.webp",
                     hc: 3,
                     qtd: 3,
                     rarity: 1,
@@ -879,7 +879,7 @@ export const MSWhatIf = {
                 },
                 {
                     name: "Anoint a Champion",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/UatuTheWatcher_5Uncommon.png",
+                    imageUrl: "/CardImages/Heroes/UatuTheWatcher_5Uncommon.webp",
                     hc: 1,
                     qtd: 2,
                     rarity: 2,
@@ -896,7 +896,7 @@ export const MSWhatIf = {
                 },
                 {
                     name: "History Repeats",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/UatuTheWatcher_6Uncommon.png",
+                    imageUrl: "/CardImages/Heroes/UatuTheWatcher_6Uncommon.webp",
                     hc: 3,
                     qtd: 2,
                     rarity: 2,
@@ -915,7 +915,7 @@ export const MSWhatIf = {
                 },
                 {
                     name: "Convoke the Guardians",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/UatuTheWatcher_1Rare.png",
+                    imageUrl: "/CardImages/Heroes/UatuTheWatcher_1Rare.webp",
                     hc: 3,
                     qtd: 1,
                     rarity: 3,
@@ -951,7 +951,7 @@ export const MSWhatIf = {
             cards: [
                 {
                     name: "Hank Pym, Yellowjacket",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/HankPymYellowjacket.png",
+                    imageUrl: "/CardImages/Masterminds/HankPymYellowjacket.webp",
                     vAttack: "4",
                     vAttackAsterisk: true,
                     abilities: [
@@ -973,7 +973,7 @@ export const MSWhatIf = {
                 },
                 {
                     name: "Epic Hank Pym, Yellowjacket",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/HankPymYellowjacket_Epic.png",
+                    imageUrl: "/CardImages/Masterminds/HankPymYellowjacket_Epic.webp",
                     vAttack: "6",
                     vAttackAsterisk: true,
                     epic: true,
@@ -996,7 +996,7 @@ export const MSWhatIf = {
                 },
                 {
                     name: "Microscopic Research",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/HankPymYellowjacket_Tactic1.png",
+                    imageUrl: "/CardImages/Masterminds/HankPymYellowjacket_Tactic1.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -1007,7 +1007,7 @@ export const MSWhatIf = {
                 },
                 {
                     name: "Revenge for Ancient Grievance",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/HankPymYellowjacket_Tactic2.png",
+                    imageUrl: "/CardImages/Masterminds/HankPymYellowjacket_Tactic2.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -1020,7 +1020,7 @@ export const MSWhatIf = {
                 },
                 {
                     name: "Save from Assassination",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/HankPymYellowjacket_Tactic3.png",
+                    imageUrl: "/CardImages/Masterminds/HankPymYellowjacket_Tactic3.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -1031,7 +1031,7 @@ export const MSWhatIf = {
                 },
                 {
                     name: "Vengeful Sting",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/HankPymYellowjacket_Tactic4.png",
+                    imageUrl: "/CardImages/Masterminds/HankPymYellowjacket_Tactic4.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -1050,7 +1050,7 @@ export const MSWhatIf = {
             cards: [
                 {
                     name: "Zombie Scarlet Witch",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/ZombieScarletWitch.png",
+                    imageUrl: "/CardImages/Masterminds/ZombieScarletWitch.webp",
                     vAttack: "9+",
                     abilities: [
                         [
@@ -1080,7 +1080,7 @@ export const MSWhatIf = {
                 },
                 {
                     name: "Epic Zombie Scarlet Witch",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/ZombieScarletWitch_Epic.png",
+                    imageUrl: "/CardImages/Masterminds/ZombieScarletWitch_Epic.webp",
                     vAttack: "13+",
                     epic: true,
                     abilities: [
@@ -1113,7 +1113,7 @@ export const MSWhatIf = {
                 },
                 {
                     name: "Chaos Hex",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/ZombieScarletWitchTactic1.png",
+                    imageUrl: "/CardImages/Masterminds/ZombieScarletWitchTactic1.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -1130,7 +1130,7 @@ export const MSWhatIf = {
                 },
                 {
                     name: "Even the Odds",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/ZombieScarletWitchTactic2.png",
+                    imageUrl: "/CardImages/Masterminds/ZombieScarletWitchTactic2.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -1147,7 +1147,7 @@ export const MSWhatIf = {
                 },
                 {
                     name: "Refuse to Accept Death",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/ZombieScarletWitchTactic3.png",
+                    imageUrl: "/CardImages/Masterminds/ZombieScarletWitchTactic3.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -1164,7 +1164,7 @@ export const MSWhatIf = {
                 },
                 {
                     name: "Wistful Illusion",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/ZombieScarletWitchTactic4.png",
+                    imageUrl: "/CardImages/Masterminds/ZombieScarletWitchTactic4.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -1189,7 +1189,7 @@ export const MSWhatIf = {
             cards: [
                 {
                     name: "Killmonger, The Betrayer",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/KillmongerTheBetrayer.png",
+                    imageUrl: "/CardImages/Masterminds/KillmongerTheBetrayer.webp",
                     vAttack: "9",
                     abilities: [
                         [
@@ -1212,7 +1212,7 @@ export const MSWhatIf = {
                 },
                 {
                     name: "Epic Killmonger, The Betrayer",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/KillmongerTheBetrayer_Epic.png",
+                    imageUrl: "/CardImages/Masterminds/KillmongerTheBetrayer_Epic.webp",
                     vAttack: "12",
                     epic: true,
                     abilities: [
@@ -1236,7 +1236,7 @@ export const MSWhatIf = {
                 },
                 {
                     name: "Change in Loyalties",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/KillmongerTheBetrayerTactic1.png",
+                    imageUrl: "/CardImages/Masterminds/KillmongerTheBetrayerTactic1.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -1247,7 +1247,7 @@ export const MSWhatIf = {
                 },
                 {
                     name: "Pulling the Strings",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/KillmongerTheBetrayerTactic2.png",
+                    imageUrl: "/CardImages/Masterminds/KillmongerTheBetrayerTactic2.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -1261,7 +1261,7 @@ export const MSWhatIf = {
                 },
                 {
                     name: "See You on the Flip Side",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/KillmongerTheBetrayerTactic3.png",
+                    imageUrl: "/CardImages/Masterminds/KillmongerTheBetrayerTactic3.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -1272,7 +1272,7 @@ export const MSWhatIf = {
                 },
                 {
                     name: "Sunset Over Wakanda",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/KillmongerTheBetrayerTactic4.png",
+                    imageUrl: "/CardImages/Masterminds/KillmongerTheBetrayerTactic4.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -1291,7 +1291,7 @@ export const MSWhatIf = {
             cards: [
                 {
                     name: "Ultron Infinity",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/UltronInfinity.png",
+                    imageUrl: "/CardImages/Masterminds/UltronInfinity.webp",
                     vAttack: "8+",
                     abilities: [
                         [
@@ -1319,7 +1319,7 @@ export const MSWhatIf = {
                 },
                 {
                     name: "Epic Ultron Infinity",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/UltronInfinity_Epic.png",
+                    imageUrl: "/CardImages/Masterminds/UltronInfinity_Epic.webp",
                     vAttack: "12+",
                     epic: true,
                     abilities: [
@@ -1348,7 +1348,7 @@ export const MSWhatIf = {
                 },
                 {
                     name: "Infinity of Minions",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/UltronInfinityTactic1.png",
+                    imageUrl: "/CardImages/Masterminds/UltronInfinityTactic1.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -1359,7 +1359,7 @@ export const MSWhatIf = {
                 },
                 {
                     name: "Struggle for the Infinity Stones",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/UltronInfinityTactic2.png",
+                    imageUrl: "/CardImages/Masterminds/UltronInfinityTactic2.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -1372,7 +1372,7 @@ export const MSWhatIf = {
                 },
                 {
                     name: "Transcend Mortality",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/UltronInfinityTactic3.png",
+                    imageUrl: "/CardImages/Masterminds/UltronInfinityTactic3.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -1383,7 +1383,7 @@ export const MSWhatIf = {
                 },
                 {
                     name: "Unfettered Annihilation",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/UltronInfinityTactic4.png",
+                    imageUrl: "/CardImages/Masterminds/UltronInfinityTactic4.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -1399,7 +1399,7 @@ export const MSWhatIf = {
         {
             id: 38,
             name: "Giants of Jotunheim",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Henchmen/GiantsOfJotunheim.png",
+            imageUrl: "/CardImages/Henchmen/GiantsOfJotunheim.webp",
             vAttack: "3",
             vp: 1,
             cards: [
@@ -1420,7 +1420,7 @@ export const MSWhatIf = {
         {
             id: 39,
             name: "Vibranium Liberator Drones",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Henchmen/VibraniumLiberatorDrones.png",
+            imageUrl: "/CardImages/Henchmen/VibraniumLiberatorDrones.webp",
             vAttack: "3",
             vp: 1,
             cards: [
@@ -1451,7 +1451,7 @@ export const MSWhatIf = {
             cards: [
                 {
                     name: "Ultron Sentries (Covert)",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Henchmen/UltronSentries_Covert.png",
+                    imageUrl: "/CardImages/Henchmen/UltronSentries_Covert.webp",
                     abilities: [
                         [
                             { keyword: 51 },
@@ -1466,7 +1466,7 @@ export const MSWhatIf = {
                 },
                 {
                     name: "Ultron Sentries (Instinct)",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Henchmen/UltronSentries_Instinct.png",
+                    imageUrl: "/CardImages/Henchmen/UltronSentries_Instinct.webp",
                     abilities: [
                         [
                             { keyword: 51 },
@@ -1481,7 +1481,7 @@ export const MSWhatIf = {
                 },
                 {
                     name: "Ultron Sentries (Ranged)",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Henchmen/UltronSentries_Ranged.png",
+                    imageUrl: "/CardImages/Henchmen/UltronSentries_Ranged.webp",
                     abilities: [
                         [
                             { keyword: 51 },
@@ -1496,7 +1496,7 @@ export const MSWhatIf = {
                 },
                 {
                     name: "Ultron Sentries (Strength)",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Henchmen/UltronSentries_Strength.png",
+                    imageUrl: "/CardImages/Henchmen/UltronSentries_Strength.webp",
                     abilities: [
                         [
                             { keyword: 51 },
@@ -1511,7 +1511,7 @@ export const MSWhatIf = {
                 },
                 {
                     name: "Ultron Sentries (Tech)",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Henchmen/UltronSentries_Tech.png",
+                    imageUrl: "/CardImages/Henchmen/UltronSentries_Tech.webp",
                     abilities: [
                         [
                             { keyword: 51 },
@@ -1534,7 +1534,7 @@ export const MSWhatIf = {
             cards: [
                 {
                     name: "Captain Marvel, End of the Party",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/IntergalacticPartyAnimalsCaptainMarvelEndOfTheParty.png",
+                    imageUrl: "/CardImages/Villains/IntergalacticPartyAnimalsCaptainMarvelEndOfTheParty.webp",
                     qtd: 1,
                     vAttack: "7+",
                     vp: "5",
@@ -1563,7 +1563,7 @@ export const MSWhatIf = {
                 },
                 {
                     name: "Frigga, Mother of Thor",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/IntergalacticPartyAnimalsFriggaMotherOfThor.png",
+                    imageUrl: "/CardImages/Villains/IntergalacticPartyAnimalsFriggaMotherOfThor.webp",
                     qtd: 1,
                     vAttack: "12",
                     vp: "6",
@@ -1583,7 +1583,7 @@ export const MSWhatIf = {
                 },
                 {
                     name: "Party Korg",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/IntergalacticPartyAnimalsPartyKorg.png",
+                    imageUrl: "/CardImages/Villains/IntergalacticPartyAnimalsPartyKorg.webp",
                     qtd: 1,
                     vAttack: "5",
                     vp: "3",
@@ -1601,7 +1601,7 @@ export const MSWhatIf = {
                 },
                 {
                     name: "Party Nebula",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/IntergalacticPartyAnimalsPartyNebula.png",
+                    imageUrl: "/CardImages/Villains/IntergalacticPartyAnimalsPartyNebula.webp",
                     qtd: 1,
                     vAttack: "5",
                     vp: "3",
@@ -1618,7 +1618,7 @@ export const MSWhatIf = {
                 },
                 {
                     name: "Party Kraglin",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/IntergalacticPartyAnimalsPartyKraglin.png",
+                    imageUrl: "/CardImages/Villains/IntergalacticPartyAnimalsPartyKraglin.webp",
                     qtd: 1,
                     vAttack: "4",
                     vp: "2",
@@ -1636,7 +1636,7 @@ export const MSWhatIf = {
                 },
                 {
                     name: "Party Korath",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/IntergalacticPartyAnimalsPartyKorath.png",
+                    imageUrl: "/CardImages/Villains/IntergalacticPartyAnimalsPartyKorath.webp",
                     qtd: 1,
                     vAttack: "4+",
                     vp: "2",
@@ -1655,7 +1655,7 @@ export const MSWhatIf = {
                 },
                 {
                     name: "Party Skrull",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/IntergalacticPartyAnimalsPartySkrull.png",
+                    imageUrl: "/CardImages/Villains/IntergalacticPartyAnimalsPartySkrull.webp",
                     qtd: 1,
                     vAttack: "2+",
                     vp: "3",
@@ -1675,7 +1675,7 @@ export const MSWhatIf = {
                 },
                 {
                     name: "Party Surtur",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/IntergalacticPartyAnimalsPartySurtur.png",
+                    imageUrl: "/CardImages/Villains/IntergalacticPartyAnimalsPartySurtur.webp",
                     qtd: 1,
                     vAttack: "6",
                     vp: "4",
@@ -1699,7 +1699,7 @@ export const MSWhatIf = {
             cards: [
                 {
                     name: "Thanos",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/RivalOverlordsThanos.png",
+                    imageUrl: "/CardImages/Villains/RivalOverlordsThanos.webp",
                     qtd: 1,
                     vAttack: "12",
                     vAttackAsterisk: true,
@@ -1725,7 +1725,7 @@ export const MSWhatIf = {
                 },
                 {
                     name: "Dormammu",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/RivalOverlordsDormammu.png",
+                    imageUrl: "/CardImages/Villains/RivalOverlordsDormammu.webp",
                     qtd: 1,
                     vAttack: "11",
                     vAttackAsterisk: true,
@@ -1749,7 +1749,7 @@ export const MSWhatIf = {
                 },
                 {
                     name: "Ego",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/RivalOverlordsEgo.png",
+                    imageUrl: "/CardImages/Villains/RivalOverlordsEgo.webp",
                     qtd: 1,
                     vAttack: "10",
                     vAttackAsterisk: true,
@@ -1773,7 +1773,7 @@ export const MSWhatIf = {
                 },
                 {
                     name: "Loki",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/RivalOverlordsLoki.png",
+                    imageUrl: "/CardImages/Villains/RivalOverlordsLoki.webp",
                     qtd: 1,
                     vAttack: "9",
                     vAttackAsterisk: true,
@@ -1799,7 +1799,7 @@ export const MSWhatIf = {
                 },
                 {
                     name: "Red Skull, HYDRA Occultist",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/RivalOverlordsRedSkullHydraOccultist.png",
+                    imageUrl: "/CardImages/Villains/RivalOverlordsRedSkullHydraOccultist.webp",
                     qtd: 1,
                     vAttack: "8",
                     vAttackAsterisk: true,
@@ -1825,7 +1825,7 @@ export const MSWhatIf = {
                 },
                 {
                     name: "Yondu",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/RivalOverlordsYondu.png",
+                    imageUrl: "/CardImages/Villains/RivalOverlordsYondu.webp",
                     qtd: 1,
                     vAttack: "7",
                     vAttackAsterisk: true,
@@ -1849,7 +1849,7 @@ export const MSWhatIf = {
                 },
                 {
                     name: "Arnim Zola, HYDRA Scientist",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/RivalOverlordsArnimZolaHydraScientist.png",
+                    imageUrl: "/CardImages/Villains/RivalOverlordsArnimZolaHydraScientist.webp",
                     qtd: 1,
                     vAttack: "5",
                     vAttackAsterisk: true,
@@ -1874,7 +1874,7 @@ export const MSWhatIf = {
                 },
                 {
                     name: "Ulysses Klaue",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/RivalOverlordsUlyssesKlaue.png",
+                    imageUrl: "/CardImages/Villains/RivalOverlordsUlyssesKlaue.webp",
                     qtd: 1,
                     vAttack: "6",
                     vAttackAsterisk: true,
@@ -1906,7 +1906,7 @@ export const MSWhatIf = {
             cards: [
                 {
                     name: "Cull Obsidian",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/BlackOrderGuardsCullObsidian.png",
+                    imageUrl: "/CardImages/Villains/BlackOrderGuardsCullObsidian.webp",
                     qtd: 3,
                     vAttack: "2+",
                     vp: "2",
@@ -1926,7 +1926,7 @@ export const MSWhatIf = {
                 },
                 {
                     name: "Corvus Glaive",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/BlackOrderGuardsCorvusGlaive.png",
+                    imageUrl: "/CardImages/Villains/BlackOrderGuardsCorvusGlaive.webp",
                     qtd: 2,
                     vAttack: "3+",
                     vp: "3",
@@ -1943,7 +1943,7 @@ export const MSWhatIf = {
                 },
                 {
                     name: "Proxima Midnight",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/BlackOrderGuardsProximaMidnight.png",
+                    imageUrl: "/CardImages/Villains/BlackOrderGuardsProximaMidnight.webp",
                     qtd: 2,
                     vAttack: "4+",
                     vp: "4",
@@ -1964,7 +1964,7 @@ export const MSWhatIf = {
                 },
                 {
                     name: "Ebony Maw",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/BlackOrderGuardsEbonyMaw.png",
+                    imageUrl: "/CardImages/Villains/BlackOrderGuardsEbonyMaw.webp",
                     qtd: 1,
                     vAttack: "7+",
                     vp: "6",
@@ -1995,7 +1995,7 @@ export const MSWhatIf = {
             cards: [
                 {
                     name: "Zombie Wong",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/ZombieAvengersWong.png",
+                    imageUrl: "/CardImages/Villains/ZombieAvengersWong.webp",
                     qtd: 2,
                     vAttack: "4",
                     vp: "2",
@@ -2013,7 +2013,7 @@ export const MSWhatIf = {
                 },
                 {
                     name: "Zombie Hawkeye",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/ZombieAvengersZombieHawkeye.png",
+                    imageUrl: "/CardImages/Villains/ZombieAvengersZombieHawkeye.webp",
                     qtd: 2,
                     vAttack: "5",
                     vp: "3",
@@ -2031,7 +2031,7 @@ export const MSWhatIf = {
                 },
                 {
                     name: "Zombie Wasp",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/ZombieAvengersZombieWasp.png",
+                    imageUrl: "/CardImages/Villains/ZombieAvengersZombieWasp.webp",
                     qtd: 1,
                     vAttack: "4+",
                     vp: "3",
@@ -2055,7 +2055,7 @@ export const MSWhatIf = {
                 },
                 {
                     name: "Zombie Doctor Strange",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/StrangesDemonsDemonboundDoctorStrange.png",
+                    imageUrl: "/CardImages/Villains/StrangesDemonsDemonboundDoctorStrange.webp",
                     qtd: 1,
                     vAttack: "6",
                     vp: "4",
@@ -2078,7 +2078,7 @@ export const MSWhatIf = {
                 },
                 {
                     name: "Zombie Iron Man",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/ZombieAvengersZombieIronMan.png",
+                    imageUrl: "/CardImages/Villains/ZombieAvengersZombieIronMan.webp",
                     qtd: 1,
                     vAttack: "7",
                     vp: "5",
@@ -2102,7 +2102,7 @@ export const MSWhatIf = {
                 },
                 {
                     name: "Zombie Captain America",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/ZombieAvengersZombieCaptainAmerica.png",
+                    imageUrl: "/CardImages/Villains/ZombieAvengersZombieCaptainAmerica.webp",
                     qtd: 1,
                     vAttack: "8",
                     vAttackAsterisk: true,
@@ -2133,7 +2133,7 @@ export const MSWhatIf = {
             cards: [
                 {
                     name: "Wolf Demon",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/StrangesDemonsWolfDemon.png",
+                    imageUrl: "/CardImages/Villains/StrangesDemonsWolfDemon.webp",
                     qtd: 2,
                     vAttack: "4",
                     vp: "2",
@@ -2148,7 +2148,7 @@ export const MSWhatIf = {
                 },
                 {
                     name: "Moose Demon",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/StrangesDemonsMooseDemon.png",
+                    imageUrl: "/CardImages/Villains/StrangesDemonsMooseDemon.webp",
                     qtd: 1,
                     vAttack: "4",
                     vp: "2",
@@ -2163,7 +2163,7 @@ export const MSWhatIf = {
                 },
                 {
                     name: "Two-Headed Ram Demon",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/StrangesDemonsTwo-HeadedRamDemon.png",
+                    imageUrl: "/CardImages/Villains/StrangesDemonsTwo-HeadedRamDemon.webp",
                     qtd: 1,
                     vAttack: "5",
                     vp: "3",
@@ -2178,7 +2178,7 @@ export const MSWhatIf = {
                 },
                 {
                     name: "Skull Demon",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/StrangesDemonsSkullDemon.png",
+                    imageUrl: "/CardImages/Villains/StrangesDemonsSkullDemon.webp",
                     qtd: 1,
                     vAttack: "5",
                     vp: "3",
@@ -2193,7 +2193,7 @@ export const MSWhatIf = {
                 },
                 {
                     name: "Demon Dragon",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/StrangesDemonsDemonDragon.png",
+                    imageUrl: "/CardImages/Villains/StrangesDemonsDemonDragon.webp",
                     qtd: 1,
                     vAttack: "6",
                     vp: "4",
@@ -2217,7 +2217,7 @@ export const MSWhatIf = {
                 },
                 {
                     name: "Demonbound Doctor Strange",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/StrangesDemonsDemonboundDoctorStrange.png",
+                    imageUrl: "/CardImages/Villains/StrangesDemonsDemonboundDoctorStrange.webp",
                     qtd: 1,
                     vAttack: "7",
                     vp: "5",
@@ -2240,7 +2240,7 @@ export const MSWhatIf = {
                 },
                 {
                     name: "Demon Champion of Hydra",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/StrangesDemonsDemonChampionOfHydra.png",
+                    imageUrl: "/CardImages/Villains/StrangesDemonsDemonChampionOfHydra.webp",
                     qtd: 1,
                     vAttack: "8",
                     vp: "6",
@@ -2270,7 +2270,7 @@ export const MSWhatIf = {
         {
             id: 174,
             name: "Trash Earth with Hugest Party Ever",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Schemes/Trash%20Earth%20With%20Hugest%20Party%20Ever.png",
+            imageUrl: "/CardImages/Schemes/Trash%20Earth%20With%20Hugest%20Party%20Ever.webp",
             cards: [
                 {
                     abilities: [
@@ -2297,7 +2297,7 @@ export const MSWhatIf = {
         {
             id: 175,
             name: "Marvel Zombies",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Schemes/Marvel%20Zombies.png",
+            imageUrl: "/CardImages/Schemes/Marvel%20Zombies.webp",
             cards: [
                 {
                     abilities: [
@@ -2337,7 +2337,7 @@ export const MSWhatIf = {
         {
             id: 176,
             name: "Collect an Interstellar Zoo",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Schemes/Collect%20An%20Interstellar%20Zoo.png",
+            imageUrl: "/CardImages/Schemes/Collect%20An%20Interstellar%20Zoo.webp",
             cards: [
                 {
                     abilities: [
@@ -2393,7 +2393,7 @@ export const MSWhatIf = {
         {
             id: 177,
             name: "Breach the Nexus of All Realities",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Schemes/Breach%20The%20Nexus%20Of%20All%20Realities.png",
+            imageUrl: "/CardImages/Schemes/Breach%20The%20Nexus%20Of%20All%20Realities.webp",
             cards: [
                 {
                     abilities: [
@@ -2424,7 +2424,7 @@ export const MSWhatIf = {
         {
             id: 52,
             name: "Bystander",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Bystanders/What%20If%20Bystander.png",
+            imageUrl: "/CardImages/Bystanders/What%20If%20Bystander.webp",
             vp: 1,
             cards: [
                 {
@@ -2436,7 +2436,7 @@ export const MSWhatIf = {
         {
             id: 53,
             name: "Happy Hogan",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Bystanders/What%20If%20B%20Happy%20Hogan.png",
+            imageUrl: "/CardImages/Bystanders/What%20If%20B%20Happy%20Hogan.webp",
             vp: 1,
             cards: [
                 {
@@ -2452,7 +2452,7 @@ export const MSWhatIf = {
         {
             id: 54,
             name: "Howard Stark",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Bystanders/What%20If%20B%20Howard%20Stark.png",
+            imageUrl: "/CardImages/Bystanders/What%20If%20B%20Howard%20Stark.webp",
             vp: 1,
             cards: [
                 {
@@ -2472,7 +2472,7 @@ export const MSWhatIf = {
         {
             id: 55,
             name: "Howard the Duck",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Bystanders/What%20If%20B%20Howard%20the%20Duck.png",
+            imageUrl: "/CardImages/Bystanders/What%20If%20B%20Howard%20the%20Duck.webp",
             vp: 1,
             cards: [
                 {
@@ -2488,7 +2488,7 @@ export const MSWhatIf = {
         {
             id: 56,
             name: "Pepper Potts",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Bystanders/What%20If%20B%20Pepper%20Potts.png",
+            imageUrl: "/CardImages/Bystanders/What%20If%20B%20Pepper%20Potts.webp",
             vp: 1,
             cards: [
                 {
@@ -2510,7 +2510,7 @@ export const MSWhatIf = {
         {
             id: 57,
             name: "Scott Lang's Head",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Bystanders/What%20If%20B%20Scott%20Langs%20Head.png",
+            imageUrl: "/CardImages/Bystanders/What%20If%20B%20Scott%20Langs%20Head.webp",
             vp: 1,
             cards: [
                 {
@@ -2531,7 +2531,7 @@ export const MSWhatIf = {
             id: 11,
             name: "Wound",
             filterName: "Wound (What If...)",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/General%20Cards/What%20If%20Wound.png",
+            imageUrl: "/CardImages/General%20Cards/What%20If%20Wound.webp",
             set: 38,
             cards: [
                 {

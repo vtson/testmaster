@@ -8,7 +8,7 @@ export const SecretWars1 = {
             cards: [
                 {
                     name: "Phase Out",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/apocalyptic-kitty-pryde-04.png",
+                    imageUrl: "/CardImages/Heroes/apocalyptic-kitty-pryde-04.webp",
                     hc: 1,
                     rarity: 1,
                     cost: 4,
@@ -25,7 +25,7 @@ export const SecretWars1 = {
                 },
                 {
                     name: "Infiltrate HQ",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/apocalyptic-kitty-pryde-03.png",
+                    imageUrl: "/CardImages/Heroes/apocalyptic-kitty-pryde-03.webp",
                     hc: 5,
                     rarity: 1,
                     cost: 3,
@@ -38,7 +38,7 @@ export const SecretWars1 = {
                 },
                 {
                     name: "Disrupt Circuits",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/apocalyptic-kitty-pryde-02.png",
+                    imageUrl: "/CardImages/Heroes/apocalyptic-kitty-pryde-02.webp",
                     hc: 1,
                     hc2: 5,
                     rarity: 2,
@@ -57,7 +57,7 @@ export const SecretWars1 = {
                 },
                 {
                     name: "Untouchable",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/apocalyptic-kitty-pryde-01.png",
+                    imageUrl: "/CardImages/Heroes/apocalyptic-kitty-pryde-01.webp",
                     hc: 1,
                     rarity: 3,
                     cost: 7,
@@ -76,7 +76,7 @@ export const SecretWars1 = {
             cards: [
                 {
                     name: "Destructive Whisper",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/black-bolt-04.png",
+                    imageUrl: "/CardImages/Heroes/black-bolt-04.webp",
                     hc: 3,
                     rarity: 1,
                     cost: 3,
@@ -92,7 +92,7 @@ export const SecretWars1 = {
                 },
                 {
                     name: "Speak No Words",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/black-bolt-03.png",
+                    imageUrl: "/CardImages/Heroes/black-bolt-03.webp",
                     hc: 1,
                     hc2: 3,
                     rarity: 1,
@@ -105,7 +105,7 @@ export const SecretWars1 = {
                 },
                 {
                     name: "Silence is Golden",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/black-bolt-02.png",
+                    imageUrl: "/CardImages/Heroes/black-bolt-02.webp",
                     hc: 4,
                     rarity: 2,
                     cost: 6,
@@ -123,7 +123,7 @@ export const SecretWars1 = {
                 },
                 {
                     name: "Hypersonic Scream",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/black-bolt-01.png",
+                    imageUrl: "/CardImages/Heroes/black-bolt-01.webp",
                     hc: 3,
                     rarity: 3,
                     cost: 8,
@@ -142,7 +142,7 @@ export const SecretWars1 = {
             cards: [
                 {
                     name: "Catlike Reflexes",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/black-panther-03.png",
+                    imageUrl: "/CardImages/Heroes/black-panther-03.webp",
                     hc: 2,
                     hc2: 1,
                     rarity: 1,
@@ -154,7 +154,7 @@ export const SecretWars1 = {
                 },
                 {
                     name: "Multifaceted Genius",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/black-panther-04.png",
+                    imageUrl: "/CardImages/Heroes/black-panther-04.webp",
                     hc: 4,
                     hc2: 5,
                     rarity: 1,
@@ -171,7 +171,7 @@ export const SecretWars1 = {
                 },
                 {
                     name: "Stalk the Urban Jungle",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/black-panther-02.png",
+                    imageUrl: "/CardImages/Heroes/black-panther-02.webp",
                     hc: 4,
                     hc2: 1,
                     rarity: 2,
@@ -183,7 +183,7 @@ export const SecretWars1 = {
                 },
                 {
                     name: "King of Wakanda",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/black-panther-01.png",
+                    imageUrl: "/CardImages/Heroes/black-panther-01.webp",
                     hc: 2,
                     hc2: 5,
                     rarity: 3,
@@ -210,7 +210,7 @@ export const SecretWars1 = {
             cards: [
                 {
                     name: "Absorb Energies",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/captain-marvel-03.png",
+                    imageUrl: "/CardImages/Heroes/captain-marvel-03.webp",
                     hc: 3,
                     rarity: 1,
                     cost: 3,
@@ -229,7 +229,7 @@ export const SecretWars1 = {
                 },
                 {
                     name: "Supersonic Flight",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/captain-marvel-04.png",
+                    imageUrl: "/CardImages/Heroes/captain-marvel-04.webp",
                     hc: 4,
                     hc2: 3,
                     rarity: 1,
@@ -243,7 +243,7 @@ export const SecretWars1 = {
                 },
                 {
                     name: "Marvelous Strength",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/captain-marvel-02.png",
+                    imageUrl: "/CardImages/Heroes/captain-marvel-02.webp",
                     hc: 4,
                     rarity: 2,
                     cost: 5,
@@ -262,7 +262,7 @@ export const SecretWars1 = {
                 },
                 {
                     name: "Cosmic Energies",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/captain-marvel-01.png",
+                    imageUrl: "/CardImages/Heroes/captain-marvel-01.webp",
                     hc: 3,
                     rarity: 3,
                     cost: 7,
@@ -290,7 +290,7 @@ export const SecretWars1 = {
             cards: [
                 {
                     name: "Cloak of Levitation",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/dr-strange-03-1.png",
+                    imageUrl: "/CardImages/Heroes/dr-strange-03-1.webp",
                     hc: 3,
                     rarity: 1,
                     cost: 4,
@@ -306,7 +306,7 @@ export const SecretWars1 = {
                 },
                 {
                     name: "Trust Me, I'm a Doctor",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/dr-strange-04-1.png",
+                    imageUrl: "/CardImages/Heroes/dr-strange-04-1.webp",
                     hc: 2,
                     hc2: 3,
                     rarity: 1,
@@ -324,7 +324,7 @@ export const SecretWars1 = {
                 },
                 {
                     name: "Fight the Future",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/dr-strange-02-1.png",
+                    imageUrl: "/CardImages/Heroes/dr-strange-02-1.webp",
                     hc: 2,
                     rarity: 2,
                     cost: 5,
@@ -341,7 +341,7 @@ export const SecretWars1 = {
                 },
                 {
                     name: "Sorcerer Supreme",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/dr-strange-01-1.png",
+                    imageUrl: "/CardImages/Heroes/dr-strange-01-1.webp",
                     hc: 1,
                     rarity: 3,
                     cost: 7,
@@ -362,7 +362,7 @@ export const SecretWars1 = {
             cards: [
                 {
                     name: "Mysterious Origin",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/lady-thor-03.png",
+                    imageUrl: "/CardImages/Heroes/lady-thor-03.webp",
                     hc: 3,
                     rarity: 1,
                     cost: 3,
@@ -378,7 +378,7 @@ export const SecretWars1 = {
                 },
                 {
                     name: "Chosen by Asgard",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/lady-thor-04.png",
+                    imageUrl: "/CardImages/Heroes/lady-thor-04.webp",
                     hc: 4,
                     rarity: 1,
                     cost: 4,
@@ -398,7 +398,7 @@ export const SecretWars1 = {
                 },
                 {
                     name: "Heir to the Hammer",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/lady-thor-02.png",
+                    imageUrl: "/CardImages/Heroes/lady-thor-02.webp",
                     hc: 4,
                     hc2: 3,
                     rarity: 2,
@@ -417,7 +417,7 @@ export const SecretWars1 = {
                 },
                 {
                     name: "Living Thunderstorm",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/lady-thor-01.png",
+                    imageUrl: "/CardImages/Heroes/lady-thor-01.webp",
                     hc: 4,
                     rarity: 3,
                     cost: 8,
@@ -444,7 +444,7 @@ export const SecretWars1 = {
             cards: [
                 {
                     name: "Rally the New Mutants",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/magik-04.png",
+                    imageUrl: "/CardImages/Heroes/magik-04.webp",
                     hc: 1,
                     rarity: 1,
                     cost: 2,
@@ -464,7 +464,7 @@ export const SecretWars1 = {
                 },
                 {
                     name: "Travel through Limbo",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/magik-03.png",
+                    imageUrl: "/CardImages/Heroes/magik-03.webp",
                     hc: 3,
                     rarity: 1,
                     cost: 3,
@@ -482,7 +482,7 @@ export const SecretWars1 = {
                 },
                 {
                     name: "Dimensional Portal",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/magik-02.png",
+                    imageUrl: "/CardImages/Heroes/magik-02.webp",
                     hc: 1,
                     hc2: 3,
                     rarity: 2,
@@ -502,7 +502,7 @@ export const SecretWars1 = {
                 },
                 {
                     name: "Wield the Soulsword",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/magik-01.png",
+                    imageUrl: "/CardImages/Heroes/magik-01.webp",
                     hc: 1,
                     rarity: 3,
                     cost: 7,
@@ -526,7 +526,7 @@ export const SecretWars1 = {
             cards: [
                 {
                     name: "Mental Domination",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/maximus-04.png",
+                    imageUrl: "/CardImages/Heroes/maximus-04.webp",
                     hc: 1,
                     rarity: 1,
                     cost: 3,
@@ -540,7 +540,7 @@ export const SecretWars1 = {
                 },
                 {
                     name: "Enslave the Will",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/maximus-03.png",
+                    imageUrl: "/CardImages/Heroes/maximus-03.webp",
                     hc: 5,
                     rarity: 1,
                     cost: 4,
@@ -556,7 +556,7 @@ export const SecretWars1 = {
                 },
                 {
                     name: "Pieces on a Chessboard",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/maximus-02.png",
+                    imageUrl: "/CardImages/Heroes/maximus-02.webp",
                     hc: 1,
                     hc2: 5,
                     rarity: 2,
@@ -568,7 +568,7 @@ export const SecretWars1 = {
                 },
                 {
                     name: "Inhuman Mastery",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/maximus-01.png",
+                    imageUrl: "/CardImages/Heroes/maximus-01.webp",
                     hc: 5,
                     rarity: 3,
                     cost: 7,
@@ -597,7 +597,7 @@ export const SecretWars1 = {
             cards: [
                 {
                     name: "Lead the Armies of Atlantis",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/namor-04.png",
+                    imageUrl: "/CardImages/Heroes/namor-04.webp",
                     hc: 2,
                     rarity: 1,
                     cost: 3,
@@ -613,7 +613,7 @@ export const SecretWars1 = {
                 },
                 {
                     name: "Ruler of the Seas",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/namor-03.png",
+                    imageUrl: "/CardImages/Heroes/namor-03.webp",
                     hc: 4,
                     rarity: 1,
                     cost: 4,
@@ -630,7 +630,7 @@ export const SecretWars1 = {
                 },
                 {
                     name: "Feed the Sharks",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/namor-02.png",
+                    imageUrl: "/CardImages/Heroes/namor-02.webp",
                     hc: 4,
                     hc2: 2,
                     rarity: 2,
@@ -642,7 +642,7 @@ export const SecretWars1 = {
                 },
                 {
                     name: "Imperius Rex",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/namor-01.png",
+                    imageUrl: "/CardImages/Heroes/namor-01.webp",
                     hc: 4,
                     rarity: 3,
                     cost: 7,
@@ -666,7 +666,7 @@ export const SecretWars1 = {
             cards: [
                 {
                     name: "Last Survivor",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/old-man-logan-03.png",
+                    imageUrl: "/CardImages/Heroes/old-man-logan-03.webp",
                     hc: 2,
                     rarity: 1,
                     cost: 3,
@@ -680,7 +680,7 @@ export const SecretWars1 = {
                 },
                 {
                     name: "Loner",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/old-man-logan-04.png",
+                    imageUrl: "/CardImages/Heroes/old-man-logan-04.webp",
                     hc: 2,
                     hc2: 1,
                     rarity: 1,
@@ -697,7 +697,7 @@ export const SecretWars1 = {
                 },
                 {
                     name: "Rage Out",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/old-man-logan-02.png",
+                    imageUrl: "/CardImages/Heroes/old-man-logan-02.webp",
                     hc: 2,
                     rarity: 2,
                     cost: 6,
@@ -715,7 +715,7 @@ export const SecretWars1 = {
                 },
                 {
                     name: "No More Heroes",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/old-man-logan-01.png",
+                    imageUrl: "/CardImages/Heroes/old-man-logan-01.webp",
                     hc: 2,
                     rarity: 3,
                     cost: 7,
@@ -742,7 +742,7 @@ export const SecretWars1 = {
             cards: [
                 {
                     name: "Inspiration Through Power",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/proxima-midnight-04.png",
+                    imageUrl: "/CardImages/Heroes/proxima-midnight-04.webp",
                     hc: 2,
                     hc2: 1,
                     rarity: 1,
@@ -753,7 +753,7 @@ export const SecretWars1 = {
                 },
                 {
                     name: "Master Combatant",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/proxima-midnight-03.png",
+                    imageUrl: "/CardImages/Heroes/proxima-midnight-03.webp",
                     hc: 2,
                     rarity: 1,
                     cost: 4,
@@ -777,7 +777,7 @@ export const SecretWars1 = {
                 },
                 {
                     name: "General of the Black Order",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/proxima-midnight-02.png",
+                    imageUrl: "/CardImages/Heroes/proxima-midnight-02.webp",
                     hc: 1,
                     rarity: 2,
                     cost: 5,
@@ -795,7 +795,7 @@ export const SecretWars1 = {
                 },
                 {
                     name: "Supernova Spear",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/proxima-midnight-01.png",
+                    imageUrl: "/CardImages/Heroes/proxima-midnight-01.webp",
                     hc: 2,
                     rarity: 3,
                     cost: 8,
@@ -823,7 +823,7 @@ export const SecretWars1 = {
             cards: [
                 {
                     name: "Armor Upgrades",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/superior-iron-man-04.png",
+                    imageUrl: "/CardImages/Heroes/superior-iron-man-04.webp",
                     hc: 5,
                     rarity: 1,
                     cost: 2,
@@ -840,7 +840,7 @@ export const SecretWars1 = {
                 },
                 {
                     name: "Optimized Technology",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/superior-iron-man-03.png",
+                    imageUrl: "/CardImages/Heroes/superior-iron-man-03.webp",
                     hc: 5,
                     hc2: 3,
                     rarity: 1,
@@ -854,7 +854,7 @@ export const SecretWars1 = {
                 },
                 {
                     name: "Superior to Others",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/superior-iron-man-02.png",
+                    imageUrl: "/CardImages/Heroes/superior-iron-man-02.webp",
                     hc: 3,
                     rarity: 2,
                     cost: 3,
@@ -868,7 +868,7 @@ export const SecretWars1 = {
                 },
                 {
                     name: "#Humblebrag",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/superior-iron-man-01.png",
+                    imageUrl: "/CardImages/Heroes/superior-iron-man-01.webp",
                     hc: 5,
                     rarity: 3,
                     cost: 8,
@@ -888,7 +888,7 @@ export const SecretWars1 = {
             cards: [
                 {
                     name: "Transdimensional Overlord",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/thanos-04-1.png",
+                    imageUrl: "/CardImages/Heroes/thanos-04-1.webp",
                     hc: 4,
                     rarity: 1,
                     cost: 5,
@@ -905,7 +905,7 @@ export const SecretWars1 = {
                 },
                 {
                     name: "Revel in Destruction",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/thanos-03-1.png",
+                    imageUrl: "/CardImages/Heroes/thanos-03-1.webp",
                     hc: 4,
                     hc2: 3,
                     rarity: 1,
@@ -923,7 +923,7 @@ export const SecretWars1 = {
                 },
                 {
                     name: "Galactic Domination",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/thanos-02-1.png",
+                    imageUrl: "/CardImages/Heroes/thanos-02-1.webp",
                     hc: 3,
                     rarity: 2,
                     cost: 6,
@@ -939,7 +939,7 @@ export const SecretWars1 = {
                 },
                 {
                     name: "Utter Annihilation",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/thanos-01-1.png",
+                    imageUrl: "/CardImages/Heroes/thanos-01-1.webp",
                     hc: 3,
                     rarity: 3,
                     cost: 8,
@@ -960,7 +960,7 @@ export const SecretWars1 = {
             cards: [
                 {
                     name: "Leaping Spider",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/ultimate-spider-man-04.png",
+                    imageUrl: "/CardImages/Heroes/ultimate-spider-man-04.webp",
                     hc: 4,
                     rarity: 1,
                     cost: 2,
@@ -978,7 +978,7 @@ export const SecretWars1 = {
                 },
                 {
                     name: "Marvel Team-Up",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/ultimate-spider-man-03.png",
+                    imageUrl: "/CardImages/Heroes/ultimate-spider-man-03.webp",
                     hc: 4,
                     hc2: 2,
                     rarity: 1,
@@ -996,7 +996,7 @@ export const SecretWars1 = {
                 },
                 {
                     name: "Web-Slinger",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/ultimate-spider-man-02.png",
+                    imageUrl: "/CardImages/Heroes/ultimate-spider-man-02.webp",
                     hc: 5,
                     rarity: 2,
                     cost: 2,
@@ -1015,7 +1015,7 @@ export const SecretWars1 = {
                 },
                 {
                     name: "Hero from Another Dimension",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/ultimate-spider-man-05.png",
+                    imageUrl: "/CardImages/Heroes/ultimate-spider-man-05.webp",
                     hc: 1,
                     rarity: 3,
                     cost: 2,
@@ -1042,7 +1042,7 @@ export const SecretWars1 = {
             cards: [
                 {
                     name: "Madelyne Pryor, Goblin Queen",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/madelyne-pryor-01.png",
+                    imageUrl: "/CardImages/Masterminds/madelyne-pryor-01.webp",
                     vAttackAsterisk: true,
                     abilities: [
                         [
@@ -1063,7 +1063,7 @@ export const SecretWars1 = {
                 },
                 {
                     name: "City of Demon Goblins",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/madelyne-pryor-02.png",
+                    imageUrl: "/CardImages/Masterminds/madelyne-pryor-02.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -1074,7 +1074,7 @@ export const SecretWars1 = {
                 },
                 {
                     name: "Corrupted Clone of Jean Grey",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/madelyne-pryor-03.png",
+                    imageUrl: "/CardImages/Masterminds/madelyne-pryor-03.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -1087,7 +1087,7 @@ export const SecretWars1 = {
                 },
                 {
                     name: "Everyone's a Demon on the Inside",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/madelyne-pryor-04.png",
+                    imageUrl: "/CardImages/Masterminds/madelyne-pryor-04.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -1098,7 +1098,7 @@ export const SecretWars1 = {
                 },
                 {
                     name: "Gather the Harvest",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/madelyne-pryor-05.png",
+                    imageUrl: "/CardImages/Masterminds/madelyne-pryor-05.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -1118,7 +1118,7 @@ export const SecretWars1 = {
             cards: [
                 {
                     name: "Nimrod, Super Sentinel",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/nimrod-01.png",
+                    imageUrl: "/CardImages/Masterminds/nimrod-01.webp",
                     vAttackAsterisk: true,
                     abilities: [
                         [
@@ -1145,7 +1145,7 @@ export const SecretWars1 = {
                 },
                 {
                     name: "Adapt and Destroy",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/nimrod-02.png",
+                    imageUrl: "/CardImages/Masterminds/nimrod-02.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -1160,7 +1160,7 @@ export const SecretWars1 = {
                 },
                 {
                     name: "Detect Mutation",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/nimrod-03.png",
+                    imageUrl: "/CardImages/Masterminds/nimrod-03.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -1175,7 +1175,7 @@ export const SecretWars1 = {
                 },
                 {
                     name: "Scatter the Mutants",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/nimrod-04.png",
+                    imageUrl: "/CardImages/Masterminds/nimrod-04.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -1190,7 +1190,7 @@ export const SecretWars1 = {
                 },
                 {
                     name: "Teleport and Incarcerate",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/nimrod-05.png",
+                    imageUrl: "/CardImages/Masterminds/nimrod-05.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -1215,7 +1215,7 @@ export const SecretWars1 = {
             cards: [
                 {
                     name: "Wasteland Hulk",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/wasteland-hulk-01.png",
+                    imageUrl: "/CardImages/Masterminds/wasteland-hulk-01.webp",
                     vAttack: "7+",
                     abilities: [
                         [
@@ -1237,7 +1237,7 @@ export const SecretWars1 = {
                 },
                 {
                     name: "Brutal Beating",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/wasteland-hulk-02.png",
+                    imageUrl: "/CardImages/Masterminds/wasteland-hulk-02.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -1248,7 +1248,7 @@ export const SecretWars1 = {
                 },
                 {
                     name: "Memories of Pain",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/wasteland-hulk-03.png",
+                    imageUrl: "/CardImages/Masterminds/wasteland-hulk-03.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -1259,7 +1259,7 @@ export const SecretWars1 = {
                 },
                 {
                     name: "Radioactive Regeneration",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/wasteland-hulk-04.png",
+                    imageUrl: "/CardImages/Masterminds/wasteland-hulk-04.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -1270,7 +1270,7 @@ export const SecretWars1 = {
                 },
                 {
                     name: "Revert to Bruce Banner",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/wasteland-hulk-05.png",
+                    imageUrl: "/CardImages/Masterminds/wasteland-hulk-05.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -1292,7 +1292,7 @@ export const SecretWars1 = {
             cards: [
                 {
                     name: "Zombie Green Goblin",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/zombie-green-goblin-01.png",
+                    imageUrl: "/CardImages/Masterminds/zombie-green-goblin-01.webp",
                     vAttack: "11+",
                     abilities: [
                         [
@@ -1315,7 +1315,7 @@ export const SecretWars1 = {
                 },
                 {
                     name: "Army of Cadavers",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/zombie-green-goblin-03.png",
+                    imageUrl: "/CardImages/Masterminds/zombie-green-goblin-03.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -1331,7 +1331,7 @@ export const SecretWars1 = {
                 },
                 {
                     name: "The Hungry Dead",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/zombie-green-goblin-05.png",
+                    imageUrl: "/CardImages/Masterminds/zombie-green-goblin-05.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -1347,7 +1347,7 @@ export const SecretWars1 = {
                 },
                 {
                     name: "Love to Have You for Dinner",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/zombie-green-goblin-02.png",
+                    imageUrl: "/CardImages/Masterminds/zombie-green-goblin-02.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -1361,7 +1361,7 @@ export const SecretWars1 = {
                 },
                 {
                     name: "Reign of Terror",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/zombie-green-goblin-04.png",
+                    imageUrl: "/CardImages/Masterminds/zombie-green-goblin-04.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -1380,7 +1380,7 @@ export const SecretWars1 = {
         {
             id: 13,
             name: "Ghost Racers",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Henchmen/ghost-racers.png",
+            imageUrl: "/CardImages/Henchmen/ghost-racers.webp",
             vAttack: "3",
             vp: 1,
             cards: [
@@ -1406,7 +1406,7 @@ export const SecretWars1 = {
         {
             id: 14,
             name: "M.O.D.O.K.s",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Henchmen/modoks.png",
+            imageUrl: "/CardImages/Henchmen/modoks.webp",
             vAttack: "3",
             vp: 1,
             cards: [
@@ -1433,7 +1433,7 @@ export const SecretWars1 = {
             cards: [
                 {
                     name: "Thor Corps",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Henchmen/thor-corps.png",
+                    imageUrl: "/CardImages/Henchmen/thor-corps.webp",
                     hc: 4,
                     hc2: 3,
                     team: 1,
@@ -1466,7 +1466,7 @@ export const SecretWars1 = {
             cards: [
                 {
                     name: "Zombie Baron Zemo",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/the-deadlands-06.png",
+                    imageUrl: "/CardImages/Villains/the-deadlands-06.webp",
                     qtd: 1,
                     vAttack: "6",
                     vp: "4",
@@ -1490,7 +1490,7 @@ export const SecretWars1 = {
                 },
                 {
                     name: "Zombie Loki",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/the-deadlands-04.png",
+                    imageUrl: "/CardImages/Villains/the-deadlands-04.webp",
                     qtd: 1,
                     vAttack: "8",
                     vp: "6",
@@ -1518,7 +1518,7 @@ export const SecretWars1 = {
                 },
                 {
                     name: "Zombie Madame Hydra",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/the-deadlands-03.png",
+                    imageUrl: "/CardImages/Villains/the-deadlands-03.webp",
                     qtd: 1,
                     vAttack: "4",
                     vp: "2",
@@ -1544,7 +1544,7 @@ export const SecretWars1 = {
                 },
                 {
                     name: "Zombie Mr. Sinister",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/the-deadlands-01.png",
+                    imageUrl: "/CardImages/Villains/the-deadlands-01.webp",
                     qtd: 1,
                     vAttack: "7",
                     vp: "5",
@@ -1572,7 +1572,7 @@ export const SecretWars1 = {
                 },
                 {
                     name: "Zombie M.O.D.O.K.",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/the-deadlands-02.png",
+                    imageUrl: "/CardImages/Villains/the-deadlands-02.webp",
                     qtd: 1,
                     vAttack: "5",
                     vp: "3",
@@ -1596,7 +1596,7 @@ export const SecretWars1 = {
                 },
                 {
                     name: "Zombie Mysterio",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/the-deadlands-07.png",
+                    imageUrl: "/CardImages/Villains/the-deadlands-07.webp",
                     qtd: 1,
                     vAttack: "6",
                     vp: "6",
@@ -1620,7 +1620,7 @@ export const SecretWars1 = {
                 },
                 {
                     name: "Zombie Thanos",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/the-deadlands-08.png",
+                    imageUrl: "/CardImages/Villains/the-deadlands-08.webp",
                     qtd: 1,
                     vAttack: "9",
                     vp: "6",
@@ -1646,7 +1646,7 @@ export const SecretWars1 = {
                 },
                 {
                     name: "Zombie Venom",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/the-deadlands-05.png",
+                    imageUrl: "/CardImages/Villains/the-deadlands-05.webp",
                     qtd: 1,
                     vAttack: "5",
                     vp: "3",
@@ -1680,7 +1680,7 @@ export const SecretWars1 = {
             cards: [
                 {
                     name: "Apocalyptic Blink",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/domain-of-apocalypse-04.png",
+                    imageUrl: "/CardImages/Villains/domain-of-apocalypse-04.webp",
                     qtd: 3,
                     vAttack: "5",
                     vp: "3",
@@ -1697,7 +1697,7 @@ export const SecretWars1 = {
                 },
                 {
                     name: "Apocalyptic Magneto",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/domain-of-apocalypse-02.png",
+                    imageUrl: "/CardImages/Villains/domain-of-apocalypse-02.webp",
                     qtd: 1,
                     vAttack: "8",
                     vp: "6",
@@ -1726,7 +1726,7 @@ export const SecretWars1 = {
                 },
                 {
                     name: "Apocalyptic Rogue",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/domain-of-apocalypse-01.png",
+                    imageUrl: "/CardImages/Villains/domain-of-apocalypse-01.webp",
                     qtd: 2,
                     vAttack: "6",
                     vp: "4",
@@ -1747,7 +1747,7 @@ export const SecretWars1 = {
                 },
                 {
                     name: "Apocalyptic Weapon X",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/domain-of-apocalypse-03.png",
+                    imageUrl: "/CardImages/Villains/domain-of-apocalypse-03.webp",
                     qtd: 2,
                     vAttack: "7",
                     vp: "5",
@@ -1775,7 +1775,7 @@ export const SecretWars1 = {
             cards: [
                 {
                     name: "Inferno Colossus",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/limbo-01.png",
+                    imageUrl: "/CardImages/Villains/limbo-01.webp",
                     qtd: 2,
                     vAttack: "5",
                     vp: "3",
@@ -1796,7 +1796,7 @@ export const SecretWars1 = {
                 },
                 {
                     name: "Inferno Cyclops",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/limbo-02.png",
+                    imageUrl: "/CardImages/Villains/limbo-02.webp",
                     qtd: 2,
                     vAttack: "6",
                     vp: "4",
@@ -1818,7 +1818,7 @@ export const SecretWars1 = {
                 },
                 {
                     name: "Inferno Darkchilde",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/limbo-04.png",
+                    imageUrl: "/CardImages/Villains/limbo-04.webp",
                     qtd: 2,
                     vAttack: "5",
                     vp: "3",
@@ -1843,7 +1843,7 @@ export const SecretWars1 = {
                 },
                 {
                     name: "Inferno Nightcrawler",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/limbo-03.png",
+                    imageUrl: "/CardImages/Villains/limbo-03.webp",
                     qtd: 2,
                     vAttack: "4",
                     vp: "2",
@@ -1868,7 +1868,7 @@ export const SecretWars1 = {
             cards: [
                 {
                     name: "Ultimate Captain America",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/manhattan-earth-1610-04.png",
+                    imageUrl: "/CardImages/Villains/manhattan-earth-1610-04.webp",
                     qtd: 2,
                     vAttack: "6",
                     hc: 4,
@@ -1896,7 +1896,7 @@ export const SecretWars1 = {
                 },
                 {
                     name: "Ultimate Captain Marvel",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/manhattan-earth-1610-01.png",
+                    imageUrl: "/CardImages/Villains/manhattan-earth-1610-01.webp",
                     qtd: 2,
                     vAttack: "4",
                     hc: 3,
@@ -1916,7 +1916,7 @@ export const SecretWars1 = {
                 },
                 {
                     name: "Ultimate Thor",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/manhattan-earth-1610-03.png",
+                    imageUrl: "/CardImages/Villains/manhattan-earth-1610-03.webp",
                     qtd: 2,
                     vAttack: "7",
                     hc: 3,
@@ -1949,7 +1949,7 @@ export const SecretWars1 = {
                 },
                 {
                     name: "Ultimate Wasp",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/manhattan-earth-1610-02.png",
+                    imageUrl: "/CardImages/Villains/manhattan-earth-1610-02.webp",
                     qtd: 2,
                     vAttack: "5",
                     hc: 1,
@@ -1981,7 +1981,7 @@ export const SecretWars1 = {
             cards: [
                 {
                     name: "Colossus of Future Past",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/sentinel-territories-02.png",
+                    imageUrl: "/CardImages/Villains/sentinel-territories-02.webp",
                     qtd: 2,
                     vAttack: "5",
                     vp: "3",
@@ -1998,7 +1998,7 @@ export const SecretWars1 = {
                 },
                 {
                     name: "Kate Pryde of Future Past",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/sentinel-territories-01.png",
+                    imageUrl: "/CardImages/Villains/sentinel-territories-01.webp",
                     qtd: 2,
                     vAttack: "4",
                     vp: "2",
@@ -2021,7 +2021,7 @@ export const SecretWars1 = {
                 },
                 {
                     name: "Rachel Summers of Future Past",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/sentinel-territories-04.png",
+                    imageUrl: "/CardImages/Villains/sentinel-territories-04.webp",
                     qtd: 2,
                     vAttack: "6",
                     vp: "4",
@@ -2050,7 +2050,7 @@ export const SecretWars1 = {
                 },
                 {
                     name: "Wolverine of Future Past",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/sentinel-territories-03.png",
+                    imageUrl: "/CardImages/Villains/sentinel-territories-03.webp",
                     qtd: 2,
                     vAttack: "7",
                     vp: "5",
@@ -2080,7 +2080,7 @@ export const SecretWars1 = {
             cards: [
                 {
                     name: "The Hulk Gang",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/wasteland-01.png",
+                    imageUrl: "/CardImages/Villains/wasteland-01.webp",
                     qtd: 3,
                     vAttack: "5",
                     vp: "3",
@@ -2102,7 +2102,7 @@ export const SecretWars1 = {
                 },
                 {
                     name: "Wasteland Kingpin",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/wasteland-04.png",
+                    imageUrl: "/CardImages/Villains/wasteland-04.webp",
                     qtd: 1,
                     vAttack: "11",
                     vp: "6",
@@ -2127,7 +2127,7 @@ export const SecretWars1 = {
                 },
                 {
                     name: "Wasteland Hawkeye",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/wasteland-02.png",
+                    imageUrl: "/CardImages/Villains/wasteland-02.webp",
                     qtd: 2,
                     vAttack: "6",
                     vp: "4",
@@ -2148,7 +2148,7 @@ export const SecretWars1 = {
                 },
                 {
                     name: "Wasteland Spider-Girl",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/wasteland-03.png",
+                    imageUrl: "/CardImages/Villains/wasteland-03.webp",
                     qtd: 2,
                     vAttack: "4",
                     vp: "2",
@@ -2168,7 +2168,7 @@ export const SecretWars1 = {
         {
             id: 40,
             name: "Build an Army of Annihilation",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Schemes/45Scheme(65).png",
+            imageUrl: "/CardImages/Schemes/45Scheme(65).webp",
             cards: [
                 {
                     abilities: [
@@ -2191,7 +2191,7 @@ export const SecretWars1 = {
         {
             id: 41,
             name: "Corrupt the Next Generation of Heroes",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Schemes/46Scheme(66).png",
+            imageUrl: "/CardImages/Schemes/46Scheme(66).webp",
             cards: [
                 {
                     abilities: [
@@ -2242,7 +2242,7 @@ export const SecretWars1 = {
         {
             id: 42,
             name: "Crush Them With My Bare Hands",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Schemes/47Scheme(67).png",
+            imageUrl: "/CardImages/Schemes/47Scheme(67).webp",
             cards: [
                 {
                     abilities: [
@@ -2265,7 +2265,7 @@ export const SecretWars1 = {
         {
             id: 43,
             name: "Dark Alliance",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Schemes/43Scheme(63).png",
+            imageUrl: "/CardImages/Schemes/43Scheme(63).webp",
             cards: [
                 {
                     abilities: [
@@ -2300,7 +2300,7 @@ export const SecretWars1 = {
         {
             id: 44,
             name: "Fragmented Realities",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Schemes/42Scheme(62).png",
+            imageUrl: "/CardImages/Schemes/42Scheme(62).webp",
             cards: [
                 {
                     abilities: [
@@ -2327,7 +2327,7 @@ export const SecretWars1 = {
         {
             id: 45,
             name: "Master of Tyrants",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Schemes/41Scheme(61).png",
+            imageUrl: "/CardImages/Schemes/41Scheme(61).webp",
             cards: [
                 {
                     abilities: [
@@ -2359,7 +2359,7 @@ export const SecretWars1 = {
         {
             id: 46,
             name: "Pan-Dimensional Plague",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Schemes/40Scheme(60).png",
+            imageUrl: "/CardImages/Schemes/40Scheme(60).webp",
             cards: [
                 {
                     abilities: [
@@ -2389,7 +2389,7 @@ export const SecretWars1 = {
         {
             id: 47,
             name: "Smash Two Dimensions Together",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Schemes/44Scheme(64).png",
+            imageUrl: "/CardImages/Schemes/44Scheme(64).webp",
             cards: [
                 {
                     abilities: [
@@ -2422,7 +2422,7 @@ export const SecretWars1 = {
         {
             id: 15,
             name: "Banker",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Bystanders/bystander-banker.png",
+            imageUrl: "/CardImages/Bystanders/bystander-banker.webp",
             vp: 1,
             cards: [
                 {

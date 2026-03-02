@@ -8,7 +8,7 @@ export const Noir = {
             cards: [
                 {
                     name: "Impetuous Dive",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/angel-noir-03.png",
+                    imageUrl: "/CardImages/Heroes/angel-noir-03.webp",
                     hc: 2,
                     rarity: 1,
                     cost: 3,
@@ -25,7 +25,7 @@ export const Noir = {
                 },
                 {
                     name: "Multitalented",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/angel-noir-04.png",
+                    imageUrl: "/CardImages/Heroes/angel-noir-04.webp",
                     hc: 4,
                     rarity: 1,
                     cost: 4,
@@ -41,7 +41,7 @@ export const Noir = {
                 },
                 {
                     name: "Identical Twin Brother",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/angel-noir-02.png",
+                    imageUrl: "/CardImages/Heroes/angel-noir-02.webp",
                     hc: 2,
                     rarity: 2,
                     cost: 5,
@@ -59,7 +59,7 @@ export const Noir = {
                 },
                 {
                     name: "Missing Person Case",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/angel-noir-01.png",
+                    imageUrl: "/CardImages/Heroes/angel-noir-01.webp",
                     hc: 1,
                     rarity: 3,
                     cost: 8,
@@ -80,7 +80,7 @@ export const Noir = {
             cards: [
                 {
                     name: "Balancing Act",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/daredevil-04-2.png",
+                    imageUrl: "/CardImages/Heroes/daredevil-04-2.webp",
                     hc: 1,
                     rarity: 1,
                     cost: 3,
@@ -94,7 +94,7 @@ export const Noir = {
                 },
                 {
                     name: "Listen for Heartbeats",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/daredevil-03-2.png",
+                    imageUrl: "/CardImages/Heroes/daredevil-03-2.webp",
                     hc: 2,
                     rarity: 1,
                     cost: 4,
@@ -109,7 +109,7 @@ export const Noir = {
                 },
                 {
                     name: "Discover the Bodies",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/daredevil-02-2.png",
+                    imageUrl: "/CardImages/Heroes/daredevil-02-2.webp",
                     hc: 1,
                     rarity: 2,
                     cost: 5,
@@ -125,7 +125,7 @@ export const Noir = {
                 },
                 {
                     name: "Hitting Rock Bottom",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/daredevil-01-2.png",
+                    imageUrl: "/CardImages/Heroes/daredevil-01-2.webp",
                     hc: 2,
                     rarity: 3,
                     cost: 7,
@@ -148,7 +148,7 @@ export const Noir = {
             cards: [
                 {
                     name: "Steam-Powered Arsenal",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/iron-man-noir-04.png",
+                    imageUrl: "/CardImages/Heroes/iron-man-noir-04.webp",
                     hc: 3,
                     rarity: 1,
                     cost: 3,
@@ -161,7 +161,7 @@ export const Noir = {
                 },
                 {
                     name: "Mechanized Plate-Mail",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/iron-man-noir-03.png",
+                    imageUrl: "/CardImages/Heroes/iron-man-noir-03.webp",
                     hc: 5,
                     rarity: 1,
                     cost: 4,
@@ -177,7 +177,7 @@ export const Noir = {
                 },
                 {
                     name: "Learn from Enemies",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/iron-man-noir-02.png",
+                    imageUrl: "/CardImages/Heroes/iron-man-noir-02.webp",
                     hc: 5,
                     rarity: 2,
                     cost: 6,
@@ -193,7 +193,7 @@ export const Noir = {
                 },
                 {
                     name: "Adventurers Assemble!",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/iron-man-noir-01.png",
+                    imageUrl: "/CardImages/Heroes/iron-man-noir-01.webp",
                     hc: 5,
                     rarity: 3,
                     cost: 7,
@@ -224,7 +224,7 @@ export const Noir = {
             cards: [
                 {
                     name: "Follow Big Leads",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/luke-cage-noir-04.png",
+                    imageUrl: "/CardImages/Heroes/luke-cage-noir-04.webp",
                     hc: 4,
                     rarity: 1,
                     cost: 4,
@@ -240,7 +240,7 @@ export const Noir = {
                 },
                 {
                     name: "Private Investigations",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/luke-cage-noir-03.png",
+                    imageUrl: "/CardImages/Heroes/luke-cage-noir-03.webp",
                     hc: 1,
                     rarity: 1,
                     cost: 4,
@@ -254,7 +254,7 @@ export const Noir = {
                 },
                 {
                     name: "Unbreakable Cage",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/luke-cage-noir-02.png",
+                    imageUrl: "/CardImages/Heroes/luke-cage-noir-02.webp",
                     hc: 4,
                     rarity: 2,
                     cost: 6,
@@ -269,7 +269,7 @@ export const Noir = {
                 },
                 {
                     name: "Weight of the World",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/luke-cage-noir-01.png",
+                    imageUrl: "/CardImages/Heroes/luke-cage-noir-01.webp",
                     hc: 4,
                     rarity: 3,
                     cost: 8,
@@ -292,7 +292,7 @@ export const Noir = {
             cards: [
                 {
                     name: "Gumshoe's Revolver",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/spider-man-noir-03.png",
+                    imageUrl: "/CardImages/Heroes/spider-man-noir-03.webp",
                     hc: 5,
                     rarity: 1,
                     cost: 2,
@@ -306,7 +306,7 @@ export const Noir = {
                 },
                 {
                     name: "Webs of Darkness",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/spider-man-noir-04.png",
+                    imageUrl: "/CardImages/Heroes/spider-man-noir-04.webp",
                     hc: 3,
                     rarity: 1,
                     cost: 2,
@@ -323,7 +323,7 @@ export const Noir = {
                 },
                 {
                     name: "Solve the Crime",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/spider-man-noir-02.png",
+                    imageUrl: "/CardImages/Heroes/spider-man-noir-02.webp",
                     hc: 2,
                     rarity: 2,
                     cost: 2,
@@ -339,7 +339,7 @@ export const Noir = {
                 },
                 {
                     name: "Spider-Totem's Chosen",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/spider-man-noir-01.png",
+                    imageUrl: "/CardImages/Heroes/spider-man-noir-01.webp",
                     hc: 4,
                     rarity: 3,
                     cost: 2,
@@ -366,7 +366,7 @@ export const Noir = {
             cards: [
                 {
                     name: "Charles Xavier, Professor of Crime",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/charles-xavier-01.png",
+                    imageUrl: "/CardImages/Masterminds/charles-xavier-01.webp",
                     vAttack: "8+",
                     abilities: [
                         [
@@ -389,7 +389,7 @@ export const Noir = {
                 },
                 {
                     name: "Commit to the Asylum",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/charles-xavier-02.png",
+                    imageUrl: "/CardImages/Masterminds/charles-xavier-02.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -406,7 +406,7 @@ export const Noir = {
                 },
                 {
                     name: "Master Manipulator",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/charles-xavier-04.png",
+                    imageUrl: "/CardImages/Masterminds/charles-xavier-04.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -421,7 +421,7 @@ export const Noir = {
                 },
                 {
                     name: "Corrupt Weak Minds",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/charles-xavier-03.png",
+                    imageUrl: "/CardImages/Masterminds/charles-xavier-03.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -434,7 +434,7 @@ export const Noir = {
                 },
                 {
                     name: "X-Con Men",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/charles-xavier-05.png",
+                    imageUrl: "/CardImages/Masterminds/charles-xavier-05.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -456,7 +456,7 @@ export const Noir = {
             cards: [
                 {
                     name: "The Goblin, Underworld Boss",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/goblin-underworld-boss-01.png",
+                    imageUrl: "/CardImages/Masterminds/goblin-underworld-boss-01.webp",
                     vAttackAsterisk: true,
                     abilities: [
                         [
@@ -479,7 +479,7 @@ export const Noir = {
                 },
                 {
                     name: "Sinister Dreams",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/goblin-underworld-boss-05.png",
+                    imageUrl: "/CardImages/Masterminds/goblin-underworld-boss-05.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -494,7 +494,7 @@ export const Noir = {
                 },
                 {
                     name: "Blackmail the Judges",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/goblin-underworld-boss-02.png",
+                    imageUrl: "/CardImages/Masterminds/goblin-underworld-boss-02.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -507,7 +507,7 @@ export const Noir = {
                 },
                 {
                     name: "Carnival of Carnage",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/goblin-underworld-boss-04.png",
+                    imageUrl: "/CardImages/Masterminds/goblin-underworld-boss-04.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -518,7 +518,7 @@ export const Noir = {
                 },
                 {
                     name: "Blind Loyalty",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/goblin-underworld-boss-03.png",
+                    imageUrl: "/CardImages/Masterminds/goblin-underworld-boss-03.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -539,7 +539,7 @@ export const Noir = {
             cards: [
                 {
                     name: "Vulture, Carnival Cannibal",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/goblins-freak-show-06.png",
+                    imageUrl: "/CardImages/Villains/goblins-freak-show-06.webp",
                     qtd: 2,
                     vAttack: "5",
                     vp: "3",
@@ -569,7 +569,7 @@ export const Noir = {
                 },
                 {
                     name: "The Chameleon",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/goblins-freak-show-04.png",
+                    imageUrl: "/CardImages/Villains/goblins-freak-show-04.webp",
                     qtd: 2,
                     vAttack: "4",
                     vp: "2",
@@ -593,7 +593,7 @@ export const Noir = {
                 },
                 {
                     name: "Kraven, Animal Trainer",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/goblins-freak-show-01.png",
+                    imageUrl: "/CardImages/Villains/goblins-freak-show-01.webp",
                     qtd: 1,
                     vAttack: "",
                     vp: "4",
@@ -613,7 +613,7 @@ export const Noir = {
                 },
                 {
                     name: "Ox",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/goblins-freak-show-03.png",
+                    imageUrl: "/CardImages/Villains/goblins-freak-show-03.webp",
                     qtd: 1,
                     vAttack: "5",
                     vp: "3",
@@ -633,7 +633,7 @@ export const Noir = {
                 },
                 {
                     name: "Montana",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/goblins-freak-show-02.png",
+                    imageUrl: "/CardImages/Villains/goblins-freak-show-02.webp",
                     qtd: 1,
                     vAttack: "4",
                     vp: "2",
@@ -651,7 +651,7 @@ export const Noir = {
                 },
                 {
                     name: "Fancy Dan",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/goblins-freak-show-05.png",
+                    imageUrl: "/CardImages/Villains/goblins-freak-show-05.webp",
                     qtd: 1,
                     vAttack: "1",
                     vp: "2",
@@ -681,7 +681,7 @@ export const Noir = {
             cards: [
                 {
                     name: "Bobby “Iceman“ Drake",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/x-men-noir-07.png",
+                    imageUrl: "/CardImages/Villains/x-men-noir-07.webp",
                     qtd: 1,
                     vAttack: "4",
                     vp: "2",
@@ -700,7 +700,7 @@ export const Noir = {
                 },
                 {
                     name: "Comrade Rasputin, Steel Wall",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/x-men-noir-06.png",
+                    imageUrl: "/CardImages/Villains/x-men-noir-06.webp",
                     qtd: 2,
                     vAttack: "5",
                     vp: "3",
@@ -717,7 +717,7 @@ export const Noir = {
                 },
                 {
                     name: "Henry “Beast“ McCoy",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/x-men-noir-05.png",
+                    imageUrl: "/CardImages/Villains/x-men-noir-05.webp",
                     qtd: 1,
                     vAttack: "5",
                     vp: "3",
@@ -738,7 +738,7 @@ export const Noir = {
                 },
                 {
                     name: "Jean Grey Noir",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/x-men-noir-01.png",
+                    imageUrl: "/CardImages/Villains/x-men-noir-01.webp",
                     qtd: 1,
                     vAttack: "5",
                     vp: "3",
@@ -755,7 +755,7 @@ export const Noir = {
                 },
                 {
                     name: "Scott “Cyclops“ Summers",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/x-men-noir-03.png",
+                    imageUrl: "/CardImages/Villains/x-men-noir-03.webp",
                     qtd: 1,
                     vAttack: "6",
                     vp: "4",
@@ -774,7 +774,7 @@ export const Noir = {
                 },
                 {
                     name: "Warden Emma Frost",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/x-men-noir-04.png",
+                    imageUrl: "/CardImages/Villains/x-men-noir-04.webp",
                     qtd: 1,
                     vAttack: "6",
                     vp: "4",
@@ -793,7 +793,7 @@ export const Noir = {
                 },
                 {
                     name: "Ororo Munroe, Storm-Tossed",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/x-men-noir-02.png",
+                    imageUrl: "/CardImages/Villains/x-men-noir-02.webp",
                     qtd: 1,
                     vAttack: "4",
                     vp: "2",
@@ -815,7 +815,7 @@ export const Noir = {
         {
             id: 72,
             name: "Find the Split Personality Killer",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Schemes/75Scheme(92).png",
+            imageUrl: "/CardImages/Schemes/75Scheme(92).webp",
             cards: [
                 {
                     abilities: [
@@ -849,7 +849,7 @@ export const Noir = {
         {
             id: 73,
             name: "Silence the Witnesses",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Schemes/72Scheme(89).png",
+            imageUrl: "/CardImages/Schemes/72Scheme(89).webp",
             cards: [
                 {
                     abilities: [
@@ -876,7 +876,7 @@ export const Noir = {
         {
             id: 74,
             name: "Five Families of Crime",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Schemes/74Scheme(91).png",
+            imageUrl: "/CardImages/Schemes/74Scheme(91).webp",
             cards: [
                 {
                     abilities: [
@@ -903,7 +903,7 @@ export const Noir = {
         {
             id: 75,
             name: "Hidden Heart of Darkness",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Schemes/73Scheme(90).png",
+            imageUrl: "/CardImages/Schemes/73Scheme(90).webp",
             cards: [
                 {
                     abilities: [
@@ -936,7 +936,7 @@ export const Noir = {
         {
             id: 21,
             name: "Detective Wolverine",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Bystanders/bystander-detective-wolverine.png",
+            imageUrl: "/CardImages/Bystanders/bystander-detective-wolverine.webp",
             vp: 1,
             cards: [
                 {

@@ -8,7 +8,7 @@ export const Shield = {
             cards: [
                 {
                     name: "Impeccable Planning",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/agent-coulson_04.png",
+                    imageUrl: "/CardImages/Heroes/agent-coulson_04.webp",
                     hc: 1,
                     rarity: 1,
                     cost: 3,
@@ -22,7 +22,7 @@ export const Shield = {
                 },
                 {
                     name: "Build the Strike Team",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/agent-coulson_03.png",
+                    imageUrl: "/CardImages/Heroes/agent-coulson_03.webp",
                     hc: 1,
                     rarity: 1,
                     cost: 4,
@@ -39,7 +39,7 @@ export const Shield = {
                 },
                 {
                     name: "Approve Orbital Strike",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/agent-coulson_02.png",
+                    imageUrl: "/CardImages/Heroes/agent-coulson_02.webp",
                     hc: 5,
                     rarity: 2,
                     cost: 6,
@@ -65,7 +65,7 @@ export const Shield = {
                 },
                 {
                     name: "Fake But Inspiring Death",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/agent-coulson_01.png",
+                    imageUrl: "/CardImages/Heroes/agent-coulson_01.webp",
                     hc: 1,
                     rarity: 3,
                     cost: 8,
@@ -96,7 +96,7 @@ export const Shield = {
             cards: [
                 {
                     name: "Authorize Lethal Force",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/deathlok_04.png",
+                    imageUrl: "/CardImages/Heroes/deathlok_04.webp",
                     hc: 5,
                     rarity: 1,
                     cost: 2,
@@ -114,7 +114,7 @@ export const Shield = {
                 },
                 {
                     name: "Reanimate Into Service",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/deathlok_03.png",
+                    imageUrl: "/CardImages/Heroes/deathlok_03.webp",
                     hc: 5,
                     rarity: 1,
                     cost: 4,
@@ -132,7 +132,7 @@ export const Shield = {
                 },
                 {
                     name: "Headlok",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/deathlok_02.png",
+                    imageUrl: "/CardImages/Heroes/deathlok_02.webp",
                     hc: 4,
                     rarity: 2,
                     cost: 5,
@@ -157,7 +157,7 @@ export const Shield = {
                 },
                 {
                     name: "Behind Enemy Lines",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/deathlok_01.png",
+                    imageUrl: "/CardImages/Heroes/deathlok_01.webp",
                     hc: 1,
                     rarity: 3,
                     cost: 8,
@@ -190,7 +190,7 @@ export const Shield = {
             cards: [
                 {
                     name: "Take Cover",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/mockingbird_04.png",
+                    imageUrl: "/CardImages/Heroes/mockingbird_04.webp",
                     hc: 2,
                     rarity: 1,
                     cost: 3,
@@ -209,7 +209,7 @@ export const Shield = {
                 },
                 {
                     name: "Battle Staves",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/mockingbird_03.png",
+                    imageUrl: "/CardImages/Heroes/mockingbird_03.webp",
                     hc: 2,
                     rarity: 1,
                     cost: 4,
@@ -223,7 +223,7 @@ export const Shield = {
                 },
                 {
                     name: "Spymaster",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/mockingbird_02.png",
+                    imageUrl: "/CardImages/Heroes/mockingbird_02.webp",
                     hc: 1,
                     rarity: 2,
                     cost: 5,
@@ -247,7 +247,7 @@ export const Shield = {
                 },
                 {
                     name: "Infinity Formula",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/mockingbird_01.png",
+                    imageUrl: "/CardImages/Heroes/mockingbird_01.webp",
                     hc: 5,
                     rarity: 3,
                     cost: 7,
@@ -282,7 +282,7 @@ export const Shield = {
             cards: [
                 {
                     name: "Going Underground",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/quake_04.png",
+                    imageUrl: "/CardImages/Heroes/quake_04.webp",
                     hc: 3,
                     rarity: 1,
                     cost: 3,
@@ -303,7 +303,7 @@ export const Shield = {
                 },
                 {
                     name: "Aftershock",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/quake_03.png",
+                    imageUrl: "/CardImages/Heroes/quake_03.webp",
                     hc: 3,
                     rarity: 1,
                     cost: 4,
@@ -320,7 +320,7 @@ export const Shield = {
                 },
                 {
                     name: "Tectonic Wave",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/quake_02.png",
+                    imageUrl: "/CardImages/Heroes/quake_02.webp",
                     hc: 1,
                     rarity: 2,
                     cost: 6,
@@ -348,7 +348,7 @@ export const Shield = {
                 },
                 {
                     name: "Roil the Earth",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/quake_01.png",
+                    imageUrl: "/CardImages/Heroes/quake_01.webp",
                     hc: 3,
                     rarity: 3,
                     cost: 7,
@@ -381,7 +381,7 @@ export const Shield = {
             cards: [
                 {
                     name: "Red Skull",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/hydra-high-council_04.png",
+                    imageUrl: "/CardImages/Masterminds/hydra-high-council_04.webp",
                     tactic: true,
                     vAttack: "7+",
                     abilities: [
@@ -419,7 +419,7 @@ export const Shield = {
                 },
                 {
                     name: "Viper",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/hydra-high-council_02.png",
+                    imageUrl: "/CardImages/Masterminds/hydra-high-council_02.webp",
                     tactic: true,
                     vAttack: "9+",
                     abilities: [
@@ -445,7 +445,7 @@ export const Shield = {
                 },
                 {
                     name: "Arnim Zola",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/hydra-high-council_03.png",
+                    imageUrl: "/CardImages/Masterminds/hydra-high-council_03.webp",
                     tactic: true,
                     vAttack: "6+",
                     abilities: [
@@ -477,7 +477,7 @@ export const Shield = {
                 },
                 {
                     name: "Baron Helmut Zemo",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/hydra-high-council_01.png",
+                    imageUrl: "/CardImages/Masterminds/hydra-high-council_01.webp",
                     tactic: true,
                     vAttack: "16",
                     vAttackAsterisk: true,
@@ -511,7 +511,7 @@ export const Shield = {
             cards: [
                 {
                     name: "Black Widow's Bite",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/hydra-super-adaptoid_03.png",
+                    imageUrl: "/CardImages/Masterminds/hydra-super-adaptoid_03.webp",
                     tactic: true,
                     vAttack: "8",
                     abilities: [
@@ -543,7 +543,7 @@ export const Shield = {
                 },
                 {
                     name: "Captain America's Shield",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/hydra-super-adaptoid_02.png",
+                    imageUrl: "/CardImages/Masterminds/hydra-super-adaptoid_02.webp",
                     tactic: true,
                     vAttack: "10",
                     abilities: [
@@ -570,7 +570,7 @@ export const Shield = {
                 },
                 {
                     name: "Iron Man's Armor",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/hydra-super-adaptoid_01.png",
+                    imageUrl: "/CardImages/Masterminds/hydra-super-adaptoid_01.webp",
                     tactic: true,
                     vAttack: "12",
                     abilities: [
@@ -594,7 +594,7 @@ export const Shield = {
                 },
                 {
                     name: "Thor's Hammer",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/hydra-super-adaptoid_04.png",
+                    imageUrl: "/CardImages/Masterminds/hydra-super-adaptoid_04.webp",
                     tactic: true,
                     vAttack: "14",
                     abilities: [
@@ -626,7 +626,7 @@ export const Shield = {
             cards: [
                 {
                     name: "Taskmaster",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/aim_01.png",
+                    imageUrl: "/CardImages/Villains/aim_01.webp",
                     qtd: 2,
                     vp: "2",
                     vAttack: "3",
@@ -657,7 +657,7 @@ export const Shield = {
                 },
                 {
                     name: "Superia",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/aim_02.png",
+                    imageUrl: "/CardImages/Villains/aim_02.webp",
                     qtd: 2,
                     vp: "3",
                     vAttack: "5",
@@ -674,7 +674,7 @@ export const Shield = {
                 },
                 {
                     name: "Graviton",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/aim_03.png",
+                    imageUrl: "/CardImages/Villains/aim_03.webp",
                     qtd: 2,
                     vp: "4",
                     vAttack: "6",
@@ -691,7 +691,7 @@ export const Shield = {
                 },
                 {
                     name: "Mentallo",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/aim_04.png",
+                    imageUrl: "/CardImages/Villains/aim_04.webp",
                     qtd: 2,
                     vp: "3",
                     vAttack: "3+",
@@ -728,7 +728,7 @@ export const Shield = {
             cards: [
                 {
                     name: "Growing Man",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/hydra-elite_01.png",
+                    imageUrl: "/CardImages/Villains/hydra-elite_01.webp",
                     qtd: 2,
                     vp: "3",
                     vAttack: "0+",
@@ -751,7 +751,7 @@ export const Shield = {
                 },
                 {
                     name: "Crossbones",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/hydra-elite_02.png",
+                    imageUrl: "/CardImages/Villains/hydra-elite_02.webp",
                     qtd: 2,
                     vp: "2",
                     vAttack: "4",
@@ -770,7 +770,7 @@ export const Shield = {
                 },
                 {
                     name: "Hive",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/hydra-elite_03.png",
+                    imageUrl: "/CardImages/Villains/hydra-elite_03.webp",
                     qtd: 2,
                     vp: "3",
                     vAttack: "5",
@@ -787,7 +787,7 @@ export const Shield = {
                 },
                 {
                     name: "Gorgon",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/hydra-elite_04.png",
+                    imageUrl: "/CardImages/Villains/hydra-elite_04.webp",
                     qtd: 2,
                     vp: "4",
                     vAttack: "6",
@@ -809,7 +809,7 @@ export const Shield = {
         {
             id: 118,
             name: "S.H.I.E.L.D. vs. HYDRA War",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Schemes/114Scheme(23).png",
+            imageUrl: "/CardImages/Schemes/114Scheme(23).webp",
             cards: [
                 {
                     abilities: [
@@ -839,7 +839,7 @@ export const Shield = {
         {
             id: 119,
             name: "Hail Hydra",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Schemes/112Scheme(21).png",
+            imageUrl: "/CardImages/Schemes/112Scheme(21).webp",
             cards: [
                 {
                     abilities: [
@@ -868,7 +868,7 @@ export const Shield = {
         {
             id: 120,
             name: "Hydra Helicarriers Hunt Heroes",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Schemes/113Scheme(22).png",
+            imageUrl: "/CardImages/Schemes/113Scheme(22).webp",
             cards: [
                 {
                     abilities: [
@@ -903,7 +903,7 @@ export const Shield = {
         {
             id: 121,
             name: "Secret Empire of Betrayal",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Schemes/115Scheme(24).png",
+            imageUrl: "/CardImages/Schemes/115Scheme(24).webp",
             cards: [
                 {
                     abilities: [

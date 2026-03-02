@@ -9,7 +9,7 @@ export const ThreeDimension = {
             cards: [
                 {
                     name: "Traveling Companion",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/howard_04.png",
+                    imageUrl: "/CardImages/Heroes/howard_04.webp",
                     hc: 2,
                     rarity: 1,
                     cost: 3,
@@ -22,7 +22,7 @@ export const ThreeDimension = {
                 },
                 {
                     name: "Rebel Without a Cause",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/howard_03.png",
+                    imageUrl: "/CardImages/Heroes/howard_03.webp",
                     hc: 1,
                     rarity: 1,
                     cost: 4,
@@ -38,7 +38,7 @@ export const ThreeDimension = {
                 },
                 {
                     name: "Right Place, Wrong Time",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/howard_02.png",
+                    imageUrl: "/CardImages/Heroes/howard_02.webp",
                     hc: 2,
                     rarity: 2,
                     cost: 5,
@@ -54,7 +54,7 @@ export const ThreeDimension = {
                 },
                 {
                     name: "Interplanetary Visitor",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/howard_01.png",
+                    imageUrl: "/CardImages/Heroes/howard_01.webp",
                     hc: 5,
                     rarity: 3,
                     cost: 7,
@@ -75,7 +75,7 @@ export const ThreeDimension = {
             cards: [
                 {
                     name: "Form from Ooze",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/man_thing_04.png",
+                    imageUrl: "/CardImages/Heroes/man_thing_04.webp",
                     hc: 4,
                     rarity: 1,
                     cost: 2,
@@ -92,7 +92,7 @@ export const ThreeDimension = {
                 },
                 {
                     name: "Burn the Fearful",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/man_thing_03.png",
+                    imageUrl: "/CardImages/Heroes/man_thing_03.webp",
                     hc: 2,
                     rarity: 1,
                     cost: 4,
@@ -108,7 +108,7 @@ export const ThreeDimension = {
                 },
                 {
                     name: "Travel the Nexus of Realities",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/man_thing_02.png",
+                    imageUrl: "/CardImages/Heroes/man_thing_02.webp",
                     hc: 1,
                     rarity: 2,
                     cost: 5,
@@ -122,7 +122,7 @@ export const ThreeDimension = {
                 },
                 {
                     name: "Eternity of Solitude",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/man_thing_01.png",
+                    imageUrl: "/CardImages/Heroes/man_thing_01.webp",
                     hc: 4,
                     rarity: 3,
                     cost: 7,
@@ -144,7 +144,7 @@ export const ThreeDimension = {
         {
             id: 11,
             name: "Circus of Crime",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Henchmen/circus_of_crime.png",
+            imageUrl: "/CardImages/Henchmen/circus_of_crime.webp",
             set: [9, 23],
             vAttack: "3",
             vp: 1,
@@ -165,7 +165,7 @@ export const ThreeDimension = {
         {
             id: 12,
             name: "Spider-Slayer",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Henchmen/spider-slayer-1.png",
+            imageUrl: "/CardImages/Henchmen/spider-slayer-1.webp",
             set: [9, 23],
             vAttack: "3",
             vp: 1,
@@ -188,7 +188,7 @@ export const ThreeDimension = {
         {
             id: 10,
             name: "Bulldozer Driver",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Bystanders/bulldozer-driver.png",
+            imageUrl: "/CardImages/Bystanders/bulldozer-driver.webp",
             set: [9, 23],
             vp: 1,
             cards: [
@@ -205,7 +205,7 @@ export const ThreeDimension = {
         {
             id: 11,
             name: "Double Agent of S.H.I.E.L.D.",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Bystanders/double-agent-shield.png",
+            imageUrl: "/CardImages/Bystanders/double-agent-shield.webp",
             set: [9, 23],
             vp: 1,
             cards: [
@@ -226,7 +226,7 @@ export const ThreeDimension = {
         {
             id: 12,
             name: "Fortune Teller",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Bystanders/fortune-teller.png",
+            imageUrl: "/CardImages/Bystanders/fortune-teller.webp",
             set: [9, 23],
             vp: 1,
             cards: [
@@ -243,7 +243,7 @@ export const ThreeDimension = {
         {
             id: 13,
             name: "Photographer",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Bystanders/photographer.png",
+            imageUrl: "/CardImages/Bystanders/photographer.webp",
             set: [9, 23],
             vp: "1*",
             cards: [
@@ -266,7 +266,7 @@ export const ThreeDimension = {
         {
             id: 14,
             name: "Stan Lee",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Promos/Marvel3D/StanLee.png",
+            imageUrl: "/CardImages/Promos/Marvel3D/StanLee.webp",
             vp: 1,
             cards: [
                 {

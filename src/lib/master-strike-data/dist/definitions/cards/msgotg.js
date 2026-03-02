@@ -9,7 +9,7 @@ export const MSGuardiansOfTheGalaxy = {
             cards: [
                 {
                     name: "Starship Sensors",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/msgg_star_lord_01.png",
+                    imageUrl: "/CardImages/Heroes/msgg_star_lord_01.webp",
                     hc: 5,
                     rarity: 1,
                     qtd: 3,
@@ -30,7 +30,7 @@ export const MSGuardiansOfTheGalaxy = {
                 },
                 {
                     name: "Borrowed Nova Blaster",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/msgg_star_lord_02.png",
+                    imageUrl: "/CardImages/Heroes/msgg_star_lord_02.webp",
                     hc: 3,
                     rarity: 1,
                     qtd: 3,
@@ -51,7 +51,7 @@ export const MSGuardiansOfTheGalaxy = {
                 },
                 {
                     name: "Expandable Helmet",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/msgg_star_lord_03.png",
+                    imageUrl: "/CardImages/Heroes/msgg_star_lord_03.webp",
                     hc: 5,
                     rarity: 1,
                     qtd: 3,
@@ -69,7 +69,7 @@ export const MSGuardiansOfTheGalaxy = {
                 },
                 {
                     name: "Give",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/msgg_star_lord_04.png",
+                    imageUrl: "/CardImages/Heroes/msgg_star_lord_04.webp",
                     hc: 1,
                     qtd: 2,
                     rarity: 2,
@@ -107,7 +107,7 @@ export const MSGuardiansOfTheGalaxy = {
                 },
                 {
                     name: "Don't Need that Stuff",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/msgg_star_lord_05.png",
+                    imageUrl: "/CardImages/Heroes/msgg_star_lord_05.webp",
                     hc: 4,
                     qtd: 2,
                     rarity: 2,
@@ -126,7 +126,7 @@ export const MSGuardiansOfTheGalaxy = {
                 },
                 {
                     name: "Hadron Enforcer",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/msgg_star_lord_06.png",
+                    imageUrl: "/CardImages/Heroes/msgg_star_lord_06.webp",
                     hc: 3,
                     qtd: 1,
                     rarity: 3,
@@ -155,7 +155,7 @@ export const MSGuardiansOfTheGalaxy = {
             cards: [
                 {
                     name: "Sharpen Blades",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/msgg_gamora_01.png",
+                    imageUrl: "/CardImages/Heroes/msgg_gamora_01.webp",
                     hc: 1,
                     rarity: 1,
                     qtd: 3,
@@ -171,7 +171,7 @@ export const MSGuardiansOfTheGalaxy = {
                 },
                 {
                     name: "Resourceful Fugitive",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/msgg_gamora_02.png",
+                    imageUrl: "/CardImages/Heroes/msgg_gamora_02.webp",
                     hc: 1,
                     rarity: 1,
                     qtd: 3,
@@ -187,7 +187,7 @@ export const MSGuardiansOfTheGalaxy = {
                 },
                 {
                     name: "Retractable Sword",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/msgg_gamora_03.png",
+                    imageUrl: "/CardImages/Heroes/msgg_gamora_03.webp",
                     hc: 2,
                     rarity: 1,
                     qtd: 3,
@@ -204,7 +204,7 @@ export const MSGuardiansOfTheGalaxy = {
                 },
                 {
                     name: "Forgive",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/msgg_gamora_04.png",
+                    imageUrl: "/CardImages/Heroes/msgg_gamora_04.webp",
                     hc: 1,
                     qtd: 2,
                     rarity: 2,
@@ -239,7 +239,7 @@ export const MSGuardiansOfTheGalaxy = {
                 },
                 {
                     name: "Stolen Necroblaster",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/msgg_gamora_05.png",
+                    imageUrl: "/CardImages/Heroes/msgg_gamora_05.webp",
                     hc: 3,
                     qtd: 2,
                     rarity: 2,
@@ -253,7 +253,7 @@ export const MSGuardiansOfTheGalaxy = {
                 },
                 {
                     name: "Guardians Escape",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/msgg_gamora_06.png",
+                    imageUrl: "/CardImages/Heroes/msgg_gamora_06.webp",
                     hc: 5,
                     qtd: 1,
                     rarity: 3,
@@ -277,7 +277,7 @@ export const MSGuardiansOfTheGalaxy = {
             cards: [
                 {
                     name: "Baby Groot",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/rocket_groot_02.png",
+                    imageUrl: "/CardImages/Heroes/rocket_groot_02.webp",
                     hc: 2,
                     rarity: 1,
                     qtd: 3,
@@ -292,7 +292,7 @@ export const MSGuardiansOfTheGalaxy = {
                 },
                 {
                     name: "Passion",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/rocket_groot_01.png",
+                    imageUrl: "/CardImages/Heroes/rocket_groot_01.webp",
                     subtitle: "Rocket",
                     hc: 5,
                     rarity: 1,
@@ -325,7 +325,7 @@ export const MSGuardiansOfTheGalaxy = {
                 },
                 {
                     name: "Don't Press this Button",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/rocket_groot_03.png",
+                    imageUrl: "/CardImages/Heroes/rocket_groot_03.webp",
                     subtitle: "Rocket",
                     hc: 3,
                     rarity: 1,
@@ -361,7 +361,7 @@ export const MSGuardiansOfTheGalaxy = {
                 },
                 {
                     name: "Gravity Mines",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/rocket_groot_04.png",
+                    imageUrl: "/CardImages/Heroes/rocket_groot_04.webp",
                     hc: 5,
                     qtd: 2,
                     rarity: 2,
@@ -377,7 +377,7 @@ export const MSGuardiansOfTheGalaxy = {
                 },
                 {
                     name: "Tricky",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/rocket_groot_05.png",
+                    imageUrl: "/CardImages/Heroes/rocket_groot_05.webp",
                     subtitle: "Rocket",
                     hc: 5,
                     qtd: 2,
@@ -407,7 +407,7 @@ export const MSGuardiansOfTheGalaxy = {
                 },
                 {
                     name: "We are Groot",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/rocket_groot_06.png",
+                    imageUrl: "/CardImages/Heroes/rocket_groot_06.webp",
                     hc: 4,
                     qtd: 1,
                     rarity: 3,
@@ -437,7 +437,7 @@ export const MSGuardiansOfTheGalaxy = {
             cards: [
                 {
                     name: "Nothing Goes over my Head",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/msgg_drax_01.png",
+                    imageUrl: "/CardImages/Heroes/msgg_drax_01.webp",
                     hc: 2,
                     rarity: 1,
                     qtd: 3,
@@ -452,7 +452,7 @@ export const MSGuardiansOfTheGalaxy = {
                 },
                 {
                     name: "Prison Riot",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/msgg_drax_03.png",
+                    imageUrl: "/CardImages/Heroes/msgg_drax_03.webp",
                     hc: 4,
                     rarity: 1,
                     qtd: 3,
@@ -471,7 +471,7 @@ export const MSGuardiansOfTheGalaxy = {
                 },
                 {
                     name: "I am Invisible",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/msgg_drax_02.png",
+                    imageUrl: "/CardImages/Heroes/msgg_drax_02.webp",
                     hc: 2,
                     rarity: 1,
                     qtd: 3,
@@ -510,7 +510,7 @@ export const MSGuardiansOfTheGalaxy = {
                 },
                 {
                     name: "Remove his Spine",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/msgg_drax_05.png",
+                    imageUrl: "/CardImages/Heroes/msgg_drax_05.webp",
                     hc: 4,
                     qtd: 2,
                     rarity: 2,
@@ -546,7 +546,7 @@ export const MSGuardiansOfTheGalaxy = {
                 },
                 {
                     name: "Dual Knives",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/msgg_drax_04.png",
+                    imageUrl: "/CardImages/Heroes/msgg_drax_04.webp",
                     hc: 4,
                     qtd: 2,
                     rarity: 2,
@@ -567,7 +567,7 @@ export const MSGuardiansOfTheGalaxy = {
                 },
                 {
                     name: "Revenge for my Family",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/msgg_drax_06.png",
+                    imageUrl: "/CardImages/Heroes/msgg_drax_06.webp",
                     hc: 4,
                     qtd: 1,
                     rarity: 3,
@@ -593,7 +593,7 @@ export const MSGuardiansOfTheGalaxy = {
             cards: [
                 {
                     name: "Empathic Bond",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/mantis_01.png",
+                    imageUrl: "/CardImages/Heroes/mantis_01.webp",
                     hc: 3,
                     rarity: 1,
                     qtd: 3,
@@ -608,7 +608,7 @@ export const MSGuardiansOfTheGalaxy = {
                 },
                 {
                     name: "Selfless",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/mantis_02.png",
+                    imageUrl: "/CardImages/Heroes/mantis_02.webp",
                     hc: 2,
                     rarity: 1,
                     qtd: 3,
@@ -647,7 +647,7 @@ export const MSGuardiansOfTheGalaxy = {
                 },
                 {
                     name: "Inspire Courage",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/mantis_03.png",
+                    imageUrl: "/CardImages/Heroes/mantis_03.webp",
                     hc: 2,
                     rarity: 1,
                     qtd: 3,
@@ -666,7 +666,7 @@ export const MSGuardiansOfTheGalaxy = {
                 },
                 {
                     name: "Sleep",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/mantis_04.png",
+                    imageUrl: "/CardImages/Heroes/mantis_04.webp",
                     hc: 1,
                     qtd: 2,
                     rarity: 2,
@@ -681,7 +681,7 @@ export const MSGuardiansOfTheGalaxy = {
                 },
                 {
                     name: "Emotional Wave",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/mantis_05.png",
+                    imageUrl: "/CardImages/Heroes/mantis_05.webp",
                     hc: 3,
                     qtd: 2,
                     rarity: 2,
@@ -704,7 +704,7 @@ export const MSGuardiansOfTheGalaxy = {
                 },
                 {
                     name: "Discover the Dead",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/mantis_06.png",
+                    imageUrl: "/CardImages/Heroes/mantis_06.webp",
                     hc: 2,
                     qtd: 1,
                     rarity: 3,
@@ -732,7 +732,7 @@ export const MSGuardiansOfTheGalaxy = {
             cards: [
                 {
                     name: "Ronan the Accuser",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/msgg_ronan_01.png",
+                    imageUrl: "/CardImages/Masterminds/msgg_ronan_01.webp",
                     abilities: [
                         [
                             { bold: "Always Leads" },
@@ -753,7 +753,7 @@ export const MSGuardiansOfTheGalaxy = {
                 },
                 {
                     name: "Epic Ronan the Accuser",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/msgg_ronan_02.png",
+                    imageUrl: "/CardImages/Masterminds/msgg_ronan_02.webp",
                     vAttack: "7",
                     epic: true,
                     abilities: [
@@ -776,7 +776,7 @@ export const MSGuardiansOfTheGalaxy = {
                 },
                 {
                     name: "Ronan's Throne",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/msgg_ronan_05.png",
+                    imageUrl: "/CardImages/Masterminds/msgg_ronan_05.webp",
                     tactic: true,
                     vAttack: "+3",
                     vp: -1,
@@ -798,7 +798,7 @@ export const MSGuardiansOfTheGalaxy = {
                 },
                 {
                     name: "Hood of the Accuser",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/msgg_ronan_04.png",
+                    imageUrl: "/CardImages/Masterminds/msgg_ronan_04.webp",
                     tactic: true,
                     vAttack: "+4",
                     vp: -1,
@@ -820,7 +820,7 @@ export const MSGuardiansOfTheGalaxy = {
                 },
                 {
                     name: "Ancient Kree Armor",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/msgg_ronan_03.png",
+                    imageUrl: "/CardImages/Masterminds/msgg_ronan_03.webp",
                     tactic: true,
                     vAttack: "+5",
                     vp: -1,
@@ -842,7 +842,7 @@ export const MSGuardiansOfTheGalaxy = {
                 },
                 {
                     name: "The Cosmi-Rod Warhammer",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/msgg_ronan_06.png",
+                    imageUrl: "/CardImages/Masterminds/msgg_ronan_06.webp",
                     tactic: true,
                     vAttack: "+6",
                     vp: -1,
@@ -875,7 +875,7 @@ export const MSGuardiansOfTheGalaxy = {
             cards: [
                 {
                     name: "Ego, the Living Planet",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/ego_01.png",
+                    imageUrl: "/CardImages/Masterminds/ego_01.webp",
                     abilities: [
                         [
                             "Ego gets ",
@@ -896,7 +896,7 @@ export const MSGuardiansOfTheGalaxy = {
                 },
                 {
                     name: "Epic Ego, the Living Planet",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/ego_02.png",
+                    imageUrl: "/CardImages/Masterminds/ego_02.webp",
                     vAttack: "1+",
                     epic: true,
                     abilities: [
@@ -919,7 +919,7 @@ export const MSGuardiansOfTheGalaxy = {
                 },
                 {
                     name: "I'm a Celestial, Sweetheart",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/ego_04.png",
+                    imageUrl: "/CardImages/Masterminds/ego_04.webp",
                     tactic: true,
                     vAttack: "3",
                     abilities: [
@@ -934,7 +934,7 @@ export const MSGuardiansOfTheGalaxy = {
                 },
                 {
                     name: "Cover All That Exists",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/ego_03.png",
+                    imageUrl: "/CardImages/Masterminds/ego_03.webp",
                     tactic: true,
                     vAttack: "3",
                     abilities: [
@@ -949,7 +949,7 @@ export const MSGuardiansOfTheGalaxy = {
                 },
                 {
                     name: "The Expansion is My Purpose",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/ego_05.png",
+                    imageUrl: "/CardImages/Masterminds/ego_05.webp",
                     tactic: true,
                     vAttack: "3",
                     abilities: [
@@ -967,7 +967,7 @@ export const MSGuardiansOfTheGalaxy = {
                 },
                 {
                     name: "Until Everything is... Me!",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/ego_06.png",
+                    imageUrl: "/CardImages/Masterminds/ego_06.webp",
                     tactic: true,
                     vAttack: "3",
                     abilities: [
@@ -990,7 +990,7 @@ export const MSGuardiansOfTheGalaxy = {
             cards: [
                 {
                     name: "Exolon Attendants",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/followers_of_ronan_02.png",
+                    imageUrl: "/CardImages/Villains/followers_of_ronan_02.webp",
                     qtd: 1,
                     vAttack: "3+",
                     vp: "2",
@@ -1013,7 +1013,7 @@ export const MSGuardiansOfTheGalaxy = {
                 },
                 {
                     name: "Exolon Monks",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/followers_of_ronan_03.png",
+                    imageUrl: "/CardImages/Villains/followers_of_ronan_03.webp",
                     qtd: 1,
                     vAttack: "3+",
                     vp: "2",
@@ -1036,7 +1036,7 @@ export const MSGuardiansOfTheGalaxy = {
                 },
                 {
                     name: "Sakaaran Mercenaries",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/followers_of_ronan_07.png",
+                    imageUrl: "/CardImages/Villains/followers_of_ronan_07.webp",
                     qtd: 1,
                     vAttack: "4+",
                     vp: "3",
@@ -1061,7 +1061,7 @@ export const MSGuardiansOfTheGalaxy = {
                 },
                 {
                     name: "Korath the Pursuer",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/followers_of_ronan_04.png",
+                    imageUrl: "/CardImages/Villains/followers_of_ronan_04.webp",
                     qtd: 1,
                     vAttack: "4+",
                     vp: "3",
@@ -1090,7 +1090,7 @@ export const MSGuardiansOfTheGalaxy = {
                 },
                 {
                     name: "Nebula",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/followers_of_ronan_06.png",
+                    imageUrl: "/CardImages/Villains/followers_of_ronan_06.webp",
                     qtd: 1,
                     vAttack: "4+",
                     vp: "4",
@@ -1124,7 +1124,7 @@ export const MSGuardiansOfTheGalaxy = {
                 },
                 {
                     name: "Korath's Disrupter Rifle",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/followers_of_ronan_05.png",
+                    imageUrl: "/CardImages/Villains/followers_of_ronan_05.webp",
                     subType: 3,
                     qtd: 1,
                     vAttack: "+3",
@@ -1149,7 +1149,7 @@ export const MSGuardiansOfTheGalaxy = {
                 },
                 {
                     name: "“The Dark Aster“ Flagship",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/followers_of_ronan_01.png",
+                    imageUrl: "/CardImages/Villains/followers_of_ronan_01.webp",
                     subType: 3,
                     qtd: 1,
                     vAttack: "+4",
@@ -1174,7 +1174,7 @@ export const MSGuardiansOfTheGalaxy = {
                 },
                 {
                     name: "The Orb",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/followers_of_ronan_08.png",
+                    imageUrl: "/CardImages/Villains/followers_of_ronan_08.webp",
                     subType: 3,
                     qtd: 1,
                     vAttack: "+6",
@@ -1202,7 +1202,7 @@ export const MSGuardiansOfTheGalaxy = {
             cards: [
                 {
                     name: "Gef",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/ravagers_01.png",
+                    imageUrl: "/CardImages/Villains/ravagers_01.webp",
                     qtd: 1,
                     vAttack: "3+",
                     vp: "3",
@@ -1233,7 +1233,7 @@ export const MSGuardiansOfTheGalaxy = {
                 },
                 {
                     name: "Tullk",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/ravagers_06.png",
+                    imageUrl: "/CardImages/Villains/ravagers_06.webp",
                     qtd: 1,
                     vAttack: "3+",
                     vp: "3",
@@ -1264,7 +1264,7 @@ export const MSGuardiansOfTheGalaxy = {
                 },
                 {
                     name: "Kraglin Obfonteri",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/ravagers_02.png",
+                    imageUrl: "/CardImages/Villains/ravagers_02.webp",
                     qtd: 1,
                     vAttack: "4+",
                     vp: "4",
@@ -1295,7 +1295,7 @@ export const MSGuardiansOfTheGalaxy = {
                 },
                 {
                     name: "Taserface",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/ravagers_05.png",
+                    imageUrl: "/CardImages/Villains/ravagers_05.webp",
                     qtd: 1,
                     vAttack: "4+",
                     vp: "4",
@@ -1329,7 +1329,7 @@ export const MSGuardiansOfTheGalaxy = {
                 },
                 {
                     name: "Yondu Udonta",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/ravagers_08.png",
+                    imageUrl: "/CardImages/Villains/ravagers_08.webp",
                     qtd: 1,
                     vAttack: "5+",
                     vp: "5",
@@ -1360,7 +1360,7 @@ export const MSGuardiansOfTheGalaxy = {
                 },
                 {
                     name: "Scavanged Blade",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/ravagers_04.png",
+                    imageUrl: "/CardImages/Villains/ravagers_04.webp",
                     subType: 3,
                     qtd: 1,
                     vAttack: "+2",
@@ -1389,7 +1389,7 @@ export const MSGuardiansOfTheGalaxy = {
                 },
                 {
                     name: "Ravager Starship “Eclector“",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/ravagers_03.png",
+                    imageUrl: "/CardImages/Villains/ravagers_03.webp",
                     subType: 3,
                     qtd: 1,
                     vAttack: "+3",
@@ -1416,7 +1416,7 @@ export const MSGuardiansOfTheGalaxy = {
                 },
                 {
                     name: "Yaka Arrow",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/ravagers_07.png",
+                    imageUrl: "/CardImages/Villains/ravagers_07.webp",
                     subType: 3,
                     qtd: 1,
                     vAttack: "+4",
@@ -1450,7 +1450,7 @@ export const MSGuardiansOfTheGalaxy = {
         {
             id: 154,
             name: "Inescapable “Kyln“ Space Prison",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Schemes/msgg_scheme_01.png",
+            imageUrl: "/CardImages/Schemes/msgg_scheme_01.webp",
             cards: [
                 {
                     abilities: [
@@ -1508,7 +1508,7 @@ export const MSGuardiansOfTheGalaxy = {
         {
             id: 155,
             name: "Provoke the Sovereign War Fleet",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Schemes/msgg_scheme_02.png",
+            imageUrl: "/CardImages/Schemes/msgg_scheme_02.webp",
             cards: [
                 {
                     abilities: [
@@ -1539,7 +1539,7 @@ export const MSGuardiansOfTheGalaxy = {
         {
             id: 156,
             name: "Star-Lord's Awesome Mix Tape",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Schemes/msgg_scheme_03.png",
+            imageUrl: "/CardImages/Schemes/msgg_scheme_03.webp",
             cards: [
                 {
                     abilities: [
@@ -1565,7 +1565,7 @@ export const MSGuardiansOfTheGalaxy = {
         {
             id: 157,
             name: "Unleash the Abilisk Space Monster",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Schemes/msgg_scheme_04.png",
+            imageUrl: "/CardImages/Schemes/msgg_scheme_04.webp",
             cards: [
                 {
                     abilities: [

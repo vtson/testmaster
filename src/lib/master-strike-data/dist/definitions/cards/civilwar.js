@@ -8,7 +8,7 @@ export const CivilWar = {
             cards: [
                 {
                     name: "Bold Leadership",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/captain-america-secret-avenger-03.png",
+                    imageUrl: "/CardImages/Heroes/captain-america-secret-avenger-03.webp",
                     hc: 1,
                     rarity: 1,
                     cost: 2,
@@ -24,7 +24,7 @@ export const CivilWar = {
                 },
                 {
                     name: "Inspire a Nation",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/captain-america-secret-avenger-04.png",
+                    imageUrl: "/CardImages/Heroes/captain-america-secret-avenger-04.webp",
                     hc: 4,
                     rarity: 1,
                     cost: 3,
@@ -49,7 +49,7 @@ export const CivilWar = {
                 },
                 {
                     name: "Secret Avengers Assemble!",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/captain-america-secret-avenger-02.png",
+                    imageUrl: "/CardImages/Heroes/captain-america-secret-avenger-02.webp",
                     hc: 5,
                     rarity: 2,
                     cost: 5,
@@ -69,7 +69,7 @@ export const CivilWar = {
                 },
                 {
                     name: "Freedom Never Dies",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/captain-america-secret-avenger-01.png",
+                    imageUrl: "/CardImages/Heroes/captain-america-secret-avenger-01.webp",
                     hc: 3,
                     rarity: 3,
                     cost: 7,
@@ -93,7 +93,7 @@ export const CivilWar = {
             cards: [
                 {
                     name: "Above",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/cloak-and-dagger-03.png",
+                    imageUrl: "/CardImages/Heroes/cloak-and-dagger-03.webp",
                     subtitle: "Cloak",
                     hc: 1,
                     rarity: 1,
@@ -122,7 +122,7 @@ export const CivilWar = {
                 },
                 {
                     name: "Flee",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/cloak-and-dagger-04.png",
+                    imageUrl: "/CardImages/Heroes/cloak-and-dagger-04.webp",
                     subtitle: "Cloak",
                     hc: 1,
                     rarity: 1,
@@ -162,7 +162,7 @@ export const CivilWar = {
                 },
                 {
                     name: "Darkness",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/cloak-and-dagger-02.png",
+                    imageUrl: "/CardImages/Heroes/cloak-and-dagger-02.webp",
                     subtitle: "Cloak",
                     hc: 1,
                     rarity: 2,
@@ -194,7 +194,7 @@ export const CivilWar = {
                 },
                 {
                     name: "Penumbra",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/cloak-and-dagger-01.png",
+                    imageUrl: "/CardImages/Heroes/cloak-and-dagger-01.webp",
                     hc: 3,
                     rarity: 3,
                     cost: 7,
@@ -217,7 +217,7 @@ export const CivilWar = {
             cards: [
                 {
                     name: "Dual Existence",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/daredevil-04-1.png",
+                    imageUrl: "/CardImages/Heroes/daredevil-04-1.webp",
                     hc: 2,
                     rarity: 1,
                     cost: 2,
@@ -229,7 +229,7 @@ export const CivilWar = {
                 },
                 {
                     name: "Roundhouse Side Kick",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/daredevil-03-1.png",
+                    imageUrl: "/CardImages/Heroes/daredevil-03-1.webp",
                     hc: 1,
                     rarity: 1,
                     cost: 4,
@@ -244,7 +244,7 @@ export const CivilWar = {
                 },
                 {
                     name: "Hidden Identity",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/daredevil-02-1.png",
+                    imageUrl: "/CardImages/Heroes/daredevil-02-1.webp",
                     hc: 2,
                     rarity: 2,
                     cost: 6,
@@ -276,7 +276,7 @@ export const CivilWar = {
                 },
                 {
                     name: "Master of Martial Arts",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/daredevil-01-1.png",
+                    imageUrl: "/CardImages/Heroes/daredevil-01-1.webp",
                     hc: 1,
                     rarity: 3,
                     cost: 8,
@@ -300,7 +300,7 @@ export const CivilWar = {
             cards: [
                 {
                     name: "Rapid Reinforcements",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/falcon-04-1.png",
+                    imageUrl: "/CardImages/Heroes/falcon-04-1.webp",
                     hc: 5,
                     rarity: 1,
                     cost: 3,
@@ -320,7 +320,7 @@ export const CivilWar = {
                 },
                 {
                     name: "Talk with Birds",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/falcon-03-1.png",
+                    imageUrl: "/CardImages/Heroes/falcon-03-1.webp",
                     hc: 3,
                     rarity: 1,
                     cost: 4,
@@ -350,7 +350,7 @@ export const CivilWar = {
                 },
                 {
                     name: "Scout the Battlefield",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/falcon-02-1.png",
+                    imageUrl: "/CardImages/Heroes/falcon-02-1.webp",
                     hc: 3,
                     rarity: 2,
                     cost: 6,
@@ -368,7 +368,7 @@ export const CivilWar = {
                 },
                 {
                     name: "Fly in a Friend",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/falcon-01-1.png",
+                    imageUrl: "/CardImages/Heroes/falcon-01-1.webp",
                     hc: 2,
                     rarity: 3,
                     cost: 7,
@@ -394,7 +394,7 @@ export const CivilWar = {
             cards: [
                 {
                     name: "Brilliant Biochemist",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/goliath-04.png",
+                    imageUrl: "/CardImages/Heroes/goliath-04.webp",
                     hc: 5,
                     rarity: 1,
                     cost: 4,
@@ -427,7 +427,7 @@ export const CivilWar = {
                 },
                 {
                     name: "Growth Industry",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/goliath-03.png",
+                    imageUrl: "/CardImages/Heroes/goliath-03.webp",
                     hc: 5,
                     rarity: 1,
                     cost: 5,
@@ -447,7 +447,7 @@ export const CivilWar = {
                 },
                 {
                     name: "Being Big is Best",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/goliath-02.png",
+                    imageUrl: "/CardImages/Heroes/goliath-02.webp",
                     hc: 4,
                     rarity: 2,
                     cost: 6,
@@ -469,7 +469,7 @@ export const CivilWar = {
                 },
                 {
                     name: "Enormous Implications",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/goliath-01.png",
+                    imageUrl: "/CardImages/Heroes/goliath-01.webp",
                     hc: 4,
                     rarity: 3,
                     cost: 8,
@@ -498,7 +498,7 @@ export const CivilWar = {
             cards: [
                 {
                     name: "Manly Dullard",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/hercules-03.png",
+                    imageUrl: "/CardImages/Heroes/hercules-03.webp",
                     hc: 4,
                     rarity: 1,
                     cost: 3,
@@ -526,7 +526,7 @@ export const CivilWar = {
                 },
                 {
                     name: "Crowd Favorite",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/hercules-04.png",
+                    imageUrl: "/CardImages/Heroes/hercules-04.webp",
                     hc: 2,
                     rarity: 1,
                     cost: 4,
@@ -540,7 +540,7 @@ export const CivilWar = {
                 },
                 {
                     name: "Prince of Power",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/hercules-02.png",
+                    imageUrl: "/CardImages/Heroes/hercules-02.webp",
                     hc: 4,
                     rarity: 2,
                     cost: 5,
@@ -554,7 +554,7 @@ export const CivilWar = {
                 },
                 {
                     name: "Son of Zeus",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/hercules-01.png",
+                    imageUrl: "/CardImages/Heroes/hercules-01.webp",
                     hc: 4,
                     rarity: 3,
                     cost: 7,
@@ -585,7 +585,7 @@ export const CivilWar = {
             cards: [
                 {
                     name: "Half-Kree",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/hulkling-03.png",
+                    imageUrl: "/CardImages/Heroes/hulkling-03.webp",
                     hc: 4,
                     rarity: 1,
                     cost: 4,
@@ -621,7 +621,7 @@ export const CivilWar = {
                 },
                 {
                     name: "Cellular Regeneration",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/hulkling-04.png",
+                    imageUrl: "/CardImages/Heroes/hulkling-04.webp",
                     hc: 4,
                     rarity: 1,
                     cost: 5,
@@ -643,7 +643,7 @@ export const CivilWar = {
                 },
                 {
                     name: "Impersonate",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/hulkling-02.png",
+                    imageUrl: "/CardImages/Heroes/hulkling-02.webp",
                     hc: 1,
                     rarity: 2,
                     cost: 6,
@@ -663,7 +663,7 @@ export const CivilWar = {
                 },
                 {
                     name: "Enormous Shapeshifter",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/hulkling-01.png",
+                    imageUrl: "/CardImages/Heroes/hulkling-01.webp",
                     hc: 1,
                     rarity: 3,
                     cost: 8,
@@ -693,7 +693,7 @@ export const CivilWar = {
             cards: [
                 {
                     name: "Cautious",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/luke-cage-03.png",
+                    imageUrl: "/CardImages/Heroes/luke-cage-03.webp",
                     hc: 4,
                     rarity: 1,
                     cost: 3,
@@ -718,7 +718,7 @@ export const CivilWar = {
                 },
                 {
                     name: "Take a Bullet for the Team",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/luke-cage-04.png",
+                    imageUrl: "/CardImages/Heroes/luke-cage-04.webp",
                     hc: 4,
                     rarity: 1,
                     cost: 4,
@@ -732,7 +732,7 @@ export const CivilWar = {
                 },
                 {
                     name: "Sweet Christmas",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/luke-cage-02.png",
+                    imageUrl: "/CardImages/Heroes/luke-cage-02.webp",
                     hc: 2,
                     rarity: 2,
                     cost: 5,
@@ -746,7 +746,7 @@ export const CivilWar = {
                 },
                 {
                     name: "Unbreakable Skin",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/luke-cage-01.png",
+                    imageUrl: "/CardImages/Heroes/luke-cage-01.webp",
                     hc: 4,
                     rarity: 3,
                     cost: 8,
@@ -769,7 +769,7 @@ export const CivilWar = {
             cards: [
                 {
                     name: "New Generation of Heroes",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/patriot-04.png",
+                    imageUrl: "/CardImages/Heroes/patriot-04.webp",
                     hc: 4,
                     rarity: 1,
                     cost: 2,
@@ -787,7 +787,7 @@ export const CivilWar = {
                 },
                 {
                     name: "Intuitive Tactician",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/patriot-03.png",
+                    imageUrl: "/CardImages/Heroes/patriot-03.webp",
                     hc: 2,
                     rarity: 1,
                     cost: 3,
@@ -805,7 +805,7 @@ export const CivilWar = {
                 },
                 {
                     name: "Incredible Effort",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/patriot-02.png",
+                    imageUrl: "/CardImages/Heroes/patriot-02.webp",
                     hc: 1,
                     rarity: 2,
                     cost: 5,
@@ -833,7 +833,7 @@ export const CivilWar = {
                 },
                 {
                     name: "Lead the Young Avengers",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/patriot-01.png",
+                    imageUrl: "/CardImages/Heroes/patriot-01.webp",
                     hc: 5,
                     rarity: 3,
                     cost: 8,
@@ -853,7 +853,7 @@ export const CivilWar = {
             cards: [
                 {
                     name: "Conflicted Loyalties",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/peter-parker-04.png",
+                    imageUrl: "/CardImages/Heroes/peter-parker-04.webp",
                     hc: 5,
                     rarity: 1,
                     cost: 2,
@@ -868,7 +868,7 @@ export const CivilWar = {
                 },
                 {
                     name: "Spider-Man Unmasked",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/peter-parker-03.png",
+                    imageUrl: "/CardImages/Heroes/peter-parker-03.webp",
                     hc: 2,
                     rarity: 1,
                     cost: 2,
@@ -889,7 +889,7 @@ export const CivilWar = {
                 },
                 {
                     name: "Protect My Family",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/peter-parker-02.png",
+                    imageUrl: "/CardImages/Heroes/peter-parker-02.webp",
                     hc: 5,
                     rarity: 2,
                     cost: 2,
@@ -916,7 +916,7 @@ export const CivilWar = {
                 },
                 {
                     name: "Reluctant Celebrity",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/peter-parker-01.png",
+                    imageUrl: "/CardImages/Heroes/peter-parker-01.webp",
                     hc: 2,
                     rarity: 3,
                     cost: 2,
@@ -940,7 +940,7 @@ export const CivilWar = {
             cards: [
                 {
                     name: "Reckless Rescue Attempt",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/speedball-03.png",
+                    imageUrl: "/CardImages/Heroes/speedball-03.webp",
                     hc: 3,
                     rarity: 1,
                     cost: 3,
@@ -954,7 +954,7 @@ export const CivilWar = {
                 },
                 {
                     name: "Bounce Around",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/speedball-04.png",
+                    imageUrl: "/CardImages/Heroes/speedball-04.webp",
                     hc: 1,
                     rarity: 1,
                     cost: 4,
@@ -971,7 +971,7 @@ export const CivilWar = {
                 },
                 {
                     name: "Double Down",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/speedball-02.png",
+                    imageUrl: "/CardImages/Heroes/speedball-02.webp",
                     hc: 3,
                     rarity: 2,
                     cost: 5,
@@ -1001,7 +1001,7 @@ export const CivilWar = {
                 },
                 {
                     name: "Kinetic Force Field",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/speedball-01.png",
+                    imageUrl: "/CardImages/Heroes/speedball-01.webp",
                     hc: 3,
                     rarity: 3,
                     cost: 7,
@@ -1021,7 +1021,7 @@ export const CivilWar = {
             cards: [
                 {
                     name: "Shrink to Nothing",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/stature-04.png",
+                    imageUrl: "/CardImages/Heroes/stature-04.webp",
                     hc: 5,
                     rarity: 1,
                     cost: 2,
@@ -1045,7 +1045,7 @@ export const CivilWar = {
                 },
                 {
                     name: "Crush Ants",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/stature-03.png",
+                    imageUrl: "/CardImages/Heroes/stature-03.webp",
                     hc: 4,
                     rarity: 1,
                     cost: 5,
@@ -1090,7 +1090,7 @@ export const CivilWar = {
                 },
                 {
                     name: "Growing Confidence",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/stature-02.png",
+                    imageUrl: "/CardImages/Heroes/stature-02.webp",
                     hc: 4,
                     rarity: 2,
                     cost: 6,
@@ -1115,7 +1115,7 @@ export const CivilWar = {
                 },
                 {
                     name: "Trample the Tiny",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/stature-01.png",
+                    imageUrl: "/CardImages/Heroes/stature-01.webp",
                     hc: 4,
                     rarity: 3,
                     cost: 8,
@@ -1144,7 +1144,7 @@ export const CivilWar = {
             cards: [
                 {
                     name: "Gathering Rain Clouds",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/black-panther-and-storm-04.png",
+                    imageUrl: "/CardImages/Heroes/black-panther-and-storm-04.webp",
                     subtitle: "Storm",
                     hc: 3,
                     rarity: 1,
@@ -1176,7 +1176,7 @@ export const CivilWar = {
                 },
                 {
                     name: "Lightning Strike",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/black-panther-and-storm-03.png",
+                    imageUrl: "/CardImages/Heroes/black-panther-and-storm-03.webp",
                     subtitle: "Storm",
                     hc: 3,
                     rarity: 1,
@@ -1209,7 +1209,7 @@ export const CivilWar = {
                 },
                 {
                     name: "Tsunami of Water",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/black-panther-and-storm-02.png",
+                    imageUrl: "/CardImages/Heroes/black-panther-and-storm-02.webp",
                     subtitle: "Storm",
                     hc: 3,
                     rarity: 2,
@@ -1244,7 +1244,7 @@ export const CivilWar = {
                 },
                 {
                     name: "King & Queen of Wakanda",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/black-panther-and-storm-01-1.png",
+                    imageUrl: "/CardImages/Heroes/black-panther-and-storm-01-1.webp",
                     team: 1,
                     hc: 5,
                     rarity: 3,
@@ -1267,7 +1267,7 @@ export const CivilWar = {
             cards: [
                 {
                     name: "Friendship",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/tigra-03.png",
+                    imageUrl: "/CardImages/Heroes/tigra-03.webp",
                     hc: 1,
                     rarity: 1,
                     cost: 2,
@@ -1298,7 +1298,7 @@ export const CivilWar = {
                 },
                 {
                     name: "Supernatural Senses",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/tigra-04.png",
+                    imageUrl: "/CardImages/Heroes/tigra-04.webp",
                     hc: 2,
                     rarity: 1,
                     cost: 3,
@@ -1314,7 +1314,7 @@ export const CivilWar = {
                 },
                 {
                     name: "Can't Surprise a Cat",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/tigra-02.png",
+                    imageUrl: "/CardImages/Heroes/tigra-02.webp",
                     hc: 1,
                     rarity: 2,
                     cost: 5,
@@ -1327,7 +1327,7 @@ export const CivilWar = {
                 },
                 {
                     name: "Mystic Talisman",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/tigra-01.png",
+                    imageUrl: "/CardImages/Heroes/tigra-01.webp",
                     hc: 1,
                     rarity: 3,
                     cost: 7,
@@ -1356,7 +1356,7 @@ export const CivilWar = {
             cards: [
                 {
                     name: "Solar Energy",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/vision-04.png",
+                    imageUrl: "/CardImages/Heroes/vision-04.webp",
                     hc: 3,
                     rarity: 1,
                     cost: 3,
@@ -1374,7 +1374,7 @@ export const CivilWar = {
                 },
                 {
                     name: "Through Solid Objects",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/vision-03.png",
+                    imageUrl: "/CardImages/Heroes/vision-03.webp",
                     hc: 5,
                     rarity: 1,
                     cost: 4,
@@ -1388,7 +1388,7 @@ export const CivilWar = {
                 },
                 {
                     name: "Lighter than Air",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/vision-02.png",
+                    imageUrl: "/CardImages/Heroes/vision-02.webp",
                     hc: 3,
                     rarity: 2,
                     cost: 6,
@@ -1423,7 +1423,7 @@ export const CivilWar = {
                 },
                 {
                     name: "Insubstantial Accomplishments",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/vision-01.png",
+                    imageUrl: "/CardImages/Heroes/vision-01.webp",
                     hc: 5,
                     rarity: 3,
                     cost: 7,
@@ -1444,7 +1444,7 @@ export const CivilWar = {
             cards: [
                 {
                     name: "Sorcerous Illusions",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/wiccan-04.png",
+                    imageUrl: "/CardImages/Heroes/wiccan-04.webp",
                     hc: 1,
                     rarity: 1,
                     cost: 2,
@@ -1462,7 +1462,7 @@ export const CivilWar = {
                 },
                 {
                     name: "Astral Projection",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/wiccan-03.png",
+                    imageUrl: "/CardImages/Heroes/wiccan-03.webp",
                     hc: 3,
                     rarity: 1,
                     cost: 4,
@@ -1479,7 +1479,7 @@ export const CivilWar = {
                 },
                 {
                     name: "Supersonic Spells",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/wiccan-02.png",
+                    imageUrl: "/CardImages/Heroes/wiccan-02.webp",
                     hc: 3,
                     rarity: 2,
                     cost: 4,
@@ -1509,7 +1509,7 @@ export const CivilWar = {
                 },
                 {
                     name: "Clairvoyance",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/wiccan-01.png",
+                    imageUrl: "/CardImages/Heroes/wiccan-01.webp",
                     hc: 3,
                     rarity: 3,
                     cost: 7,
@@ -1532,7 +1532,7 @@ export const CivilWar = {
             cards: [
                 {
                     name: "Authoritarian Iron Man",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/authoritarian-iron-man-01.png",
+                    imageUrl: "/CardImages/Masterminds/authoritarian-iron-man-01.webp",
                     vAttackAsterisk: true,
                     abilities: [
                         [
@@ -1552,7 +1552,7 @@ export const CivilWar = {
                 },
                 {
                     name: "Armada of Armors",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/authoritarian-iron-man-02.png",
+                    imageUrl: "/CardImages/Masterminds/authoritarian-iron-man-02.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -1570,7 +1570,7 @@ export const CivilWar = {
                 },
                 {
                     name: "Freeze Domestic Assets",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/authoritarian-iron-man-03.png",
+                    imageUrl: "/CardImages/Masterminds/authoritarian-iron-man-03.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -1583,7 +1583,7 @@ export const CivilWar = {
                 },
                 {
                     name: "Man the Fortifications",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/authoritarian-iron-man-04.png",
+                    imageUrl: "/CardImages/Masterminds/authoritarian-iron-man-04.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -1594,7 +1594,7 @@ export const CivilWar = {
                 },
                 {
                     name: "Recall to Service",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/authoritarian-iron-man-05.png",
+                    imageUrl: "/CardImages/Masterminds/authoritarian-iron-man-05.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -1616,7 +1616,7 @@ export const CivilWar = {
             cards: [
                 {
                     name: "Baron Helmut Zemo",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/baron-helmut-zemo-01.png",
+                    imageUrl: "/CardImages/Masterminds/baron-helmut-zemo-01.webp",
                     vAttackAsterisk: true,
                     abilities: [
                         [
@@ -1637,7 +1637,7 @@ export const CivilWar = {
                 },
                 {
                     name: "Blasted Henchmen!",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/baron-helmut-zemo-02.png",
+                    imageUrl: "/CardImages/Masterminds/baron-helmut-zemo-02.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -1650,7 +1650,7 @@ export const CivilWar = {
                 },
                 {
                     name: "Cursed Dynasty",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/baron-helmut-zemo-03.png",
+                    imageUrl: "/CardImages/Masterminds/baron-helmut-zemo-03.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -1661,7 +1661,7 @@ export const CivilWar = {
                 },
                 {
                     name: "Endless Minions",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/baron-helmut-zemo-04.png",
+                    imageUrl: "/CardImages/Masterminds/baron-helmut-zemo-04.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -1674,7 +1674,7 @@ export const CivilWar = {
                 },
                 {
                     name: "Revenge for My Father",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/baron-helmut-zemo-05.png",
+                    imageUrl: "/CardImages/Masterminds/baron-helmut-zemo-05.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -1696,7 +1696,7 @@ export const CivilWar = {
             cards: [
                 {
                     name: "Maria Hill, Director of S.H.I.E.L.D.",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/maria-hill-01.png",
+                    imageUrl: "/CardImages/Masterminds/maria-hill-01.webp",
                     vAttackAsterisk: true,
                     abilities: [
                         [
@@ -1717,7 +1717,7 @@ export const CivilWar = {
                 },
                 {
                     name: "Crash the Helicarrier",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/maria-hill-02.png",
+                    imageUrl: "/CardImages/Masterminds/maria-hill-02.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -1730,7 +1730,7 @@ export const CivilWar = {
                 },
                 {
                     name: "Declare Martial Law",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/maria-hill-03.png",
+                    imageUrl: "/CardImages/Masterminds/maria-hill-03.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -1743,7 +1743,7 @@ export const CivilWar = {
                 },
                 {
                     name: "Evacuation Code Epsilon",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/maria-hill-04.png",
+                    imageUrl: "/CardImages/Masterminds/maria-hill-04.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -1756,7 +1756,7 @@ export const CivilWar = {
                 },
                 {
                     name: "Rapid Response Team",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/maria-hill-05.png",
+                    imageUrl: "/CardImages/Masterminds/maria-hill-05.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -1777,7 +1777,7 @@ export const CivilWar = {
             cards: [
                 {
                     name: "Misty Knight",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/misty-knight-01.png",
+                    imageUrl: "/CardImages/Masterminds/misty-knight-01.webp",
                     vAttackAsterisk: true,
                     abilities: [
                         { keyword: 2 },
@@ -1795,7 +1795,7 @@ export const CivilWar = {
                 },
                 {
                     name: "Bionic Repulsor Field",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/misty-knight-02.png",
+                    imageUrl: "/CardImages/Masterminds/misty-knight-02.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -1808,7 +1808,7 @@ export const CivilWar = {
                 },
                 {
                     name: "Cyborg Detective",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/misty-knight-03.png",
+                    imageUrl: "/CardImages/Masterminds/misty-knight-03.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -1819,7 +1819,7 @@ export const CivilWar = {
                 },
                 {
                     name: "Trusted Bodyguard",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/misty-knight-04.png",
+                    imageUrl: "/CardImages/Masterminds/misty-knight-04.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -1832,7 +1832,7 @@ export const CivilWar = {
                 },
                 {
                     name: "Vibranium Cyber Arm",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/misty-knight-05.png",
+                    imageUrl: "/CardImages/Masterminds/misty-knight-05.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -1853,7 +1853,7 @@ export const CivilWar = {
             cards: [
                 {
                     name: "Ragnarok",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/ragnarok-01.png",
+                    imageUrl: "/CardImages/Masterminds/ragnarok-01.webp",
                     vAttack: "6+",
                     abilities: [
                         [
@@ -1874,7 +1874,7 @@ export const CivilWar = {
                 },
                 {
                     name: "Electrical Charge",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/ragnarok-02.png",
+                    imageUrl: "/CardImages/Masterminds/ragnarok-02.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -1887,7 +1887,7 @@ export const CivilWar = {
                 },
                 {
                     name: "God of Cyborg Thunder",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/ragnarok-03.png",
+                    imageUrl: "/CardImages/Masterminds/ragnarok-03.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -1902,7 +1902,7 @@ export const CivilWar = {
                 },
                 {
                     name: "Hammer Goliath",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/ragnarok-04.png",
+                    imageUrl: "/CardImages/Masterminds/ragnarok-04.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -1913,7 +1913,7 @@ export const CivilWar = {
                 },
                 {
                     name: "Unnatural Storm Clouds",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/ragnarok-05.png",
+                    imageUrl: "/CardImages/Masterminds/ragnarok-05.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -1929,7 +1929,7 @@ export const CivilWar = {
         {
             id: 19,
             name: "Mandroid",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Henchmen/mandroid.png",
+            imageUrl: "/CardImages/Henchmen/mandroid.webp",
             vAttack: "2+",
             vp: 1,
             cards: [
@@ -1952,7 +1952,7 @@ export const CivilWar = {
         {
             id: 20,
             name: "Cape-Killers",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Henchmen/cape-killers.png",
+            imageUrl: "/CardImages/Henchmen/cape-killers.webp",
             vAttack: "3",
             vp: 1,
             cards: [
@@ -1976,7 +1976,7 @@ export const CivilWar = {
             cards: [
                 {
                     name: "Bullseye",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/csa-special-marshals-03.png",
+                    imageUrl: "/CardImages/Villains/csa-special-marshals-03.webp",
                     qtd: 2,
                     vAttack: "6",
                     vp: "4",
@@ -2001,7 +2001,7 @@ export const CivilWar = {
                 },
                 {
                     name: "Moonstone",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/csa-special-marshals-04.png",
+                    imageUrl: "/CardImages/Villains/csa-special-marshals-04.webp",
                     qtd: 2,
                     vAttack: "4",
                     vp: "2",
@@ -2016,7 +2016,7 @@ export const CivilWar = {
                 },
                 {
                     name: "Penance",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/csa-special-marshals-01.png",
+                    imageUrl: "/CardImages/Villains/csa-special-marshals-01.webp",
                     qtd: 2,
                     vAttack: "2+",
                     vp: "3",
@@ -2031,7 +2031,7 @@ export const CivilWar = {
                 },
                 {
                     name: "Venom",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/csa-special-marshals-02.png",
+                    imageUrl: "/CardImages/Villains/csa-special-marshals-02.webp",
                     qtd: 2,
                     vAttack: "7",
                     vp: "4",
@@ -2060,7 +2060,7 @@ export const CivilWar = {
             cards: [
                 {
                     name: "Big Bertha",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/great-lakes-avengers-01.png",
+                    imageUrl: "/CardImages/Villains/great-lakes-avengers-01.webp",
                     qtd: 2,
                     vAttack: "7",
                     vp: "4",
@@ -2089,7 +2089,7 @@ export const CivilWar = {
                 },
                 {
                     name: "Flatman",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/great-lakes-avengers-04.png",
+                    imageUrl: "/CardImages/Villains/great-lakes-avengers-04.webp",
                     qtd: 2,
                     vAttack: "5",
                     vp: "2",
@@ -2110,7 +2110,7 @@ export const CivilWar = {
                 },
                 {
                     name: "Mr. Immortal",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/great-lakes-avengers-03.png",
+                    imageUrl: "/CardImages/Villains/great-lakes-avengers-03.webp",
                     qtd: 2,
                     vAttack: "2",
                     vp: "2",
@@ -2125,7 +2125,7 @@ export const CivilWar = {
                 },
                 {
                     name: "Squirrel Girl",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/great-lakes-avengers-02.png",
+                    imageUrl: "/CardImages/Villains/great-lakes-avengers-02.webp",
                     qtd: 2,
                     vAttack: "3",
                     vp: "2",
@@ -2154,7 +2154,7 @@ export const CivilWar = {
             cards: [
                 {
                     name: "Colleen Wing",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/heroes-for-hire-04.png",
+                    imageUrl: "/CardImages/Villains/heroes-for-hire-04.webp",
                     qtd: 2,
                     vAttack: "9",
                     vp: "5",
@@ -2173,7 +2173,7 @@ export const CivilWar = {
                 },
                 {
                     name: "Humbug",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/heroes-for-hire-03.png",
+                    imageUrl: "/CardImages/Villains/heroes-for-hire-03.webp",
                     qtd: 2,
                     vAttack: "5",
                     vp: "3",
@@ -2190,7 +2190,7 @@ export const CivilWar = {
                 },
                 {
                     name: "Shang-Chi",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/heroes-for-hire-02.png",
+                    imageUrl: "/CardImages/Villains/heroes-for-hire-02.webp",
                     qtd: 2,
                     vAttack: "3",
                     vp: "2",
@@ -2207,7 +2207,7 @@ export const CivilWar = {
                 },
                 {
                     name: "Tarantula",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/heroes-for-hire-01.png",
+                    imageUrl: "/CardImages/Villains/heroes-for-hire-01.webp",
                     qtd: 2,
                     vAttack: "7",
                     vp: "5",
@@ -2236,7 +2236,7 @@ export const CivilWar = {
             cards: [
                 {
                     name: "Blade",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/registration-enforcers-03.png",
+                    imageUrl: "/CardImages/Villains/registration-enforcers-03.webp",
                     qtd: 2,
                     vAttack: "4",
                     vp: "2",
@@ -2254,7 +2254,7 @@ export const CivilWar = {
                 },
                 {
                     name: "Captain Marvel",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/registration-enforcers-04.png",
+                    imageUrl: "/CardImages/Villains/registration-enforcers-04.webp",
                     qtd: 2,
                     vAttack: "6",
                     vp: "4",
@@ -2275,7 +2275,7 @@ export const CivilWar = {
                 },
                 {
                     name: "Deadpool",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/registration-enforcers-01.png",
+                    imageUrl: "/CardImages/Villains/registration-enforcers-01.webp",
                     qtd: 2,
                     vAttack: "5",
                     vp: "5",
@@ -2302,7 +2302,7 @@ export const CivilWar = {
                 },
                 {
                     name: "Micromax",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/registration-enforcers-02.png",
+                    imageUrl: "/CardImages/Villains/registration-enforcers-02.webp",
                     qtd: 2,
                     vAttack: "6",
                     vp: "3",
@@ -2329,7 +2329,7 @@ export const CivilWar = {
             cards: [
                 {
                     name: "Agent Eric Marshall",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/shield-elite-02.png",
+                    imageUrl: "/CardImages/Villains/shield-elite-02.webp",
                     qtd: 2,
                     vAttack: "1",
                     vp: "2",
@@ -2349,7 +2349,7 @@ export const CivilWar = {
                 },
                 {
                     name: "Agent Gabe Jones",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/shield-elite-01.png",
+                    imageUrl: "/CardImages/Villains/shield-elite-01.webp",
                     qtd: 2,
                     vAttack: "2",
                     vp: "2",
@@ -2369,7 +2369,7 @@ export const CivilWar = {
                 },
                 {
                     name: "Dum Dum Dugan",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/shield-elite-04.png",
+                    imageUrl: "/CardImages/Villains/shield-elite-04.webp",
                     qtd: 2,
                     vAttack: "4",
                     vp: "3",
@@ -2392,7 +2392,7 @@ export const CivilWar = {
                 },
                 {
                     name: "Sharon Carter, Agent 13",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/shield-elite-03.png",
+                    imageUrl: "/CardImages/Villains/shield-elite-03.webp",
                     qtd: 2,
                     vAttack: "6",
                     vp: "5",
@@ -2417,7 +2417,7 @@ export const CivilWar = {
             cards: [
                 {
                     name: "Iron Spider",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/superhuman-registration-act-02.png",
+                    imageUrl: "/CardImages/Villains/superhuman-registration-act-02.webp",
                     qtd: 2,
                     vAttack: "2",
                     vp: "3",
@@ -2440,7 +2440,7 @@ export const CivilWar = {
                 },
                 {
                     name: "Ms. Marvel",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/superhuman-registration-act-03.png",
+                    imageUrl: "/CardImages/Villains/superhuman-registration-act-03.webp",
                     qtd: 2,
                     vAttack: "5",
                     vp: "3",
@@ -2457,7 +2457,7 @@ export const CivilWar = {
                 },
                 {
                     name: "She-Hulk",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/superhuman-registration-act-04.png",
+                    imageUrl: "/CardImages/Villains/superhuman-registration-act-04.webp",
                     qtd: 2,
                     vAttack: "8",
                     vp: "5",
@@ -2480,7 +2480,7 @@ export const CivilWar = {
                 },
                 {
                     name: "Yellowjacket",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/superhuman-registration-act-01.png",
+                    imageUrl: "/CardImages/Villains/superhuman-registration-act-01.webp",
                     qtd: 2,
                     vAttack: "7",
                     vp: "4",
@@ -2509,7 +2509,7 @@ export const CivilWar = {
             cards: [
                 {
                     name: "Fixer",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/thunderbolts-02.png",
+                    imageUrl: "/CardImages/Villains/thunderbolts-02.webp",
                     qtd: 2,
                     vAttack: "4",
                     vp: "2",
@@ -2524,7 +2524,7 @@ export const CivilWar = {
                 },
                 {
                     name: "Mach-IV",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/thunderbolts-04.png",
+                    imageUrl: "/CardImages/Villains/thunderbolts-04.webp",
                     qtd: 2,
                     vAttack: "5",
                     vp: "3",
@@ -2547,7 +2547,7 @@ export const CivilWar = {
                 },
                 {
                     name: "Radioactive Man",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/thunderbolts-03.png",
+                    imageUrl: "/CardImages/Villains/thunderbolts-03.webp",
                     qtd: 2,
                     vAttack: "6",
                     vp: "4",
@@ -2564,7 +2564,7 @@ export const CivilWar = {
                 },
                 {
                     name: "Songbird",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/thunderbolts-01.png",
+                    imageUrl: "/CardImages/Villains/thunderbolts-01.webp",
                     qtd: 2,
                     vAttack: "5",
                     vp: "3",
@@ -2590,7 +2590,7 @@ export const CivilWar = {
         {
             id: 60,
             name: "Avengers vs. X-Men",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Schemes/70Scheme(87).png",
+            imageUrl: "/CardImages/Schemes/70Scheme(87).webp",
             cards: [
                 {
                     abilities: [
@@ -2621,7 +2621,7 @@ export const CivilWar = {
         {
             id: 61,
             name: "Dark Reign of H.A.M.M.E.R. Officers",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Schemes/71Scheme(88).png",
+            imageUrl: "/CardImages/Schemes/71Scheme(88).webp",
             cards: [
                 {
                     abilities: [
@@ -2649,7 +2649,7 @@ export const CivilWar = {
         {
             id: 62,
             name: "Epic Super Hero Civil War",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Schemes/69Scheme(86).png",
+            imageUrl: "/CardImages/Schemes/69Scheme(86).webp",
             cards: [
                 {
                     abilities: [
@@ -2672,7 +2672,7 @@ export const CivilWar = {
         {
             id: 63,
             name: "Imprison Unregistered Superhumans",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Schemes/64Scheme(14).png",
+            imageUrl: "/CardImages/Schemes/64Scheme(14).webp",
             cards: [
                 {
                     abilities: [
@@ -2704,7 +2704,7 @@ export const CivilWar = {
         {
             id: 64,
             name: "Nitro the Supervillain Threatens Crowds",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Schemes/67Scheme(84).png",
+            imageUrl: "/CardImages/Schemes/67Scheme(84).webp",
             cards: [
                 {
                     abilities: [
@@ -2729,7 +2729,7 @@ export const CivilWar = {
         {
             id: 65,
             name: "Predict Future Crime",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Schemes/66Scheme(83).png",
+            imageUrl: "/CardImages/Schemes/66Scheme(83).webp",
             cards: [
                 {
                     abilities: [
@@ -2752,7 +2752,7 @@ export const CivilWar = {
         {
             id: 66,
             name: "Reveal Heroes' Secret Identities",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Schemes/65Scheme(82).png",
+            imageUrl: "/CardImages/Schemes/65Scheme(82).webp",
             cards: [
                 {
                     abilities: [
@@ -2778,7 +2778,7 @@ export const CivilWar = {
         {
             id: 67,
             name: "United States Split by Civil War",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Schemes/68Scheme(85).png",
+            imageUrl: "/CardImages/Schemes/68Scheme(85).webp",
             cards: [
                 {
                     abilities: [
@@ -2803,7 +2803,7 @@ export const CivilWar = {
         {
             id: 19,
             name: "Aspiring Hero",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Bystanders/bystander-aspiring-hero.png",
+            imageUrl: "/CardImages/Bystanders/bystander-aspiring-hero.webp",
             vp: 1,
             cards: [
                 {
@@ -2821,7 +2821,7 @@ export const CivilWar = {
         {
             id: 20,
             name: "Comic Shop Keeper",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Bystanders/bystander-comic-shop-keeper.png",
+            imageUrl: "/CardImages/Bystanders/bystander-comic-shop-keeper.webp",
             vp: 1,
             cards: [
                 {
@@ -2839,7 +2839,7 @@ export const CivilWar = {
         {
             id: 3,
             name: "Blinding Flash",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Wounds/gw_blindingflash.png",
+            imageUrl: "/CardImages/Wounds/gw_blindingflash.webp",
             set: 13,
             cards: [
                 {
@@ -2857,7 +2857,7 @@ export const CivilWar = {
         {
             id: 4,
             name: "Blunt Force Trauma",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Wounds/gw_bluntforcetrauma.png",
+            imageUrl: "/CardImages/Wounds/gw_bluntforcetrauma.webp",
             set: 13,
             cards: [
                 {
@@ -2877,7 +2877,7 @@ export const CivilWar = {
         {
             id: 5,
             name: "Corrosive Webbing",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Wounds/gw_corrosivewebbing.png",
+            imageUrl: "/CardImages/Wounds/gw_corrosivewebbing.webp",
             set: 13,
             cards: [
                 {
@@ -2895,7 +2895,7 @@ export const CivilWar = {
         {
             id: 6,
             name: "Fatal Blow",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Wounds/gw_fatalblow.png",
+            imageUrl: "/CardImages/Wounds/gw_fatalblow.webp",
             set: 13,
             cards: [
                 {
@@ -2913,7 +2913,7 @@ export const CivilWar = {
         {
             id: 7,
             name: "Psychic Trauma",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Wounds/gw_psychictrauma.png",
+            imageUrl: "/CardImages/Wounds/gw_psychictrauma.webp",
             set: 13,
             cards: [
                 {
@@ -2933,7 +2933,7 @@ export const CivilWar = {
         {
             id: 8,
             name: "Spreading Nanovirus",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Wounds/gw_spreadingnanovirus.png",
+            imageUrl: "/CardImages/Wounds/gw_spreadingnanovirus.webp",
             set: 13,
             cards: [
                 {
@@ -2951,7 +2951,7 @@ export const CivilWar = {
         {
             id: 9,
             name: "Subdermal Tracker",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Wounds/gw_subdermaltracker.png",
+            imageUrl: "/CardImages/Wounds/gw_subdermaltracker.webp",
             set: 13,
             cards: [
                 {

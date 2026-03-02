@@ -8,7 +8,7 @@ export const IntoTheCosmos = {
             cards: [
                 {
                     name: "Transmute Matter",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/adam-warlock-04.png",
+                    imageUrl: "/CardImages/Heroes/adam-warlock-04.webp",
                     hc: 1,
                     rarity: 1,
                     cost: 3,
@@ -27,7 +27,7 @@ export const IntoTheCosmos = {
                 },
                 {
                     name: "Regenerative Cocoon",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/adam-warlock-03.png",
+                    imageUrl: "/CardImages/Heroes/adam-warlock-03.webp",
                     hc: 4,
                     rarity: 1,
                     cost: 4,
@@ -42,7 +42,7 @@ export const IntoTheCosmos = {
                 },
                 {
                     name: "Soulblast",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/adam-warlock-02.png",
+                    imageUrl: "/CardImages/Heroes/adam-warlock-02.webp",
                     hc: 1,
                     rarity: 2,
                     cost: 5,
@@ -62,7 +62,7 @@ export const IntoTheCosmos = {
                 },
                 {
                     name: "Manifest the Soul Gem",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/adam-warlock-01.png",
+                    imageUrl: "/CardImages/Heroes/adam-warlock-01.webp",
                     hc: 3,
                     rarity: 3,
                     cost: 8,
@@ -93,7 +93,7 @@ export const IntoTheCosmos = {
             cards: [
                 {
                     name: "Cosmic Awareness",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/captain-mar-vell-03.png",
+                    imageUrl: "/CardImages/Heroes/captain-mar-vell-03.webp",
                     hc: 3,
                     rarity: 1,
                     cost: 2,
@@ -121,7 +121,7 @@ export const IntoTheCosmos = {
                 },
                 {
                     name: "Kree Genetics",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/captain-mar-vell-04.png",
+                    imageUrl: "/CardImages/Heroes/captain-mar-vell-04.webp",
                     hc: 4,
                     rarity: 1,
                     cost: 3,
@@ -136,7 +136,7 @@ export const IntoTheCosmos = {
                 },
                 {
                     name: "Channel the Nega-Bands",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/captain-mar-vell-02.png",
+                    imageUrl: "/CardImages/Heroes/captain-mar-vell-02.webp",
                     hc: 5,
                     rarity: 2,
                     cost: 6,
@@ -152,7 +152,7 @@ export const IntoTheCosmos = {
                 },
                 {
                     name: "Protector of the Universe",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/captain-mar-vell-01.png",
+                    imageUrl: "/CardImages/Heroes/captain-mar-vell-01.webp",
                     hc: 1,
                     rarity: 3,
                     cost: 7,
@@ -179,7 +179,7 @@ export const IntoTheCosmos = {
             cards: [
                 {
                     name: "Peaceful Meditation",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/moondragon-04.png",
+                    imageUrl: "/CardImages/Heroes/moondragon-04.webp",
                     hc: 1,
                     rarity: 1,
                     cost: 3,
@@ -192,7 +192,7 @@ export const IntoTheCosmos = {
                 },
                 {
                     name: "Psionic Warning",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/moondragon-03.png",
+                    imageUrl: "/CardImages/Heroes/moondragon-03.webp",
                     hc: 2,
                     rarity: 1,
                     cost: 4,
@@ -211,7 +211,7 @@ export const IntoTheCosmos = {
                 },
                 {
                     name: "Psychokinetic Blast",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/moondragon-02.png",
+                    imageUrl: "/CardImages/Heroes/moondragon-02.webp",
                     hc: 3,
                     rarity: 2,
                     cost: 6,
@@ -228,7 +228,7 @@ export const IntoTheCosmos = {
                 },
                 {
                     name: "Lunar Dragon Form",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/moondragon-01.png",
+                    imageUrl: "/CardImages/Heroes/moondragon-01.webp",
                     hc: 4,
                     rarity: 3,
                     cost: 8,
@@ -254,7 +254,7 @@ export const IntoTheCosmos = {
             cards: [
                 {
                     name: "Ruthless Cyborg",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/nebula-04.png",
+                    imageUrl: "/CardImages/Heroes/nebula-04.webp",
                     hc: 5,
                     rarity: 1,
                     cost: 3,
@@ -269,7 +269,7 @@ export const IntoTheCosmos = {
                 },
                 {
                     name: "Galactic Rogue",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/nebula-03.png",
+                    imageUrl: "/CardImages/Heroes/nebula-03.webp",
                     hc: 2,
                     rarity: 1,
                     cost: 5,
@@ -291,7 +291,7 @@ export const IntoTheCosmos = {
                 },
                 {
                     name: "Illusion Device",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/nebula-02.png",
+                    imageUrl: "/CardImages/Heroes/nebula-02.webp",
                     hc: 5,
                     rarity: 2,
                     cost: 4,
@@ -309,7 +309,7 @@ export const IntoTheCosmos = {
                 },
                 {
                     name: "Daring Raid",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/nebula-01.png",
+                    imageUrl: "/CardImages/Heroes/nebula-01.webp",
                     hc: 2,
                     rarity: 3,
                     cost: 7,
@@ -336,7 +336,7 @@ export const IntoTheCosmos = {
             cards: [
                 {
                     name: "Draw From the Worldmind",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/nova-04.png",
+                    imageUrl: "/CardImages/Heroes/nova-04.webp",
                     hc: 5,
                     rarity: 1,
                     cost: 2,
@@ -358,7 +358,7 @@ export const IntoTheCosmos = {
                 },
                 {
                     name: "Electromagnetic Wave",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/nova-03.png",
+                    imageUrl: "/CardImages/Heroes/nova-03.webp",
                     hc: 3,
                     rarity: 1,
                     cost: 3,
@@ -380,7 +380,7 @@ export const IntoTheCosmos = {
                 },
                 {
                     name: "Declare Galactic Threat",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/nova-02.png",
+                    imageUrl: "/CardImages/Heroes/nova-02.webp",
                     hc: 5,
                     rarity: 2,
                     cost: 6,
@@ -398,7 +398,7 @@ export const IntoTheCosmos = {
                 },
                 {
                     name: "Mobilize the Nova Corps",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/nova-01.png",
+                    imageUrl: "/CardImages/Heroes/nova-01.webp",
                     hc: 3,
                     rarity: 3,
                     cost: 8,
@@ -422,7 +422,7 @@ export const IntoTheCosmos = {
             cards: [
                 {
                     name: "Channel Cosmic Power",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/phylavell-04.png",
+                    imageUrl: "/CardImages/Heroes/phylavell-04.webp",
                     hc: 2,
                     rarity: 1,
                     cost: 2,
@@ -440,7 +440,7 @@ export const IntoTheCosmos = {
                 },
                 {
                     name: "Quantum Sword",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/phylavell-03.png",
+                    imageUrl: "/CardImages/Heroes/phylavell-03.webp",
                     hc: 2,
                     rarity: 1,
                     cost: 4,
@@ -458,7 +458,7 @@ export const IntoTheCosmos = {
                 },
                 {
                     name: "Martyr",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/phylavell-02.png",
+                    imageUrl: "/CardImages/Heroes/phylavell-02.webp",
                     hc: 4,
                     rarity: 2,
                     cost: 3,
@@ -473,7 +473,7 @@ export const IntoTheCosmos = {
                 },
                 {
                     name: "Avatar of Oblivion",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/phylavell-01.png",
+                    imageUrl: "/CardImages/Heroes/phylavell-01.webp",
                     hc: 2,
                     rarity: 3,
                     cost: 8,
@@ -503,7 +503,7 @@ export const IntoTheCosmos = {
             cards: [
                 {
                     name: "Manipulate Gravitons",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/quasar-04.png",
+                    imageUrl: "/CardImages/Heroes/quasar-04.webp",
                     hc: 1,
                     rarity: 1,
                     cost: 3,
@@ -519,7 +519,7 @@ export const IntoTheCosmos = {
                 },
                 {
                     name: "Cosmic Champion",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/quasar-03.png",
+                    imageUrl: "/CardImages/Heroes/quasar-03.webp",
                     hc: 3,
                     rarity: 1,
                     cost: 4,
@@ -536,7 +536,7 @@ export const IntoTheCosmos = {
                 },
                 {
                     name: "The Quantum Bands",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/quasar-02.png",
+                    imageUrl: "/CardImages/Heroes/quasar-02.webp",
                     hc: 1,
                     rarity: 2,
                     cost: 5,
@@ -555,7 +555,7 @@ export const IntoTheCosmos = {
                 },
                 {
                     name: "The Star Brand",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/quasar-01.png",
+                    imageUrl: "/CardImages/Heroes/quasar-01.webp",
                     hc: 4,
                     rarity: 3,
                     cost: 7,
@@ -584,7 +584,7 @@ export const IntoTheCosmos = {
             cards: [
                 {
                     name: "Universal Weapon",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/ronan-the-accuser-04.png",
+                    imageUrl: "/CardImages/Heroes/ronan-the-accuser-04.webp",
                     hc: 5,
                     rarity: 1,
                     cost: 3,
@@ -602,7 +602,7 @@ export const IntoTheCosmos = {
                 },
                 {
                     name: "Rally Kree Warriors",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/ronan-the-accuser-03.png",
+                    imageUrl: "/CardImages/Heroes/ronan-the-accuser-03.webp",
                     hc: 4,
                     rarity: 1,
                     cost: 4,
@@ -621,7 +621,7 @@ export const IntoTheCosmos = {
                 },
                 {
                     name: "Accuse Enemies of the Empire",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/ronan-the-accuser-02.png",
+                    imageUrl: "/CardImages/Heroes/ronan-the-accuser-02.webp",
                     hc: 4,
                     rarity: 2,
                     cost: 6,
@@ -636,7 +636,7 @@ export const IntoTheCosmos = {
                 },
                 {
                     name: "Seek the Infinity Gems",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/ronan-the-accuser-01.png",
+                    imageUrl: "/CardImages/Heroes/ronan-the-accuser-01.webp",
                     hc: 5,
                     rarity: 3,
                     cost: 8,
@@ -664,7 +664,7 @@ export const IntoTheCosmos = {
             cards: [
                 {
                     name: "Whistling Arrow",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/yondu-04.png",
+                    imageUrl: "/CardImages/Heroes/yondu-04.webp",
                     hc: 3,
                     rarity: 1,
                     cost: 2,
@@ -685,7 +685,7 @@ export const IntoTheCosmos = {
                 },
                 {
                     name: "Interstellar Hunter",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/yondu-03.png",
+                    imageUrl: "/CardImages/Heroes/yondu-03.webp",
                     hc: 1,
                     rarity: 1,
                     cost: 3,
@@ -702,7 +702,7 @@ export const IntoTheCosmos = {
                 },
                 {
                     name: "Anticipate Their Movements",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/yondu-02.png",
+                    imageUrl: "/CardImages/Heroes/yondu-02.webp",
                     hc: 2,
                     rarity: 2,
                     cost: 5,
@@ -720,7 +720,7 @@ export const IntoTheCosmos = {
                 },
                 {
                     name: "Space Pirate",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/yondu-01.png",
+                    imageUrl: "/CardImages/Heroes/yondu-01.webp",
                     hc: 5,
                     rarity: 3,
                     cost: 7,
@@ -751,7 +751,7 @@ export const IntoTheCosmos = {
             cards: [
                 {
                     name: "The Beyonder",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/beyonder_01.png",
+                    imageUrl: "/CardImages/Masterminds/beyonder_01.webp",
                     vAttackAsterisk: true,
                     abilities: [
                         [
@@ -775,7 +775,7 @@ export const IntoTheCosmos = {
                 },
                 {
                     name: "Epic Beyonder",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/beyonder_02.png",
+                    imageUrl: "/CardImages/Masterminds/beyonder_02.webp",
                     vAttack: "24",
                     vAttackAsterisk: true,
                     epic: true,
@@ -801,7 +801,7 @@ export const IntoTheCosmos = {
                 },
                 {
                     name: "Playthings of a Petulant God",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/beyonder_06.png",
+                    imageUrl: "/CardImages/Masterminds/beyonder_06.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -812,7 +812,7 @@ export const IntoTheCosmos = {
                 },
                 {
                     name: "Dimensional Collapse",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/beyonder_05.png",
+                    imageUrl: "/CardImages/Masterminds/beyonder_05.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -825,7 +825,7 @@ export const IntoTheCosmos = {
                 },
                 {
                     name: "Pull Earth Into The Beyond",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/beyonder_03.png",
+                    imageUrl: "/CardImages/Masterminds/beyonder_03.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -839,7 +839,7 @@ export const IntoTheCosmos = {
                 },
                 {
                     name: "Create the Secret Wars",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/beyonder_04.png",
+                    imageUrl: "/CardImages/Masterminds/beyonder_04.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -871,7 +871,7 @@ export const IntoTheCosmos = {
             cards: [
                 {
                     name: "The Grandmaster",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/grandmaster_01.png",
+                    imageUrl: "/CardImages/Masterminds/grandmaster_01.webp",
                     abilities: [
                         [
                             { bold: "Always Leads" },
@@ -889,7 +889,7 @@ export const IntoTheCosmos = {
                 },
                 {
                     name: "Epic Grandmaster",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/grandmaster_02.png",
+                    imageUrl: "/CardImages/Masterminds/grandmaster_02.webp",
                     vAttack: "11",
                     epic: true,
                     abilities: [
@@ -916,7 +916,7 @@ export const IntoTheCosmos = {
                 },
                 {
                     name: "Deal With Death",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/grandmaster_06.png",
+                    imageUrl: "/CardImages/Masterminds/grandmaster_06.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -933,7 +933,7 @@ export const IntoTheCosmos = {
                 },
                 {
                     name: "Galactic Marathon",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/grandmaster_05.png",
+                    imageUrl: "/CardImages/Masterminds/grandmaster_05.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -950,7 +950,7 @@ export const IntoTheCosmos = {
                 },
                 {
                     name: "Cheat Against Thanos",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/grandmaster_04.png",
+                    imageUrl: "/CardImages/Masterminds/grandmaster_04.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -969,7 +969,7 @@ export const IntoTheCosmos = {
                 },
                 {
                     name: "Match Offenders vs. Defenders",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/grandmaster_03.png",
+                    imageUrl: "/CardImages/Masterminds/grandmaster_03.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -994,7 +994,7 @@ export const IntoTheCosmos = {
             cards: [
                 {
                     name: "Magus",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/magus_01.png",
+                    imageUrl: "/CardImages/Masterminds/magus_01.webp",
                     vAttack: "9+",
                     abilities: [
                         [
@@ -1024,7 +1024,7 @@ export const IntoTheCosmos = {
                 },
                 {
                     name: "Epic Magus",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/magus_02.png",
+                    imageUrl: "/CardImages/Masterminds/magus_02.webp",
                     vAttack: "11+",
                     epic: true,
                     abilities: [
@@ -1055,7 +1055,7 @@ export const IntoTheCosmos = {
                 },
                 {
                     name: "Dark Side of Adam Warlock",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/magus_05.png",
+                    imageUrl: "/CardImages/Masterminds/magus_05.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -1072,7 +1072,7 @@ export const IntoTheCosmos = {
                 },
                 {
                     name: "Seize Cosmic Power",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/magus_06.png",
+                    imageUrl: "/CardImages/Masterminds/magus_06.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -1089,7 +1089,7 @@ export const IntoTheCosmos = {
                 },
                 {
                     name: "Conjured Shade of Thanos",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/magus_03.png",
+                    imageUrl: "/CardImages/Masterminds/magus_03.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -1103,7 +1103,7 @@ export const IntoTheCosmos = {
                 },
                 {
                     name: "Resurrected as the Child Magus",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/magus_04.png",
+                    imageUrl: "/CardImages/Masterminds/magus_04.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -1123,7 +1123,7 @@ export const IntoTheCosmos = {
         {
             id: 35,
             name: "Sidera Maris, Bridge Builders",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Henchmen/sidera-maris.png",
+            imageUrl: "/CardImages/Henchmen/sidera-maris.webp",
             vAttack: "3",
             vp: 1,
             cards: [
@@ -1148,7 +1148,7 @@ export const IntoTheCosmos = {
         {
             id: 36,
             name: "Universal Church of Truth",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Henchmen/universal-church-of-truth.png",
+            imageUrl: "/CardImages/Henchmen/universal-church-of-truth.webp",
             vAttack: "2",
             vp: 1,
             cards: [
@@ -1180,7 +1180,7 @@ export const IntoTheCosmos = {
             cards: [
                 {
                     name: "The Runner",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/elders-of-the-universe-02.png",
+                    imageUrl: "/CardImages/Villains/elders-of-the-universe-02.webp",
                     qtd: 2,
                     vp: "3",
                     vAttack: "5",
@@ -1201,7 +1201,7 @@ export const IntoTheCosmos = {
                 },
                 {
                     name: "The Trader",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/elders-of-the-universe-01.png",
+                    imageUrl: "/CardImages/Villains/elders-of-the-universe-01.webp",
                     qtd: 2,
                     vp: "2",
                     vAttack: "4",
@@ -1222,7 +1222,7 @@ export const IntoTheCosmos = {
                 },
                 {
                     name: "The Champion of the Universe",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/elders-of-the-universe-04.png",
+                    imageUrl: "/CardImages/Villains/elders-of-the-universe-04.webp",
                     qtd: 2,
                     vp: "5",
                     vAttack: "7",
@@ -1249,7 +1249,7 @@ export const IntoTheCosmos = {
                 },
                 {
                     name: "The Collector",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/elders-of-the-universe-03.png",
+                    imageUrl: "/CardImages/Villains/elders-of-the-universe-03.webp",
                     qtd: 2,
                     vp: "4",
                     vAttack: "6",
@@ -1294,7 +1294,7 @@ export const IntoTheCosmos = {
             cards: [
                 {
                     name: "Nezarr, The Calculator",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/celestials-05.png",
+                    imageUrl: "/CardImages/Villains/celestials-05.webp",
                     qtd: 2,
                     vp: "4",
                     vAttack: "11",
@@ -1335,7 +1335,7 @@ export const IntoTheCosmos = {
                 },
                 {
                     name: "Gammenon, The Gatherer",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/celestials-01.png",
+                    imageUrl: "/CardImages/Villains/celestials-01.webp",
                     qtd: 2,
                     vp: "3",
                     vAttack: "10",
@@ -1366,7 +1366,7 @@ export const IntoTheCosmos = {
                 },
                 {
                     name: "Exitar, The Exterminator",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/celestials-02.png",
+                    imageUrl: "/CardImages/Villains/celestials-02.webp",
                     qtd: 2,
                     vp: "5",
                     vAttack: "12",
@@ -1399,7 +1399,7 @@ export const IntoTheCosmos = {
                 },
                 {
                     name: "Arishem, The Judge",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/celestials-03.png",
+                    imageUrl: "/CardImages/Villains/celestials-03.webp",
                     qtd: 1,
                     vp: "5",
                     vAttack: "13",
@@ -1432,7 +1432,7 @@ export const IntoTheCosmos = {
                 },
                 {
                     name: "Tiamut, The Dreaming Celestial",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/celestials-04.png",
+                    imageUrl: "/CardImages/Villains/celestials-04.webp",
                     qtd: 1,
                     vp: "6",
                     vAttack: "14",
@@ -1469,7 +1469,7 @@ export const IntoTheCosmos = {
             cards: [
                 {
                     name: "The Mapmakers",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/from-beyond-03.png",
+                    imageUrl: "/CardImages/Villains/from-beyond-03.webp",
                     qtd: 3,
                     vp: "3",
                     vAttack: "7",
@@ -1490,7 +1490,7 @@ export const IntoTheCosmos = {
                 },
                 {
                     name: "The Shaper of Worlds",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/from-beyond-02.png",
+                    imageUrl: "/CardImages/Villains/from-beyond-02.webp",
                     qtd: 2,
                     vp: "5",
                     vAttack: "10",
@@ -1524,7 +1524,7 @@ export const IntoTheCosmos = {
                 },
                 {
                     name: "Kubik",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/from-beyond-01.png",
+                    imageUrl: "/CardImages/Villains/from-beyond-01.webp",
                     qtd: 2,
                     vp: "5",
                     vAttack: "11",
@@ -1551,7 +1551,7 @@ export const IntoTheCosmos = {
                 },
                 {
                     name: "Kosmos",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/from-beyond-04.png",
+                    imageUrl: "/CardImages/Villains/from-beyond-04.webp",
                     qtd: 1,
                     vp: "6",
                     vAttack: "13",
@@ -1578,7 +1578,7 @@ export const IntoTheCosmos = {
             cards: [
                 {
                     name: "Corvus Glaive",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/black-order-of-thanos-05.png",
+                    imageUrl: "/CardImages/Villains/black-order-of-thanos-05.webp",
                     qtd: 2,
                     vp: "4",
                     vAttack: "5+",
@@ -1595,7 +1595,7 @@ export const IntoTheCosmos = {
                 },
                 {
                     name: "Black Dwarf",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/black-order-of-thanos-04.png",
+                    imageUrl: "/CardImages/Villains/black-order-of-thanos-04.webp",
                     qtd: 2,
                     vp: "3",
                     vAttack: "4+",
@@ -1618,7 +1618,7 @@ export const IntoTheCosmos = {
                 },
                 {
                     name: "Supergiant",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/black-order-of-thanos-03.png",
+                    imageUrl: "/CardImages/Villains/black-order-of-thanos-03.webp",
                     qtd: 2,
                     vp: "5",
                     vAttack: "6+",
@@ -1641,7 +1641,7 @@ export const IntoTheCosmos = {
                 },
                 {
                     name: "Proxima Midnight",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/black-order-of-thanos-02.png",
+                    imageUrl: "/CardImages/Villains/black-order-of-thanos-02.webp",
                     qtd: 1,
                     vp: "5",
                     vAttack: "7+",
@@ -1666,7 +1666,7 @@ export const IntoTheCosmos = {
                 },
                 {
                     name: "Ebony Maw",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/black-order-of-thanos-01.png",
+                    imageUrl: "/CardImages/Villains/black-order-of-thanos-01.webp",
                     qtd: 1,
                     vp: "5",
                     vAttack: "6+",
@@ -1688,7 +1688,7 @@ export const IntoTheCosmos = {
         {
             id: 130,
             name: "Contest of Champions, The",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Schemes/125Scheme(29).png",
+            imageUrl: "/CardImages/Schemes/125Scheme(29).webp",
             cards: [
                 {
                     abilities: [
@@ -1721,7 +1721,7 @@ export const IntoTheCosmos = {
         {
             id: 131,
             name: "Turn the Soul of Adam Warlock",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Schemes/124Scheme(28).png",
+            imageUrl: "/CardImages/Schemes/124Scheme(28).webp",
             cards: [
                 {
                     abilities: [
@@ -1748,7 +1748,7 @@ export const IntoTheCosmos = {
         {
             id: 132,
             name: "Destroy the Nova Corps",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Schemes/126Scheme(30).png",
+            imageUrl: "/CardImages/Schemes/126Scheme(30).webp",
             cards: [
                 {
                     abilities: [
@@ -1781,7 +1781,7 @@ export const IntoTheCosmos = {
         {
             id: 133,
             name: "Annihilation: Conquest",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Schemes/127Scheme(31).png",
+            imageUrl: "/CardImages/Schemes/127Scheme(31).webp",
             cards: [
                 {
                     abilities: [
@@ -1815,7 +1815,7 @@ export const IntoTheCosmos = {
         {
             id: 46,
             name: "Board Gamer",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Bystanders/bystander_03.png",
+            imageUrl: "/CardImages/Bystanders/bystander_03.webp",
             vp: 1,
             cards: [
                 {
@@ -1832,7 +1832,7 @@ export const IntoTheCosmos = {
         {
             id: 47,
             name: "Legendary Game Designer",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Bystanders/bystander_01.png",
+            imageUrl: "/CardImages/Bystanders/bystander_01.webp",
             vp: 1,
             cards: [
                 {
@@ -1850,7 +1850,7 @@ export const IntoTheCosmos = {
         {
             id: 48,
             name: "Pizza Delivery Guy",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Bystanders/bystander_02.png",
+            imageUrl: "/CardImages/Bystanders/bystander_02.webp",
             vp: 1,
             cards: [
                 {

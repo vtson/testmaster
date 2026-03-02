@@ -9,7 +9,7 @@ export const MarvelStudios = {
             cards: [
                 {
                     name: "Dangerous Rescue",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/black-widow-03-1.png",
+                    imageUrl: "/CardImages/Heroes/black-widow-03-1.webp",
                     hc: 1,
                     rarity: 1,
                     cost: 3,
@@ -23,7 +23,7 @@ export const MarvelStudios = {
                 },
                 {
                     name: "Mission Accomplished",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/black-widow-04-1.png",
+                    imageUrl: "/CardImages/Heroes/black-widow-04-1.webp",
                     hc: 5,
                     rarity: 1,
                     cost: 2,
@@ -37,7 +37,7 @@ export const MarvelStudios = {
                 },
                 {
                     name: "Covert Operation",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/black-widow-02-1.png",
+                    imageUrl: "/CardImages/Heroes/black-widow-02-1.webp",
                     hc: 1,
                     rarity: 2,
                     cost: 4,
@@ -53,7 +53,7 @@ export const MarvelStudios = {
                 },
                 {
                     name: "Silent Sniper",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/black-widow-01-1.png",
+                    imageUrl: "/CardImages/Heroes/black-widow-01-1.webp",
                     hc: 1,
                     rarity: 3,
                     cost: 7,
@@ -74,7 +74,7 @@ export const MarvelStudios = {
             cards: [
                 {
                     name: "Avengers Assemble!",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/captain-america-03-1.png",
+                    imageUrl: "/CardImages/Heroes/captain-america-03-1.webp",
                     hc: 2,
                     rarity: 1,
                     cost: 3,
@@ -90,7 +90,7 @@ export const MarvelStudios = {
                 },
                 {
                     name: "Perfect Teamwork",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/captain-america-04-1.png",
+                    imageUrl: "/CardImages/Heroes/captain-america-04-1.webp",
                     hc: 4,
                     rarity: 1,
                     cost: 4,
@@ -106,7 +106,7 @@ export const MarvelStudios = {
                 },
                 {
                     name: "Diving Block",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/captain-america-02-1.png",
+                    imageUrl: "/CardImages/Heroes/captain-america-02-1.webp",
                     hc: 5,
                     rarity: 2,
                     cost: 6,
@@ -119,7 +119,7 @@ export const MarvelStudios = {
                 },
                 {
                     name: "A Day Unlike Any Other",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/captain-america-01-1.png",
+                    imageUrl: "/CardImages/Heroes/captain-america-01-1.webp",
                     hc: 1,
                     rarity: 3,
                     cost: 7,
@@ -146,7 +146,7 @@ export const MarvelStudios = {
             cards: [
                 {
                     name: "Quick Draw",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/hawkeye-03-1.png",
+                    imageUrl: "/CardImages/Heroes/hawkeye-03-1.webp",
                     hc: 2,
                     rarity: 1,
                     cost: 3,
@@ -159,7 +159,7 @@ export const MarvelStudios = {
                 },
                 {
                     name: "Team Player",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/hawkeye-04-1.png",
+                    imageUrl: "/CardImages/Heroes/hawkeye-04-1.webp",
                     hc: 5,
                     rarity: 1,
                     cost: 4,
@@ -176,7 +176,7 @@ export const MarvelStudios = {
                 },
                 {
                     name: "Covering Fire",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/hawkeye-02-1.png",
+                    imageUrl: "/CardImages/Heroes/hawkeye-02-1.webp",
                     hc: 5,
                     rarity: 2,
                     cost: 5,
@@ -190,7 +190,7 @@ export const MarvelStudios = {
                 },
                 {
                     name: "Impossible Trick Shot",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/hawkeye-01-1.png",
+                    imageUrl: "/CardImages/Heroes/hawkeye-01-1.webp",
                     hc: 5,
                     rarity: 3,
                     cost: 7,
@@ -211,7 +211,7 @@ export const MarvelStudios = {
             cards: [
                 {
                     name: "Growing Anger",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/hulk-03-1.png",
+                    imageUrl: "/CardImages/Heroes/hulk-03-1.webp",
                     hc: 4,
                     rarity: 1,
                     cost: 3,
@@ -228,7 +228,7 @@ export const MarvelStudios = {
                 },
                 {
                     name: "Unstoppable Hulk",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/hulk-04-1.png",
+                    imageUrl: "/CardImages/Heroes/hulk-04-1.webp",
                     hc: 2,
                     rarity: 1,
                     cost: 4,
@@ -244,7 +244,7 @@ export const MarvelStudios = {
                 },
                 {
                     name: "Crazed Rampage",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/hulk-02-1.png",
+                    imageUrl: "/CardImages/Heroes/hulk-02-1.webp",
                     hc: 4,
                     rarity: 2,
                     cost: 5,
@@ -257,7 +257,7 @@ export const MarvelStudios = {
                 },
                 {
                     name: "Hulk Smash!",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/hulk-01-1.png",
+                    imageUrl: "/CardImages/Heroes/hulk-01-1.webp",
                     hc: 4,
                     rarity: 3,
                     cost: 8,
@@ -282,7 +282,7 @@ export const MarvelStudios = {
             cards: [
                 {
                     name: "Endless Invention",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/iron-man-04-1.png",
+                    imageUrl: "/CardImages/Heroes/iron-man-04-1.webp",
                     hc: 5,
                     rarity: 1,
                     cost: 3,
@@ -298,7 +298,7 @@ export const MarvelStudios = {
                 },
                 {
                     name: "Repulsor Rays",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/iron-man-03-1.png",
+                    imageUrl: "/CardImages/Heroes/iron-man-03-1.webp",
                     hc: 3,
                     rarity: 1,
                     cost: 3,
@@ -315,7 +315,7 @@ export const MarvelStudios = {
                 },
                 {
                     name: "Arc Reactor",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/iron-man-02-1.png",
+                    imageUrl: "/CardImages/Heroes/iron-man-02-1.webp",
                     hc: 5,
                     rarity: 2,
                     cost: 5,
@@ -334,7 +334,7 @@ export const MarvelStudios = {
                 },
                 {
                     name: "Quantum Breakthrough",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/iron-man-01-1.png",
+                    imageUrl: "/CardImages/Heroes/iron-man-01-1.webp",
                     hc: 5,
                     rarity: 3,
                     cost: 7,
@@ -356,7 +356,7 @@ export const MarvelStudios = {
             cards: [
                 {
                     name: "Battlefield Promotion",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/nick-fury-03-2.png",
+                    imageUrl: "/CardImages/Heroes/nick-fury-03-2.webp",
                     hc: 1,
                     rarity: 1,
                     cost: 4,
@@ -370,7 +370,7 @@ export const MarvelStudios = {
                 },
                 {
                     name: "High-Tech Weaponry",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/nick-fury-04-2.png",
+                    imageUrl: "/CardImages/Heroes/nick-fury-04-2.webp",
                     hc: 5,
                     rarity: 1,
                     cost: 3,
@@ -387,7 +387,7 @@ export const MarvelStudios = {
                 },
                 {
                     name: "Legendary Commander",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/nick-fury-02-2.png",
+                    imageUrl: "/CardImages/Heroes/nick-fury-02-2.webp",
                     hc: 4,
                     rarity: 2,
                     cost: 6,
@@ -405,7 +405,7 @@ export const MarvelStudios = {
                 },
                 {
                     name: "Pure Fury",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/nick-fury-01-2.png",
+                    imageUrl: "/CardImages/Heroes/nick-fury-01-2.webp",
                     hc: 5,
                     rarity: 3,
                     cost: 8,
@@ -429,7 +429,7 @@ export const MarvelStudios = {
             cards: [
                 {
                     name: "Odinson",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/thor-03-1.png",
+                    imageUrl: "/CardImages/Heroes/thor-03-1.webp",
                     hc: 4,
                     rarity: 1,
                     cost: 3,
@@ -446,7 +446,7 @@ export const MarvelStudios = {
                 },
                 {
                     name: "Surge of Power",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/thor-04-1.png",
+                    imageUrl: "/CardImages/Heroes/thor-04-1.webp",
                     hc: 3,
                     rarity: 1,
                     cost: 4,
@@ -467,7 +467,7 @@ export const MarvelStudios = {
                 },
                 {
                     name: "Call Lightning",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/thor-02-1.png",
+                    imageUrl: "/CardImages/Heroes/thor-02-1.webp",
                     hc: 3,
                     rarity: 2,
                     cost: 6,
@@ -484,7 +484,7 @@ export const MarvelStudios = {
                 },
                 {
                     name: "God of Thunder",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Heroes/thor-01-1.png",
+                    imageUrl: "/CardImages/Heroes/thor-01-1.webp",
                     hc: 3,
                     rarity: 3,
                     cost: 8,
@@ -512,7 +512,7 @@ export const MarvelStudios = {
             cards: [
                 {
                     name: "Iron Monger",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/iron-monger-01.png",
+                    imageUrl: "/CardImages/Masterminds/iron-monger-01.webp",
                     vAttack: "9+",
                     abilities: [
                         [
@@ -533,7 +533,7 @@ export const MarvelStudios = {
                 },
                 {
                     name: "Hostile Takeover",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/iron-monger-02.png",
+                    imageUrl: "/CardImages/Masterminds/iron-monger-02.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -544,7 +544,7 @@ export const MarvelStudios = {
                 },
                 {
                     name: "Overloaded Arsenal",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/iron-monger-05.png",
+                    imageUrl: "/CardImages/Masterminds/iron-monger-05.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -559,7 +559,7 @@ export const MarvelStudios = {
                 },
                 {
                     name: "Sonic Stunner",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/iron-monger-04.png",
+                    imageUrl: "/CardImages/Masterminds/iron-monger-04.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -572,7 +572,7 @@ export const MarvelStudios = {
                 },
                 {
                     name: "Unexpected Betrayal",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/iron-monger-03.png",
+                    imageUrl: "/CardImages/Masterminds/iron-monger-03.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -592,7 +592,7 @@ export const MarvelStudios = {
             cards: [
                 {
                     name: "Loki",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/loki-01-2.png",
+                    imageUrl: "/CardImages/Masterminds/loki-01-2.webp",
                     abilities: [
                         [
                             { bold: "Always Leads" },
@@ -608,7 +608,7 @@ export const MarvelStudios = {
                 },
                 {
                     name: "Cruel Ruler",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/loki-04-2.png",
+                    imageUrl: "/CardImages/Masterminds/loki-04-2.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -619,7 +619,7 @@ export const MarvelStudios = {
                 },
                 {
                     name: "Maniacal Tyrant",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/loki-03-2.png",
+                    imageUrl: "/CardImages/Masterminds/loki-03-2.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -630,7 +630,7 @@ export const MarvelStudios = {
                 },
                 {
                     name: "Vanishing Illusions",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/loki-02-2.png",
+                    imageUrl: "/CardImages/Masterminds/loki-02-2.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -641,7 +641,7 @@ export const MarvelStudios = {
                 },
                 {
                     name: "Whispers and Lies",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/loki-05-1.png",
+                    imageUrl: "/CardImages/Masterminds/loki-05-1.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -661,7 +661,7 @@ export const MarvelStudios = {
             cards: [
                 {
                     name: "Red Skull",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/red-skull-01-1.png",
+                    imageUrl: "/CardImages/Masterminds/red-skull-01-1.webp",
                     abilities: [
                         [
                             { bold: "Always Leads" },
@@ -675,7 +675,7 @@ export const MarvelStudios = {
                 },
                 {
                     name: "Endless Resources",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/red-skull-05-1.png",
+                    imageUrl: "/CardImages/Masterminds/red-skull-05-1.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -689,7 +689,7 @@ export const MarvelStudios = {
                 },
                 {
                     name: "HYDRA Conspiracy",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/red-skull-03-1.png",
+                    imageUrl: "/CardImages/Masterminds/red-skull-03-1.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -700,7 +700,7 @@ export const MarvelStudios = {
                 },
                 {
                     name: "Negablast Grenades",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/red-skull-02-1.png",
+                    imageUrl: "/CardImages/Masterminds/red-skull-02-1.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -714,7 +714,7 @@ export const MarvelStudios = {
                 },
                 {
                     name: "Ruthless Dictator",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Masterminds/red-skull-04-1.png",
+                    imageUrl: "/CardImages/Masterminds/red-skull-04-1.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -730,7 +730,7 @@ export const MarvelStudios = {
         {
             id: 29,
             name: "Hammer Drone Army",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Henchmen/hammer-drone-army.png",
+            imageUrl: "/CardImages/Henchmen/hammer-drone-army.webp",
             vAttack: "3",
             vp: 1,
             cards: [
@@ -747,7 +747,7 @@ export const MarvelStudios = {
         {
             id: 30,
             name: "HYDRA Pilots",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Henchmen/hydra-pilots.png",
+            imageUrl: "/CardImages/Henchmen/hydra-pilots.webp",
             vAttack: "3",
             vp: 1,
             cards: [
@@ -767,7 +767,7 @@ export const MarvelStudios = {
         {
             id: 31,
             name: "HYDRA Spies",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Henchmen/hydra-spies.png",
+            imageUrl: "/CardImages/Henchmen/hydra-spies.webp",
             vAttack: "3",
             vp: 1,
             cards: [
@@ -784,7 +784,7 @@ export const MarvelStudios = {
         {
             id: 32,
             name: "Ten Rings Fanatics",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Henchmen/ten-rings-fanatics.png",
+            imageUrl: "/CardImages/Henchmen/ten-rings-fanatics.webp",
             vAttack: "3",
             vp: 1,
             cards: [
@@ -806,7 +806,7 @@ export const MarvelStudios = {
             cards: [
                 {
                     name: "Chitauri Soldier",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/chitauri-03.png",
+                    imageUrl: "/CardImages/Villains/chitauri-03.webp",
                     qtd: 2,
                     vp: "2",
                     vAttack: "3+",
@@ -822,7 +822,7 @@ export const MarvelStudios = {
                 },
                 {
                     name: "Chitauri Commander",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/chitauri-04.png",
+                    imageUrl: "/CardImages/Villains/chitauri-04.webp",
                     qtd: 2,
                     vp: "2",
                     vAttack: "3+",
@@ -840,7 +840,7 @@ export const MarvelStudios = {
                 },
                 {
                     name: "Chitauri Leviathan",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/chitauri-01.png",
+                    imageUrl: "/CardImages/Villains/chitauri-01.webp",
                     qtd: 2,
                     vp: "4",
                     vAttack: "5+",
@@ -862,7 +862,7 @@ export const MarvelStudios = {
                 },
                 {
                     name: "Chitauri Chariot",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/chitauri-02.png",
+                    imageUrl: "/CardImages/Villains/chitauri-02.webp",
                     qtd: 2,
                     vp: "3",
                     vAttack: "4+",
@@ -886,7 +886,7 @@ export const MarvelStudios = {
             cards: [
                 {
                     name: "Sonic Cannon",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/gamma-hunters-01.png",
+                    imageUrl: "/CardImages/Villains/gamma-hunters-01.webp",
                     qtd: 2,
                     vp: "2",
                     vAttack: "4",
@@ -907,7 +907,7 @@ export const MarvelStudios = {
                 },
                 {
                     name: "Lt. Gen “Thunderbolt“ Ross",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/gamma-hunters-03.png",
+                    imageUrl: "/CardImages/Villains/gamma-hunters-03.webp",
                     qtd: 2,
                     vp: "3",
                     vAttack: "5",
@@ -930,7 +930,7 @@ export const MarvelStudios = {
                 },
                 {
                     name: "Abomination, Raging Monster",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/gamma-hunters-04.png",
+                    imageUrl: "/CardImages/Villains/gamma-hunters-04.webp",
                     qtd: 2,
                     vp: "4",
                     vAttack: "4+",
@@ -948,7 +948,7 @@ export const MarvelStudios = {
                 },
                 {
                     name: "Fighter Jet",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/gamma-hunters-02.png",
+                    imageUrl: "/CardImages/Villains/gamma-hunters-02.webp",
                     qtd: 2,
                     vp: "2",
                     vAttack: "3+",
@@ -971,7 +971,7 @@ export const MarvelStudios = {
             cards: [
                 {
                     name: "Destroyer",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/enemies-of-asgard-02-1.png",
+                    imageUrl: "/CardImages/Villains/enemies-of-asgard-02-1.webp",
                     qtd: 1,
                     vp: "5",
                     vAttack: "7",
@@ -994,7 +994,7 @@ export const MarvelStudios = {
                 },
                 {
                     name: "Enslaved Hawkeye",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/enemies-of-asgard-04-1.png",
+                    imageUrl: "/CardImages/Villains/enemies-of-asgard-04-1.webp",
                     qtd: 2,
                     vp: "4",
                     vAttack: "6",
@@ -1009,7 +1009,7 @@ export const MarvelStudios = {
                 },
                 {
                     name: "Frost Giant",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/enemies-of-asgard-03-1.png",
+                    imageUrl: "/CardImages/Villains/enemies-of-asgard-03-1.webp",
                     qtd: 3,
                     vp: "2",
                     vAttack: "4",
@@ -1032,7 +1032,7 @@ export const MarvelStudios = {
                 },
                 {
                     name: "Laufey, Frost Giant King",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/enemies-of-asgard-01-1.png",
+                    imageUrl: "/CardImages/Villains/enemies-of-asgard-01-1.webp",
                     qtd: 2,
                     vp: "4",
                     vAttack: "6",
@@ -1062,7 +1062,7 @@ export const MarvelStudios = {
             cards: [
                 {
                     name: "Endless Armies of HYDRA",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/hydra-03-1.png",
+                    imageUrl: "/CardImages/Villains/hydra-03-1.webp",
                     qtd: 3,
                     vp: "3",
                     vAttack: "4",
@@ -1077,7 +1077,7 @@ export const MarvelStudios = {
                 },
                 {
                     name: "HYDRA Motorcycle Squad",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/hydra-04-1.png",
+                    imageUrl: "/CardImages/Villains/hydra-04-1.webp",
                     qtd: 3,
                     vp: "1",
                     vAttack: "3",
@@ -1092,7 +1092,7 @@ export const MarvelStudios = {
                 },
                 {
                     name: "Arnim Zola",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/hydra-01-1.png",
+                    imageUrl: "/CardImages/Villains/hydra-01-1.webp",
                     qtd: 1,
                     vp: "3+",
                     vAttack: "6",
@@ -1107,7 +1107,7 @@ export const MarvelStudios = {
                 },
                 {
                     name: "HYDRA Tank",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/hydra-02-1.png",
+                    imageUrl: "/CardImages/Villains/hydra-02-1.webp",
                     qtd: 1,
                     vp: "3",
                     vAttack: "5",
@@ -1134,7 +1134,7 @@ export const MarvelStudios = {
             cards: [
                 {
                     name: "Hammer Drone Marine",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/iron-foes-01.png",
+                    imageUrl: "/CardImages/Villains/iron-foes-01.webp",
                     qtd: 2,
                     vp: "2",
                     vAttack: "4",
@@ -1149,7 +1149,7 @@ export const MarvelStudios = {
                 },
                 {
                     name: "Raza, Ten Rings Leader",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/iron-foes-02.png",
+                    imageUrl: "/CardImages/Villains/iron-foes-02.webp",
                     qtd: 2,
                     vp: "3",
                     vAttack: "4+",
@@ -1170,7 +1170,7 @@ export const MarvelStudios = {
                 },
                 {
                     name: "Whiplash",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/iron-foes-03.png",
+                    imageUrl: "/CardImages/Villains/iron-foes-03.webp",
                     qtd: 2,
                     vp: "4",
                     vAttack: "6",
@@ -1193,7 +1193,7 @@ export const MarvelStudios = {
                 },
                 {
                     name: "Justin Hammer",
-                    imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Villains/iron-foes-04.png",
+                    imageUrl: "/CardImages/Villains/iron-foes-04.webp",
                     qtd: 2,
                     vp: "2",
                     vAttack: "3+",
@@ -1217,7 +1217,7 @@ export const MarvelStudios = {
         {
             id: 100,
             name: "Asgard Under Siege",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Schemes/scheme-03-11.png",
+            imageUrl: "/CardImages/Schemes/scheme-03-11.webp",
             cards: [
                 {
                     abilities: [
@@ -1240,7 +1240,7 @@ export const MarvelStudios = {
         {
             id: 101,
             name: "Destroy the Cities of Earth!",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Schemes/scheme-02-11.png",
+            imageUrl: "/CardImages/Schemes/scheme-02-11.webp",
             cards: [
                 {
                     abilities: [
@@ -1270,7 +1270,7 @@ export const MarvelStudios = {
         {
             id: 102,
             name: "Enslave Minds with the Chitauri Scepter",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Schemes/scheme-06-5.png",
+            imageUrl: "/CardImages/Schemes/scheme-06-5.webp",
             cards: [
                 {
                     abilities: [
@@ -1302,7 +1302,7 @@ export const MarvelStudios = {
         {
             id: 103,
             name: "Invade Asgard",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Schemes/scheme-07-5.png",
+            imageUrl: "/CardImages/Schemes/scheme-07-5.webp",
             cards: [
                 {
                     abilities: [
@@ -1335,7 +1335,7 @@ export const MarvelStudios = {
         {
             id: 104,
             name: "Radioactive Palladium Poisoning",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Schemes/scheme-01-11.png",
+            imageUrl: "/CardImages/Schemes/scheme-01-11.webp",
             cards: [
                 {
                     abilities: [
@@ -1360,7 +1360,7 @@ export const MarvelStudios = {
         {
             id: 105,
             name: "Replace Earth's Leaders with HYDRA",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Schemes/scheme-05-5.png",
+            imageUrl: "/CardImages/Schemes/scheme-05-5.webp",
             cards: [
                 {
                     abilities: [
@@ -1390,7 +1390,7 @@ export const MarvelStudios = {
             id: -1,
             set: 20,
             name: "Super Hero Civil War",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Schemes/scheme-04-11.png",
+            imageUrl: "/CardImages/Schemes/scheme-04-11.webp",
             cards: [
                 {
                     abilities: [
@@ -1414,7 +1414,7 @@ export const MarvelStudios = {
             id: -1,
             set: 20,
             name: "Unleash the Power of the Cosmic Cube",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Schemes/scheme-08-5.png",
+            imageUrl: "/CardImages/Schemes/scheme-08-5.webp",
             cards: [
                 {
                     abilities: [
@@ -1447,7 +1447,7 @@ export const MarvelStudios = {
         {
             id: 37,
             name: "Bystander",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Bystanders/bystanders-01.png",
+            imageUrl: "/CardImages/Bystanders/bystanders-01.webp",
             vp: 1,
             cards: [
                 {
@@ -1459,7 +1459,7 @@ export const MarvelStudios = {
         {
             id: 38,
             name: "Happy Hogan",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Bystanders/bystander-happy-hogan.png",
+            imageUrl: "/CardImages/Bystanders/bystander-happy-hogan.webp",
             vp: 1,
             cards: [
                 {
@@ -1475,7 +1475,7 @@ export const MarvelStudios = {
         {
             id: 39,
             name: "Jane Foster",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Bystanders/bystyander-jane-foster.png",
+            imageUrl: "/CardImages/Bystanders/bystyander-jane-foster.webp",
             vp: 1,
             cards: [
                 {
@@ -1491,7 +1491,7 @@ export const MarvelStudios = {
         {
             id: 40,
             name: "Peggy Carter",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Bystanders/bystander-peggy-carter.png",
+            imageUrl: "/CardImages/Bystanders/bystander-peggy-carter.webp",
             vp: 1,
             cards: [
                 {
@@ -1507,7 +1507,7 @@ export const MarvelStudios = {
         {
             id: 41,
             name: "Pepper Potts",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Bystanders/bystander-pepper-potts.png",
+            imageUrl: "/CardImages/Bystanders/bystander-pepper-potts.webp",
             vp: 1,
             cards: [
                 {
@@ -1529,7 +1529,7 @@ export const MarvelStudios = {
             id: 10,
             name: "Wound",
             filterName: "Wound (MS)",
-            imageUrl: "https://nyc3.digitaloceanspaces.com/bageltop/CardImages/Wounds/wound-1.png",
+            imageUrl: "/CardImages/Wounds/wound-1.webp",
             set: 20,
             cards: [
                 {
