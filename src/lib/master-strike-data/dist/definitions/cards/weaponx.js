@@ -8,7 +8,7 @@ export const WeaponX = {
             cards: [
                 {
                     name: "Sentient Bullets",
-                    imageUrl: "",
+                    imageUrl: "/CardImages/Heroes/Fantomex_2Common.webp",
                     hc: 3,
                     rarity: 1,
                     cost: 1,
@@ -21,7 +21,7 @@ export const WeaponX = {
                 },
                 {
                     name: "Three Brains",
-                    imageUrl: "",
+                    imageUrl: "/CardImages/Heroes/Fantomex_3Common.webp",
                     hc: 5,
                     rarity: 1,
                     cost: 2,
@@ -42,7 +42,7 @@ export const WeaponX = {
                 },
                 {
                     name: "Misdirection",
-                    imageUrl: "",
+                    imageUrl: "/CardImages/Heroes/Fantomex_4Uncommon.webp",
                     hc: 1,
                     rarity: 2,
                     cost: 3,
@@ -58,7 +58,7 @@ export const WeaponX = {
                 },
                 {
                     name: "Weapon XIII",
-                    imageUrl: "",
+                    imageUrl: "/CardImages/Heroes/Fantomex_1Rare.webp",
                     hc: 5,
                     rarity: 3,
                     cost: 4,
@@ -82,7 +82,7 @@ export const WeaponX = {
             cards: [
                 {
                     name: "Bone Shards",
-                    imageUrl: "",
+                    imageUrl: "/CardImages/Heroes/Marrow_3Common.webp",
                     hc: 3,
                     rarity: 1,
                     cost: 3,
@@ -97,7 +97,7 @@ export const WeaponX = {
                 },
                 {
                     name: "Hyper-Adaptive Skeleton",
-                    imageUrl: "",
+                    imageUrl: "/CardImages/Heroes/Marrow_2Common.webp",
                     hc: 4,
                     rarity: 1,
                     cost: 2,
@@ -122,7 +122,7 @@ export const WeaponX = {
                 },
                 {
                     name: "Osteogenesis",
-                    imageUrl: "",
+                    imageUrl: "/CardImages/Heroes/Marrow_4Uncommon.webp",
                     hc: 4,
                     rarity: 2,
                     cost: 6,
@@ -136,7 +136,7 @@ export const WeaponX = {
                 },
                 {
                     name: "Metabolic Overdrive",
-                    imageUrl: "",
+                    imageUrl: "/CardImages/Heroes/Marrow_1Rare.webp",
                     hc: 1,
                     rarity: 3,
                     cost: 7,
@@ -159,7 +159,7 @@ export const WeaponX = {
             cards: [
                 {
                     name: "Evolving Abilities",
-                    imageUrl: "",
+                    imageUrl: "/CardImages/Heroes/WeaponH_3Common.webp",
                     hc: 2,
                     rarity: 1,
                     cost: 4,
@@ -185,7 +185,7 @@ export const WeaponX = {
                 },
                 {
                     name: "The Future of Warfare",
-                    imageUrl: "",
+                    imageUrl: "/CardImages/Heroes/WeaponH_2Common.webp",
                     hc: 4,
                     rarity: 1,
                     cost: 3,
@@ -206,7 +206,7 @@ export const WeaponX = {
                 },
                 {
                     name: "Slice and Smash",
-                    imageUrl: "",
+                    imageUrl: "/CardImages/Heroes/WeaponH_4Uncommon.webp",
                     hc: 4,
                     rarity: 2,
                     cost: 5,
@@ -223,7 +223,7 @@ export const WeaponX = {
                 },
                 {
                     name: "Ultimate Killing Machine",
-                    imageUrl: "",
+                    imageUrl: "/CardImages/Heroes/WeaponH_1Rare.webp",
                     hc: 4,
                     rarity: 3,
                     cost: 8,
@@ -259,7 +259,7 @@ export const WeaponX = {
             cards: [
                 {
                     name: "Infuse Skeleton with Adamantium",
-                    imageUrl: "",
+                    imageUrl: "/CardImages/Heroes/WeaponXWolverine_3Common.webp",
                     hc: 5,
                     rarity: 1,
                     cost: 5,
@@ -275,7 +275,7 @@ export const WeaponX = {
                 },
                 {
                     name: "Raging Regeneration",
-                    imageUrl: "",
+                    imageUrl: "/CardImages/Heroes/WeaponXWolverine_2Common.webp",
                     hc: 2,
                     rarity: 1,
                     cost: 4,
@@ -294,7 +294,7 @@ export const WeaponX = {
                 },
                 {
                     name: "Violent Conditioning",
-                    imageUrl: "",
+                    imageUrl: "/CardImages/Heroes/WeaponXWolverine_4Uncommon.webp",
                     hc: 2,
                     rarity: 2,
                     cost: 3,
@@ -311,7 +311,7 @@ export const WeaponX = {
                 },
                 {
                     name: "Escape the Weapon X Lab",
-                    imageUrl: "",
+                    imageUrl: "/CardImages/Heroes/WeaponXWolverine_1Rare.webp",
                     hc: 2,
                     rarity: 3,
                     cost: 6,
@@ -343,7 +343,7 @@ export const WeaponX = {
             cards: [
                 {
                     name: "Omega Red",
-                    imageUrl: "",
+                    imageUrl: "/CardImages/Masterminds/OmegaRed.webp",
                     vAttack: "10+",
                     abilities: [
                         [
@@ -372,7 +372,7 @@ export const WeaponX = {
                 },
                 {
                     name: "Epic Omega Red",
-                    imageUrl: "",
+                    imageUrl: "/CardImages/Masterminds/OmegaRed_Epic.webp",
                     vAttack: "12+",
                     epic: true,
                     abilities: [
@@ -402,7 +402,7 @@ export const WeaponX = {
                 },
                 {
                     name: "Carbonadium Tentacles",
-                    imageUrl: "",
+                    imageUrl: "/CardImages/Masterminds/OmegaRedTactic1.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -413,7 +413,7 @@ export const WeaponX = {
                 },
                 {
                     name: "The Carbonadium Synthesizer",
-                    imageUrl: "",
+                    imageUrl: "/CardImages/Masterminds/OmegaRedTactic2.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -424,7 +424,7 @@ export const WeaponX = {
                 },
                 {
                     name: "Death Pheromones",
-                    imageUrl: "",
+                    imageUrl: "/CardImages/Masterminds/OmegaRedTactic3.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -437,7 +437,7 @@ export const WeaponX = {
                 },
                 {
                     name: "Drain Life Force",
-                    imageUrl: "",
+                    imageUrl: "/CardImages/Masterminds/OmegaRedTactic4.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -456,7 +456,7 @@ export const WeaponX = {
             cards: [
                 {
                     name: "Romulus",
-                    imageUrl: "",
+                    imageUrl: "/CardImages/Masterminds/Romulus.webp",
                     vAttack: "9+",
                     abilities: [
                         [
@@ -477,7 +477,7 @@ export const WeaponX = {
                 },
                 {
                     name: "Epic Romulus",
-                    imageUrl: "",
+                    imageUrl: "/CardImages/Masterminds/Romulus_Epic.webp",
                     vAttack: "10+",
                     epic: true,
                     abilities: [
@@ -501,7 +501,7 @@ export const WeaponX = {
                 },
                 {
                     name: "Anoint an Heir to Take My Place",
-                    imageUrl: "",
+                    imageUrl: "/CardImages/Masterminds/RomulusTactic1.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -520,7 +520,7 @@ export const WeaponX = {
                 },
                 {
                     name: "Bite of the Muramasa Blade",
-                    imageUrl: "",
+                    imageUrl: "/CardImages/Masterminds/RomulusTactic2.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -533,7 +533,7 @@ export const WeaponX = {
                 },
                 {
                     name: "Master of Schemes",
-                    imageUrl: "",
+                    imageUrl: "/CardImages/Masterminds/RomulusTactic3.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -544,7 +544,7 @@ export const WeaponX = {
                 },
                 {
                     name: "Take Over the Weapon X Program",
-                    imageUrl: "",
+                    imageUrl: "/CardImages/Masterminds/RomulusTactic4.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -570,7 +570,7 @@ export const WeaponX = {
             cards: [
                 {
                     name: "Sabretooth",
-                    imageUrl: "",
+                    imageUrl: "/CardImages/Masterminds/Sabretooth.webp",
                     vAttack: "8+",
                     abilities: [
                         [
@@ -594,7 +594,7 @@ export const WeaponX = {
                 },
                 {
                     name: "Epic Sabretooth",
-                    imageUrl: "",
+                    imageUrl: "/CardImages/Masterminds/Sabretooth_Epic.webp",
                     vAttack: "9+",
                     epic: true,
                     abilities: [
@@ -619,7 +619,7 @@ export const WeaponX = {
                 },
                 {
                     name: "Adamantium-Laced Claws",
-                    imageUrl: "",
+                    imageUrl: "/CardImages/Masterminds/SabretoothTactic1.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -632,7 +632,7 @@ export const WeaponX = {
                 },
                 {
                     name: "Lethal Fangs",
-                    imageUrl: "",
+                    imageUrl: "/CardImages/Masterminds/SabretoothTactic2.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -644,7 +644,7 @@ export const WeaponX = {
                 },
                 {
                     name: "Salivating Prowl",
-                    imageUrl: "",
+                    imageUrl: "/CardImages/Masterminds/SabretoothTactic3.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -655,7 +655,7 @@ export const WeaponX = {
                 },
                 {
                     name: "Sudden Savagery",
-                    imageUrl: "",
+                    imageUrl: "/CardImages/Masterminds/SabretoothTactic4.webp",
                     tactic: true,
                     abilities: [
                         [
@@ -674,7 +674,7 @@ export const WeaponX = {
             cards: [
                 {
                     name: "Cyber",
-                    imageUrl: "",
+                    imageUrl: "/CardImages/Villains/BerkserkersCyber.webp",
                     qtd: 1,
                     vAttack: "5+",
                     vp: "5",
@@ -708,7 +708,7 @@ export const WeaponX = {
                 },
                 {
                     name: "Feral",
-                    imageUrl: "",
+                    imageUrl: "/CardImages/Villains/BerkserkersFeral.webp",
                     qtd: 3,
                     vAttack: "3+",
                     hc: 2,
@@ -745,7 +745,7 @@ export const WeaponX = {
                 },
                 {
                     name: "Thornn",
-                    imageUrl: "",
+                    imageUrl: "/CardImages/Villains/BerkserkersThornn.webp",
                     qtd: 2,
                     vAttack: "3+",
                     vp: "2",
@@ -769,7 +769,7 @@ export const WeaponX = {
                 },
                 {
                     name: "Wild Child",
-                    imageUrl: "",
+                    imageUrl: "/CardImages/Villains/BerkserkersWildChild.webp",
                     qtd: 2,
                     vAttack: "3+",
                     vp: "4",
@@ -800,7 +800,7 @@ export const WeaponX = {
             cards: [
                 {
                     name: "Daken",
-                    imageUrl: "",
+                    imageUrl: "/CardImages/Villains/WeaponPlusDaken.webp",
                     qtd: 1,
                     vAttack: "3+",
                     vp: "4",
@@ -823,7 +823,7 @@ export const WeaponX = {
                 },
                 {
                     name: "Huntsman (Weapon XII)",
-                    imageUrl: "",
+                    imageUrl: "/CardImages/Villains/WeaponPlusHuntsman.webp",
                     qtd: 1,
                     vAttack: "2+",
                     vp: "2",
@@ -844,7 +844,7 @@ export const WeaponX = {
                 },
                 {
                     name: "Nuke (Weapon VII)",
-                    imageUrl: "",
+                    imageUrl: "/CardImages/Villains/WeaponPlusNuke.webp",
                     qtd: 2,
                     vAttack: "2+",
                     vp: "2",
@@ -879,7 +879,7 @@ export const WeaponX = {
                 },
                 {
                     name: "Skinless Man (Weapon III)",
-                    imageUrl: "",
+                    imageUrl: "/CardImages/Villains/WeaponPlusSkinlessMan.webp",
                     qtd: 1,
                     vAttack: "3+",
                     vp: "3",
@@ -895,7 +895,7 @@ export const WeaponX = {
                 },
                 {
                     name: "Typhoid Mary (Weapon IX)",
-                    imageUrl: "",
+                    imageUrl: "/CardImages/Villains/WeaponPlusTyphoidMary.webp",
                     qtd: 2,
                     vAttack: "3+",
                     vp: "3",
@@ -932,7 +932,7 @@ export const WeaponX = {
                 },
                 {
                     name: "Ultimaton (Weapon XV)",
-                    imageUrl: "",
+                    imageUrl: "/CardImages/Villains/WeaponPlusUltimaton.webp",
                     qtd: 1,
                     vAttack: "4+",
                     vp: "6",
@@ -961,7 +961,7 @@ export const WeaponX = {
         {
             id: 186,
             name: "Condition Logan into Weapon X",
-            imageUrl: "",
+            imageUrl: "/CardImages/Schemes/Condition+Logan+into+Weapon+X.webp",
             cards: [
                 {
                     abilities: [
@@ -1003,7 +1003,7 @@ export const WeaponX = {
         {
             id: 187,
             name: "Go After Heroes' Loved Ones",
-            imageUrl: "",
+            imageUrl: "/CardImages/Schemes/Go+After+Heroes+Loved+Ones.webp",
             cards: [
                 {
                     abilities: [
@@ -1032,7 +1032,7 @@ export const WeaponX = {
         {
             id: 188,
             name: "Wipe Heroes' Memories",
-            imageUrl: "",
+            imageUrl: "/CardImages/Schemes/Wipe+Heroes+Memories.webp",
             cards: [
                 {
                     abilities: [
@@ -1061,7 +1061,7 @@ export const WeaponX = {
         {
             id: 12,
             name: "Blazing Vengeance",
-            imageUrl: "",
+            imageUrl: "/CardImages/Wounds/EnragingWoundBlazingVengeance.webp",
             set: 41,
             cards: [
                 {
@@ -1081,7 +1081,7 @@ export const WeaponX = {
         {
             id: 13,
             name: "Broken Bones",
-            imageUrl: "",
+            imageUrl: "/CardImages/Wounds/EnragingWoundBrokenBones.webp",
             set: 41,
             cards: [
                 {
@@ -1106,7 +1106,7 @@ export const WeaponX = {
         {
             id: 14,
             name: "Concussion",
-            imageUrl: "",
+            imageUrl: "/CardImages/Wounds/EnragingWoundConcussion.webp",
             set: 41,
             cards: [
                 {
@@ -1126,7 +1126,7 @@ export const WeaponX = {
         {
             id: 15,
             name: "Erratic Powers",
-            imageUrl: "",
+            imageUrl: "/CardImages/Wounds/EnragingWoundErraticPowers.webp",
             set: 41,
             cards: [
                 {
@@ -1155,7 +1155,7 @@ export const WeaponX = {
         {
             id: 16,
             name: "Insults and Injuries",
-            imageUrl: "",
+            imageUrl: "/CardImages/Wounds/EnragingWoundInsultsandInjuries.webp",
             set: 41,
             cards: [
                 {
@@ -1178,7 +1178,7 @@ export const WeaponX = {
         {
             id: 17,
             name: "Last Breath",
-            imageUrl: "",
+            imageUrl: "/CardImages/Wounds/EnragingWoundLastBreath.webp",
             set: 41,
             cards: [
                 {
@@ -1201,7 +1201,7 @@ export const WeaponX = {
         {
             id: 18,
             name: "Massive Blood Loss",
-            imageUrl: "",
+            imageUrl: "/CardImages/Wounds/EnragingWoundMassiveBloodLoss.webp",
             set: 41,
             cards: [
                 {
@@ -1226,7 +1226,7 @@ export const WeaponX = {
         {
             id: 19,
             name: "Shell Shock",
-            imageUrl: "",
+            imageUrl: "/CardImages/Wounds/EnragingWoundShellShock.webp",
             set: 41,
             cards: [
                 {
@@ -1247,7 +1247,7 @@ export const WeaponX = {
         {
             id: 20,
             name: "Sudden Terror",
-            imageUrl: "",
+            imageUrl: "/CardImages/Wounds/EnragingWoundSuddenTerror.webp",
             set: 41,
             cards: [
                 {
@@ -1267,7 +1267,7 @@ export const WeaponX = {
         {
             id: 21,
             name: "Wild Rage",
-            imageUrl: "",
+            imageUrl: "/CardImages/Wounds/EnragingWoundWildRage.webp",
             set: 41,
             cards: [
                 {

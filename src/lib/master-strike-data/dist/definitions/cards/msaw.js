@@ -1592,7 +1592,7 @@ export const MSAntManWasp = {
         {
             id: 43,
             name: "Tardigrade",
-            imageUrl: "",
+            imageUrl: "/CardImages/Henchmen/TardigradeCovert.webp",
             vAttack: "4",
             vp: 1,
             cards: [

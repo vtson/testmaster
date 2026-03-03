@@ -8,7 +8,7 @@ export const Marvel2099 = {
             cards: [
                 {
                     name: "Retractable Talons",
-                    imageUrl: "",
+                    imageUrl: "/CardImages/Heroes/Spider-Man2099_2Common.webp",
                     hc: 1,
                     rarity: 1,
                     cost: 2,
@@ -28,7 +28,7 @@ export const Marvel2099 = {
                 },
                 {
                     name: "Venomous Fangs",
-                    imageUrl: "",
+                    imageUrl: "/CardImages/Heroes/Spider-Man2099_3Common.webp",
                     hc: 1,
                     rarity: 1,
                     cost: 3,
@@ -44,7 +44,7 @@ export const Marvel2099 = {
                 },
                 {
                     name: "Spider-Silk Webbing",
-                    imageUrl: "",
+                    imageUrl: "/CardImages/Heroes/Spider-Man2099_4Uncommon.webp",
                     hc: 4,
                     rarity: 2,
                     cost: 5,
@@ -62,7 +62,7 @@ export const Marvel2099 = {
                 },
                 {
                     name: "Spider-Sense Telepathy",
-                    imageUrl: "",
+                    imageUrl: "/CardImages/Heroes/Spider-Man2099_1Rare.webp",
                     hc: 2,
                     rarity: 3,
                     cost: 7,
@@ -90,7 +90,7 @@ export const Marvel2099 = {
             cards: [
                 {
                     name: "Cyber-Specter",
-                    imageUrl: "",
+                    imageUrl: "/CardImages/Heroes/GhostRider2099_2Common.webp",
                     hc: 5,
                     rarity: 1,
                     cost: 3,
@@ -114,7 +114,7 @@ export const Marvel2099 = {
                 },
                 {
                     name: "Hell Ride",
-                    imageUrl: "",
+                    imageUrl: "/CardImages/Heroes/GhostRider2099_3Common.webp",
                     hc: 5,
                     rarity: 1,
                     cost: 4,
@@ -142,7 +142,7 @@ export const Marvel2099 = {
                 },
                 {
                     name: "Death Beyond Death",
-                    imageUrl: "",
+                    imageUrl: "/CardImages/Heroes/GhostRider2099_4Uncommon.webp",
                     hc: 1,
                     rarity: 2,
                     cost: 5,
@@ -159,7 +159,7 @@ export const Marvel2099 = {
                 },
                 {
                     name: "Infernal Chainsaw",
-                    imageUrl: "",
+                    imageUrl: "/CardImages/Heroes/GhostRider2099_1Rare.webp",
                     hc: 5,
                     rarity: 3,
                     cost: 7,
@@ -193,7 +193,7 @@ export const Marvel2099 = {
             cards: [
                 {
                     name: "Subvert This New Future",
-                    imageUrl: "",
+                    imageUrl: "/CardImages/Heroes/DoctorDoom2099_2Common.webp",
                     hc: 3,
                     rarity: 1,
                     cost: 3,
@@ -211,7 +211,7 @@ export const Marvel2099 = {
                 },
                 {
                     name: "Doomblast",
-                    imageUrl: "",
+                    imageUrl: "/CardImages/Heroes/DoctorDoom2099_3Common.webp",
                     hc: 3,
                     rarity: 1,
                     cost: 3,
@@ -239,7 +239,7 @@ export const Marvel2099 = {
                 },
                 {
                     name: "Flesh-Grafted Doombots",
-                    imageUrl: "",
+                    imageUrl: "/CardImages/Heroes/DoctorDoom2099_4Uncommon.webp",
                     hc: 5,
                     rarity: 2,
                     cost: 6,
@@ -255,7 +255,7 @@ export const Marvel2099 = {
                 },
                 {
                     name: "Tear Through Time Itself",
-                    imageUrl: "",
+                    imageUrl: "/CardImages/Heroes/DoctorDoom2099_1Rare.webp",
                     hc: 3,
                     rarity: 3,
                     cost: 8,
@@ -286,7 +286,7 @@ export const Marvel2099 = {
             cards: [
                 {
                     name: "Rage Incarnate",
-                    imageUrl: "",
+                    imageUrl: "/CardImages/Heroes/Hulk2099_2Common.webp",
                     hc: 2,
                     rarity: 1,
                     cost: 3,
@@ -310,7 +310,7 @@ export const Marvel2099 = {
                 },
                 {
                     name: "Push Pain Under the Surface",
-                    imageUrl: "",
+                    imageUrl: "/CardImages/Heroes/Hulk2099_3Common.webp",
                     hc: 4,
                     rarity: 1,
                     cost: 4,
@@ -331,7 +331,7 @@ export const Marvel2099 = {
                 },
                 {
                     name: "Massive Gamma Detonation",
-                    imageUrl: "",
+                    imageUrl: "/CardImages/Heroes/Hulk2099_4Uncommon.webp",
                     hc: 5,
                     rarity: 2,
                     cost: 6,
@@ -349,7 +349,7 @@ export const Marvel2099 = {
                 },
                 {
                     name: "Cataclysmic Frenzy",
-                    imageUrl: "",
+                    imageUrl: "/CardImages/Heroes/Hulk2099_1Rare.webp",
                     hc: 4,
                     rarity: 3,
                     cost: 8,
@@ -378,7 +378,7 @@ export const Marvel2099 = {
             cards: [
                 {
                     name: "Down in the Dregs",
-                    imageUrl: "",
+                    imageUrl: "/CardImages/Heroes/Ravage2099_2Common.webp",
                     hc: 2,
                     rarity: 1,
                     cost: 3,
@@ -392,7 +392,7 @@ export const Marvel2099 = {
                 },
                 {
                     name: "Toxic Mutations",
-                    imageUrl: "",
+                    imageUrl: "/CardImages/Heroes/Ravage2099_3Common.webp",
                     hc: 4,
                     rarity: 1,
                     cost: 5,
@@ -411,7 +411,7 @@ export const Marvel2099 = {
                 },
                 {
                     name: "Detect Vibrations",
-                    imageUrl: "",
+                    imageUrl: "/CardImages/Heroes/Ravage2099_4Uncommon.webp",
                     hc: 1,
                     rarity: 2,
                     cost: 6,
@@ -427,7 +427,7 @@ export const Marvel2099 = {
                 },
                 {
                     name: "Overhorns and Underhorns",
-                    imageUrl: "",
+                    imageUrl: "/CardImages/Heroes/Ravage2099_1Rare.webp",
                     hc: 2,
                     rarity: 3,
                     cost: 8,
@@ -456,7 +456,7 @@ export const Marvel2099 = {
             cards: [
                 {
                     name: "Electro 2099",
-                    imageUrl: "",
+                    imageUrl: "/CardImages/Masterminds/SinisterSix2099Electro2099.webp",
                     tactic: true,
                     vAttack: "9",
                     abilities: [
@@ -486,7 +486,7 @@ export const Marvel2099 = {
                 },
                 {
                     name: "Epic Electro 2099",
-                    imageUrl: "",
+                    imageUrl: "/CardImages/Masterminds/SinisterSix2099Electro2099_Epic.webp",
                     tactic: true,
                     epic: true,
                     vAttack: "12",
@@ -517,7 +517,7 @@ export const Marvel2099 = {
                 },
                 {
                     name: "Sandwoman 2099",
-                    imageUrl: "",
+                    imageUrl: "/CardImages/Masterminds/SinisterSix2099Sandwoman.webp",
                     tactic: true,
                     vAttack: "6+",
                     abilities: [
@@ -543,7 +543,7 @@ export const Marvel2099 = {
                 },
                 {
                     name: "Epic Sandwoman 2099",
-                    imageUrl: "",
+                    imageUrl: "/CardImages/Masterminds/SinisterSix2099Sandwoman_Epic.webp",
                     tactic: true,
                     epic: true,
                     vAttack: "7+",
@@ -570,7 +570,7 @@ export const Marvel2099 = {
                 },
                 {
                     name: "Vulture 2099",
-                    imageUrl: "",
+                    imageUrl: "/CardImages/Masterminds/SinisterSix2099Vulture.webp",
                     tactic: true,
                     vAttack: "7+",
                     abilities: [
@@ -598,7 +598,7 @@ export const Marvel2099 = {
                 },
                 {
                     name: "Epic Vulture 2099",
-                    imageUrl: "",
+                    imageUrl: "/CardImages/Masterminds/SinisterSix2099Vulture_Epic.webp",
                     tactic: true,
                     epic: true,
                     vAttack: "9+",
@@ -627,7 +627,7 @@ export const Marvel2099 = {
                 },
                 {
                     name: "Doctor Octopus 2099",
-                    imageUrl: "",
+                    imageUrl: "/CardImages/Masterminds/SinisterSix2099DoctorOctopus2099.webp",
                     tactic: true,
                     vAttack: "8+",
                     vp: 8,
@@ -656,7 +656,7 @@ export const Marvel2099 = {
                 },
                 {
                     name: "Epic Doctor Octopus 2099",
-                    imageUrl: "",
+                    imageUrl: "/CardImages/Masterminds/SinisterSix2099DoctorOctopus2099_Epic.webp",
                     tactic: true,
                     epic: true,
                     vAttack: "8+",
@@ -689,7 +689,7 @@ export const Marvel2099 = {
                 },
                 {
                     name: "Venom 2099",
-                    imageUrl: "",
+                    imageUrl: "/CardImages/Masterminds/SinisterSix2099Venom2099.webp",
                     tactic: true,
                     vAttack: "10",
                     vAttackAsterisk: true,
@@ -716,7 +716,7 @@ export const Marvel2099 = {
                 },
                 {
                     name: "Epic Venom 2099",
-                    imageUrl: "",
+                    imageUrl: "/CardImages/Masterminds/SinisterSix2099Venom2099_Epic.webp",
                     tactic: true,
                     epic: true,
                     vAttack: "13",
@@ -744,7 +744,7 @@ export const Marvel2099 = {
                 },
                 {
                     name: "Goblin 2099",
-                    imageUrl: "",
+                    imageUrl: "/CardImages/Masterminds/SinisterSix2099Goblin2099.webp",
                     tactic: true,
                     vAttack: "11",
                     vAttackAsterisk: true,
@@ -771,7 +771,7 @@ export const Marvel2099 = {
                 },
                 {
                     name: "Epic Goblin 2099",
-                    imageUrl: "",
+                    imageUrl: "/CardImages/Masterminds/SinisterSix2099Goblin2099_Epic.webp",
                     tactic: true,
                     epic: true,
                     vAttack: "14",
@@ -806,7 +806,7 @@ export const Marvel2099 = {
             cards: [
                 {
                     name: "Avatarr, CEO of Alchemax",
-                    imageUrl: "",
+                    imageUrl: "/CardImages/Masterminds/AlchemaxExecutivesAvatarr.webp",
                     tactic: true,
                     vAttack: "10",
                     abilities: [
@@ -839,7 +839,7 @@ export const Marvel2099 = {
                 },
                 {
                     name: "Epic Avatarr",
-                    imageUrl: "",
+                    imageUrl: "/CardImages/Masterminds/AlchemaxExecutivesAvatarr_Epic.webp",
                     tactic: true,
                     epic: true,
                     vAttack: "13",
@@ -873,7 +873,7 @@ export const Marvel2099 = {
                 },
                 {
                     name: "Fearmaster, VP of the Public Eye",
-                    imageUrl: "",
+                    imageUrl: "/CardImages/Masterminds/AlchemaxExecutivesFearmaster.webp",
                     tactic: true,
                     vAttack: "7+",
                     abilities: [
@@ -904,7 +904,7 @@ export const Marvel2099 = {
                 },
                 {
                     name: "Epic Fearmaster",
-                    imageUrl: "",
+                    imageUrl: "/CardImages/Masterminds/AlchemaxExecutivesFearmaster_Epic.webp",
                     tactic: true,
                     epic: true,
                     vAttack: "8+",
@@ -936,7 +936,7 @@ export const Marvel2099 = {
                 },
                 {
                     name: "John Herod, Executive VP",
-                    imageUrl: "",
+                    imageUrl: "/CardImages/Masterminds/AlchemaxExecutivesJohnHerod.webp",
                     tactic: true,
                     vAttack: "8+",
                     abilities: [
@@ -972,7 +972,7 @@ export const Marvel2099 = {
                 },
                 {
                     name: "Epic John Herod",
-                    imageUrl: "",
+                    imageUrl: "/CardImages/Masterminds/AlchemaxExecutivesJohnHerod_Epic.webp",
                     tactic: true,
                     epic: true,
                     vAttack: "9+",
@@ -1009,7 +1009,7 @@ export const Marvel2099 = {
                 },
                 {
                     name: "Tiger Wylde, General of Alchemax Elite",
-                    imageUrl: "",
+                    imageUrl: "/CardImages/Masterminds/AlchemaxExecutivesTigerWylde.webp",
                     tactic: true,
                     vAttack: "9+",
                     abilities: [
@@ -1046,7 +1046,7 @@ export const Marvel2099 = {
                 },
                 {
                     name: "Epic Tiger Wylde",
-                    imageUrl: "",
+                    imageUrl: "/CardImages/Masterminds/AlchemaxExecutivesTigerWylde_Epic.webp",
                     tactic: true,
                     epic: true,
                     vAttack: "11+",
@@ -1090,7 +1090,7 @@ export const Marvel2099 = {
             cards: [
                 {
                     name: "Heimdall 2099",
-                    imageUrl: "",
+                    imageUrl: "/CardImages/Villains/FalseAesirOfAlchemaxHeimdall2099.webp",
                     qtd: 2,
                     vAttack: "3+",
                     vp: "2",
@@ -1114,7 +1114,7 @@ export const Marvel2099 = {
                 },
                 {
                     name: "Hela 2099",
-                    imageUrl: "",
+                    imageUrl: "/CardImages/Villains/FalseAesirOfAlchemaxHela2099.webp",
                     qtd: 2,
                     vAttack: "3+",
                     vp: "3",
@@ -1134,7 +1134,7 @@ export const Marvel2099 = {
                 },
                 {
                     name: "Loki 2099",
-                    imageUrl: "",
+                    imageUrl: "/CardImages/Villains/FalseAesirOfAlchemaxLoki2099.webp",
                     qtd: 2,
                     vAttack: "3+",
                     vp: "3",
@@ -1160,7 +1160,7 @@ export const Marvel2099 = {
                 },
                 {
                     name: "Thor 2099",
-                    imageUrl: "",
+                    imageUrl: "/CardImages/Villains/FalseAesirOfAlchemaxThor2099.webp",
                     qtd: 2,
                     vAttack: "5+",
                     vp: "4",
@@ -1190,7 +1190,7 @@ export const Marvel2099 = {
             cards: [
                 {
                     name: "Cyber-Nostra",
-                    imageUrl: "",
+                    imageUrl: "/CardImages/Villains/AlchemaxEnforcersCyber-Nostra.webp",
                     qtd: 3,
                     vAttack: "3+",
                     vp: "2",
@@ -1220,7 +1220,7 @@ export const Marvel2099 = {
                 },
                 {
                     name: "Whackoid",
-                    imageUrl: "",
+                    imageUrl: "/CardImages/Villains/AlchemaxEnforcersWhackoid.webp",
                     qtd: 2,
                     vAttack: "4+",
                     vp: "3",
@@ -1251,7 +1251,7 @@ export const Marvel2099 = {
                 },
                 {
                     name: "Venture",
-                    imageUrl: "",
+                    imageUrl: "/CardImages/Villains/AlchemaxEnforcersVenture.webp",
                     qtd: 2,
                     vAttack: "5",
                     vp: "3",
@@ -1271,7 +1271,7 @@ export const Marvel2099 = {
                 },
                 {
                     name: "Jigsaw 2099",
-                    imageUrl: "",
+                    imageUrl: "/CardImages/Villains/AlchemaxEnforcersJigsaw2099.webp",
                     qtd: 1,
                     vAttack: "6+",
                     vp: "5",
@@ -1311,7 +1311,7 @@ export const Marvel2099 = {
         {
             id: 182,
             name: "Pull Reality Into Cyberspace",
-            imageUrl: "",
+            imageUrl: "/CardImages/Schemes/Pull+Reality+into+Cyberspace.webp",
             cards: [
                 {
                     abilities: [
@@ -1349,7 +1349,7 @@ export const Marvel2099 = {
         {
             id: 183,
             name: "Become President of the United States",
-            imageUrl: "",
+            imageUrl: "/CardImages/Schemes/Become+President+of+the+United+States.webp",
             cards: [
                 {
                     abilities: [
@@ -1378,7 +1378,7 @@ export const Marvel2099 = {
         {
             id: 184,
             name: "Subjugate Earth with Mega-Corporations",
-            imageUrl: "",
+            imageUrl: "/CardImages/Schemes/Subjugate+Earth+with+Mega-Corporations.webp",
             cards: [
                 {
                     abilities: [
@@ -1439,7 +1439,7 @@ export const Marvel2099 = {
         {
             id: 185,
             name: "Befoul Earth Into a Polluted Wasteland",
-            imageUrl: "",
+            imageUrl: "/CardImages/Schemes/Befoul+Earth+into+a+Polluted+Wasteland.webp",
             cards: [
                 {
                     abilities: [

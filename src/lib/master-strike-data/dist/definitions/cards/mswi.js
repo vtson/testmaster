@@ -1445,7 +1445,7 @@ export const MSWhatIf = {
         {
             id: 40,
             name: "Ultron Sentries",
-            imageUrl: "",
+            imageUrl: "/CardImages/Henchmen/UltronSentries_Covert.webp",
             vAttack: "2+",
             vp: 1,
             cards: [
