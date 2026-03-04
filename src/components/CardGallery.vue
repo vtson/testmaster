@@ -2,9 +2,11 @@
 import { computed, ref, watch, onMounted, onUnmounted, nextTick } from 'vue'
 import type { Card } from '../types/card'
 import CardItem from './CardItem.vue'
+import { getSetIcon } from '../services/cardData'
 
 const props = defineProps<{
   cards: Card[]
+  groupBy?: 'group' | 'set'
 }>()
 
 defineEmits<{
@@ -16,7 +18,12 @@ const GROUPS_PER_BATCH = 5
 const groupedCards = computed(() => {
   const groups = new Map<string, Card[]>()
   for (const card of props.cards) {
-    const key = (card.type === 'Scheme' || card.type === 'Henchmen') ? card.type : (card.group || 'Other')
+    let key: string
+    if (props.groupBy === 'set') {
+      key = card.set || 'Unknown Set'
+    } else {
+      key = (card.type === 'Scheme' || card.type === 'Henchmen') ? card.type : (card.group || 'Other')
+    }
     if (!groups.has(key)) groups.set(key, [])
     groups.get(key)!.push(card)
   }
@@ -78,7 +85,8 @@ onUnmounted(() => {
       <!-- Group header -->
       <div class="flex items-center gap-3 mb-4 px-4!">
         <div class="flex items-center gap-2">
-          <span class="inline-block w-1.5 h-1.5 rounded-full bg-blue-500"></span>
+          <img v-if="groupBy === 'set' && getSetIcon(group)" :src="getSetIcon(group)" class="w-5 h-5" />
+          <span v-else class="inline-block w-1.5 h-1.5 rounded-full bg-blue-500"></span>
           <h2 class="text-lg font-bold text-slate-700">{{ group }}</h2>
         </div>
         <span class="text-xs font-semibold text-slate-400 bg-slate-100 px-2.5 py-0.5 rounded-full">

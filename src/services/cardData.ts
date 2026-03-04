@@ -1,12 +1,25 @@
 import type { CardSearchResult } from '@/lib/master-strike-data/dist'
 import * as MSData from "@/lib/master-strike-data/dist"
+import { getIconUrl } from './iconMap'
 
-const { CardSearchEngine } = MSData
+const { CardSearchEngine, Metadata } = MSData
 export type { CardSearchResult as Card }
 
 const searchEngine = new CardSearchEngine()
 const browser = searchEngine.getBrowser()
 const allCards: readonly CardSearchResult[] = searchEngine.getAllCards()
+
+// Build team ID → label lookup from metadata
+const teamLookup: Map<number, string> = new Map()
+for (const t of Metadata.teamsArray) {
+    teamLookup.set(t.id, t.label)
+}
+
+// Build set label → icon lookup from metadata
+const setIconLookup: Map<string, string | undefined> = new Map()
+for (const s of Metadata.setsArray) {
+    setIconLookup.set(s.label, getIconUrl(s.value))
+}
 
 export function getAllCards(): readonly CardSearchResult[] {
     return allCards
@@ -14,6 +27,43 @@ export function getAllCards(): readonly CardSearchResult[] {
 
 export function getCategories(): string[] {
     return Object.keys(browser).sort()
+}
+
+/**
+ * Returns all unique sets from card data with label and icon, sorted alphabetically.
+ */
+export function getSets(): { label: string; icon?: string }[] {
+    const result = new Set<string>()
+    for (const card of allCards) {
+        if (card.set) result.add(card.set)
+    }
+    return [...result].sort().map(label => ({
+        label,
+        icon: setIconLookup.get(label),
+    }))
+}
+
+/**
+ * Returns team options as {id, label, icon} for filtering (excludes Unaffiliated).
+ */
+export function getTeams(): { id: number; label: string; icon?: string }[] {
+    return Metadata.teamsArray
+        .filter(t => t.id !== 0)
+        .map(t => ({ id: t.id, label: t.label, icon: getIconUrl(t.value) }))
+}
+
+/**
+ * Get the icon URL for a set label.
+ */
+export function getSetIcon(label: string): string | undefined {
+    return setIconLookup.get(label)
+}
+
+/**
+ * Look up a team label by its numeric ID.
+ */
+export function getTeamLabel(id: number): string {
+    return teamLookup.get(id) ?? 'Unaffiliated'
 }
 
 /**
@@ -87,7 +137,10 @@ export function filterCards(options: {
     search?: string
     types?: string[]
     groups?: string[]
+    sets?: string[]
+    teams?: number[]
     sortAsc?: boolean
+    sortByGroup?: boolean
 }): CardSearchResult[] {
     let cards = [...allCards] as CardSearchResult[]
 
@@ -102,6 +155,17 @@ export function filterCards(options: {
         )
     }
 
+    if (options.sets && options.sets.length > 0) {
+        cards = cards.filter((c) => options.sets!.includes(c.set))
+    }
+
+    if (options.teams && options.teams.length > 0) {
+        cards = cards.filter((c) => {
+            const details = c.details as any
+            return typeof details?.team === 'number' && options.teams!.includes(details.team)
+        })
+    }
+
     if (options.search && options.search.trim()) {
         const q = options.search.trim().toLowerCase()
         cards = cards.filter(
@@ -114,7 +178,15 @@ export function filterCards(options: {
     }
 
     cards.sort((a, b) => {
-        const cmp = a.name.localeCompare(b.name)
+        const keyA = options.sortByGroup ? a.group : a.name
+        const keyB = options.sortByGroup ? b.group : b.name
+        let cmp = keyA.localeCompare(keyB)
+        // Secondary sort: if primary keys are equal, sort by the other field
+        if (cmp === 0) {
+            const secA = options.sortByGroup ? a.name : a.group
+            const secB = options.sortByGroup ? b.name : b.group
+            cmp = secA.localeCompare(secB)
+        }
         return options.sortAsc !== false ? cmp : -cmp
     })
 

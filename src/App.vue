@@ -3,7 +3,7 @@ import { ref, computed, watch } from 'vue'
 import AppSidebar from './components/AppSidebar.vue'
 import CardGallery from './components/CardGallery.vue'
 import CardModal from './components/CardModal.vue'
-import { filterCards, getCategories, getGroups } from './services/cardData'
+import { filterCards, getCategories, getGroups, getSets, getTeams } from './services/cardData'
 import type { Card } from './types/card'
 
 // Modal state
@@ -12,13 +12,24 @@ const selectedCard = ref<Card | null>(null)
 // Filter state
 const searchQuery = ref('')
 const sortAsc = ref(true)
+const sortByGroup = ref(true)
 const selectedTypes = ref<string[]>(['Hero'])
 const selectedGroups = ref<string[]>([])
+const selectedSets = ref<string[]>([])
+const selectedTeams = ref<number[]>([])
+const groupBySet = ref(false)
 const sidebarOpen = ref(false)
 
 // Available options
 const availableTypes = computed(() => getCategories())
 const availableGroups = computed(() => selectedTypes.value.length ? getGroups(selectedTypes.value) : [])
+const availableSets = computed(() => getSets())
+const availableTeams = computed(() => {
+  // Only show teams when a hero-related type is selected
+  const heroTypes = ['Hero', 'Sidekick']
+  const hasHeroType = selectedTypes.value.some(t => heroTypes.includes(t))
+  return hasHeroType ? getTeams() : []
+})
 
 // Filtered cards (all)
 const allFilteredCards = computed(() =>
@@ -26,7 +37,10 @@ const allFilteredCards = computed(() =>
     search: searchQuery.value,
     types: selectedTypes.value,
     groups: selectedGroups.value,
+    sets: selectedSets.value,
+    teams: selectedTeams.value,
     sortAsc: sortAsc.value,
+    sortByGroup: sortByGroup.value,
   })
 )
 
@@ -35,11 +49,21 @@ watch(availableGroups, (newGroups) => {
   selectedGroups.value = selectedGroups.value.filter((g) => newGroups.includes(g))
 })
 
+// Clean up selected teams when available teams change
+watch(availableTeams, (newTeams) => {
+  const ids = newTeams.map(t => t.id)
+  selectedTeams.value = selectedTeams.value.filter((id) => ids.includes(id))
+})
+
 const resetFilters = () => {
   searchQuery.value = ''
   sortAsc.value = true
+  sortByGroup.value = true
   selectedTypes.value = []
   selectedGroups.value = []
+  selectedSets.value = []
+  selectedTeams.value = []
+  groupBySet.value = false
 }
 
 const toggleSidebar = () => {
@@ -56,15 +80,25 @@ const toggleSidebar = () => {
           :totalCards="allFilteredCards.length"
           :searchQuery="searchQuery"
           :sortAsc="sortAsc"
+          :sortByGroup="sortByGroup"
           :selectedTypes="selectedTypes"
           :availableTypes="availableTypes"
           :availableGroups="availableGroups"
           :selectedGroups="selectedGroups"
+          :availableSets="availableSets"
+          :selectedSets="selectedSets"
+          :availableTeams="availableTeams"
+          :selectedTeams="selectedTeams"
+          :groupBySet="groupBySet"
           :isOpen="sidebarOpen"
           @update:searchQuery="searchQuery = $event"
           @update:sortAsc="sortAsc = $event"
+          @update:sortByGroup="sortByGroup = $event"
           @update:selectedTypes="selectedTypes = $event"
           @update:selectedGroups="selectedGroups = $event"
+          @update:selectedSets="selectedSets = $event"
+          @update:selectedTeams="selectedTeams = $event"
+          @update:groupBySet="groupBySet = $event"
           @reset="resetFilters"
         />
 
@@ -114,7 +148,7 @@ const toggleSidebar = () => {
             </div>
           </div>
 
-          <CardGallery :cards="allFilteredCards" @select-card="selectedCard = $event" />
+          <CardGallery :cards="allFilteredCards" :groupBy="groupBySet ? 'set' : 'group'" @select-card="selectedCard = $event" />
 
           <!-- Card Detail Modal -->
           <CardModal :card="selectedCard" @close="selectedCard = null" />
