@@ -193,7 +193,7 @@ export const Marvel2099 = {
             cards: [
                 {
                     name: "Subvert This New Future",
-                    imageUrl: "/CardImages/Heroes/DoctorDoom2099_2Common.webp",
+                    imageUrl: "/CardImages/Heroes/DoctorDoom2099_3Common.webp",
                     hc: 3,
                     rarity: 1,
                     cost: 3,
@@ -211,7 +211,7 @@ export const Marvel2099 = {
                 },
                 {
                     name: "Doomblast",
-                    imageUrl: "/CardImages/Heroes/DoctorDoom2099_3Common.webp",
+                    imageUrl: "/CardImages/Heroes/DoctorDoom2099_2Common.webp",
                     hc: 3,
                     rarity: 1,
                     cost: 3,
