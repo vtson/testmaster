@@ -21,6 +21,12 @@ for (const s of Metadata.setsArray) {
     setIconLookup.set(s.label, getIconUrl(s.value))
 }
 
+// Build hero-class ID → label lookup from metadata
+const heroClassLookup: Map<number, string> = new Map()
+for (const hc of Metadata.heroClassesArray) {
+    heroClassLookup.set(hc.id, hc.label)
+}
+
 export function getAllCards(): readonly CardSearchResult[] {
     return allCards
 }
@@ -53,6 +59,33 @@ export function getTeams(): { id: number; label: string; icon?: string }[] {
 }
 
 /**
+ * Returns hero class options as {id, label, icon, bgColor} for filtering (excludes id=0 "NONE").
+ */
+export function getHeroClasses(): { id: number; label: string; icon?: string; bgColor: string }[] {
+    return Metadata.heroClassesArray
+        .filter(hc => hc.id !== 0)
+        .map(hc => ({ id: hc.id, label: hc.label, icon: getIconUrl(hc.value), bgColor: hc.bgColor }))
+}
+
+/**
+ * Returns keyword options as {id, label} for filtering, sorted by label.
+ */
+export function getKeywords(): { id: number; label: string }[] {
+    return [...Metadata.keywordsArray]
+        .map(k => ({ id: k.id, label: k.label }))
+        .sort((a, b) => a.label.localeCompare(b.label))
+}
+
+/**
+ * Returns rule (extra rules) options as {id, label} for filtering, sorted by label.
+ */
+export function getRules(): { id: number; label: string }[] {
+    return [...Metadata.rulesArray]
+        .map(r => ({ id: r.id, label: r.label }))
+        .sort((a, b) => a.label.localeCompare(b.label))
+}
+
+/**
  * Get the icon URL for a set label.
  */
 export function getSetIcon(label: string): string | undefined {
@@ -64,6 +97,13 @@ export function getSetIcon(label: string): string | undefined {
  */
 export function getTeamLabel(id: number): string {
     return teamLookup.get(id) ?? 'Unaffiliated'
+}
+
+/**
+ * Look up a hero class label by its numeric ID.
+ */
+export function getHeroClassLabel(id: number): string {
+    return heroClassLookup.get(id) ?? ''
 }
 
 /**
@@ -133,12 +173,41 @@ function getDescriptionText(description: any): string {
     return ''
 }
 
+/**
+ * Recursively check if a description contains any of the given keyword IDs.
+ */
+function descriptionHasKeyword(desc: any, ids: number[]): boolean {
+    if (!desc) return false
+    if (Array.isArray(desc)) return desc.some(d => descriptionHasKeyword(d, ids))
+    if (typeof desc === 'object') {
+        if ('keyword' in desc) return ids.includes(desc.keyword)
+        if ('points' in desc) return descriptionHasKeyword(desc.points, ids)
+    }
+    return false
+}
+
+/**
+ * Recursively check if a description contains any of the given rule IDs.
+ */
+function descriptionHasRule(desc: any, ids: number[]): boolean {
+    if (!desc) return false
+    if (Array.isArray(desc)) return desc.some(d => descriptionHasRule(d, ids))
+    if (typeof desc === 'object') {
+        if ('rule' in desc) return ids.includes(desc.rule)
+        if ('points' in desc) return descriptionHasRule(desc.points, ids)
+    }
+    return false
+}
+
 export function filterCards(options: {
     search?: string
     types?: string[]
     groups?: string[]
     sets?: string[]
     teams?: number[]
+    heroClasses?: number[]
+    keywords?: number[]
+    rules?: number[]
     sortAsc?: boolean
     sortByGroup?: boolean
 }): CardSearchResult[] {
@@ -164,6 +233,26 @@ export function filterCards(options: {
             const details = c.details as any
             return typeof details?.team === 'number' && options.teams!.includes(details.team)
         })
+    }
+
+    if (options.heroClasses && options.heroClasses.length > 0) {
+        cards = cards.filter((c) => {
+            const details = c.details as any
+            if (typeof details?.hc === 'number' && options.heroClasses!.includes(details.hc)) return true
+            if (typeof details?.hc2 === 'number' && options.heroClasses!.includes(details.hc2)) return true
+            // Check divided hero cards (half1/half2)
+            if (details?.half1 && typeof details.half1.hc === 'number' && options.heroClasses!.includes(details.half1.hc)) return true
+            if (details?.half2 && typeof details.half2.hc === 'number' && options.heroClasses!.includes(details.half2.hc)) return true
+            return false
+        })
+    }
+
+    if (options.keywords && options.keywords.length > 0) {
+        cards = cards.filter((c) => descriptionHasKeyword(c.details?.description, options.keywords!))
+    }
+
+    if (options.rules && options.rules.length > 0) {
+        cards = cards.filter((c) => descriptionHasRule(c.details?.description, options.rules!))
     }
 
     if (options.search && options.search.trim()) {

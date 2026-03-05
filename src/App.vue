@@ -3,7 +3,7 @@ import { ref, computed, watch } from 'vue'
 import AppSidebar from './components/AppSidebar.vue'
 import CardGallery from './components/CardGallery.vue'
 import CardModal from './components/CardModal.vue'
-import { filterCards, getCategories, getGroups, getSets, getTeams } from './services/cardData'
+import { filterCards, getCategories, getGroups, getSets, getTeams, getHeroClasses, getKeywords, getRules } from './services/cardData'
 import type { Card } from './types/card'
 
 // Modal state
@@ -17,6 +17,9 @@ const selectedTypes = ref<string[]>(['Hero'])
 const selectedGroups = ref<string[]>([])
 const selectedSets = ref<string[]>([])
 const selectedTeams = ref<number[]>([])
+const selectedHeroClasses = ref<number[]>([])
+const selectedKeywords = ref<number[]>([])
+const selectedRules = ref<number[]>([])
 const groupBySet = ref(false)
 const sidebarOpen = ref(false)
 
@@ -30,6 +33,9 @@ const availableTeams = computed(() => {
   const hasHeroType = selectedTypes.value.some(t => heroTypes.includes(t))
   return hasHeroType ? getTeams() : []
 })
+const availableHeroClasses = computed(() => getHeroClasses())
+const availableKeywords = computed(() => getKeywords())
+const availableRules = computed(() => getRules())
 
 // Filtered cards (all)
 const allFilteredCards = computed(() =>
@@ -39,6 +45,9 @@ const allFilteredCards = computed(() =>
     groups: selectedGroups.value,
     sets: selectedSets.value,
     teams: selectedTeams.value,
+    heroClasses: selectedHeroClasses.value,
+    keywords: selectedKeywords.value,
+    rules: selectedRules.value,
     sortAsc: sortAsc.value,
     sortByGroup: sortByGroup.value,
   })
@@ -63,6 +72,9 @@ const resetFilters = () => {
   selectedGroups.value = []
   selectedSets.value = []
   selectedTeams.value = []
+  selectedHeroClasses.value = []
+  selectedKeywords.value = []
+  selectedRules.value = []
   groupBySet.value = false
 }
 
@@ -89,6 +101,12 @@ const toggleSidebar = () => {
           :selectedSets="selectedSets"
           :availableTeams="availableTeams"
           :selectedTeams="selectedTeams"
+          :availableHeroClasses="availableHeroClasses"
+          :selectedHeroClasses="selectedHeroClasses"
+          :availableKeywords="availableKeywords"
+          :selectedKeywords="selectedKeywords"
+          :availableRules="availableRules"
+          :selectedRules="selectedRules"
           :groupBySet="groupBySet"
           :isOpen="sidebarOpen"
           @update:searchQuery="searchQuery = $event"
@@ -98,6 +116,9 @@ const toggleSidebar = () => {
           @update:selectedGroups="selectedGroups = $event"
           @update:selectedSets="selectedSets = $event"
           @update:selectedTeams="selectedTeams = $event"
+          @update:selectedHeroClasses="selectedHeroClasses = $event"
+          @update:selectedKeywords="selectedKeywords = $event"
+          @update:selectedRules="selectedRules = $event"
           @update:groupBySet="groupBySet = $event"
           @reset="resetFilters"
         />

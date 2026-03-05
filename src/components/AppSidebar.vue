@@ -14,6 +14,12 @@ const props = defineProps<{
   selectedSets: string[]
   availableTeams: { id: number; label: string; icon?: string }[]
   selectedTeams: number[]
+  availableHeroClasses: { id: number; label: string; icon?: string; bgColor: string }[]
+  selectedHeroClasses: number[]
+  availableKeywords: { id: number; label: string }[]
+  selectedKeywords: number[]
+  availableRules: { id: number; label: string }[]
+  selectedRules: number[]
   groupBySet: boolean
   isOpen: boolean
 }>()
@@ -26,6 +32,9 @@ const emit = defineEmits<{
   'update:selectedGroups': [value: string[]]
   'update:selectedSets': [value: string[]]
   'update:selectedTeams': [value: number[]]
+  'update:selectedHeroClasses': [value: number[]]
+  'update:selectedKeywords': [value: number[]]
+  'update:selectedRules': [value: number[]]
   'update:groupBySet': [value: boolean]
   'reset': []
 }>()
@@ -104,10 +113,76 @@ const toggleTeam = (id: number) => {
   emit('update:selectedTeams', current)
 }
 
+// Hero Class filter dropdown
+const hcDropdownOpen = ref(false)
+const hcSearch = ref('')
+
+const filteredHeroClasses = computed(() => {
+  if (!hcSearch.value.trim()) return props.availableHeroClasses
+  const q = hcSearch.value.trim().toLowerCase()
+  return props.availableHeroClasses.filter((hc) => hc.label.toLowerCase().includes(q))
+})
+
+const toggleHeroClass = (id: number) => {
+  const current = [...props.selectedHeroClasses]
+  const idx = current.indexOf(id)
+  if (idx >= 0) {
+    current.splice(idx, 1)
+  } else {
+    current.push(id)
+  }
+  emit('update:selectedHeroClasses', current)
+}
+
+// Keyword filter dropdown
+const kwDropdownOpen = ref(false)
+const kwSearch = ref('')
+
+const filteredKeywords = computed(() => {
+  if (!kwSearch.value.trim()) return props.availableKeywords
+  const q = kwSearch.value.trim().toLowerCase()
+  return props.availableKeywords.filter((k) => k.label.toLowerCase().includes(q))
+})
+
+const toggleKeyword = (id: number) => {
+  const current = [...props.selectedKeywords]
+  const idx = current.indexOf(id)
+  if (idx >= 0) {
+    current.splice(idx, 1)
+  } else {
+    current.push(id)
+  }
+  emit('update:selectedKeywords', current)
+}
+
+// Rules filter dropdown
+const ruleDropdownOpen = ref(false)
+const ruleSearch = ref('')
+
+const filteredRules = computed(() => {
+  if (!ruleSearch.value.trim()) return props.availableRules
+  const q = ruleSearch.value.trim().toLowerCase()
+  return props.availableRules.filter((r) => r.label.toLowerCase().includes(q))
+})
+
+const toggleRule = (id: number) => {
+  const current = [...props.selectedRules]
+  const idx = current.indexOf(id)
+  if (idx >= 0) {
+    current.splice(idx, 1)
+  } else {
+    current.push(id)
+  }
+  emit('update:selectedRules', current)
+}
+
 // Close dropdowns on click outside
 const dropdownRef = ref<HTMLElement | null>(null)
 const setDropdownRef = ref<HTMLElement | null>(null)
 const teamDropdownRef = ref<HTMLElement | null>(null)
+const hcDropdownRef = ref<HTMLElement | null>(null)
+const kwDropdownRef = ref<HTMLElement | null>(null)
+const ruleDropdownRef = ref<HTMLElement | null>(null)
 const onClickOutside = (e: MouseEvent) => {
   if (dropdownRef.value && !dropdownRef.value.contains(e.target as Node)) {
     dropdownOpen.value = false
@@ -117,6 +192,15 @@ const onClickOutside = (e: MouseEvent) => {
   }
   if (teamDropdownRef.value && !teamDropdownRef.value.contains(e.target as Node)) {
     teamDropdownOpen.value = false
+  }
+  if (hcDropdownRef.value && !hcDropdownRef.value.contains(e.target as Node)) {
+    hcDropdownOpen.value = false
+  }
+  if (kwDropdownRef.value && !kwDropdownRef.value.contains(e.target as Node)) {
+    kwDropdownOpen.value = false
+  }
+  if (ruleDropdownRef.value && !ruleDropdownRef.value.contains(e.target as Node)) {
+    ruleDropdownOpen.value = false
   }
 }
 onMounted(() => document.addEventListener('click', onClickOutside))
@@ -548,6 +632,257 @@ onUnmounted(() => document.removeEventListener('click', onClickOutside))
           </div>
         </div>
       </template>
+
+      <!-- Hero Class Filter Dropdown -->
+      <div class="mx-5 border-t border-gray-200 mb-5"></div>
+
+      <div class="mb-4! mt-4!">
+        <div class="relative" ref="hcDropdownRef">
+          <div
+            @click="hcDropdownOpen = !hcDropdownOpen"
+            class="peer w-full flex items-center justify-between px-1 pt-7 pb-1 border-0 border-b-2 bg-transparent min-h-[45px] rounded-none outline-0 transition-all duration-200 text-left cursor-pointer"
+            :class="[
+              hcDropdownOpen ? 'border-violet-500' : 'border-gray-300 hover:border-gray-400'
+            ]"
+            id="hc-filter-btn"
+          >
+            <!-- Tags Wrapper -->
+            <div class="flex flex-wrap flex-1 min-w-0 pr-2 gap-1.5 mt-1.5!">
+              <template v-if="selectedHeroClasses.length > 0">
+                <span
+                  v-for="id in selectedHeroClasses"
+                  :key="id"
+                  class="inline-flex max-w-[95%] items-center gap-1 px-2.5 py-1 text-[11px] font-semibold bg-violet-100 text-violet-700 rounded-lg border border-violet-200"
+                >
+                  <img v-if="availableHeroClasses.find(hc => hc.id === id)?.icon" :src="availableHeroClasses.find(hc => hc.id === id)?.icon" class="w-7 h-7 shrink-0" />
+                  <span class="truncate">{{ availableHeroClasses.find(hc => hc.id === id)?.label }}</span>
+                  <button @click.stop="toggleHeroClass(id)" class="hover:text-violet-900 shrink-0 transition-colors ml-0.5 cursor-pointer">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                  </button>
+                </span>
+              </template>
+              <div v-else class="h-6"></div>
+            </div>
+            
+            <div class="flex items-center shrink-0">
+              <button 
+                v-if="selectedHeroClasses.length > 0" 
+                @click.stop="emit('update:selectedHeroClasses', [])" 
+                class="p-1 mr-1 text-gray-400 hover:text-red-500 hover:bg-red-50 rounded-full transition-colors cursor-pointer"
+                title="Clear All"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+              </button>
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-slate-500 pointer-events-none transition-transform duration-200" :class="hcDropdownOpen ? 'rotate-180' : ''" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+              </svg>
+            </div>
+          </div>
+          <label
+            @click="hcDropdownOpen = !hcDropdownOpen"
+            class="absolute left-1 cursor-pointer transition-all duration-200 pointer-events-none"
+            :class="[
+              (hcDropdownOpen || selectedHeroClasses.length > 0)
+                ? 'top-[-11px] text-[11px] text-violet-600 font-medium'
+                : 'top-1/2 -translate-y-1/2 text-base text-gray-400'
+            ]"
+          >
+            Filter by Hero Class
+          </label>
+
+          <!-- Dropdown panel -->
+          <div v-show="hcDropdownOpen" class="absolute left-0 right-0 top-full mt-1 bg-white border border-gray-200 rounded-xl shadow-xl z-50 max-h-[280px] overflow-hidden flex flex-col">
+            <div class="p-2.5 border-b border-gray-100">
+              <input type="text" v-model="hcSearch" placeholder="Search hero classes..." class="w-full text-xs bg-gray-50 text-slate-800 px-3! py-2! rounded-lg border border-gray-200 outline-0 focus:border-violet-400 placeholder:text-slate-400" id="hc-search-input" />
+            </div>
+            <div class="overflow-y-auto px-3! py-2! flex-1">
+              <div v-if="filteredHeroClasses.length === 0" class="px-3 py-6 text-xs text-gray-400 text-center">No hero classes found</div>
+              <label
+                v-for="hc in filteredHeroClasses"
+                :key="hc.id"
+                :class="[
+                  'flex items-center gap-3 px-4 py-3 rounded-xl cursor-pointer transition-all duration-150 text-base',
+                  selectedHeroClasses.includes(hc.id) ? 'bg-violet-50 text-violet-700' : 'hover:bg-gray-50 text-slate-600 hover:text-slate-800'
+                ]"
+              >
+                <input type="checkbox" :checked="selectedHeroClasses.includes(hc.id)" @change="toggleHeroClass(hc.id)" class="w-4 h-4 rounded border-gray-300 text-violet-600 focus:ring-violet-500/30 focus:ring-offset-0 cursor-pointer accent-violet-600" />
+                <img v-if="hc.icon" :src="hc.icon" class="w-10 h-10 shrink-0" />
+                <span>{{ hc.label }}</span>
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Keyword Filter Dropdown -->
+      <div class="mx-5 border-t border-gray-200 mb-5"></div>
+
+      <div class="mb-4! mt-4!">
+        <div class="relative" ref="kwDropdownRef">
+          <div
+            @click="kwDropdownOpen = !kwDropdownOpen"
+            class="peer w-full flex items-center justify-between px-1 pt-7 pb-1 border-0 border-b-2 bg-transparent min-h-[45px] rounded-none outline-0 transition-all duration-200 text-left cursor-pointer"
+            :class="[
+              kwDropdownOpen ? 'border-sky-500' : 'border-gray-300 hover:border-gray-400'
+            ]"
+            id="kw-filter-btn"
+          >
+            <!-- Tags Wrapper -->
+            <div class="flex flex-wrap flex-1 min-w-0 pr-2 gap-1.5 mt-1.5!">
+              <template v-if="selectedKeywords.length > 0">
+                <span
+                  v-for="id in selectedKeywords"
+                  :key="id"
+                  class="inline-flex max-w-[95%] items-center gap-1 px-2.5 py-1 text-[11px] font-semibold bg-sky-100 text-sky-700 rounded-lg border border-sky-200"
+                >
+                  <span class="truncate">{{ availableKeywords.find(k => k.id === id)?.label }}</span>
+                  <button @click.stop="toggleKeyword(id)" class="hover:text-sky-900 shrink-0 transition-colors ml-0.5 cursor-pointer">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                  </button>
+                </span>
+              </template>
+              <div v-else class="h-6"></div>
+            </div>
+            
+            <div class="flex items-center shrink-0">
+              <button 
+                v-if="selectedKeywords.length > 0" 
+                @click.stop="emit('update:selectedKeywords', [])" 
+                class="p-1 mr-1 text-gray-400 hover:text-red-500 hover:bg-red-50 rounded-full transition-colors cursor-pointer"
+                title="Clear All"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+              </button>
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-slate-500 pointer-events-none transition-transform duration-200" :class="kwDropdownOpen ? 'rotate-180' : ''" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+              </svg>
+            </div>
+          </div>
+          <label
+            @click="kwDropdownOpen = !kwDropdownOpen"
+            class="absolute left-1 cursor-pointer transition-all duration-200 pointer-events-none"
+            :class="[
+              (kwDropdownOpen || selectedKeywords.length > 0)
+                ? 'top-[-11px] text-[11px] text-sky-600 font-medium'
+                : 'top-1/2 -translate-y-1/2 text-base text-gray-400'
+            ]"
+          >
+            Filter by Keyword
+          </label>
+
+          <!-- Dropdown panel -->
+          <div v-show="kwDropdownOpen" class="absolute left-0 right-0 top-full mt-1 bg-white border border-gray-200 rounded-xl shadow-xl z-50 max-h-[280px] overflow-hidden flex flex-col">
+            <div class="p-2.5 border-b border-gray-100">
+              <input type="text" v-model="kwSearch" placeholder="Search keywords..." class="w-full text-xs bg-gray-50 text-slate-800 px-3! py-2! rounded-lg border border-gray-200 outline-0 focus:border-sky-400 placeholder:text-slate-400" id="kw-search-input" />
+            </div>
+            <div class="overflow-y-auto px-3! py-2! flex-1">
+              <div v-if="filteredKeywords.length === 0" class="px-3 py-6 text-xs text-gray-400 text-center">No keywords found</div>
+              <label
+                v-for="kw in filteredKeywords"
+                :key="kw.id"
+                :class="[
+                  'flex items-center gap-3 px-4 py-3 rounded-xl cursor-pointer transition-all duration-150 text-base',
+                  selectedKeywords.includes(kw.id) ? 'bg-sky-50 text-sky-700' : 'hover:bg-gray-50 text-slate-600 hover:text-slate-800'
+                ]"
+              >
+                <input type="checkbox" :checked="selectedKeywords.includes(kw.id)" @change="toggleKeyword(kw.id)" class="w-4 h-4 rounded border-gray-300 text-sky-600 focus:ring-sky-500/30 focus:ring-offset-0 cursor-pointer accent-sky-600" />
+                <span>{{ kw.label }}</span>
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Extra Rules Filter Dropdown -->
+      <div class="mx-5 border-t border-gray-200 mb-5"></div>
+
+      <div class="mb-4! mt-4!">
+        <div class="relative" ref="ruleDropdownRef">
+          <div
+            @click="ruleDropdownOpen = !ruleDropdownOpen"
+            class="peer w-full flex items-center justify-between px-1 pt-7 pb-1 border-0 border-b-2 bg-transparent min-h-[45px] rounded-none outline-0 transition-all duration-200 text-left cursor-pointer"
+            :class="[
+              ruleDropdownOpen ? 'border-rose-500' : 'border-gray-300 hover:border-gray-400'
+            ]"
+            id="rule-filter-btn"
+          >
+            <!-- Tags Wrapper -->
+            <div class="flex flex-wrap flex-1 min-w-0 pr-2 gap-1.5 mt-1.5!">
+              <template v-if="selectedRules.length > 0">
+                <span
+                  v-for="id in selectedRules"
+                  :key="id"
+                  class="inline-flex max-w-[95%] items-center gap-1 px-2.5 py-1 text-[11px] font-semibold bg-rose-100 text-rose-700 rounded-lg border border-rose-200"
+                >
+                  <span class="truncate">{{ availableRules.find(r => r.id === id)?.label }}</span>
+                  <button @click.stop="toggleRule(id)" class="hover:text-rose-900 shrink-0 transition-colors ml-0.5 cursor-pointer">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                  </button>
+                </span>
+              </template>
+              <div v-else class="h-6"></div>
+            </div>
+            
+            <div class="flex items-center shrink-0">
+              <button 
+                v-if="selectedRules.length > 0" 
+                @click.stop="emit('update:selectedRules', [])" 
+                class="p-1 mr-1 text-gray-400 hover:text-red-500 hover:bg-red-50 rounded-full transition-colors cursor-pointer"
+                title="Clear All"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+              </button>
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-slate-500 pointer-events-none transition-transform duration-200" :class="ruleDropdownOpen ? 'rotate-180' : ''" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+              </svg>
+            </div>
+          </div>
+          <label
+            @click="ruleDropdownOpen = !ruleDropdownOpen"
+            class="absolute left-1 cursor-pointer transition-all duration-200 pointer-events-none"
+            :class="[
+              (ruleDropdownOpen || selectedRules.length > 0)
+                ? 'top-[-11px] text-[11px] text-rose-600 font-medium'
+                : 'top-1/2 -translate-y-1/2 text-base text-gray-400'
+            ]"
+          >
+            Filter by Extra Rules
+          </label>
+
+          <!-- Dropdown panel -->
+          <div v-show="ruleDropdownOpen" class="absolute left-0 right-0 top-full mt-1 bg-white border border-gray-200 rounded-xl shadow-xl z-50 max-h-[280px] overflow-hidden flex flex-col">
+            <div class="p-2.5 border-b border-gray-100">
+              <input type="text" v-model="ruleSearch" placeholder="Search rules..." class="w-full text-xs bg-gray-50 text-slate-800 px-3! py-2! rounded-lg border border-gray-200 outline-0 focus:border-rose-400 placeholder:text-slate-400" id="rule-search-input" />
+            </div>
+            <div class="overflow-y-auto px-3! py-2! flex-1">
+              <div v-if="filteredRules.length === 0" class="px-3 py-6 text-xs text-gray-400 text-center">No rules found</div>
+              <label
+                v-for="rule in filteredRules"
+                :key="rule.id"
+                :class="[
+                  'flex items-center gap-3 px-4 py-3 rounded-xl cursor-pointer transition-all duration-150 text-base',
+                  selectedRules.includes(rule.id) ? 'bg-rose-50 text-rose-700' : 'hover:bg-gray-50 text-slate-600 hover:text-slate-800'
+                ]"
+              >
+                <input type="checkbox" :checked="selectedRules.includes(rule.id)" @change="toggleRule(rule.id)" class="w-4 h-4 rounded border-gray-300 text-rose-600 focus:ring-rose-500/30 focus:ring-offset-0 cursor-pointer accent-rose-600" />
+                <span>{{ rule.label }}</span>
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </nav>
 </template>
