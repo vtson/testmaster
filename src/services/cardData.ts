@@ -248,22 +248,37 @@ export function filterCards(options: {
     }
 
     if (options.keywords && options.keywords.length > 0) {
-        cards = cards.filter((c) => descriptionHasKeyword(c.details?.description, options.keywords!))
+        cards = cards.filter((c) => {
+            const d = c.details as any
+            if (descriptionHasKeyword(d?.description, options.keywords!)) return true
+            if (d?.half1 && descriptionHasKeyword(d.half1.description, options.keywords!)) return true
+            if (d?.half2 && descriptionHasKeyword(d.half2.description, options.keywords!)) return true
+            return false
+        })
     }
 
     if (options.rules && options.rules.length > 0) {
-        cards = cards.filter((c) => descriptionHasRule(c.details?.description, options.rules!))
+        cards = cards.filter((c) => {
+            const d = c.details as any
+            if (descriptionHasRule(d?.description, options.rules!)) return true
+            if (d?.half1 && descriptionHasRule(d.half1.description, options.rules!)) return true
+            if (d?.half2 && descriptionHasRule(d.half2.description, options.rules!)) return true
+            return false
+        })
     }
 
     if (options.search && options.search.trim()) {
         const q = options.search.trim().toLowerCase()
-        cards = cards.filter(
-            (c) =>
-                c.name.toLowerCase().includes(q) ||
-                c.subtitle.toLowerCase().includes(q) ||
-                c.group.toLowerCase().includes(q) ||
-                getDescriptionText(c.details?.description).toLowerCase().includes(q)
-        )
+        cards = cards.filter((c) => {
+            if (c.name.toLowerCase().includes(q)) return true
+            if (c.subtitle.toLowerCase().includes(q)) return true
+            if (c.group.toLowerCase().includes(q)) return true
+            if (getDescriptionText(c.details?.description).toLowerCase().includes(q)) return true
+            const d = c.details as any
+            if (d?.half1 && getDescriptionText(d.half1.description).toLowerCase().includes(q)) return true
+            if (d?.half2 && getDescriptionText(d.half2.description).toLowerCase().includes(q)) return true
+            return false
+        })
     }
 
     cards.sort((a, b) => {
