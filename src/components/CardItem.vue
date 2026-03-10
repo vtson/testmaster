@@ -70,8 +70,8 @@ const getCardBg = (type: string) => {
         <p class="text-[11px] text-slate-400 truncate">{{ card.set }}</p>
       </div>
 
-      <!-- Stats row -->
-      <div class="flex items-center gap-1.5 mt-2.5 flex-wrap">
+      <!-- Stats row (normal cards) -->
+      <div v-if="!(card.details as any).half1" class="flex items-center gap-1.5 mt-2.5 flex-wrap">
         <span v-if="(card.details as any).attack" class="inline-flex items-center px-1.5 py-0.5 rounded-md text-[10px] font-bold bg-red-50 text-red-600 border border-red-100">
           ⚔️ {{ (card.details as any).attack }}
         </span>
@@ -89,9 +89,35 @@ const getCardBg = (type: string) => {
         </span>
       </div>
 
-      <!-- Description (compact) -->
-      <div v-if="card.details.description && card.details.description.length > 0" class="mt-2.5 pt-2 border-t border-gray-100">
+      <!-- Description (normal cards) -->
+      <div v-if="!(card.details as any).half1 && card.details.description && card.details.description.length > 0" class="mt-2.5 pt-2 border-t border-gray-100">
         <CardDescription :description="card.details.description" :compact="true" />
+      </div>
+
+      <!-- Divided Card halves -->
+      <div v-if="(card.details as any).half1" class="mt-2.5 pt-2 border-t border-gray-100 space-y-1.5">
+        <!-- Half 1 -->
+        <div class="p-1.5 rounded-lg bg-blue-50/60 border border-blue-100 p-5! my-2!">
+          <div class="flex items-center gap-1">
+            <span class="text-[10px] font-bold text-slate-600">{{ (card.details as any).nameHalf1 }}</span>
+            <span v-if="(card.details as any).half1.attack" class="text-[9px] font-bold text-red-600">⚔️{{ (card.details as any).half1.attack }}</span>
+            <span v-if="(card.details as any).half1.recruit" class="text-[9px] font-bold text-emerald-600">⭐{{ (card.details as any).half1.recruit }}</span>
+          </div>
+          <div v-if="(card.details as any).half1.description && (card.details as any).half1.description.length > 0" class="mt-0.5">
+            <CardDescription :description="(card.details as any).half1.description" :compact="true" />
+          </div>
+        </div>
+        <!-- Half 2 -->
+        <div class="p-1.5 rounded-lg bg-amber-50/60 border border-amber-100 p-5! my-2!">
+          <div class="flex items-center gap-1">
+            <span class="text-[10px] font-bold text-slate-600">{{ (card.details as any).nameHalf2 }}</span>
+            <span v-if="(card.details as any).half2.attack" class="text-[9px] font-bold text-red-600">⚔️{{ (card.details as any).half2.attack }}</span>
+            <span v-if="(card.details as any).half2.recruit" class="text-[9px] font-bold text-emerald-600">⭐{{ (card.details as any).half2.recruit }}</span>
+          </div>
+          <div v-if="(card.details as any).half2.description && (card.details as any).half2.description.length > 0" class="mt-0.5">
+            <CardDescription :description="(card.details as any).half2.description" :compact="true" />
+          </div>
+        </div>
       </div>
 
       <!-- Click hint -->

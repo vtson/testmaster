@@ -1,6 +1,5 @@
 /**
- * Maps metadata `value` keys to their hashed SVG icon paths in /img/.
- * These icons were crawled from master-strike.com/img/.
+ * Maps metadata `value` keys to their icon paths in /img/.
  */
 
 const iconFiles: Record<string, string> = {
@@ -47,53 +46,59 @@ const iconFiles: Record<string, string> = {
     'wwhulk': '/img/wwhulk.9755d608.svg',
     'xmen': '/img/xmen.465d5c26.svg',
 
-    // Teams
+    // Teams (new .team.svg naming)
     'unaffiliated': '/img/unaffiliated.0a852ddb.svg',
-    'avengers': '/img/avengers.c902f54f.svg',
-    'spider-friends': '/img/spider-friends.81b5bc1e.svg',
-    'x-men': '/img/x-men.55c6c309.svg',
-    'fantastic-four': '/img/fantastic-four.64fa7ea8.svg',
-    'marvel-knights': '/img/marvel-knights.2c767ffb.svg',
-    'x-force': '/img/x-force.fbc7e389.svg',
-    'crime-syndicate': '/img/crime-syndicate.7fc683e1.svg',
-    'sinister-six': '/img/sinister-six.f7bddb99.svg',
-    'foes-of-asgard': '/img/foes-of-asgard.fd484166.svg',
-    'brotherhood': '/img/brotherhood.1fe6b381.svg',
-    'guardians-of-the-galaxy': '/img/guardians-of-the-galaxy.45fe61dc.svg',
-    'hydra': '/img/hydra.05a79141.svg',
-    'cabal': '/img/cabal.50366e22.svg',
-    'illuminati': '/img/illuminati.e9705c94.svg',
-    'new-warriors': '/img/new-warriors.2edbafe2.svg',
-    'mercs-for-money': '/img/mercs-for-money.49cd0db0.svg',
-    'warbound': '/img/warbound.a1e07bd3.svg',
-    'venomverse': '/img/venomverse.90c2484a.svg',
-    'heroes-of-asgard': '/img/heroes-of-asgard.e58bd546.svg',
-    'inhumans': '/img/inhumans.11dd7edd.svg',
-    'x-factor-investigations': '/img/x-factor-investigations.549095e5.svg',
-    'heroes-of-wakanda': '/img/heroes-of-wakanda.98e30ec6.svg',
-    'guardians-of-the-multiverse': '/img/guardians-of-the-multiverse.6fea1268.svg',
+    'avengers': '/img/avengers.team.svg',
+    'spider-friends': '/img/spider-friends.team.svg',
+    'x-men': '/img/x-men.team.svg',
+    'fantastic-four': '/img/fantastic-four.team.svg',
+    'marvel-knights': '/img/marvel-knights.team.svg',
+    'x-force': '/img/x-force.team.svg',
+    'crime-syndicate': '/img/crime-syndicate.team.svg',
+    'sinister-six': '/img/sinister-six.team.svg',
+    'foes-of-asgard': '/img/foes-of-asgard.team.svg',
+    'brotherhood': '/img/brotherhood.team.svg',
+    'guardians-of-the-galaxy': '/img/guardians-of-the-galaxy.team.svg',
+    'hydra': '/img/hydra.team.svg',
+    'cabal': '/img/cabal.team.svg',
+    'illuminati': '/img/illuminati.team.svg',
+    'new-warriors': '/img/new-warriors.team.svg',
+    'mercs-for-money': '/img/mercs-for-money.team.svg',
+    'warbound': '/img/warbound.team.svg',
+    'venomverse': '/img/venomverse.team.svg',
+    'heroes-of-asgard': '/img/heroes-of-asgard.team.svg',
+    'inhumans': '/img/inhumans.team.svg',
+    'x-factor-investigations': '/img/x-factor-investigations.team.svg',
+    'heroes-of-wakanda': '/img/heroes-of-wakanda.team.svg',
+    'guardians-of-the-multiverse': '/img/guardians-of-the-multiverse.team.svg',
+    'champions-team': '/img/champions.team.svg',
+    'shield-team': '/img/shield.team.svg',
+    'block': '/img/block.team.svg',
+
+    // Hero Classes (new .heroclass.svg naming)
+    'covert': '/img/covert.heroclass.svg',
+    'instinct': '/img/instinct.heroclass.svg',
+    'ranged': '/img/ranged.heroclass.svg',
+    'strength': '/img/strength.svg',
+    'tech': '/img/tech.heroclass.svg',
 
     // UI icons
     'attack': '/img/attack.ddf681f3.svg',
-    'recruit': '/img/recruit.79a87efd.svg',
+    'recruit': '/img/recruit.svg',
     'cost': '/img/cost.ad7d44c6.svg',
     'vp': '/img/vp.298ee87b.svg',
     'piercing': '/img/piercing.529f9b8c.svg',
-    'strength': '/img/strength.0d48ab3c.svg',
-    'instinct': '/img/instinct.f5f4050d.svg',
-    'covert': '/img/covert.dbc41ed5.svg',
-    'tech': '/img/tech.c17c4033.svg',
-    'ranged': '/img/ranged.b299a2d9.svg',
     'common': '/img/common.219c2d4d.svg',
-    'uncommon': '/img/uncommon.8292a197.svg',
+    'uncommon': '/img/uncommon.svg',
     'rare': '/img/rare.f72e2a77.svg',
     'token': '/img/token.72b9f5d3.svg',
 }
 
 /**
- * Get the icon URL for a metadata value key (set or team).
+ * Get the icon URL for a metadata value key (set, team, or hero class).
  * Returns undefined if no icon is available.
  */
 export function getIconUrl(value: string): string | undefined {
     return iconFiles[value]
 }
+
