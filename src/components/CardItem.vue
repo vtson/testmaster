@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import type { Card } from '../types/card'
 import CardDescription from './CardDescription.vue'
+import * as MSData from '@/lib/master-strike-data/dist'
 
 defineProps<{
   card: Card
@@ -25,13 +26,10 @@ const getTypeColor = (type: string) => {
   return colors[type] || 'bg-gray-100 text-gray-600 border-gray-200'
 }
 
-// Hero class ID → background color (soft pastel versions)
-const hcColors: Record<number, string> = {
-  1: '#ffe0e0', // Covert → pink
-  2: '#fff8cc', // Instinct → light yellow
-  3: '#d6e4f7', // Ranged → light blue
-  4: '#d4f0e0', // Strength → light green
-  5: '#d8d8d8', // Tech → gray
+// Hero class ID → background color (from heroClasses.js)
+const hcColors: Record<number, string> = {}
+for (const hc of MSData.Metadata.heroClassesArray) {
+  hcColors[hc.id] = hc.bgColor
 }
 
 // Hero class ID → ring/hover color classes
