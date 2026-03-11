@@ -59,7 +59,7 @@ function renderPiece(piece: any): string {
     const hc = hcMap.get(piece.hc)
     if (hc) {
       const iconUrl = getIconUrl(hc.value)
-      if (iconUrl) return `<img src="${iconUrl}" class="inline-block w-10 h-10 translate-x-[-9px] relative top-3 align-text-bottom" alt="${hc.label}" title="${hc.label}" />`
+      if (iconUrl) return `<img src="${iconUrl}" class="inline-block w-5 h-5 relative top-1 scale-[1.5] align-text-bottom" alt="${hc.label}" title="${hc.label}" />`
       return `<span class="text-indigo-600 font-semibold">${hc.label}</span>`
     }
     return `<span class="text-indigo-600">[HC${piece.hc}]</span>`
@@ -70,7 +70,7 @@ function renderPiece(piece: any): string {
     if (team) {
       // Try team-specific key first (for values that conflict with set names like 'shield', 'champions')
       const iconUrl = getIconUrl(team.value + '-team') || getIconUrl(team.value)
-      if (iconUrl) return `<img src="${iconUrl}" class="inline-block w-10 h-10 translate-x-[-9px] relative top-3 align-text-bottom" alt="${team.label}" title="${team.label}" />`
+      if (iconUrl) return `<img src="${iconUrl}" class="inline-block w-5 h-5 relative top-1 scale-[1.5] align-text-bottom" alt="${team.label}" title="${team.label}" />`
       return `<span class="text-teal-600 font-semibold">${team.label}</span>`
     }
     return `<span class="text-teal-600">[Team${piece.team}]</span>`
@@ -80,7 +80,7 @@ function renderPiece(piece: any): string {
     const ic = iconMetaMap.get(piece.icon)
     if (ic) {
       const iconUrl = getIconUrl(ic.value)
-      if (iconUrl) return `<img src="${iconUrl}" class="inline-block w-10 h-10 translate-x-[-9px] relative top-3 align-text-bottom" alt="${ic.label}" title="${ic.label}" />`
+      if (iconUrl) return `<img src="${iconUrl}" class="inline-block w-5 h-5 relative top-1 scale-[1.5] align-text-bottom" alt="${ic.label}" title="${ic.label}" />`
       return `<span class="text-amber-600 font-semibold">${ic.label}</span>`
     }
     return `<span class="text-amber-600">[★]</span>`

@@ -20,13 +20,12 @@ const selectedTeams = ref<number[]>([])
 const selectedHeroClasses = ref<number[]>([])
 const selectedKeywords = ref<number[]>([])
 const selectedRules = ref<number[]>([])
-const groupBySet = ref(false)
 const sidebarOpen = ref(false)
 
 // Available options
 const availableTypes = computed(() => getCategories())
 const availableGroups = computed(() => selectedTypes.value.length ? getGroups(selectedTypes.value, selectedSets.value) : [])
-const availableSets = computed(() => getSets())
+const availableSets = computed(() => getSets(selectedTypes.value))
 const availableTeams = computed(() => {
   // Only show teams when a hero-related type is selected
   const heroTypes = ['Hero', 'Sidekick']
@@ -35,7 +34,8 @@ const availableTeams = computed(() => {
 })
 const availableHeroClasses = computed(() => getHeroClasses())
 const availableKeywords = computed(() => getKeywords())
-const availableRules = computed(() => getRules())
+const availableRules = computed(() => getRules(selectedTypes.value))
+
 
 // Filtered cards (all)
 const allFilteredCards = computed(() =>
@@ -75,7 +75,6 @@ const resetFilters = () => {
   selectedHeroClasses.value = []
   selectedKeywords.value = []
   selectedRules.value = []
-  groupBySet.value = false
 }
 
 const toggleSidebar = () => {
@@ -107,7 +106,6 @@ const toggleSidebar = () => {
           :selectedKeywords="selectedKeywords"
           :availableRules="availableRules"
           :selectedRules="selectedRules"
-          :groupBySet="groupBySet"
           :isOpen="sidebarOpen"
           @update:searchQuery="searchQuery = $event"
           @update:sortAsc="sortAsc = $event"
@@ -119,7 +117,6 @@ const toggleSidebar = () => {
           @update:selectedHeroClasses="selectedHeroClasses = $event"
           @update:selectedKeywords="selectedKeywords = $event"
           @update:selectedRules="selectedRules = $event"
-          @update:groupBySet="groupBySet = $event"
           @reset="resetFilters"
         />
 
@@ -169,7 +166,7 @@ const toggleSidebar = () => {
             </div>
           </div>
 
-          <CardGallery :cards="allFilteredCards" :groupBy="groupBySet ? 'set' : 'group'" @select-card="selectedCard = $event" />
+          <CardGallery :cards="allFilteredCards" @select-card="selectedCard = $event" />
 
           <!-- Card Detail Modal -->
           <CardModal :card="selectedCard" @close="selectedCard = null" />

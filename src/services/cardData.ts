@@ -39,6 +39,19 @@ for (const hc of Metadata.heroClassesArray) {
     heroClassLookup.set(hc.id, hc.label)
 }
 
+// Map CardType enum values (browser keys) to metadata type IDs
+// Metadata labels differ from CardType enum (e.g., "Henchmen Villain" vs "Henchmen")
+const cardTypeLabelToId: Map<string, number> = new Map([
+    ['Hero', 1],
+    ['Mastermind', 2],
+    ['Mastermind Tactic', 2],
+    ['Henchmen', 3],
+    ['Villain', 4],
+    ['Scheme', 5],
+    ['Bystander', 6],
+    ['Wound', 7],
+])
+
 // Build group → set mapping for disambiguation
 // Key: "type|group", Value: Set of set labels where this group appears
 const groupSetMap: Map<string, Set<string>> = new Map()
@@ -57,18 +70,31 @@ export function getCategories(): string[] {
 }
 
 /**
- * Returns all unique sets from card data with id, label and icon, sorted alphabetically.
+ * Returns sets from metadata, filtered by card types.
+ * Uses Metadata.setsArray with cardTypes to scope by selected types (like the old app).
  */
-export function getSets(): { id: number; label: string; icon?: string }[] {
-    const result = new Set<string>()
-    for (const card of allCards) {
-        if (card.set) result.add(card.set)
-    }
-    return [...result].sort().map(label => ({
-        id: setLabelToId.get(label) ?? 0,
-        label,
-        icon: setIconLookup.get(label),
-    }))
+export function getSets(filterTypes?: string[]): { id: number; label: string; icon?: string }[] {
+    // Convert type labels to IDs for matching against set.cardTypes
+    const typeIds = filterTypes && filterTypes.length > 0
+        ? filterTypes.map(t => cardTypeLabelToId.get(t)).filter((id): id is number => id !== undefined)
+        : []
+
+    return Metadata.setsArray
+        .filter((s: any) => {
+            // Skip sets with no card types (e.g., Promo)
+            if (!s.cardTypes || s.cardTypes.length === 0) return false
+            // If type filter specified, only show sets that contain at least one selected type
+            if (typeIds.length > 0) {
+                return typeIds.some((tid: number) => s.cardTypes.includes(tid))
+            }
+            return true
+        })
+        .map((s: any) => ({
+            id: s.id,
+            label: s.label,
+            icon: setIconLookup.get(s.label),
+        }))
+        .sort((a: any, b: any) => a.label.localeCompare(b.label))
 }
 
 /**
@@ -99,10 +125,23 @@ export function getKeywords(): { id: number; label: string }[] {
 }
 
 /**
- * Returns rule (extra rules) options as {id, label} for filtering, sorted by label.
+ * Returns rule (extra rules) options filtered by selected card types.
+ * Uses cardTypes from rules metadata to scope rules by selected categories.
  */
-export function getRules(): { id: number; label: string }[] {
+export function getRules(filterTypes?: string[]): { id: number; label: string }[] {
+    // Convert type labels to IDs for matching against rule.cardTypes
+    const typeIds = filterTypes && filterTypes.length > 0
+        ? filterTypes.map(t => cardTypeLabelToId.get(t)).filter((id): id is number => id !== undefined)
+        : []
+
     return [...Metadata.rulesArray]
+        .filter((r: any) => {
+            // If type filter specified, only show rules that have at least one matching cardType
+            if (typeIds.length > 0 && r.cardTypes) {
+                return typeIds.some((tid: number) => r.cardTypes.includes(tid))
+            }
+            return true
+        })
         .map(r => ({ id: r.id, label: r.label }))
         .sort((a, b) => a.label.localeCompare(b.label))
 }
@@ -465,7 +504,7 @@ export function filterCards(options: {
         }
         return options.sortAsc !== false ? cmp : -cmp
     })
-
+    console.log(cards)
     return cards
 }
 

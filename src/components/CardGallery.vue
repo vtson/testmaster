@@ -6,7 +6,6 @@ import { getSetIcon } from '../services/cardData'
 
 const props = defineProps<{
   cards: Card[]
-  groupBy?: 'group' | 'set'
 }>()
 
 defineEmits<{
@@ -15,19 +14,32 @@ defineEmits<{
 
 const GROUPS_PER_BATCH = 5
 
+// Group structure: { groupName, setName, setIcon, cards }
+interface CardGroup {
+  groupName: string
+  setName: string
+  setIcon?: string
+  cards: Card[]
+}
+
 const groupedCards = computed(() => {
-  const groups = new Map<string, Card[]>()
+  // Group by group+set combination to keep same-named groups from different sets separate
+  const groupMap = new Map<string, CardGroup>()
   for (const card of props.cards) {
-    let key: string
-    if (props.groupBy === 'set') {
-      key = card.set || 'Unknown Set'
-    } else {
-      key = (card.type === 'Scheme' || card.type === 'Henchmen') ? card.type : (card.group || 'Other')
+    const groupName = (card.type === 'Scheme' || card.type === 'Henchmen') ? card.type : (card.group || 'Other')
+    const setName = card.set || 'Unknown Set'
+    const key = `${groupName}|${setName}`
+    if (!groupMap.has(key)) {
+      groupMap.set(key, {
+        groupName,
+        setName,
+        setIcon: getSetIcon(setName) || undefined,
+        cards: [],
+      })
     }
-    if (!groups.has(key)) groups.set(key, [])
-    groups.get(key)!.push(card)
+    groupMap.get(key)!.cards.push(card)
   }
-  return [...groups.entries()]
+  return [...groupMap.values()]
 })
 
 // Lazy loading: show groups progressively
@@ -81,25 +93,30 @@ onUnmounted(() => {
   </div>
 
   <div v-else>
-    <div v-for="[group, groupCards] in visibleGroups" :key="group" class="mb-8 mt-8!">
+    <div v-for="g in visibleGroups" :key="`${g.groupName}|${g.setName}`" class="mb-8 mt-8!">
       <!-- Group header -->
       <div class="flex items-center gap-3 mb-4 px-4!">
+        <!-- Left: group name -->
         <div class="flex items-center gap-2">
-          <img v-if="groupBy === 'set' && getSetIcon(group)" :src="getSetIcon(group)" class="w-5 h-5" />
-          <span v-else class="inline-block w-1.5 h-1.5 rounded-full bg-blue-500"></span>
-          <h2 class="text-lg font-bold text-slate-700">{{ group }}</h2>
+          <span class="inline-block w-1.5 h-1.5 rounded-full bg-blue-500"></span>
+          <h2 class="text-lg font-bold text-slate-700">{{ g.groupName }}</h2>
         </div>
         <span class="text-xs font-semibold text-slate-400 bg-slate-100 px-2.5 py-0.5 rounded-full">
-          {{ groupCards.length }}
+          {{ g.cards.length }}
         </span>
         <div class="flex-1 border-t border-slate-200/60"></div>
+        <!-- Right: origin set -->
+        <div class="flex items-center gap-1.5 shrink-0">
+          <img v-if="g.setIcon" :src="g.setIcon" class="w-5 h-5 opacity-60" />
+          <span class="text-xs font-medium text-slate-400">{{ g.setName }}</span>
+        </div>
       </div>
 
       <!-- Cards grid -->
       <div class="columns-2 md:columns-3 lg:columns-4 xl:columns-5 gap-4 px-4!">
         <CardItem
           class="mb-4!"
-          v-for="card in groupCards"
+          v-for="card in g.cards"
           :key="`${card.name}-${card.group}-${card.set}`"
           :card="card"
           @select="$emit('select-card', $event)"

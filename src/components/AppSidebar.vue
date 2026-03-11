@@ -20,7 +20,6 @@ const props = defineProps<{
   selectedKeywords: number[]
   availableRules: { id: number; label: string }[]
   selectedRules: number[]
-  groupBySet: boolean
   isOpen: boolean
 }>()
 
@@ -35,7 +34,6 @@ const emit = defineEmits<{
   'update:selectedHeroClasses': [value: number[]]
   'update:selectedKeywords': [value: number[]]
   'update:selectedRules': [value: number[]]
-  'update:groupBySet': [value: boolean]
   'reset': []
 }>()
 
@@ -274,21 +272,6 @@ onUnmounted(() => document.removeEventListener('click', onClickOutside))
             <path stroke-linecap="round" stroke-linejoin="round" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
           </svg>
           {{ sortByGroup ? 'Hero Name' : 'Card Name' }}
-        </button>
-        <button
-          @click="emit('update:groupBySet', !groupBySet)"
-          :class="[
-            'flex-1 flex items-center justify-center gap-1.5 px-2! py-1.5! text-xs font-semibold border rounded-xl transition-all duration-200 cursor-pointer',
-            groupBySet
-              ? 'bg-amber-50 text-amber-700 border-amber-300 hover:bg-amber-100'
-              : 'text-slate-600 bg-gray-100 hover:bg-gray-200 border-gray-200 hover:border-gray-300'
-          ]"
-          title="Toggle group by Hero/Group or by Set"
-        >
-          <svg xmlns="http://www.w3.org/2000/svg" class="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
-          </svg>
-          {{ groupBySet ? 'By Set' : 'By Group' }}
         </button>
       </div>
 
