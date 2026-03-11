@@ -175,3 +175,27 @@ const toggleSidebar = () => {
     </div>
   </div>
 </template>
+
+<style>
+.main-content {
+  margin: 0 auto;
+}
+
+@media (min-width: 960px) {
+  .main-content {
+    max-width: 900px;
+  }
+}
+
+@media (min-width: 1264px) {
+  .main-content {
+    max-width: 1185px;
+  }
+}
+
+@media (min-width: 1904px) {
+  .main-content {
+    max-width: 1785px;
+  }
+}
+</style>

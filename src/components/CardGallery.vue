@@ -113,7 +113,7 @@ onUnmounted(() => {
       </div>
 
       <!-- Cards grid -->
-      <div class="columns-2 md:columns-3 lg:columns-4 xl:columns-5 gap-4 px-4!">
+      <div class="card-grid columns-2 md:columns-3 lg:columns-4 gap-4 px-4!">
         <CardItem
           class="mb-4!"
           v-for="card in g.cards"
@@ -136,3 +136,11 @@ onUnmounted(() => {
     </div>
   </div>
 </template>
+
+<style>
+@media (min-width: 1904px) {
+  .card-grid {
+    columns: 5;
+  }
+}
+</style>
