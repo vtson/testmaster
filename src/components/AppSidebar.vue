@@ -10,8 +10,8 @@ const props = defineProps<{
   availableTypes: string[]
   availableGroups: string[]
   selectedGroups: string[]
-  availableSets: { label: string; icon?: string }[]
-  selectedSets: string[]
+  availableSets: { id: number; label: string; icon?: string }[]
+  selectedSets: number[]
   availableTeams: { id: number; label: string; icon?: string }[]
   selectedTeams: number[]
   availableHeroClasses: { id: number; label: string; icon?: string; bgColor: string }[]
@@ -30,7 +30,7 @@ const emit = defineEmits<{
   'update:sortByGroup': [value: boolean]
   'update:selectedTypes': [value: string[]]
   'update:selectedGroups': [value: string[]]
-  'update:selectedSets': [value: string[]]
+  'update:selectedSets': [value: number[]]
   'update:selectedTeams': [value: number[]]
   'update:selectedHeroClasses': [value: number[]]
   'update:selectedKeywords': [value: number[]]
@@ -81,13 +81,13 @@ const filteredSets = computed(() => {
   return props.availableSets.filter((s) => s.label.toLowerCase().includes(q))
 })
 
-const toggleSet = (set: string) => {
+const toggleSet = (setId: number) => {
   const current = [...props.selectedSets]
-  const idx = current.indexOf(set)
+  const idx = current.indexOf(setId)
   if (idx >= 0) {
     current.splice(idx, 1)
   } else {
-    current.push(set)
+    current.push(setId)
   }
   emit('update:selectedSets', current)
 }
@@ -478,13 +478,13 @@ onUnmounted(() => document.removeEventListener('click', onClickOutside))
             <div class="flex flex-wrap flex-1 min-w-0 pr-2 gap-1.5 mt-1.5!">
               <template v-if="selectedSets.length > 0">
                 <span
-                  v-for="set in selectedSets"
-                  :key="set"
+                  v-for="setId in selectedSets"
+                  :key="setId"
                   class="inline-flex max-w-[95%] items-center gap-1 px-2.5 py-1 text-[11px] font-semibold bg-amber-100 text-amber-700 rounded-lg border border-amber-200"
                 >
-                  <img v-if="availableSets.find(s => s.label === set)?.icon" :src="availableSets.find(s => s.label === set)?.icon" class="w-7 h-7 shrink-0" />
-                  <span class="truncate">{{ set }}</span>
-                  <button @click.stop="toggleSet(set)" class="hover:text-amber-900 shrink-0 transition-colors ml-0.5 cursor-pointer">
+                  <img v-if="availableSets.find(s => s.id === setId)?.icon" :src="availableSets.find(s => s.id === setId)?.icon" class="w-7 h-7 shrink-0" />
+                  <span class="truncate">{{ availableSets.find(s => s.id === setId)?.label }}</span>
+                  <button @click.stop="toggleSet(setId)" class="hover:text-amber-900 shrink-0 transition-colors ml-0.5 cursor-pointer">
                     <svg xmlns="http://www.w3.org/2000/svg" class="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
                       <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
                     </svg>
@@ -534,10 +534,10 @@ onUnmounted(() => document.removeEventListener('click', onClickOutside))
                 :key="set.label"
                 :class="[
                   'flex items-center gap-3 px-4 py-3 rounded-xl cursor-pointer transition-all duration-150 text-base',
-                  selectedSets.includes(set.label) ? 'bg-amber-50 text-amber-700' : 'hover:bg-gray-50 text-slate-600 hover:text-slate-800'
+                  selectedSets.includes(set.id) ? 'bg-amber-50 text-amber-700' : 'hover:bg-gray-50 text-slate-600 hover:text-slate-800'
                 ]"
               >
-                <input type="checkbox" :checked="selectedSets.includes(set.label)" @change="toggleSet(set.label)" class="w-4 h-4 rounded border-gray-300 text-amber-600 focus:ring-amber-500/30 focus:ring-offset-0 cursor-pointer accent-amber-600" />
+                <input type="checkbox" :checked="selectedSets.includes(set.id)" @change="toggleSet(set.id)" class="w-4 h-4 rounded border-gray-300 text-amber-600 focus:ring-amber-500/30 focus:ring-offset-0 cursor-pointer accent-amber-600" />
                 <img v-if="set.icon" :src="set.icon" class="w-10 h-10 shrink-0" />
                 <span>{{ set.label }}</span>
               </label>

@@ -15,7 +15,7 @@ const sortAsc = ref(true)
 const sortByGroup = ref(true)
 const selectedTypes = ref<string[]>(['Hero'])
 const selectedGroups = ref<string[]>([])
-const selectedSets = ref<string[]>([])
+const selectedSets = ref<number[]>([])
 const selectedTeams = ref<number[]>([])
 const selectedHeroClasses = ref<number[]>([])
 const selectedKeywords = ref<number[]>([])
@@ -25,7 +25,7 @@ const sidebarOpen = ref(false)
 
 // Available options
 const availableTypes = computed(() => getCategories())
-const availableGroups = computed(() => selectedTypes.value.length ? getGroups(selectedTypes.value) : [])
+const availableGroups = computed(() => selectedTypes.value.length ? getGroups(selectedTypes.value, selectedSets.value) : [])
 const availableSets = computed(() => getSets())
 const availableTeams = computed(() => {
   // Only show teams when a hero-related type is selected
