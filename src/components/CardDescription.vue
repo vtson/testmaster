@@ -10,6 +10,7 @@ import { getIconUrl } from '@/services/iconMap'
 defineProps<{
   description: any[]
   compact?: boolean
+  textColor?: 'light' | 'dark'
 }>()
 
 const { Metadata } = MSData
@@ -123,13 +124,13 @@ function renderDescription(desc: any[]): { lines: string[], bullets: string[] } 
 <template>
   <div v-if="description && description.length > 0" :class="compact ? 'text-[11px]' : 'text-sm'">
     <template v-for="(item, i) in renderDescription(description).lines" :key="'l'+i">
-      <p v-if="item" class="text-slate-600 leading-relaxed" :class="compact ? 'mb-0.5' : 'mb-1'" v-html="item"></p>
+      <p v-if="item" :class="['leading-relaxed', compact ? 'mb-0.5' : 'mb-1', textColor === 'light' ? 'text-slate-200' : 'text-slate-600']" v-html="item"></p>
     </template>
-    <ul v-if="renderDescription(description).bullets.length > 0" :class="compact ? 'mt-0.5 space-y-0.5' : 'mt-1.5 space-y-1'" class="list-disc pl-4">
+    <ul v-if="renderDescription(description).bullets.length > 0" :class="[compact ? 'mt-0.5 space-y-0.5' : 'mt-1.5 space-y-1', 'list-disc pl-4']">
       <li
         v-for="(bullet, j) in renderDescription(description).bullets"
         :key="'b'+j"
-        class="text-slate-600 leading-relaxed"
+        :class="['leading-relaxed', textColor === 'light' ? 'text-slate-200' : 'text-slate-600']"
         v-html="bullet"
       ></li>
     </ul>

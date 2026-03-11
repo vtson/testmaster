@@ -66,6 +66,32 @@ const getHeroClassIds = (card: Card): { hc1: number; hc2?: number } | null => {
   return null
 }
 
+const getContrastTextColor = (hexColor: string) => {
+  if (!hexColor) return 'text-slate-800'
+  const hex = hexColor.replace('#', '')
+  const r = parseInt(hex.substring(0, 2), 16)
+  const g = parseInt(hex.substring(2, 4), 16)
+  const b = parseInt(hex.substring(4, 6), 16)
+  const yiq = ((r * 299) + (g * 587) + (b * 114)) / 1000
+  return (yiq >= 128) ? 'text-slate-800' : 'text-white'
+}
+
+const getCardTextClass = (card: Card) => {
+  const hcIds = getHeroClassIds(card)
+  if (!hcIds) return 'text-slate-800'
+  
+  const color1 = hcColors[hcIds.hc1] || '#ffffff'
+  return getContrastTextColor(color1)
+}
+
+const getCardSubtitleClass = (card: Card) => {
+  const hcIds = getHeroClassIds(card)
+  if (!hcIds) return 'text-slate-400'
+  
+  const color1 = hcColors[hcIds.hc1] || '#ffffff'
+  return getContrastTextColor(color1) === 'text-white' ? 'text-slate-200' : 'text-slate-500'
+}
+
 const getCardStyle = (card: Card) => {
   const hcIds = getHeroClassIds(card)
   if (!hcIds) return {}
@@ -111,48 +137,48 @@ const getCardClasses = (card: Card) => {
     >
       <!-- Type badge -->
       <div class="flex items-center justify-between mb-2.5">
-        <span :class="['text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-md border', getTypeColor(card.type)]">
+        <span :class="['text-[10px] font-bold uppercase tracking-wider px-2! py-0.5! rounded-md border', getTypeColor(card.type)]">
           {{ card.type }}
         </span>
-        <span v-if="(card.details as any).cost" class="text-xs font-bold text-blue-600 bg-blue-50 px-2 py-0.5 rounded-md">
+        <span v-if="(card.details as any).cost" class="text-xs font-bold text-blue-600 bg-blue-50 px-2! py-0.5! rounded-md">
           💎 {{ (card.details as any).cost }}
         </span>
       </div>
 
       <!-- Card name & subtitle -->
-      <h4 class="text-sm font-bold text-slate-800 leading-snug group-hover:text-blue-600 transition-colors">{{ card.name }}</h4>
-      <p v-if="card.subtitle" class="text-xs text-slate-400 mt-0.5 truncate">{{ card.subtitle }}</p>
+      <h4 :class="['text-sm font-bold leading-snug transition-colors', getCardTextClass(card), getCardTextClass(card) === 'text-white' ? 'group-hover:text-blue-200' : 'group-hover:text-blue-600']">{{ card.name }}</h4>
+      <p v-if="card.subtitle" :class="['text-xs mt-0.5 truncate', getCardSubtitleClass(card)]">{{ card.subtitle }}</p>
 
       <!-- Group & Set -->
       <div class="flex items-center gap-1.5 mt-2">
         <span class="inline-block w-1.5 h-1.5 rounded-full bg-blue-500"></span>
-        <p class="text-[11px] text-slate-500 truncate">{{ card.group }}</p>
-        <span class="text-slate-300 text-[11px]">·</span>
-        <p class="text-[11px] text-slate-400 truncate">{{ card.set }}</p>
+        <p :class="['text-[11px] truncate', getCardTextClass(card) === 'text-white' ? 'text-slate-200' : 'text-slate-500']">{{ card.group }}</p>
+        <span :class="['text-[11px]', getCardTextClass(card) === 'text-white' ? 'text-slate-100' : 'text-slate-300']">·</span>
+        <p :class="['text-[11px] font-medium truncate', getCardTextClass(card) === 'text-white' ? 'text-slate-100' : 'text-slate-600']">{{ card.set }}</p>
       </div>
 
       <!-- Stats row (normal cards) -->
       <div v-if="!(card.details as any).half1" class="flex items-center gap-1.5 mt-2.5 flex-wrap">
-        <span v-if="(card.details as any).attack" class="inline-flex items-center px-1.5 py-0.5 rounded-md text-[10px] font-bold bg-red-50 text-red-600 border border-red-100">
+        <span v-if="(card.details as any).attack" class="inline-flex items-center px-1.5! py-0.5! rounded-md text-[10px] font-bold bg-red-50 text-red-600 border border-red-100">
           ⚔️ {{ (card.details as any).attack }}
         </span>
-        <span v-if="(card.details as any).vAttack" class="inline-flex items-center px-1.5 py-0.5 rounded-md text-[10px] font-bold bg-red-50 text-red-600 border border-red-100">
+        <span v-if="(card.details as any).vAttack" class="inline-flex items-center px-1.5! py-0.5! rounded-md text-[10px] font-bold bg-red-50 text-red-600 border border-red-100">
           ⚔️ {{ (card.details as any).vAttack }}
         </span>
-        <span v-if="(card.details as any).recruit" class="inline-flex items-center px-1.5 py-0.5 rounded-md text-[10px] font-bold bg-emerald-50 text-emerald-600 border border-emerald-100">
+        <span v-if="(card.details as any).recruit" class="inline-flex items-center px-1.5! py-0.5! rounded-md text-[10px] font-bold bg-emerald-50 text-emerald-600 border border-emerald-100">
           ⭐ {{ (card.details as any).recruit }}
         </span>
-        <span v-if="(card.details as any).vp" class="inline-flex items-center px-1.5 py-0.5 rounded-md text-[10px] font-bold bg-amber-50 text-amber-600 border border-amber-100">
+        <span v-if="(card.details as any).vp" class="inline-flex items-center px-1.5! py-0.5! rounded-md text-[10px] font-bold bg-amber-50 text-amber-600 border border-amber-100">
           🏆 {{ (card.details as any).vp }}
         </span>
-        <span v-if="(card.details as any).hc" class="inline-flex items-center px-1.5 py-0.5 rounded-md text-[10px] font-bold bg-indigo-50 text-indigo-600 border border-indigo-100">
+        <span v-if="(card.details as any).hc" class="inline-flex items-center px-1.5! py-0.5! rounded-md text-[10px] font-bold bg-indigo-50 text-indigo-600 border border-indigo-100">
           HC {{ (card.details as any).hc }}
         </span>
       </div>
 
       <!-- Description (normal cards) -->
       <div v-if="!(card.details as any).half1 && card.details.description && card.details.description.length > 0" class="mt-2.5 pt-2">
-        <CardDescription :description="card.details.description" :compact="true" />
+        <CardDescription :description="card.details.description" :compact="true" :textColor="getCardTextClass(card) === 'text-white' ? 'light' : 'dark'" />
       </div>
 
       <!-- Divided Card halves -->
@@ -160,34 +186,34 @@ const getCardClasses = (card: Card) => {
         <!-- Half 1 -->
         <div class="p-1.5 rounded-lg bg-white/40 border border-white/60 p-5! my-2!">
           <div class="flex items-center gap-1">
-            <span class="text-[10px] font-bold text-slate-600">{{ (card.details as any).nameHalf1 }}</span>
+            <span :class="['text-[10px] font-bold', getCardTextClass(card) === 'text-white' ? 'text-slate-800' : 'text-slate-600']">{{ (card.details as any).nameHalf1 }}</span>
             <span v-if="(card.details as any).half1.attack" class="text-[9px] font-bold text-red-600">⚔️{{ (card.details as any).half1.attack }}</span>
             <span v-if="(card.details as any).half1.recruit" class="text-[9px] font-bold text-emerald-600">⭐{{ (card.details as any).half1.recruit }}</span>
           </div>
           <div v-if="(card.details as any).half1.description && (card.details as any).half1.description.length > 0" class="mt-0.5">
-            <CardDescription :description="(card.details as any).half1.description" :compact="true" />
+            <CardDescription :description="(card.details as any).half1.description" :compact="true" :textColor="getCardTextClass(card) === 'text-white' ? 'light' : 'dark'" />
           </div>
         </div>
         <!-- Half 2 -->
         <div class="p-1.5 rounded-lg bg-white/40 border border-white/60 p-5! my-2!">
           <div class="flex items-center gap-1">
-            <span class="text-[10px] font-bold text-slate-600">{{ (card.details as any).nameHalf2 }}</span>
+            <span :class="['text-[10px] font-bold', getCardTextClass(card) === 'text-white' ? 'text-slate-800' : 'text-slate-600']">{{ (card.details as any).nameHalf2 }}</span>
             <span v-if="(card.details as any).half2.attack" class="text-[9px] font-bold text-red-600">⚔️{{ (card.details as any).half2.attack }}</span>
             <span v-if="(card.details as any).half2.recruit" class="text-[9px] font-bold text-emerald-600">⭐{{ (card.details as any).half2.recruit }}</span>
           </div>
           <div v-if="(card.details as any).half2.description && (card.details as any).half2.description.length > 0" class="mt-0.5">
-            <CardDescription :description="(card.details as any).half2.description" :compact="true" />
+            <CardDescription :description="(card.details as any).half2.description" :compact="true" :textColor="getCardTextClass(card) === 'text-white' ? 'light' : 'dark'" />
           </div>
         </div>
       </div>
 
       <!-- Click hint -->
       <div class="mt-3 pt-2.5 flex items-center justify-center gap-1 opacity-0 group-hover:opacity-100 transition-opacity duration-200">
-        <svg xmlns="http://www.w3.org/2000/svg" class="w-3 h-3 text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+        <svg xmlns="http://www.w3.org/2000/svg" :class="['w-3 h-3', getCardTextClass(card) === 'text-white' ? 'text-blue-200' : 'text-blue-400']" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
           <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
           <path stroke-linecap="round" stroke-linejoin="round" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
         </svg>
-        <span class="text-[10px] text-blue-400 font-medium">Click to view</span>
+        <span :class="['text-[10px] font-medium', getCardTextClass(card) === 'text-white' ? 'text-blue-200' : 'text-blue-400']">Click to view</span>
       </div>
     </div>
   </div>

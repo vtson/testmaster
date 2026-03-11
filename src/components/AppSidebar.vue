@@ -354,7 +354,7 @@ onUnmounted(() => document.removeEventListener('click', onClickOutside))
                 <span
                   v-for="group in selectedGroups"
                   :key="group"
-                  class="inline-flex max-w-[95%] items-center gap-1 px-2.5 py-1 text-[11px] font-semibold bg-blue-100 text-blue-700 rounded-lg border border-blue-200"
+                  class="inline-flex max-w-[95%] items-center gap-1! px-2.5! py-1! text-[11px] font-semibold bg-blue-100 text-blue-700 rounded-lg border border-blue-200"
                 >
                   <span class="truncate">{{ group }}</span>
                   <button @click.stop="toggleGroup(group)" class="hover:text-blue-900 shrink-0 transition-colors ml-0.5 cursor-pointer">
@@ -463,7 +463,7 @@ onUnmounted(() => document.removeEventListener('click', onClickOutside))
                 <span
                   v-for="setId in selectedSets"
                   :key="setId"
-                  class="inline-flex max-w-[95%] items-center gap-1 px-2.5 py-1 text-[11px] font-semibold bg-amber-100 text-amber-700 rounded-lg border border-amber-200"
+                  class="inline-flex max-w-[95%] items-center gap-1! px-2.5! py-1! text-[11px] font-semibold bg-amber-100 text-amber-700 rounded-lg border border-amber-200"
                 >
                   <img v-if="availableSets.find(s => s.id === setId)?.icon" :src="availableSets.find(s => s.id === setId)?.icon" class="w-7 h-7 shrink-0" />
                   <span class="truncate">{{ availableSets.find(s => s.id === setId)?.label }}</span>
@@ -549,7 +549,7 @@ onUnmounted(() => document.removeEventListener('click', onClickOutside))
                   <span
                     v-for="id in selectedTeams"
                     :key="id"
-                    class="inline-flex max-w-[95%] items-center gap-1 px-2.5 py-1 text-[11px] font-semibold bg-teal-100 text-teal-700 rounded-lg border border-teal-200"
+                    class="inline-flex max-w-[95%] items-center gap-1 px-2.5! py-1! text-[11px] font-semibold bg-teal-100 text-teal-700 rounded-lg border border-teal-200"
                   >
                     <img v-if="availableTeams.find(t => t.id === id)?.icon" :src="availableTeams.find(t => t.id === id)?.icon" class="w-7 h-7 shrink-0" />
                     <span class="truncate">{{ availableTeams.find(t => t.id === id)?.label }}</span>
@@ -635,7 +635,7 @@ onUnmounted(() => document.removeEventListener('click', onClickOutside))
                 <span
                   v-for="id in selectedHeroClasses"
                   :key="id"
-                  class="inline-flex max-w-[95%] items-center gap-1 px-2.5 py-1 text-[11px] font-semibold bg-violet-100 text-violet-700 rounded-lg border border-violet-200"
+                  class="inline-flex max-w-[95%] items-center gap-1! px-2.5! py-1! text-[11px] font-semibold bg-violet-100 text-violet-700 rounded-lg border border-violet-200"
                 >
                   <img v-if="availableHeroClasses.find(hc => hc.id === id)?.icon" :src="availableHeroClasses.find(hc => hc.id === id)?.icon" class="w-7 h-7 shrink-0" />
                   <span class="truncate">{{ availableHeroClasses.find(hc => hc.id === id)?.label }}</span>
@@ -720,7 +720,7 @@ onUnmounted(() => document.removeEventListener('click', onClickOutside))
                 <span
                   v-for="id in selectedKeywords"
                   :key="id"
-                  class="inline-flex max-w-[95%] items-center gap-1 px-2.5 py-1 text-[11px] font-semibold bg-sky-100 text-sky-700 rounded-lg border border-sky-200"
+                  class="inline-flex max-w-[95%] items-center gap-1 px-2.5! py-1! text-[11px] font-semibold bg-sky-100 text-sky-700 rounded-lg border border-sky-200"
                 >
                   <span class="truncate">{{ availableKeywords.find(k => k.id === id)?.label }}</span>
                   <button @click.stop="toggleKeyword(id)" class="hover:text-sky-900 shrink-0 transition-colors ml-0.5 cursor-pointer">
@@ -803,7 +803,7 @@ onUnmounted(() => document.removeEventListener('click', onClickOutside))
                 <span
                   v-for="id in selectedRules"
                   :key="id"
-                  class="inline-flex max-w-[95%] items-center gap-1 px-2.5 py-1 text-[11px] font-semibold bg-rose-100 text-rose-700 rounded-lg border border-rose-200"
+                  class="inline-flex max-w-[95%] items-center gap-1 px-2.5! py-1! text-[11px] font-semibold bg-rose-100 text-rose-700 rounded-lg border border-rose-200"
                 >
                   <span class="truncate">{{ availableRules.find(r => r.id === id)?.label }}</span>
                   <button @click.stop="toggleRule(id)" class="hover:text-rose-900 shrink-0 transition-colors ml-0.5 cursor-pointer">

@@ -2,6 +2,7 @@
 import type { Card } from '../types/card'
 import CardDescription from './CardDescription.vue'
 import { ref, watch } from 'vue'
+import * as MSData from '@/lib/master-strike-data/dist'
 
 const props = defineProps<{
   card: Card | null
@@ -34,13 +35,28 @@ const closeOnBackdrop = (e: MouseEvent) => {
   }
 }
 
-// Hero class colors (same as CardItem.vue)
-const hcColors: Record<number, string> = {
-  1: '#ffe0e0', // Covert → pink
-  2: '#fff8cc', // Instinct → yellow
-  3: '#d6e4f7', // Ranged → blue
-  4: '#d4f0e0', // Strength → green
-  5: '#d8d8d8', // Tech → gray
+// Hero class ID → background color (from heroClasses.js)
+const hcColors: Record<number, string> = {}
+for (const hc of MSData.Metadata.heroClassesArray) {
+  hcColors[hc.id] = hc.bgColor
+}
+
+const getContrastTextColor = (hexColor: string) => {
+  if (!hexColor) return 'text-slate-800'
+  const hex = hexColor.replace('#', '')
+  const r = parseInt(hex.substring(0, 2), 16)
+  const g = parseInt(hex.substring(2, 4), 16)
+  const b = parseInt(hex.substring(4, 6), 16)
+  const yiq = ((r * 299) + (g * 587) + (b * 114)) / 1000
+  return (yiq >= 128) ? 'text-slate-800' : 'text-white'
+}
+
+const getCardTextClass = (card: Card) => {
+  const hcIds = getHeroClassIds(card)
+  if (!hcIds) return 'text-slate-800'
+  
+  const color1 = hcColors[hcIds.hc1] || '#ffffff'
+  return getContrastTextColor(color1)
 }
 
 const getHeroClassIds = (card: Card): { hc1: number; hc2?: number } | null => {
@@ -113,64 +129,64 @@ const getModalStyle = (card: Card) => {
 
           <!-- Card details -->
           <div class="p-5!">
-            <h2 class="text-xl font-bold text-slate-800">{{ card.name }}</h2>
-            <p v-if="card.subtitle" class="text-sm text-slate-500 mt-0.5">{{ card.subtitle }}</p>
+            <h2 :class="['text-xl font-bold', getCardTextClass(card)]">{{ card.name }}</h2>
+            <p v-if="card.subtitle" :class="['text-sm mt-0.5', getCardTextClass(card) === 'text-white' ? 'text-slate-200' : 'text-slate-500']">{{ card.subtitle }}</p>
 
-            <div class="flex flex-wrap items-center gap-2 mt-3">
-              <span class="text-xs font-bold text-blue-600 bg-blue-50 px-2.5 py-1 rounded-lg border border-blue-100">
+            <div class="flex flex-wrap items-center gap-2! mt-3!">
+              <span class="text-xs font-bold text-blue-600 bg-blue-50 px-2.5! py-1! rounded-lg border border-blue-100">
                 {{ card.type }}
               </span>
-              <span class="text-xs text-slate-500 bg-white/60 px-2.5 py-1 rounded-lg border border-white/80">
+              <span :class="['text-xs px-2.5! py-1! rounded-lg border border-white/80 bg-white/60', getCardTextClass(card) === 'text-white' ? 'text-slate-800 font-medium' : 'text-slate-500']">
                 {{ card.group }}
               </span>
-              <span class="text-xs text-slate-400 bg-white/60 px-2.5 py-1 rounded-lg border border-white/80">
+              <span :class="['text-xs px-2.5! py-1! rounded-lg border border-white/80 bg-white/60', getCardTextClass(card) === 'text-white' ? 'text-slate-800 font-medium' : 'text-slate-400']">
                 {{ card.set }}
               </span>
             </div>
 
             <!-- Stats (normal cards) -->
-            <div v-if="!(card.details as any).half1" class="flex flex-wrap gap-2 mt-3">
-              <span v-if="(card.details as any).cost" class="text-xs font-bold bg-blue-50 text-blue-700 px-2.5 py-1 rounded-lg border border-blue-100">
+            <div v-if="!(card.details as any).half1" class="flex flex-wrap gap-2! mt-3!">
+              <span v-if="(card.details as any).cost" class="text-xs font-bold bg-blue-50 text-blue-700 px-2.5! py-1! rounded-lg border border-blue-100">
                 💎 Cost: {{ (card.details as any).cost }}
               </span>
-              <span v-if="(card.details as any).attack" class="text-xs font-bold bg-red-50 text-red-700 px-2.5 py-1 rounded-lg border border-red-100">
+              <span v-if="(card.details as any).attack" class="text-xs font-bold bg-red-50 text-red-700 px-2.5! py-1! rounded-lg border border-red-100">
                 ⚔️ Attack: {{ (card.details as any).attack }}
               </span>
-              <span v-if="(card.details as any).vAttack" class="text-xs font-bold bg-red-50 text-red-700 px-2.5 py-1 rounded-lg border border-red-100">
+              <span v-if="(card.details as any).vAttack" class="text-xs font-bold bg-red-50 text-red-700 px-2.5! py-1! rounded-lg border border-red-100">
                 ⚔️ Attack: {{ (card.details as any).vAttack }}
               </span>
-              <span v-if="(card.details as any).recruit" class="text-xs font-bold bg-emerald-50 text-emerald-700 px-2.5 py-1 rounded-lg border border-emerald-100">
+              <span v-if="(card.details as any).recruit" class="text-xs font-bold bg-emerald-50 text-emerald-700 px-2.5! py-1! rounded-lg border border-emerald-100">
                 ⭐ Recruit: {{ (card.details as any).recruit }}
               </span>
-              <span v-if="(card.details as any).vp" class="text-xs font-bold bg-amber-50 text-amber-700 px-2.5 py-1 rounded-lg border border-amber-100">
+              <span v-if="(card.details as any).vp" class="text-xs font-bold bg-amber-50 text-amber-700 px-2.5! py-1! rounded-lg border border-amber-100">
                 🏆 VP: {{ (card.details as any).vp }}
               </span>
             </div>
 
             <!-- Description (normal cards) -->
             <div v-if="!(card.details as any).half1 && card.details.description && card.details.description.length > 0" class="mt-4 pt-3">
-              <h3 class="text-xs font-semibold text-slate-500 uppercase tracking-wider mb-2">Description</h3>
-              <CardDescription :description="card.details.description" />
+              <h3 :class="['text-xs font-semibold uppercase tracking-wider mb-2', getCardTextClass(card) === 'text-white' ? 'text-slate-300' : 'text-slate-500']">Description</h3>
+              <CardDescription :description="card.details.description" :textColor="getCardTextClass(card) === 'text-white' ? 'light' : 'dark'" />
             </div>
 
             <!-- Divided Card: show both halves -->
             <div v-if="(card.details as any).half1" class="mt-4 space-y-3">
               <!-- Half 1 -->
               <div class="p-3 rounded-xl bg-white/50 border border-white/70 p-5! my-2!">
-                <h3 class="text-sm font-bold text-slate-700">{{ (card.details as any).nameHalf1 }}</h3>
+                <h3 :class="['text-sm font-bold', getCardTextClass(card) === 'text-white' ? 'text-slate-800' : 'text-slate-700']">{{ (card.details as any).nameHalf1 }}</h3>
                 <div class="flex flex-wrap gap-1.5 mt-2">
-                  <span v-if="(card.details as any).half1.cost" class="text-[10px] font-bold bg-blue-50 text-blue-700 px-2 py-0.5 rounded-md border border-blue-200">
+                  <span v-if="(card.details as any).half1.cost" class="text-[10px] font-bold bg-blue-50 text-blue-700 px-2! py-0.5! rounded-md border border-blue-200">
                     💎 {{ (card.details as any).half1.cost }}
                   </span>
-                  <span v-if="(card.details as any).half1.attack" class="text-[10px] font-bold bg-red-50 text-red-700 px-2 py-0.5 rounded-md border border-red-200">
+                  <span v-if="(card.details as any).half1.attack" class="text-[10px] font-bold bg-red-50 text-red-700 px-2! py-0.5! rounded-md border border-red-200">
                     ⚔️ {{ (card.details as any).half1.attack }}
                   </span>
-                  <span v-if="(card.details as any).half1.recruit" class="text-[10px] font-bold bg-emerald-50 text-emerald-700 px-2 py-0.5 rounded-md border border-emerald-200">
+                  <span v-if="(card.details as any).half1.recruit" class="text-[10px] font-bold bg-emerald-50 text-emerald-700 px-2! py-0.5! rounded-md border border-emerald-200">
                     ⭐ {{ (card.details as any).half1.recruit }}
                   </span>
                 </div>
                 <div v-if="(card.details as any).half1.description && (card.details as any).half1.description.length > 0" class="mt-2">
-                  <CardDescription :description="(card.details as any).half1.description" :compact="true" />
+                  <CardDescription :description="(card.details as any).half1.description" :compact="true" :textColor="'dark'" />
                 </div>
               </div>
 
@@ -183,20 +199,20 @@ const getModalStyle = (card: Card) => {
 
               <!-- Half 2 -->
               <div class="p-3 rounded-xl bg-white/50 border border-white/70 p-5! my-2!">
-                <h3 class="text-sm font-bold text-slate-700">{{ (card.details as any).nameHalf2 }}</h3>
+                <h3 :class="['text-sm font-bold', getCardTextClass(card) === 'text-white' ? 'text-slate-800' : 'text-slate-700']">{{ (card.details as any).nameHalf2 }}</h3>
                 <div class="flex flex-wrap gap-1.5 mt-2">
-                  <span v-if="(card.details as any).half2.cost" class="text-[10px] font-bold bg-blue-50 text-blue-700 px-2 py-0.5 rounded-md border border-blue-200">
+                  <span v-if="(card.details as any).half2.cost" class="text-[10px] font-bold bg-blue-50 text-blue-700 px-2! py-0.5! rounded-md border border-blue-200">
                     💎 {{ (card.details as any).half2.cost }}
                   </span>
-                  <span v-if="(card.details as any).half2.attack" class="text-[10px] font-bold bg-red-50 text-red-700 px-2 py-0.5 rounded-md border border-red-200">
+                  <span v-if="(card.details as any).half2.attack" class="text-[10px] font-bold bg-red-50 text-red-700 px-2! py-0.5! rounded-md border border-red-200">
                     ⚔️ {{ (card.details as any).half2.attack }}
                   </span>
-                  <span v-if="(card.details as any).half2.recruit" class="text-[10px] font-bold bg-emerald-50 text-emerald-700 px-2 py-0.5 rounded-md border border-emerald-200">
+                  <span v-if="(card.details as any).half2.recruit" class="text-[10px] font-bold bg-emerald-50 text-emerald-700 px-2! py-0.5! rounded-md border border-emerald-200">
                     ⭐ {{ (card.details as any).half2.recruit }}
                   </span>
                 </div>
                 <div v-if="(card.details as any).half2.description && (card.details as any).half2.description.length > 0" class="mt-2">
-                  <CardDescription :description="(card.details as any).half2.description" :compact="true" />
+                  <CardDescription :description="(card.details as any).half2.description" :compact="true" :textColor="'dark'" />
                 </div>
               </div>
             </div>
