@@ -164,7 +164,7 @@ const getModalStyle = (card: Card) => {
             </div>
 
             <!-- Description (normal cards) -->
-            <div v-if="!(card.details as any).half1 && card.details.description && card.details.description.length > 0" class="mt-4 pt-3">
+            <div v-if="!(card.details as any).half1 && card.details.description && card.details.description.length > 0" class="mt-2! pt-3!">
               <h3 :class="['text-xs font-semibold uppercase tracking-wider mb-2', getCardTextClass(card) === 'text-white' ? 'text-slate-300' : 'text-slate-500']">Description</h3>
               <CardDescription :description="card.details.description" :textColor="getCardTextClass(card) === 'text-white' ? 'light' : 'dark'" />
             </div>
