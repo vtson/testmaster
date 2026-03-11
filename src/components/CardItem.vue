@@ -25,9 +25,69 @@ const getTypeColor = (type: string) => {
   return colors[type] || 'bg-gray-100 text-gray-600 border-gray-200'
 }
 
-const getCardBg = (type: string) => {
+// Hero class ID → background color (soft pastel versions)
+const hcColors: Record<number, string> = {
+  1: '#ffe0e0', // Covert → pink
+  2: '#fff8cc', // Instinct → light yellow
+  3: '#d6e4f7', // Ranged → light blue
+  4: '#d4f0e0', // Strength → light green
+  5: '#d8d8d8', // Tech → gray
+}
+
+// Hero class ID → ring/hover color classes
+const hcRingClasses: Record<number, string> = {
+  1: 'ring-pink-200/60 hover:ring-pink-400/50',
+  2: 'ring-yellow-200/60 hover:ring-yellow-400/50',
+  3: 'ring-blue-200/60 hover:ring-blue-400/50',
+  4: 'ring-green-200/60 hover:ring-green-400/50',
+  5: 'ring-gray-300/60 hover:ring-gray-400/50',
+}
+
+// Extract hero class IDs from card (handles normal and divided cards)
+const getHeroClassIds = (card: Card): { hc1: number; hc2?: number } | null => {
+  const d = card.details as any
+  if (card.type !== 'Hero') return null
+
+  // Normal card: hc directly on details
+  if (typeof d.hc === 'number' && d.hc > 0) {
+    return { hc1: d.hc, hc2: typeof d.hc2 === 'number' && d.hc2 > 0 ? d.hc2 : undefined }
+  }
+
+  // Divided card: get hc from half1 and half2
+  if (d.half1 || d.half2) {
+    const h1 = typeof d.half1?.hc === 'number' ? d.half1.hc : 0
+    const h2 = typeof d.half2?.hc === 'number' ? d.half2.hc : 0
+    if (h1 > 0) {
+      return { hc1: h1, hc2: h2 > 0 && h2 !== h1 ? h2 : undefined }
+    }
+    if (h2 > 0) {
+      return { hc1: h2 }
+    }
+  }
+
+  return null
+}
+
+const getCardStyle = (card: Card) => {
+  const hcIds = getHeroClassIds(card)
+  if (!hcIds) return {}
+
+  const color1 = hcColors[hcIds.hc1] || '#ffffff'
+  if (hcIds.hc2 && hcColors[hcIds.hc2]) {
+    const color2 = hcColors[hcIds.hc2]
+    return { background: `linear-gradient(135deg, ${color1} 0%, ${color2} 100%)` }
+  }
+  return { backgroundColor: color1 }
+}
+
+const getCardClasses = (card: Card) => {
+  const hcIds = getHeroClassIds(card)
+  if (hcIds) {
+    const ringCls = hcRingClasses[hcIds.hc1] || 'ring-black/5 hover:ring-blue-400/40'
+    return ringCls
+  }
+  // Non-hero cards: use type-based bg
   const bgs: Record<string, string> = {
-    'Hero': 'bg-blue-50/80 ring-blue-200/50 hover:ring-blue-400/40',
     'Villain': 'bg-red-50/80 ring-red-200/50 hover:ring-red-400/40',
     'Mastermind': 'bg-purple-50/80 ring-purple-200/50 hover:ring-purple-400/40',
     'Mastermind Tactic': 'bg-purple-50/60 ring-purple-200/50 hover:ring-purple-400/40',
@@ -37,7 +97,7 @@ const getCardBg = (type: string) => {
     'Sidekick': 'bg-cyan-50/80 ring-cyan-200/50 hover:ring-cyan-400/40',
     'Wound': 'bg-stone-100/80 ring-stone-200/50 hover:ring-stone-400/40',
   }
-  return bgs[type] || 'bg-white ring-black/5 hover:ring-blue-400/40'
+  return bgs[card.type] || 'bg-white ring-black/5 hover:ring-blue-400/40'
 }
 
 </script>
@@ -47,7 +107,10 @@ const getCardBg = (type: string) => {
     @click="$emit('select', card)"
     class="break-inside-avoid mb-4! group cursor-pointer"
   >
-    <div :class="['relative rounded-2xl overflow-hidden shadow-sm hover:shadow-lg ring-1 transition-all duration-300 hover:-translate-y-0.5 p-4!', getCardBg(card.type)]">
+    <div
+      :class="['relative rounded-2xl overflow-hidden shadow-sm hover:shadow-lg ring-1 transition-all duration-300 hover:-translate-y-0.5 p-4!', getCardClasses(card)]"
+      :style="getCardStyle(card)"
+    >
       <!-- Type badge -->
       <div class="flex items-center justify-between mb-2.5">
         <span :class="['text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-md border', getTypeColor(card.type)]">
@@ -90,14 +153,14 @@ const getCardBg = (type: string) => {
       </div>
 
       <!-- Description (normal cards) -->
-      <div v-if="!(card.details as any).half1 && card.details.description && card.details.description.length > 0" class="mt-2.5 pt-2 border-t border-gray-100">
+      <div v-if="!(card.details as any).half1 && card.details.description && card.details.description.length > 0" class="mt-2.5 pt-2">
         <CardDescription :description="card.details.description" :compact="true" />
       </div>
 
       <!-- Divided Card halves -->
-      <div v-if="(card.details as any).half1" class="mt-2.5 pt-2 border-t border-gray-100 space-y-1.5">
+      <div v-if="(card.details as any).half1" class="mt-2.5 pt-2 space-y-1.5">
         <!-- Half 1 -->
-        <div class="p-1.5 rounded-lg bg-blue-50/60 border border-blue-100 p-5! my-2!">
+        <div class="p-1.5 rounded-lg bg-white/40 border border-white/60 p-5! my-2!">
           <div class="flex items-center gap-1">
             <span class="text-[10px] font-bold text-slate-600">{{ (card.details as any).nameHalf1 }}</span>
             <span v-if="(card.details as any).half1.attack" class="text-[9px] font-bold text-red-600">⚔️{{ (card.details as any).half1.attack }}</span>
@@ -108,7 +171,7 @@ const getCardBg = (type: string) => {
           </div>
         </div>
         <!-- Half 2 -->
-        <div class="p-1.5 rounded-lg bg-amber-50/60 border border-amber-100 p-5! my-2!">
+        <div class="p-1.5 rounded-lg bg-white/40 border border-white/60 p-5! my-2!">
           <div class="flex items-center gap-1">
             <span class="text-[10px] font-bold text-slate-600">{{ (card.details as any).nameHalf2 }}</span>
             <span v-if="(card.details as any).half2.attack" class="text-[9px] font-bold text-red-600">⚔️{{ (card.details as any).half2.attack }}</span>
@@ -121,7 +184,7 @@ const getCardBg = (type: string) => {
       </div>
 
       <!-- Click hint -->
-      <div class="mt-3 pt-2.5 border-t border-gray-100 flex items-center justify-center gap-1 opacity-0 group-hover:opacity-100 transition-opacity duration-200">
+      <div class="mt-3 pt-2.5 flex items-center justify-center gap-1 opacity-0 group-hover:opacity-100 transition-opacity duration-200">
         <svg xmlns="http://www.w3.org/2000/svg" class="w-3 h-3 text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
           <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
           <path stroke-linecap="round" stroke-linejoin="round" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />

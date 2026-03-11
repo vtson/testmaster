@@ -1,9 +1,9 @@
 <script setup lang="ts">
 import type { Card } from '../types/card'
 import CardDescription from './CardDescription.vue'
-import { ref } from 'vue'
+import { ref, watch } from 'vue'
 
-defineProps<{
+const props = defineProps<{
   card: Card | null
 }>()
 
@@ -13,6 +13,12 @@ const emit = defineEmits<{
 
 const imageLoaded = ref(false)
 const imageError = ref(false)
+
+// Reset image state when card changes
+watch(() => props.card, () => {
+  imageLoaded.value = false
+  imageError.value = false
+})
 
 const onImageLoad = () => {
   imageLoaded.value = true
@@ -27,6 +33,41 @@ const closeOnBackdrop = (e: MouseEvent) => {
     emit('close')
   }
 }
+
+// Hero class colors (same as CardItem.vue)
+const hcColors: Record<number, string> = {
+  1: '#ffe0e0', // Covert → pink
+  2: '#fff8cc', // Instinct → yellow
+  3: '#d6e4f7', // Ranged → blue
+  4: '#d4f0e0', // Strength → green
+  5: '#d8d8d8', // Tech → gray
+}
+
+const getHeroClassIds = (card: Card): { hc1: number; hc2?: number } | null => {
+  const d = card.details as any
+  if (card.type !== 'Hero') return null
+  if (typeof d.hc === 'number' && d.hc > 0) {
+    return { hc1: d.hc, hc2: typeof d.hc2 === 'number' && d.hc2 > 0 ? d.hc2 : undefined }
+  }
+  if (d.half1 || d.half2) {
+    const h1 = typeof d.half1?.hc === 'number' ? d.half1.hc : 0
+    const h2 = typeof d.half2?.hc === 'number' ? d.half2.hc : 0
+    if (h1 > 0) return { hc1: h1, hc2: h2 > 0 && h2 !== h1 ? h2 : undefined }
+    if (h2 > 0) return { hc1: h2 }
+  }
+  return null
+}
+
+const getModalStyle = (card: Card) => {
+  const hcIds = getHeroClassIds(card)
+  if (!hcIds) return {}
+  const color1 = hcColors[hcIds.hc1] || '#ffffff'
+  if (hcIds.hc2 && hcColors[hcIds.hc2]) {
+    const color2 = hcColors[hcIds.hc2]
+    return { background: `linear-gradient(135deg, ${color1} 0%, ${color2} 100%)` }
+  }
+  return { backgroundColor: color1 }
+}
 </script>
 
 <template>
@@ -38,7 +79,10 @@ const closeOnBackdrop = (e: MouseEvent) => {
         @click="closeOnBackdrop"
         class="fixed inset-0 z-[200] flex items-center justify-center bg-black/60 backdrop-blur-sm p-4"
       >
-        <div class="relative bg-white rounded-2xl shadow-2xl max-w-lg w-full max-h-[90vh] overflow-y-auto">
+        <div
+          class="relative rounded-2xl shadow-2xl max-w-lg w-full max-h-[90vh] overflow-y-auto"
+          :style="{ ...getModalStyle(card), ...(getHeroClassIds(card) ? {} : { backgroundColor: 'white' }) }"
+        >
           <!-- Close button -->
           <button
             @click="emit('close')"
@@ -50,7 +94,7 @@ const closeOnBackdrop = (e: MouseEvent) => {
           </button>
 
           <!-- Image area -->
-          <div class="relative bg-gray-100 min-h-[200px]">
+          <div class="relative bg-gray-100 min-h-[200px] rounded-t-2xl overflow-hidden">
             <!-- Loading spinner -->
             <div v-if="!imageLoaded && !imageError" class="absolute inset-0 flex items-center justify-center">
               <div class="w-8 h-8 border-3 border-blue-200 border-t-blue-600 rounded-full animate-spin"></div>
@@ -76,10 +120,10 @@ const closeOnBackdrop = (e: MouseEvent) => {
               <span class="text-xs font-bold text-blue-600 bg-blue-50 px-2.5 py-1 rounded-lg border border-blue-100">
                 {{ card.type }}
               </span>
-              <span class="text-xs text-slate-500 bg-gray-50 px-2.5 py-1 rounded-lg border border-gray-100">
+              <span class="text-xs text-slate-500 bg-white/60 px-2.5 py-1 rounded-lg border border-white/80">
                 {{ card.group }}
               </span>
-              <span class="text-xs text-slate-400 bg-gray-50 px-2.5 py-1 rounded-lg border border-gray-100">
+              <span class="text-xs text-slate-400 bg-white/60 px-2.5 py-1 rounded-lg border border-white/80">
                 {{ card.set }}
               </span>
             </div>
@@ -104,7 +148,7 @@ const closeOnBackdrop = (e: MouseEvent) => {
             </div>
 
             <!-- Description (normal cards) -->
-            <div v-if="!(card.details as any).half1 && card.details.description && card.details.description.length > 0" class="mt-4 pt-3 border-t border-gray-100">
+            <div v-if="!(card.details as any).half1 && card.details.description && card.details.description.length > 0" class="mt-4 pt-3">
               <h3 class="text-xs font-semibold text-slate-500 uppercase tracking-wider mb-2">Description</h3>
               <CardDescription :description="card.details.description" />
             </div>
@@ -112,7 +156,7 @@ const closeOnBackdrop = (e: MouseEvent) => {
             <!-- Divided Card: show both halves -->
             <div v-if="(card.details as any).half1" class="mt-4 space-y-3">
               <!-- Half 1 -->
-              <div class="p-3 rounded-xl bg-blue-50/60 border border-blue-100 p-5! my-2!">
+              <div class="p-3 rounded-xl bg-white/50 border border-white/70 p-5! my-2!">
                 <h3 class="text-sm font-bold text-slate-700">{{ (card.details as any).nameHalf1 }}</h3>
                 <div class="flex flex-wrap gap-1.5 mt-2">
                   <span v-if="(card.details as any).half1.cost" class="text-[10px] font-bold bg-blue-50 text-blue-700 px-2 py-0.5 rounded-md border border-blue-200">
@@ -132,13 +176,13 @@ const closeOnBackdrop = (e: MouseEvent) => {
 
               <!-- Divider -->
               <div class="flex items-center gap-2">
-                <div class="flex-1 h-px bg-gray-200"></div>
+                <div class="flex-1 h-px bg-gray-300/40"></div>
                 <span class="text-xs font-bold text-slate-400 tracking-wider">÷</span>
-                <div class="flex-1 h-px bg-gray-200"></div>
+                <div class="flex-1 h-px bg-gray-300/40"></div>
               </div>
 
               <!-- Half 2 -->
-              <div class="p-3 rounded-xl bg-amber-50/60 border border-amber-100 p-5! my-2!">
+              <div class="p-3 rounded-xl bg-white/50 border border-white/70 p-5! my-2!">
                 <h3 class="text-sm font-bold text-slate-700">{{ (card.details as any).nameHalf2 }}</h3>
                 <div class="flex flex-wrap gap-1.5 mt-2">
                   <span v-if="(card.details as any).half2.cost" class="text-[10px] font-bold bg-blue-50 text-blue-700 px-2 py-0.5 rounded-md border border-blue-200">

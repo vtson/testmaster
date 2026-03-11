@@ -134,7 +134,7 @@ export function getRules(filterTypes?: string[]): { id: number; label: string }[
         ? filterTypes.map(t => cardTypeLabelToId.get(t)).filter((id): id is number => id !== undefined)
         : []
 
-    return [...Metadata.rulesArray]
+    const filteredBaseRules = Metadata.rulesArray
         .filter((r: any) => {
             // If type filter specified, only show rules that have at least one matching cardType
             if (typeIds.length > 0 && r.cardTypes) {
@@ -142,9 +142,37 @@ export function getRules(filterTypes?: string[]): { id: number; label: string }[
             }
             return true
         })
-        .map(r => ({ id: r.id, label: r.label }))
-        .sort((a, b) => a.label.localeCompare(b.label))
+
+    // Convert to the return format
+    const rules = filteredBaseRules.map((r: any) => ({ id: r.id, label: r.label }))
+
+    // Determine if we should include Hero-specific ability filters
+    const hasHeroTypes = filterTypes && filterTypes.length > 0
+        ? filterTypes.some(t => ['Hero'].includes(t)) // Assuming abilities only apply to Heroes
+        : true // If no types selected, show everything
+
+    if (hasHeroTypes) {
+        rules.push(
+            { id: 101, label: 'Draw a Card' },
+            { id: 102, label: 'KO a Card' },
+            { id: 103, label: 'Discard a Card' },
+            { id: 104, label: 'Gain a Wound' }
+        )
+    }
+
+    return rules.sort((a, b) => a.label.localeCompare(b.label))
 }
+
+/**
+ * Text-based ability filter options for Hero cards.
+ */
+const ABILITY_FILTERS = [
+    { id: 101, patterns: ['draw a card', 'draw two card', 'draw three card', 'draw 2 card', 'draw 3 card'] },
+    { id: 102, patterns: ['ko a card', 'ko a hero', 'ko two card', 'ko 2 card', 'ko one of', 'ko any number'] },
+    { id: 103, patterns: ['discard a card', 'discard a hero', 'discard from', 'each other player discards'] },
+    { id: 104, patterns: ['gain a wound', 'gains a wound', 'each other player gains'] },
+]
+
 
 /**
  * Get the icon URL for a set label.
@@ -473,6 +501,23 @@ export function filterCards(options: {
             if (descriptionHasRule(d?.description, ruleIds)) return true
             if (d?.half1 && descriptionHasRule(d.half1.description, ruleIds)) return true
             if (d?.half2 && descriptionHasRule(d.half2.description, ruleIds)) return true
+
+            // Text-based ability filter (IDs 101-104)
+            const abilityIds = ruleIds.filter(id => id > 100)
+            if (abilityIds.length > 0) {
+                const selectedAbilities = ABILITY_FILTERS.filter(a => abilityIds.includes(a.id))
+                const allText = [
+                    getDescriptionText(d?.description),
+                    d?.half1 ? getDescriptionText(d.half1.description) : '',
+                    d?.half2 ? getDescriptionText(d.half2.description) : '',
+                ].join(' ').toLowerCase()
+
+                if (selectedAbilities.some(ability =>
+                    ability.patterns.some(pattern => allText.includes(pattern))
+                )) {
+                    return true
+                }
+            }
 
             return false
         })
