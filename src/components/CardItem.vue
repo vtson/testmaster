@@ -8,18 +8,6 @@ const props = defineProps<{
   isBuilder?: boolean
 }>()
 
-const getQuantity = (card: Card) => {
-  const d = card.details as any
-  if (typeof d.qtd === 'number') return d.qtd
-  // Guess logic for heroes based on rarity
-  if (card.type === 'Hero' && d.rarity) {
-    if (d.rarity === 1) return 5
-    if (d.rarity === 2) return 3
-    if (d.rarity === 3) return 1
-  }
-  return 1 // default
-}
-
 const emit = defineEmits<{
   'select': [card: Card]
 }>()
