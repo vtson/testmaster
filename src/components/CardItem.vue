@@ -3,13 +3,33 @@ import type { Card } from '../types/card'
 import CardDescription from './CardDescription.vue'
 import * as MSData from '@/lib/master-strike-data/dist'
 
-defineProps<{
+const props = defineProps<{
   card: Card
+  isBuilder?: boolean
 }>()
 
-defineEmits<{
+const getQuantity = (card: Card) => {
+  const d = card.details as any
+  if (typeof d.qtd === 'number') return d.qtd
+  // Guess logic for heroes based on rarity
+  if (card.type === 'Hero' && d.rarity) {
+    if (d.rarity === 1) return 5
+    if (d.rarity === 2) return 3
+    if (d.rarity === 3) return 1
+  }
+  return 1 // default
+}
+
+const emit = defineEmits<{
   'select': [card: Card]
 }>()
+
+const onDragStart = (event: DragEvent) => {
+  if (event.dataTransfer) {
+    event.dataTransfer.setData('application/json', JSON.stringify(props.card))
+    event.dataTransfer.effectAllowed = 'copy'
+  }
+}
 
 const getTypeColor = (type: string) => {
   const colors: Record<string, string> = {
@@ -128,6 +148,9 @@ const getCardClasses = (card: Card) => {
 
 <template>
   <div
+    v-if="!isBuilder"
+    draggable="true"
+    @dragstart="onDragStart"
     @click="$emit('select', card)"
     class="break-inside-avoid mb-4! group cursor-pointer"
   >
@@ -207,7 +230,6 @@ const getCardClasses = (card: Card) => {
         </div>
       </div>
 
-      <!-- Click hint -->
       <div class="mt-3 pt-2.5 flex items-center justify-center gap-1 opacity-0 group-hover:opacity-100 transition-opacity duration-200">
         <svg xmlns="http://www.w3.org/2000/svg" :class="['w-3 h-3', getCardTextClass(card) === 'text-white' ? 'text-blue-200' : 'text-blue-400']" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
           <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
@@ -217,4 +239,34 @@ const getCardClasses = (card: Card) => {
       </div>
     </div>
   </div>
+
+  <!-- Builder Mode Compact View -->
+  <div
+    v-else
+    @click="$emit('select', card)"
+    class="relative rounded-lg overflow-hidden shadow-md cursor-pointer border border-slate-300 group builder-card w-full h-full"
+    style="background-color: #1e293b;"
+  >
+    <!-- Card image (same source as CardModal: card.imageUrl) -->
+    <img
+      v-if="card.imageUrl"
+      :src="card.imageUrl"
+      :alt="card.name"
+      class="absolute inset-0 w-full h-full object-contain"
+    />
+
+    <!-- Dark gradient overlay for text readability -->
+    <div class="absolute inset-x-0 bottom-0 h-1/2 bg-gradient-to-t from-black/90 via-black/50 to-transparent"></div>
+  </div>
 </template>
+
+<style scoped>
+/* Ensure builder card backgrounds print properly */
+@media print {
+  .builder-card {
+    border-color: #000 !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+}
+</style>

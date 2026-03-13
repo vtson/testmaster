@@ -21,6 +21,7 @@ const props = defineProps<{
   availableRules: { id: number; label: string }[]
   selectedRules: number[]
   isOpen: boolean
+  isBuilderOpen: boolean
 }>()
 
 const emit = defineEmits<{
@@ -35,6 +36,7 @@ const emit = defineEmits<{
   'update:selectedKeywords': [value: number[]]
   'update:selectedRules': [value: number[]]
   'reset': []
+  'toggleBuilder': []
 }>()
 
 const toggleType = (type: string) => {
@@ -232,6 +234,25 @@ onUnmounted(() => document.removeEventListener('click', onClickOutside))
             </div>
           </div>
         </div>
+      </div>
+
+      <!-- Builder Toggle -->
+      <div class="flex gap-2 mb-3! px-1!">
+        <button
+          @click="emit('toggleBuilder')"
+          :class="[
+            'flex-1 flex items-center justify-center gap-1.5 px-2! py-1.5! text-xs font-semibold border rounded-xl transition-all duration-200 cursor-pointer',
+            isBuilderOpen
+              ? 'bg-blue-50 text-blue-700 border-blue-300 hover:bg-blue-100'
+              : 'text-slate-600 bg-gray-100 hover:bg-gray-200 border-gray-200 hover:border-gray-300'
+          ]"
+          title="Toggle Builder Canvas"
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
+          </svg>
+          {{ isBuilderOpen ? 'Close Builder' : 'Open Builder' }}
+        </button>
       </div>
 
       <!-- Sort & Reset buttons -->

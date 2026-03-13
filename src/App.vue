@@ -3,6 +3,7 @@ import { ref, computed, watch } from 'vue'
 import AppSidebar from './components/AppSidebar.vue'
 import CardGallery from './components/CardGallery.vue'
 import CardModal from './components/CardModal.vue'
+import BuilderCanvas from './components/BuilderCanvas.vue'
 import { filterCards, getCategories, getGroups, getSets, getTeams, getHeroClasses, getKeywords, getRules } from './services/cardData'
 import type { Card } from './types/card'
 
@@ -20,7 +21,8 @@ const selectedTeams = ref<number[]>([])
 const selectedHeroClasses = ref<number[]>([])
 const selectedKeywords = ref<number[]>([])
 const selectedRules = ref<number[]>([])
-const sidebarOpen = ref(false)
+const isSearchOpen = ref(false)
+const isBuilderOpen = ref(false)
 
 // Available options
 const availableTypes = computed(() => getCategories())
@@ -77,8 +79,12 @@ const resetFilters = () => {
   selectedRules.value = []
 }
 
-const toggleSidebar = () => {
-  sidebarOpen.value = !sidebarOpen.value
+const toggleSearch = () => {
+  isSearchOpen.value = !isSearchOpen.value
+}
+
+const toggleBuilder = () => {
+  isBuilderOpen.value = !isBuilderOpen.value
 }
 
 </script>
@@ -86,7 +92,7 @@ const toggleSidebar = () => {
 <template>
   <div class="relative min-h-screen bg-gradient-to-br from-stone-50 via-neutral-50 to-amber-50/20">
     <div>
-      <div class="flex items-start">
+      <div :class="['flex items-start', isBuilderOpen ? 'h-screen overflow-hidden' : '']">
         <AppSidebar
           :totalCards="allFilteredCards.length"
           :searchQuery="searchQuery"
@@ -106,7 +112,7 @@ const toggleSidebar = () => {
           :selectedKeywords="selectedKeywords"
           :availableRules="availableRules"
           :selectedRules="selectedRules"
-          :isOpen="sidebarOpen"
+          :isOpen="isSearchOpen"
           @update:searchQuery="searchQuery = $event"
           @update:sortAsc="sortAsc = $event"
           @update:sortByGroup="sortByGroup = $event"
@@ -118,27 +124,34 @@ const toggleSidebar = () => {
           @update:selectedKeywords="selectedKeywords = $event"
           @update:selectedRules="selectedRules = $event"
           @reset="resetFilters"
+          @toggleBuilder="toggleBuilder"
+          :isBuilderOpen="isBuilderOpen"
         />
 
-        <!-- Mobile sidebar toggle -->
-        <button
-          @click="toggleSidebar"
-          :class="[
-            'lg:hidden w-10 h-10 z-[100] fixed top-4 cursor-pointer flex items-center justify-center rounded-xl outline-0 transition-all duration-500 shadow-xl',
-            sidebarOpen
-              ? 'left-[260px] bg-red-500 hover:bg-red-600'
-              : 'left-3 bg-slate-800 hover:bg-slate-700'
-          ]"
-          id="toggle-sidebar-btn"
-        >
-          <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" class="w-3.5 h-3.5" viewBox="0 0 24 24" stroke="white" stroke-width="2">
-            <path v-if="sidebarOpen" stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
-            <path v-else stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
-          </svg>
-        </button>
+        <!-- Mobile sidebar toggle & Builder toggle (Top Header Area) -->
+        <div class="fixed top-4 left-0 right-0 z-[100] flex justify-between px-4 pointer-events-none">
+          <button
+            @click="toggleSearch"
+            :class="[
+              'lg:hidden w-10 h-10 cursor-pointer flex items-center justify-center rounded-xl outline-0 transition-all duration-500 shadow-xl pointer-events-auto',
+              isSearchOpen
+                ? 'translate-x-[260px] bg-red-500 hover:bg-red-600'
+                : 'bg-slate-800 hover:bg-slate-700'
+            ]"
+            id="toggle-sidebar-btn"
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" class="w-3.5 h-3.5" viewBox="0 0 24 24" stroke="white" stroke-width="2">
+              <path v-if="isSearchOpen" stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+              <path v-else stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+          </button>
+        </div>
 
         <!-- Main Content -->
-        <section class="main-content w-full overflow-auto px-6! sm:px-10 py-8!">
+        <section :class="[
+          'main-content transition-all duration-300 w-full overflow-auto px-6! sm:px-10 py-8! pt-20!',
+          isBuilderOpen ? 'max-w-xs shrink-0 border-r border-slate-200 bg-slate-50 h-screen overflow-y-auto' : 'flex-1'
+        ]">
           <!-- Page header -->
           <div class="flex items-center justify-between mb-6 p-2!">
             <div>
@@ -166,10 +179,15 @@ const toggleSidebar = () => {
             </div>
           </div>
 
-          <CardGallery :cards="allFilteredCards" @select-card="selectedCard = $event" />
+          <CardGallery :cards="allFilteredCards" :isBuilderOpen="isBuilderOpen" @select-card="selectedCard = $event" />
 
           <!-- Card Detail Modal -->
           <CardModal :card="selectedCard" @close="selectedCard = null" />
+        </section>
+
+        <!-- Builder Canvas Section -->
+        <section v-if="isBuilderOpen" class="flex-1 h-screen bg-gray-200 overflow-y-auto flex justify-center py-8 relative pt-20">
+          <BuilderCanvas />
         </section>
       </div>
     </div>
@@ -178,23 +196,27 @@ const toggleSidebar = () => {
 
 <style>
 .main-content {
+  margin: 0; 
+}
+/* Only apply max-width limits if we are NOT in builder mode */
+.main-content:not(.max-w-xs) {
   margin: 0 auto;
 }
 
 @media (min-width: 960px) {
-  .main-content {
+  .main-content:not(.max-w-xs) {
     max-width: 900px;
   }
 }
 
 @media (min-width: 1264px) {
-  .main-content {
+  .main-content:not(.max-w-xs) {
     max-width: 1185px;
   }
 }
 
 @media (min-width: 1904px) {
-  .main-content {
+  .main-content:not(.max-w-xs) {
     max-width: 1785px;
   }
 }

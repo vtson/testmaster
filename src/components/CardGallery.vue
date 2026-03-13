@@ -6,6 +6,7 @@ import { getSetIcon } from '../services/cardData'
 
 const props = defineProps<{
   cards: Card[]
+  isBuilderOpen?: boolean
 }>()
 
 defineEmits<{
@@ -113,7 +114,7 @@ onUnmounted(() => {
       </div>
 
       <!-- Cards grid -->
-      <div class="card-grid columns-2 md:columns-3 lg:columns-4 gap-4 px-4!">
+      <div :class="[isBuilderOpen ? 'columns-1 gap-2 px-2!' : 'card-grid columns-2 md:columns-3 lg:columns-4 gap-4 px-4!']">
         <CardItem
           class="mb-4!"
           v-for="card in g.cards"
