@@ -3,11 +3,23 @@ import { ref } from 'vue'
 import type { Card } from '../types/card'
 import CardItem from './CardItem.vue'
 
-// Card slots that show images (3 rows × 4 cols = 12, minus 1 extras cell = 11 card slots)
-const cardSlots = [
+// Card slots before position 7
+const slotsBefore = [
   'scheme', 'mastermind', 'villain1', 'villain2',
-  'henchmenMastermind', 'henchmenScheme', 'hero1', 'hero2',
-  'hero3', 'hero4', 'hero5'
+  'henchmenMastermind', 'henchmenScheme'
+] as const
+
+// Position 7: divided into 4 vertical sub-slots
+const dividedSlots = [
+  { key: 'sub7a', label: 'Bystander' },
+  { key: 'sub7b', label: 'Shield Officer' },
+  { key: 'sub7c', label: 'Sidekick' },
+  { key: 'sub7d', label: 'Wound' },
+] as const
+
+// Card slots after position 7
+const slotsAfter = [
+  'hero2', 'hero3', 'hero4', 'hero5'
 ] as const
 
 // Text-only slots stacked in the last cell
@@ -15,7 +27,7 @@ const extrasSlots = [
   'extrasBystander', 'extrasShield', 'extrasSidekick', 'extrasWounds',
 ] as const
 
-type SlotKey = typeof cardSlots[number] | typeof extrasSlots[number]
+type SlotKey = typeof slotsBefore[number] | typeof dividedSlots[number]['key'] | typeof slotsAfter[number] | typeof extrasSlots[number]
 
 const slots = ref<Record<SlotKey, Card | null>>({
   scheme: null,
@@ -24,7 +36,10 @@ const slots = ref<Record<SlotKey, Card | null>>({
   villain2: null,
   henchmenMastermind: null,
   henchmenScheme: null,
-  hero1: null,
+  sub7a: null,
+  sub7b: null,
+  sub7c: null,
+  sub7d: null,
   hero2: null,
   hero3: null,
   hero4: null,
@@ -45,13 +60,13 @@ const parseDataTransfer = (event: DragEvent): Card | null => {
   return null
 }
 
-const onDrop = (event: DragEvent, slotKey: SlotKey) => {
+const onDrop = (event: DragEvent, slotKey: string) => {
   const card = parseDataTransfer(event)
-  if (card) slots.value[slotKey] = card
+  if (card) slots.value[slotKey as SlotKey] = card
 }
 
-const clearSlot = (slotKey: SlotKey) => {
-  slots.value[slotKey] = null
+const clearSlot = (slotKey: string) => {
+  slots.value[slotKey as SlotKey] = null
 }
 
 const clearAll = () => {
@@ -108,9 +123,51 @@ const getQuantity = (card: Card) => {
       <!-- Middle: Card grid block with white border (3 rows × 4 cols) -->
       <div class="card-area">
         <div class="builder-grid">
-          <!-- Card slots: show images -->
+          <!-- Slots before position 7 -->
           <div
-            v-for="key in cardSlots"
+            v-for="key in slotsBefore"
+            :key="key"
+            class="builder-slot"
+            @dragover.prevent
+            @drop="onDrop($event, key)"
+          >
+            <CardItem v-if="slots[key]" :card="slots[key]!" isBuilder class="w-full h-full pointer-events-none" />
+            <button
+              v-if="slots[key]"
+              @click="clearSlot(key)"
+              class="slot-clear-btn print:hidden"
+            >×</button>
+          </div>
+
+          <!-- Position 7: divided into 4 vertical sub-sections -->
+          <div class="builder-slot divided-slot">
+            <div
+              v-for="sub in dividedSlots"
+              :key="sub.key"
+              class="divided-item"
+              @dragover.prevent
+              @drop="onDrop($event, sub.key)"
+            >
+              <img
+                v-if="slots[sub.key as SlotKey]?.imageUrl"
+                :src="slots[sub.key as SlotKey]!.imageUrl"
+                :alt="slots[sub.key as SlotKey]!.name"
+                class="absolute inset-0 w-full h-full object-cover object-[center_10%]"
+              />
+              <div class="divided-label">
+                <span>{{ slots[sub.key as SlotKey] ? slots[sub.key as SlotKey]!.name : '' }}</span>
+              </div>
+              <button
+                v-if="slots[sub.key as SlotKey]"
+                @click="clearSlot(sub.key)"
+                class="extras-clear-btn print:hidden"
+              >×</button>
+            </div>
+          </div>
+
+          <!-- Slots after position 7 -->
+          <div
+            v-for="key in slotsAfter"
             :key="key"
             class="builder-slot"
             @dragover.prevent
@@ -286,6 +343,55 @@ const getQuantity = (card: Card) => {
   grid-template-rows: repeat(4, 1fr);
   gap: 2px;
   padding: 3px;
+}
+
+/* ── Divided slot (position 7) ── */
+.divided-slot {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 2px !important;
+  padding: 2px !important;
+  align-items: stretch !important;
+  justify-content: space-between !important;
+  border: 1px solid rgba(255,255,255,0.5);
+}
+
+.divided-item {
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+  background: rgba(0,0,0,0.15);
+  border: 1px dashed rgba(255,255,255,0.3);
+  transition: all 0.2s;
+  cursor: pointer;
+  width: 100%;
+}
+
+.divided-item:hover {
+  border-color: white;
+  background: rgba(0,0,0,0.25);
+}
+
+.divided-label {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  background: rgba(0,0,0,0.6);
+  padding: 2px 0;
+  z-index: 1;
+}
+
+.divided-label span {
+  color: white;
+  font-size: 7px;
+  font-weight: 700;
+  display: block;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 0 2px;
 }
 
 .extras-item {
