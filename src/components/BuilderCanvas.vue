@@ -116,8 +116,8 @@ const getQuantity = (card: Card) => {
     <div id="builder-paper" class="builder-paper shadow-2xl relative flex flex-col">
       <!-- Top: Title bar -->
       <div class="title-bar">
-        <p class="title-text">⚔️ SCHEME & STRATEGY GUIDE ⚔️</p>
-        <p class="subtitle-text">Collectible Card Game — Setup & Battle Plan</p>
+        <p class="title-text" contenteditable="true" spellcheck="false">⚔️ SCHEME & STRATEGY GUIDE ⚔️</p>
+        <p class="subtitle-text" contenteditable="true" spellcheck="false">Collectible Card Game — Setup & Battle Plan</p>
       </div>
 
       <!-- Middle: Card grid block with white border (3 rows × 4 cols) -->
@@ -213,16 +213,18 @@ const getQuantity = (card: Card) => {
           <div class="info-box-content"
             @dragover.prevent
             @drop="onDrop($event, 'scheme')"
+            contenteditable="true"
+            spellcheck="false"
           >
-            <p class="info-placeholder">Drop scheme card here or write your strategy plan...</p>
+            Drop scheme card here or write your strategy plan...
           </div>
         </div>
         <div class="info-box">
           <div class="info-box-title-vertical">
             <span>🏆 Game Results</span>
           </div>
-          <div class="info-box-content">
-            <p class="info-placeholder">Record your game results and outcomes here...</p>
+          <div class="info-box-content" contenteditable="true" spellcheck="false">
+            Record your game results and outcomes here...
           </div>
         </div>
       </div>
@@ -478,6 +480,24 @@ const getQuantity = (card: Card) => {
 .info-box-content {
   padding: 8px 12px;
   min-height: 0.8in;
+  color: rgba(255,255,255,0.9);
+  font-size: 11px;
+  outline: none;
+  flex: 1;
+  min-width: 0;
+  word-break: break-word;
+  white-space: pre-wrap;
+}
+
+[contenteditable="true"]:hover {
+  background-color: rgba(255,255,255,0.05);
+  cursor: text;
+  border-radius: 4px;
+}
+
+[contenteditable="true"]:focus {
+  background-color: rgba(0,0,0,0.4);
+  outline: 1px dashed rgba(255,255,255,0.4);
 }
 
 .info-placeholder {
