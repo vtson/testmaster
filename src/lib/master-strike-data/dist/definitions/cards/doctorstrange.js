@@ -127,7 +127,7 @@ export const DoctorStrange = {
                     ]
                 },
                 {
-                    name: "Posessed by Brother's Spirit",
+                    name: "Possessed by Brother's Spirit",
                     imageUrl: "/CardImages/Heroes/doctor_voodoo_04.webp",
                     hc: 2,
                     rarity: 3,
