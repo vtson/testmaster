@@ -19,7 +19,7 @@ const dividedSlots = [
 
 // Card slots after position 7
 const slotsAfter = [
-  'hero2', 'hero3', 'hero4', 'hero5'
+  'hero2', 'hero3', 'hero4', 'hero5', 'hero6'
 ] as const
 
 // Text-only slots stacked in the last cell
@@ -44,6 +44,7 @@ const slots = ref<Record<SlotKey, Card | null>>({
   hero3: null,
   hero4: null,
   hero5: null,
+  hero6: null,
   extrasBystander: null,
   extrasShield: null,
   extrasSidekick: null,
@@ -179,27 +180,6 @@ const getQuantity = (card: Card) => {
               @click="clearSlot(key)"
               class="slot-clear-btn print:hidden"
             >×</button>
-          </div>
-
-          <!-- Extras sub-grid: 4 text rows in one cell -->
-          <div class="builder-slot extras-slot">
-            <div
-              v-for="key in extrasSlots"
-              :key="key"
-              class="extras-item"
-              @dragover.prevent
-              @drop="onDrop($event, key)"
-            >
-              <div v-if="slots[key]" class="flex flex-col items-center justify-center w-full gap-0.5">
-                <span class="text-[10px] font-bold text-white text-center px-1 line-clamp-1">{{ slots[key]!.name }}</span>
-                <span class="text-[9px] font-bold text-yellow-300 bg-black/30 px-1.5 py-0.5 rounded">x{{ getQuantity(slots[key]!) }}</span>
-              </div>
-              <button
-                v-if="slots[key]"
-                @click="clearSlot(key)"
-                class="extras-clear-btn print:hidden"
-              >×</button>
-            </div>
           </div>
         </div>
       </div>

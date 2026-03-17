@@ -10,7 +10,7 @@ const props = defineProps<{
   availableTypes: string[]
   availableGroups: string[]
   selectedGroups: string[]
-  availableSets: { id: number; label: string; icon?: string }[]
+  availableSets: { id: number; label: string; icon?: string; releaseOrder: number }[]
   selectedSets: number[]
   availableTeams: { id: number; label: string; icon?: string }[]
   selectedTeams: number[]
@@ -74,11 +74,21 @@ const toggleGroup = (group: string) => {
 // Set filter dropdown
 const setDropdownOpen = ref(false)
 const setSearch = ref('')
+const setSortMode = ref<'alpha' | 'releaseDate'>('alpha')
 
 const filteredSets = computed(() => {
-  if (!setSearch.value.trim()) return props.availableSets
-  const q = setSearch.value.trim().toLowerCase()
-  return props.availableSets.filter((s) => s.label.toLowerCase().includes(q))
+  let sets = props.availableSets
+  if (setSearch.value.trim()) {
+    const q = setSearch.value.trim().toLowerCase()
+    sets = sets.filter((s) => s.label.toLowerCase().includes(q))
+  }
+  return [...sets].sort((a, b) => {
+    if (setSortMode.value === 'alpha') {
+      return a.label.localeCompare(b.label)
+    } else {
+      return a.releaseOrder - b.releaseOrder
+    }
+  })
 })
 
 const toggleSet = (setId: number) => {
@@ -529,7 +539,21 @@ onUnmounted(() => document.removeEventListener('click', onClickOutside))
           <!-- Dropdown panel -->
           <div v-show="setDropdownOpen" class="absolute left-0 right-0 top-full mt-1 bg-white border border-gray-200 rounded-xl shadow-xl z-50 max-h-[280px] overflow-hidden flex flex-col">
             <div class="p-2.5 border-b border-gray-100">
-              <input type="text" v-model="setSearch" placeholder="Search sets..." class="w-full text-xs bg-gray-50 text-slate-800 px-3! py-2! rounded-lg border border-gray-200 outline-0 focus:border-amber-400 placeholder:text-slate-400" id="set-search-input" />
+              <input type="text" v-model="setSearch" placeholder="Search sets..." class="w-full text-xs bg-gray-50 text-slate-800 px-3! py-2! mb-2 rounded-lg border border-gray-200 outline-0 focus:border-amber-400 placeholder:text-slate-400" id="set-search-input" />
+              <div class="flex gap-2">
+                <button 
+                  @click.stop="setSortMode = 'alpha'"
+                  :class="['flex-1 py-1.5 px-2 text-[10px] font-semibold border rounded-lg transition-colors cursor-pointer', setSortMode === 'alpha' ? 'bg-amber-100 text-amber-700 border-amber-300' : 'bg-gray-50 text-gray-500 border-gray-200 hover:bg-gray-100']"
+                >
+                  Sort A-Z
+                </button>
+                <button 
+                  @click.stop="setSortMode = 'releaseDate'"
+                  :class="['flex-1 py-1.5 px-2 text-[10px] font-semibold border rounded-lg transition-colors cursor-pointer', setSortMode === 'releaseDate' ? 'bg-amber-100 text-amber-700 border-amber-300' : 'bg-gray-50 text-gray-500 border-gray-200 hover:bg-gray-100']"
+                >
+                  Release Date
+                </button>
+              </div>
             </div>
             <div class="overflow-y-auto px-3! py-2! flex-1">
               <div v-if="filteredSets.length === 0" class="px-3 py-6 text-xs text-gray-400 text-center">No sets found</div>

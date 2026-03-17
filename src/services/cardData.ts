@@ -5,6 +5,48 @@ import { getIconUrl } from './iconMap'
 const { CardSearchEngine, Metadata } = MSData
 export type { CardSearchResult as Card }
 
+export const SET_RELEASE_ORDER: Record<string, number> = {
+    "Core Set": 1,
+    "Dark City": 2,
+    "Fantastic Four": 3,
+    "Paint the Town Red": 4,
+    "Villains": 5,
+    "Guardians of the Galaxy": 6,
+    "Fear Itself": 7,
+    "Secret Wars Vol 1": 8,
+    "Secret Wars Vol 2": 9,
+    "Captain America 75th": 10,
+    "Civil War": 11,
+    "Deadpool": 12,
+    "Noir": 13,
+    "X-Men": 14,
+    "Spider-Man Homecoming": 15,
+    "Champions": 16,
+    "World War Hulk": 17,
+    "Marvel Studios, Phase 1": 18,
+    "Ant-Man": 19,
+    "Venom": 20,
+    "Dimensions": 21,
+    "Revelations": 22,
+    "S.H.I.E.L.D.": 23,
+    "Heroes of Asgard": 24,
+    "New Mutants": 25,
+    "Into the Cosmos": 26,
+    "Realm of Kings": 27,
+    "Annihilation": 28,
+    "Messiah Complex": 29,
+    "Doctor Strange": 30,
+    "MCU Guardians of the Galaxy": 31,
+    "Black Panther": 32,
+    "Black Widow": 33,
+    "MCU The Infinity Saga": 34,
+    "Midnight Sons": 35,
+    "What If": 36,
+    "Ant-Man and the Wasp": 37,
+    "Weapon X": 39
+};
+
+
 const searchEngine = new CardSearchEngine()
 const browser = searchEngine.getBrowser()
 const allCards: readonly CardSearchResult[] = searchEngine.getAllCards()
@@ -73,7 +115,7 @@ export function getCategories(): string[] {
  * Returns sets from metadata, filtered by card types.
  * Uses Metadata.setsArray with cardTypes to scope by selected types (like the old app).
  */
-export function getSets(filterTypes?: string[]): { id: number; label: string; icon?: string }[] {
+export function getSets(filterTypes?: string[]): { id: number; label: string; icon?: string; releaseOrder: number }[] {
     // Convert type labels to IDs for matching against set.cardTypes
     const typeIds = filterTypes && filterTypes.length > 0
         ? filterTypes.map(t => cardTypeLabelToId.get(t)).filter((id): id is number => id !== undefined)
@@ -93,6 +135,7 @@ export function getSets(filterTypes?: string[]): { id: number; label: string; ic
             id: s.id,
             label: s.label,
             icon: setIconLookup.get(s.label),
+            releaseOrder: SET_RELEASE_ORDER[s.label] || 999
         }))
         .sort((a: any, b: any) => a.label.localeCompare(b.label))
 }
