@@ -1,0 +1,35 @@
+ID  | Prefix | Slug                    | Name                    | Display Name
+----|--------|-------------------------|-------------------------|-----------------------------
+1   | sc     | scheme                  | Scheme                  | Scheme
+2   | st     | scheme-twist            | Scheme-Twist            | Scheme Twist
+3   | sx     | scheme-transform        | Scheme-Transform        | Scheme Transform
+4   | sv     | scheme-veiled           | Scheme-Veiled           | Scheme Veiled
+5   | mm     | mastermind              | Mastermind              | Mastermind
+6   | ma     | mastermind-adapting     | Mastermind-Adapting     | Mastermind Adapting
+7   | me     | mastermind-epic         | Mastermind-Epic         | Mastermind Epic
+8   | ms     | mastermind-strike       | Mastermind-Strike       | Mastermind Strike
+9   | mt     | mastermind-tactics      | Mastermind-Tactics      | Mastermind Tactics
+10  | vi     | villain                 | Villain                 | Villain
+11  | hm     | henchman                | Henchman                | Henchman
+12  | hr     | hero-common1            | Hero-Common1            | Hero Common 1
+13  | hr     | hero-common2            | Hero-Common2            | Hero Common 2
+14  | hr     | hero-uncommon           | Hero-Uncommon           | Hero Uncommon
+15  | hr     | hero-rare               | Hero-Rare               | Hero Rare
+16  | sk     | sidekick                | Sidekick                | Sidekick
+17  | ss     | sidekick-special        | Sidekick-Special        | Sidekick Special
+18  | sa     | shield-agent            | Shield-Agent            | S.H.I.E.L.D. Agent
+19  | so     | shield-officer          | Shield-Officer          | S.H.I.E.L.D. Officer
+20  | sp     | shield-officer-special  | Shield-Officer-Special  | S.H.I.E.L.D. Officer Special
+21  | tr     | shield-trooper          | Shield-Trooper          | S.H.I.E.L.D. Trooper
+22  | by     | bystander               | Bystander               | Bystander
+23  | bh     | bystander-heroic        | Bystander-Heroic        | Bystander Heroic
+24  | bs     | bystander-special       | Bystander-Special       | Bystander Special
+25  | wd     | wound                   | Wound                   | Wound
+26  | we     | wound-enraging          | Wound-Enraging          | Wound Enraging
+27  | wg     | wound-grievous          | Wound-Grievous          | Wound Grievous
+28  | am     | ambitions               | Ambitions               | Ambitions
+29  | ho     | horror                  | Horror                  | Horror
+30  | lo     | location                | Location                | Location
+31  | sr     | start                   | Start                   | Start
+32  | to     | token                   | Token                   | Token
+33  | tp     | trap                    | Trap                    | Trap

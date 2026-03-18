@@ -1,0 +1,42 @@
+ID  | Abbr | PkgID | Slug                        | Name                              | Release    | Type
+----|------|-------|-----------------------------|------------------------------------|------------|------------------
+1   | core | 1     | core-box                    | Core Set                          | 2012-11-13 | 1st Core Set
+2   | dkcy | 2     | dark-city                   | Dark City                         | 2013-06-18 | 1st Expansion
+3   | ff04 | 3     | fantastic-four              | Fantastic Four                    | 2013-10-15 | 2nd Expansion
+4   | pttr | 4     | paint-the-town-red          | Paint the Town Red                | 2014-03-12 | 3rd Expansion
+5   | vill | 5     | villains                    | Villains                          | 2014-07-02 | 2nd Core Set
+6   | gotg | 6     | guardians-of-the-galaxy     | Guardians of the Galaxy           | 2014-10-15 | 4th Expansion
+7   | fear | 7     | fear-itself                 | Fear Itself                       | 2015-03-11 | 5th Expansion
+8   | 3dtc | 8     | marvel-3d                   | Playable Marvel 3D Trading Cards  | 2015-04-01 | Promo / Trading Card Mini-Expansion
+9   | ssw1 | 9     | secret-wars-vol-1           | Secret Wars Vol 1                 | 2015-08-05 | 6th Expansion
+10  | ssw2 | 10    | secret-wars-vol-2           | Secret Wars Vol 2                 | 2015-12-08 | 7th Expansion
+11  | ca75 | 11    | captain-america-75th        | Captain America 75th              | 2016-03-23 | 8th Expansion
+12  | cvwr | 12    | civil-war                   | Civil War                         | 2016-08-03 | 9th Expansion
+13  | dead | 13    | deadpool                    | Deadpool                          | 2016-10-12 | 10th Expansion
+14  | noir | 14    | noir                        | Noir                              | 2017-02-15 | 11th Expansion
+15  | xmen | 15    | x-men                       | X-Men                             | 2017-06-28 | 12th Expansion
+16  | smhc | 16    | spider-man-homecoming       | Spider-Man Homecoming             | 2017-10-21 | 13th Expansion
+17  | chmp | 17    | champions                   | Champions                         | 2018-02-14 | 14th Expansion
+18  | wwhk | 18    | world-war-hulk              | World War Hulk                    | 2018-06-27 | 15th Expansion
+19  | msp1 | 19    | marvel-studios-phase-1      | Marvel Studios, Phase 1           | 2018-08-02 | 3rd Core Set
+20  | antm | 20    | ant-man                     | Ant-Man                           | 2018-11-14 | 16th Expansion
+21  | vnom | 21    | venom                       | Venom                             | 2019-03-05 | 17th Expansion
+22  | dims | 22    | dimensions                  | Dimensions                        | 2019-05-22 | 18th Expansion
+23  | rvlt | 23    | revelations                 | Revelations                       | 2019-08-21 | 19th Expansion
+24  | shld | 24    | shield                      | S.H.I.E.L.D.                      | 2019-12-18 | 20th Expansion
+25  | asrd | 25    | heroes-of-asgard            | Heroes of Asgard                  | 2020-03-18 | 21st Expansion
+26  | nmut | 26    | new-mutants                 | New Mutants                       | 2020-04-16 | 22nd Expansion
+27  | cosm | 27    | into-the-cosmos             | Into the Cosmos                   | 2020-08-26 | 23rd Expansion
+28  | rlmk | 28    | realm-of-kings              | Realm of Kings                    | 2020-10-28 | 24th Expansion
+29  | anni | 29    | annihilation                | Annihilation                      | 2021-09-15 | 25th Expansion
+30  | msmc | 30    | messiah-complex             | Messiah Complex                   | 2022-01-19 | 26th Expansion
+31  | dstr | 31    | doctor-strange              | Doctor Strange                    | 2022-03-09 | 27th Expansion
+32  | mgtg | 32    | mcu-guardians-of-the-galaxy | MCU Guardians of the Galaxy       | 2022-06-15 | 28th Expansion
+33  | bkpt | 33    | black-panther               | Black Panther                     | 2022-07-13 | 29th Expansion
+34  | bkwd | 34    | black-widow                 | Black Widow                       | 2022-09-14 | 30th Expansion
+35  | msis | 35    | mcu-infinity-saga           | MCU The Infinity Saga             | 2023-03-08 | 31st Expansion
+36  | mdns | 36    | midnight-sons               | Midnight Sons                     | 2023-05-10 | 32nd Expansion
+37  | wtif | 37    | what-if                     | What If                           | 2023-09-20 | 4th Core Set
+38  | amwp | 38    | ant-man-and-the-wasp        | Ant-Man and the Wasp              | 2024-01-17 | 33rd Expansion
+39  | 2099 | 39    | 2099                        | 2099                              | 2024-04-03 | 34th Expansion
+40  | wpnx | 40    | weapon-x                    | Weapon X                          | 2024-11-27 | 35th Expansion
