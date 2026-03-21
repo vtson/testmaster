@@ -108,7 +108,7 @@ onUnmounted(() => {
         <div class="flex-1 border-t border-slate-200/60"></div>
         <!-- Right: origin set -->
         <div class="flex items-center gap-1.5 shrink-0">
-          <img v-if="g.setIcon" :src="g.setIcon" class="w-5 h-5 opacity-60" />
+          <img v-if="g.setIcon" :src="g.setIcon" class="w-10 h-10 opacity-60" />
           <span class="text-xs font-medium text-slate-400">{{ g.setName }}</span>
         </div>
       </div>

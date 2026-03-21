@@ -28,6 +28,7 @@ const extrasSlots = [
 ] as const
 
 type SlotKey = typeof slotsBefore[number] | typeof dividedSlots[number]['key'] | typeof slotsAfter[number] | typeof extrasSlots[number]
+type PrintMode = 'color' | 'grayscale'
 
 const slots = ref<Record<SlotKey, Card | null>>({
   scheme: null,
@@ -50,6 +51,7 @@ const slots = ref<Record<SlotKey, Card | null>>({
   extrasSidekick: null,
   extrasWounds: null,
 })
+const printMode = ref<PrintMode>('color')
 
 const parseDataTransfer = (event: DragEvent): Card | null => {
   try {
@@ -82,28 +84,35 @@ const exportPDF = () => {
 </script>
 
 <template>
-  <div class="flex flex-col items-center w-full">
+  <div class="flex flex-row items-start gap-4 w-full">
     <!-- Action buttons -->
-    <div class="mb-4 flex gap-4">
-      <button
-        @click="exportPDF"
-        class="bg-red-600 hover:bg-red-700 text-white px-6 py-2 rounded-lg font-bold shadow-md transition-colors flex items-center gap-2"
-      >
+    <div class="builder-controls">
+      <label class="print-mode-picker bg-orange-200!">
+        <span class="relative top-[1px]">Background</span>
+        <select v-model="printMode" aria-label="Select background color">
+          <option value="color">Red</option>
+          <option value="grayscale">Grayscale</option>
+        </select>
+      </label>
+      <button @click="exportPDF" class="builder-btn builder-btn-primary">
         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
           <path fill-rule="evenodd" d="M3 17a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm3.293-7.707a1 1 0 011.414 0L9 10.586V3a1 1 0 112 0v7.586l1.293-1.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z" clip-rule="evenodd" />
         </svg>
         Export PDF
       </button>
-      <button
-        @click="clearAll"
-        class="bg-white hover:bg-slate-100 text-slate-700 border border-slate-300 px-6 py-2 rounded-lg font-bold shadow-sm transition-colors"
-      >
+      <button @click="clearAll" class="builder-btn builder-btn-secondary">
         Clear All
       </button>
     </div>
 
     <!-- Paper: 8.5 x 11 inch Letter -->
-    <div id="builder-paper" class="builder-paper shadow-2xl relative flex flex-col">
+    <div
+      id="builder-paper"
+      :class="[
+        'builder-paper shadow-2xl relative flex flex-col',
+        { 'print-grayscale': printMode === 'grayscale' }
+      ]"
+    >
       <!-- Top: Title bar -->
       <div class="title-bar">
         <p class="title-text" contenteditable="true" spellcheck="false">⚔️ SCHEME & STRATEGY GUIDE ⚔️</p>
@@ -202,6 +211,81 @@ const exportPDF = () => {
 </template>
 
 <style scoped>
+.builder-controls {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 10px;
+  margin-top: 16px;
+  margin-left: 16px;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  background: linear-gradient(180deg, #ffffff 0%, #f8fafc 100%);
+  box-shadow: 0 4px 14px rgba(15, 23, 42, 0.08);
+}
+
+.print-mode-picker {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 0 10px;
+  min-height: 36px;
+  border: 1px solid #d1d5db;
+  border-radius: 10px;
+  background: #f9fafb;
+  color: #475569;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.print-mode-picker select {
+  border: none;
+  background: transparent;
+  color: #0f172a;
+  font-weight: 700;
+  padding: 6px 0;
+  outline: none;
+  font-size: 12px;
+}
+
+.builder-btn {
+  min-height: 36px;
+  border-radius: 10px;
+  border: 1px solid #d1d5db;
+  padding: 0 12px;
+  font-size: 12px;
+  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.builder-btn-primary {
+  background: #dbeafe;
+  color: #1d4ed8;
+  border-color: #93c5fd;
+}
+
+.builder-btn-primary:hover {
+  background: #bfdbfe;
+  border-color: #60a5fa;
+}
+
+.builder-btn-secondary {
+  color: #475569;
+  background: #f3f4f6;
+  border-color: #d1d5db;
+}
+
+.builder-btn-secondary:hover {
+  background: #e5e7eb;
+  border-color: #9ca3af;
+}
+
 .builder-paper {
   width: 8.5in;
   height: 11in;
@@ -210,6 +294,50 @@ const exportPDF = () => {
   padding: 0.2in;
   background: linear-gradient(160deg, #7f1d1d 0%, #991b1b 30%, #b91c1c 50%, #991b1b 70%, #7f1d1d 100%);
   border: 3px solid #fbbf24;
+}
+/* Live grayscale preview mode */
+.builder-paper.print-grayscale {
+  background: #fff;
+  border-color: #222;
+}
+
+.builder-paper.print-grayscale .title-bar,
+.builder-paper.print-grayscale .card-area,
+.builder-paper.print-grayscale .builder-slot,
+.builder-paper.print-grayscale .divided-slot,
+.builder-paper.print-grayscale .divided-item,
+.builder-paper.print-grayscale .info-box,
+.builder-paper.print-grayscale .info-box-title-vertical,
+.builder-paper.print-grayscale .divided-label {
+  background: #fff;
+}
+
+.builder-paper.print-grayscale .title-bar,
+.builder-paper.print-grayscale .card-area,
+.builder-paper.print-grayscale .info-box {
+  border-color: #222;
+}
+
+.builder-paper.print-grayscale .builder-slot,
+.builder-paper.print-grayscale .divided-item,
+.builder-paper.print-grayscale .divided-slot,
+.builder-paper.print-grayscale .info-box-title-vertical {
+  border-color: #666;
+}
+
+.builder-paper.print-grayscale .title-text,
+.builder-paper.print-grayscale .subtitle-text,
+.builder-paper.print-grayscale .info-box-title-vertical span,
+.builder-paper.print-grayscale .info-box-content,
+.builder-paper.print-grayscale .divided-label span {
+  color: #111;
+  text-shadow: none;
+}
+
+.builder-paper.print-grayscale [contenteditable="true"]:hover,
+.builder-paper.print-grayscale [contenteditable="true"]:focus {
+  background-color: #f8fafc;
+  outline-color: #94a3b8;
 }
 
 /* ── Title bar ── */
@@ -503,9 +631,52 @@ const exportPDF = () => {
     display: none !important;
   }
 
+  #builder-paper.print-grayscale {
+    background: #fff !important;
+    border-color: #222 !important;
+    -webkit-print-color-adjust: economy;
+    print-color-adjust: economy;
+  }
+
+  #builder-paper.print-grayscale .title-bar,
+  #builder-paper.print-grayscale .card-area,
+  #builder-paper.print-grayscale .builder-slot,
+  #builder-paper.print-grayscale .divided-slot,
+  #builder-paper.print-grayscale .divided-item,
+  #builder-paper.print-grayscale .info-box,
+  #builder-paper.print-grayscale .info-box-title-vertical,
+  #builder-paper.print-grayscale .divided-label,
+  #builder-paper.print-grayscale [contenteditable="true"]:hover,
+  #builder-paper.print-grayscale [contenteditable="true"]:focus {
+    background: #fff !important;
+  }
+
+  #builder-paper.print-grayscale .title-bar,
+  #builder-paper.print-grayscale .card-area,
+  #builder-paper.print-grayscale .info-box {
+    border-color: #222 !important;
+  }
+
+  #builder-paper.print-grayscale .builder-slot,
+  #builder-paper.print-grayscale .divided-item,
+  #builder-paper.print-grayscale .divided-slot,
+  #builder-paper.print-grayscale .info-box-title-vertical {
+    border-color: #666 !important;
+  }
+
+  #builder-paper.print-grayscale .title-text,
+  #builder-paper.print-grayscale .subtitle-text,
+  #builder-paper.print-grayscale .info-box-title-vertical span,
+  #builder-paper.print-grayscale .info-box-content,
+  #builder-paper.print-grayscale .divided-label span {
+    color: #111 !important;
+    text-shadow: none !important;
+  }
+
   @page {
     size: letter portrait;
     margin: 0;
   }
 }
 </style>
+

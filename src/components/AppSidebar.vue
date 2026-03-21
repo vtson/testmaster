@@ -228,8 +228,8 @@ onUnmounted(() => document.removeEventListener('click', onClickOutside))
     >
 
       <!-- Card Count Badge -->
-      <div class="px-5 pt-5! pb-3!">
-        <div class="bg-gradient-to-r from-blue-50 to-indigo-50 border border-blue-200 rounded-xl px-4 py-3">
+      <div class="px-5 pt-1! pb-3!">
+        <div class="bg-gradient-to-r from-blue-50 to-indigo-50 border border-blue-200 rounded-xl px-2! py-2!">
           <div class="flex items-center justify-between">
             <div class="flex items-center gap-2.5">
               <div class="w-8 h-8 rounded-lg bg-blue-100 flex items-center justify-center">

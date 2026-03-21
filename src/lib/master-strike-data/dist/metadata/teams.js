@@ -10,7 +10,7 @@ const AVENGERS = {
 };
 const SHIELD = {
     id: 2,
-    value: "shield",
+    value: "shield-team",
     label: "S.H.I.E.L.D."
 };
 const SPIDER_FRIENDS = {
@@ -90,7 +90,7 @@ const MERCS_FOR_MONEY = {
 };
 const CHAMPIONS = {
     id: 18,
-    value: "champions",
+    value: "champions-team",
     label: "Champions"
 };
 const WARBOUND = {

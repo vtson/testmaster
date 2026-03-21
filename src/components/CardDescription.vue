@@ -69,8 +69,10 @@ function renderPiece(piece: any): string {
   if (piece.team !== undefined) {
     const team = teamMap.get(piece.team)
     if (team) {
-      // Try team-specific key first (for values that conflict with set names like 'shield', 'champions')
-      const iconUrl = getIconUrl(team.value + '-team') || getIconUrl(team.value)
+      // Try team-specific key first (for values that conflict with set names like 'shield', 'champions').
+      // Supports both legacy values ('shield') and explicit team values ('shield-team').
+      const teamKey = team.value.endsWith('-team') ? team.value : `${team.value}-team`
+      const iconUrl = getIconUrl(teamKey) || getIconUrl(team.value)
       if (iconUrl) return `<img src="${iconUrl}" class="inline-block w-5 h-5 relative top-[1px] scale-[1.5] align-text-bottom" alt="${team.label}" title="${team.label}" />`
       return `<span class="text-teal-600 font-semibold">${team.label}</span>`
     }

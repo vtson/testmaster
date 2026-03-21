@@ -146,7 +146,15 @@ export function getSets(filterTypes?: string[]): { id: number; label: string; ic
 export function getTeams(): { id: number; label: string; icon?: string }[] {
     return Metadata.teamsArray
         .filter(t => t.id !== 0)
-        .map(t => ({ id: t.id, label: t.label, icon: getIconUrl(t.value) }))
+        .map(t => {
+            const teamKey = t.value.endsWith('-team') ? t.value : `${t.value}-team`
+            return {
+                id: t.id,
+                label: t.label,
+                // Prefer team-specific icon keys to avoid collisions with set icons.
+                icon: getIconUrl(teamKey) || getIconUrl(t.value)
+            }
+        })
 }
 
 /**
